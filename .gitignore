@@ -1,0 +1,19 @@
+# 忽略系统缓存
+__pycache__/
+*.py[cod]
+*.swp
+.DS_Store
+
+# 忽略临时文件
+*.tmp
+*.log
+
+# 忽略导出的压缩包
+*.zip
+
+# 忽略临时markdown编辑中转
+*.bak.md
+
+# 忽略.idea等IDE配置
+.idea/
+.vscode/

@@ -1,0 +1,77 @@
+# Lokibble Anchor File (v0.1)
+# 当前系统唯一主线定义，后续每次重大更新都需同步修改此文件
+# 每个模块都标记有状态：✅已确认 / 🕵️待确认 / 🚧冲突待决策
+
+project:
+  name: Lokibble
+  type: AI换脸社交App
+  version: MVP阶段
+  status: 开发中
+  last_updated: 2025-06-01
+
+product:
+  core_features:
+    - 用户上传自拍并换脸模板图
+    - 模板图分发、点赞、评论、分享
+    - 模型换脸结果展示、引导分享
+    - 激励用户上传、参与、传播
+  user_segments:
+    - 初期目标市场：欧美Z世代
+    - 激励型用户、话题参与型用户
+  platform: Android（首发），Web端待定
+
+ux:
+  style: 简约风，仿Twitter图文流
+  image_display: 以换脸图为主，尽量不使用文案按钮
+  behavior_hooks:
+    - 上传换脸后显示对比图
+    - 成就图+分享引导（打败了90%用户等）
+
+frontend:
+  framework: Flutter
+  architecture: 模块化组件 + 全局状态管理
+  status: MVP阶段中
+  analytics: Firebase（⚠️计划切换 Posthog）
+
+backend:
+  framework: FastAPI
+  architecture: Nginx + UCWorker + FastAPI + PG
+  media_processing: Roop API（未来计划替换 SimSwap + ArcFace）
+  storage:
+    image: Cloudflare R2（✅）
+    avatar: 自动转为默认 profile 供后续调用
+  scalability: 🕵️未定义横向扩展方案
+  api_design: 支持换模型、换服务、换模板系统
+
+ai_model:
+  current: Roop（换脸耗时 ~3s）
+  fallback: None
+  future: SimSwap + ArcFace（已预留接口设计）
+  failure_handling: 模板筛选机制确保生成成功率
+
+database:
+  type: PostgreSQL
+  connection_pool: mysql-connector（用于MySQL，已封装db_pool）
+  user_data: 匿名UUID记录，OAuth后迁移行为数据
+
+deployment:
+  platform:
+    - ✅ Railway（用于后端）
+    - ✅ Vercel（用于前端静态部署）
+    - ✅ Supabase（用于匿名登录和数据记录）
+  infra_notes: 简化部署，快速上线为首要
+
+analytics:
+  tool: Firebase（现用）/ Posthog / Umani.io（计划切换）
+  user_tracking:
+    - 游客ID行为记录
+    - 登录后统一迁移
+    - 事件结构已定义（事件ID + 结构体）
+
+payment:
+  status: MVP阶段仅设计
+  future_plan: 支付入口 toast 提示 + 订阅按钮图标常驻
+
+compliance:
+  gdpr: ✅ 计划中
+  user_data_access: ✅ 用户可查看自己行为数据日志
