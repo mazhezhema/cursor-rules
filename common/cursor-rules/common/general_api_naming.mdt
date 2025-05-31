@@ -1,0 +1,9 @@
+
+# General API Naming Rules
+
+## 路由命名
+- GET 请求以资源名为主，如：`/api/user`。
+- POST 请求以动作为主，如：`/api/user/create`。
+
+## 命名风格
+- 所有 API 使用小写字母，单词间用下划线连接。

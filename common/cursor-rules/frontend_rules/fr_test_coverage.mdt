@@ -1,0 +1,17 @@
+# 前端测试规范（Frontend Test Coverage）
+
+## ✅ 组件级单元测试
+- 每个 UI Widget 需单独测试其渲染、状态响应逻辑。
+- Bloc / Provider 状态管理模块需验证事件 → 状态转移过程。
+
+## ✅ UI 自动化测试
+- 使用 flutter_driver / integration_test 执行核心流程 E2E 测试。
+- 覆盖页面切换、表单输入、异常场景弹窗处理。
+
+## ✅ 可访问性测试（Accessibility）
+- 所有按钮需支持语义标签。
+- 屏幕阅读器支持测试（如 iOS VoiceOver）。
+
+## ✅ 布局适配测试
+- 针对常见设备（iPhone 13、iPhone SE、iPad Pro、Pixel 等）模拟测试。
+- UI不应出现溢出、遮挡、错位等问题。

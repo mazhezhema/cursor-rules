@@ -1,0 +1,15 @@
+
+# General Error Handling Rules
+
+## 错误结构
+- 所有 API 错误返回格式统一：
+  ```json
+  {
+    "error": true,
+    "message": "Invalid input.",
+    "code": "40001"
+  }
+  ```
+
+## 前端显示
+- 每类错误提供用户可感知的提示语。

@@ -1,0 +1,9 @@
+
+# General Component Structure Rules
+
+## 文件夹结构
+- 所有组件应按功能组织：`home/`, `profile/`, `settings/`。
+- 组件结构：`widget/`, `controller/`, `service/`, `model/`。
+
+## 单一职责
+- 每个组件文件只处理一类功能：展示 / 数据处理 / 状态管理分离。

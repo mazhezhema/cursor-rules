@@ -1,0 +1,44 @@
+
+# 跨平台前端开发基本规则（Flutter）
+
+## 1. 页面布局与 UI
+- 所有页面必须使用 Flutter 内置的布局组件（如：Column、Row、Stack、Container、SizedBox 等）
+- 避免使用仅在某个平台上渲染正常的自定义组件
+- 统一使用 MediaQuery 或 LayoutBuilder 实现屏幕适配，禁止使用固定像素布局
+
+## 2. 状态管理
+- 必须采用全平台兼容的状态管理框架，如 Riverpod、Provider 或 Bloc
+- 所有跨页面的数据传递统一通过 context 或状态容器，不得使用平台特有通信机制
+
+## 3. 网络请求与数据处理
+- 使用 Dio 或 Http 等平台无关的网络库进行 API 请求
+- JSON 解析需使用统一的模型类结构，避免在 Widget 中嵌套解析逻辑
+
+## 4. 本地存储
+- 统一使用 shared_preferences、hive 等平台兼容插件存储本地配置
+- 所有本地路径需通过 path_provider 获取，禁止硬编码文件路径
+
+## 5. 权限与原生能力封装
+- 所有权限请求（相机、相册、麦克风、定位等）必须封装在 PlatformService 中，并在调用前检测权限状态
+- 使用统一接口封装 platform channel 调用，文件命名规范为：platform_adapter.dart
+
+## 6. 第三方库管理
+- 禁止使用仅支持 Android 或 iOS 的三方库，若使用必须添加平台判断（Platform.isIOS / Platform.isAndroid）
+- 第三方平台集成（如微信、Apple 登录）需抽象为统一接口
+
+## 7. UI 适配
+- 支持暗色模式（dark mode）与亮色模式，必须在 Theme 中声明
+- 所有颜色必须使用定义在 theme 或 constants 文件中的颜色常量
+
+## 8. 国际化与文本
+- 所有文案内容不得写死，必须通过 i18n 模块管理
+- 禁止在 widget 中直接写文本，所有可视文本需支持语言切换
+
+## 9. 平台分支处理
+- 如确实需要分支处理平台差异，必须集中在 platform_service 层内进行
+- 所有分支逻辑必须文档化，并写入 platform_notes.md
+
+## 10. 开发工具与 IDE
+- 允许使用 VSCode、Android Studio 或 Cursor 编辑器进行开发，但最终代码规范以 Cursor 规则为准
+
+# END OF RULES

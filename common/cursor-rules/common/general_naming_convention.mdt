@@ -1,0 +1,18 @@
+
+# General Naming Convention Rules
+
+## 文件命名
+- 使用小写字母和下划线分隔：`user_profile.dart`。
+- 测试文件以 `_test.dart` 结尾。
+
+## 类命名
+- 使用 PascalCase（大驼峰）：`UserProfileController`。
+
+## 函数命名
+- 使用 camelCase（小驼峰）：`fetchUserData()`。
+
+## 变量命名
+- 尽可能语义化，使用 camelCase：`userList`, `apiToken`。
+
+## 常量命名
+- 使用大写和下划线：`MAX_RETRY_LIMIT`。

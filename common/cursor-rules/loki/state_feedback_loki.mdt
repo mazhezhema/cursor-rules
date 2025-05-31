@@ -1,0 +1,4 @@
+# Loki UI 状态反馈规范
+- 所有异步操作提供 Loading/Success/Error 三态反馈。
+- toast 提示保持 2~3 秒，避免打断操作。
+- 成功反馈尽量视觉友好 + emoji。

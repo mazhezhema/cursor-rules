@@ -1,0 +1,10 @@
+
+# General State Management Rules
+
+## 状态分类
+- 加载中：loading
+- 成功：success
+- 失败：error
+
+## 状态管理模式
+- 前端推荐使用 provider、riverpod、bloc 中之一。

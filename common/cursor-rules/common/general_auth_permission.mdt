@@ -1,0 +1,10 @@
+
+# General Auth & Permission Rules
+
+## 鉴权方式
+- 推荐 OAuth2 + JWT 或 Firebase Auth。
+- 所有鉴权接口必须通过 HTTPS 加密。
+
+## 权限控制
+- 按角色控制资源访问：Admin / User / Guest。
+- 后端使用装饰器或中间件统一鉴权逻辑。
