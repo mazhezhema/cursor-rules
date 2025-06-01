@@ -1,0 +1,7 @@
+component:
+  buttons:
+    description: 基本按钮控件，包括主按钮、次按钮、禁用状态等。
+    implementation_hint: 使用Tailwind或Flutter的Button组件，根据主题色自动适配主色。
+  inputs:
+    description: 文本输入框，支持占位符、错误提示。
+    implementation_hint: 应在输入状态变化时增加边框颜色反馈，适配浅色与深色主题。
