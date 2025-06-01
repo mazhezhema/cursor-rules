@@ -1,0 +1,4 @@
+system_theme:
+  principle: "系统级主题统一性"
+  description: "明暗模式与字体缩放需支持系统配置同步，提供稳定的适配方案"
+  implementation_hint: "遵循 Flutter 或 Web 的系统色彩变量，使用媒体查询适配系统设置"
