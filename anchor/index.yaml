@@ -1,14 +1,11 @@
 index:
   files:
-  - ui.yaml
-  - ui_accessibility.yaml
-  - ui_animation.yaml
-  - ui_components.yaml
-  - ui_controls.yaml
-  - ui_gesture.yaml
-  - ui_iconography.yaml
-  - ui_layout.yaml
-  - ui_responsive.yaml
-  - ui_test_behavior.yaml
-  - ui_text.yaml
-  - ui_theme.yaml
+    - ux.yaml
+    - ux_adaptation.yaml
+    - ux_behavior.yaml
+    - ux_emotion.yaml
+    - ux_guidance.yaml
+    - ux_participation.yaml
+    - ui_component.yaml
+    - ui_layout.yaml
+    - ui_performance.yaml
