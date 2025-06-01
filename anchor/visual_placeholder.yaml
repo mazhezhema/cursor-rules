@@ -1,0 +1,3 @@
+visual_placeholder:
+  description: 异步加载时的占位图样式规范。
+  implementation_hint: 使用骨架屏或模糊占位图，并通过渐显动画替换成加载完成内容。
