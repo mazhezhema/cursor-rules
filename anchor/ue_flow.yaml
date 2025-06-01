@@ -1,3 +1,7 @@
 ue_flow:
-  description: 定义用户在App中的关键路径、典型任务流与最短路径优化建议
-  implementation_hint: 确保新用户路径不超过3步完成一次内容生成操作，使用图示引导用户每一步动作
+  linear_task_flow:
+    description: 将用户任务流线性分解为若干操作步骤，并清晰标注当前步骤状态。
+    implementation_hint: 使用 Stepper 或自定义状态指示组件，结合 PageView 控制导航。
+  forked_decision_flow:
+    description: 当用户路径分支时需在 UI 中显性展示选择项，并高亮当前选择。
+    implementation_hint: 通过 ToggleButtons 或分支卡片设计提供明确操作入口。
