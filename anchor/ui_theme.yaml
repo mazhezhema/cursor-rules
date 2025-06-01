@@ -1,0 +1,4 @@
+ui_theme:
+  principle: 统一白底+少量强调色，保持极简
+  usage: 背景为纯白，强调色只允许灰蓝、橙红、绿色三种
+  implementation_hint: 主题配色通过Flutter ThemeData封装，采用Brightness.light配置

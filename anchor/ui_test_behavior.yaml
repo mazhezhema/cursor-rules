@@ -1,0 +1,4 @@
+ui_test_behavior:
+  principle: 关键流程必须覆盖自动化测试
+  usage: 对登录、分享、换脸操作加入自动测试逻辑
+  implementation_hint: 对Flutter组件加入WidgetTest与模拟点击行为覆盖

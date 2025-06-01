@@ -1,0 +1,4 @@
+ui_accessibility:
+  principle: 所有组件支持可访问性
+  usage: 包含语音读屏、动态字体、DPI缩放能力
+  implementation_hint: Flutter建议配置Semantics Widget，并开启accessibilityFeatures API检测
