@@ -1,0 +1,7 @@
+test_error_handling:
+  goal: 在错误场景中提供用户可感知的、引导性的反馈
+  implementation_hint: 为关键接口添加超时监听，补充 Toast、空状态图
+  error_cases:
+    - 模型调用超时提示
+    - 网络断线后重新连接引导
+    - 图片损坏上传拦截与提醒
