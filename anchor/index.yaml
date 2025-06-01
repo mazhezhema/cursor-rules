@@ -2,15 +2,14 @@ index:
   files:
     - ux.yaml
     - ux_adaptation.yaml
-    - ux_emotion.yaml
-    - ux_participation.yaml
     - ux_behavior.yaml
+    - ux_emotion.yaml
     - ux_guidance.yaml
+    - ux_participation.yaml
     - ui_component.yaml
     - ui_layout.yaml
     - ui_performance.yaml
-    - ue_flow.yaml
+    - ue_entry.yaml
+    - ue_flows.yaml
     - ue_feedback.yaml
-    - ue_error.yaml
-    - ue_onboarding.yaml
-    - ue_loading.yaml
+    - ue_conversion.yaml
