@@ -1,0 +1,3 @@
+onboarding_process:
+  description: 新用户引导设计需快速上手、可跳过
+  implementation_hint: 使用渐隐式提示方式，不干扰主任务流程，同时提供跳过选项

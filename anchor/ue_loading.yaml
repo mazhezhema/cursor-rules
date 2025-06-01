@@ -1,0 +1,3 @@
+loading_design:
+  description: 加载等待过程应提供视觉反馈，减少焦虑感
+  implementation_hint: 引导加载动画、骨架屏、预加载关键内容

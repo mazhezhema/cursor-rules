@@ -1,0 +1,3 @@
+flow_design:
+  description: 用户操作流程设计应简洁，减少学习成本
+  implementation_hint: 在低认知场景下优先使用一步到位式交互流程，减少多层导航
