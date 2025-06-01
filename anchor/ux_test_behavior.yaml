@@ -1,0 +1,8 @@
+ux_test_behavior:
+  states:
+    - empty_state: 无内容时展示激励文案
+    - error_state: 网络失败给出重新尝试的按钮
+    - loading_state: 加载动画应展示小动效提示
+  edge_cases:
+    - 异常图像尺寸
+    - 网络延迟极端情况
