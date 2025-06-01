@@ -13,3 +13,8 @@ index:
     - ue_flows.yaml
     - ue_feedback.yaml
     - ue_conversion.yaml
+  - ue_behavior.yaml
+  - ue_flow.yaml
+  - ue_transition.yaml
+  - ue_guidance.yaml
+  - ue_test.yaml
