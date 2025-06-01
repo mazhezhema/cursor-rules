@@ -1,4 +1,11 @@
 index:
   files:
+    - product.yaml
+    - user.yaml
+    - growth.yaml
     - ux.yaml
     - ux_adaptation.yaml
+    - ux_visual.yaml
+    - ux_design.yaml
+    - ux_ai.yaml
+    - ux_test.yaml
