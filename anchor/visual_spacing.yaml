@@ -1,0 +1,3 @@
+visual_spacing:
+  rule: 所有元素采用固定间距单位，基于 Tailwind 的 spacing scale（如 p-2, m-4）
+  implementation_hint: 尽量避免 hardcode 像素，统一使用 Tailwind 的 spacing 类名
