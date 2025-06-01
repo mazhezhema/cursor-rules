@@ -1,0 +1,17 @@
+- date: 2025-06-01
+  title: Add UI Anchor Set
+  description: |
+    Added modular UI anchors including components, layout, theme, responsiveness, gestures, accessibility, and animation.
+    These definitions provide front-end developers with simplified and performance-oriented UI guidance.
+  anchors:
+    - ui_components.yaml
+    - ui_layout.yaml
+    - ui_theme.yaml
+    - ui_responsive.yaml
+    - ui_gesture.yaml
+    - ui_iconography.yaml
+    - ui_controls.yaml
+    - ui_text.yaml
+    - ui_accessibility.yaml
+    - ui_animation.yaml
+    - ui_test_behavior.yaml
