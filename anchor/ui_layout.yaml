@@ -1,4 +1,0 @@
-ui_layout:
-  grid_system: 支持12列栅格，适配移动端小屏
-  spacing: 使用基准单位4px递增，不超过24px
-  implementation_hint: Tailwind中使用`gap-x-4`等栅格布局类实现页面区域分布

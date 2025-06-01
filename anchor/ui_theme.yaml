@@ -1,9 +1,0 @@
-ui_theme:
-  color:
-    primary: "#1A1A1A"
-    accent: "#FF4081"
-    background: "#FFFFFF"
-  typography:
-    font_family: "Inter, sans-serif"
-    base_size: 14px
-  implementation_hint: 统一使用Tailwind config定义变量，避免组件自定义

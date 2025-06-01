@@ -1,4 +1,0 @@
-ui_controls:
-  - name: Icon-only Controls
-    description: 常用操作如点赞、评论、收藏、分享使用通用 icon，不附带文字说明
-    implementation_hint: 采用 Lucide 图标库，参照 Twitter 风格 icon 命名规范与位置布局

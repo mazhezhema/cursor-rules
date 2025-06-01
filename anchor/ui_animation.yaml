@@ -1,4 +1,0 @@
-ui_animation:
-  - name: Minimal Transition
-    description: 所有页面过渡动画需极简，避免资源消耗
-    implementation_hint: 使用 Framer Motion 设置淡入淡出，默认动画时长不超过 300ms
