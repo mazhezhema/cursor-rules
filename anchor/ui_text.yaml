@@ -1,0 +1,4 @@
+ui_text:
+  - name: 文案导向设计
+    description: 所有组件需预留清晰文案空间，遵循内容优先设计理念
+    implementation_hint: 设计按钮与标签组件时预留可变宽度，不截断文字内容

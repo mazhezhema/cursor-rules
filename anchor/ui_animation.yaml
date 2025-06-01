@@ -1,6 +1,4 @@
 ui_animation:
-  principle: 降低动画存在感，只用于用户状态切换
-  type:
-    - 页面切换：无动画或极淡fade
-    - 按钮点击：scale 0.98微缩
-  implementation_hint: 禁止大型Lottie，限制CSS动画总时长 < 200ms
+  - name: Minimal Transition
+    description: 所有页面过渡动画需极简，避免资源消耗
+    implementation_hint: 使用 Framer Motion 设置淡入淡出，默认动画时长不超过 300ms

@@ -2,10 +2,7 @@ index:
   files:
     - ui.yaml
     - ui_components.yaml
-    - ui_layout.yaml
-    - ui_responsive.yaml
-    - ui_theme.yaml
-    - ui_accessibility.yaml
-    - ui_iconography.yaml
-    - ui_test_behavior.yaml
+    - ui_controls.yaml
     - ui_animation.yaml
+    - ui_gesture.yaml
+    - ui_text.yaml

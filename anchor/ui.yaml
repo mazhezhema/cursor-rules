@@ -1,2 +1,8 @@
 ui:
-  philosophy: 极简主义设计，性能优先，Z世代用户习惯
+  philosophy: 简洁至上，性能优先，文案导向的组件设计风格
+  includes:
+    - ui_components.yaml
+    - ui_controls.yaml
+    - ui_animation.yaml
+    - ui_gesture.yaml
+    - ui_text.yaml

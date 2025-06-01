@@ -1,10 +1,12 @@
 ui_components:
-  button:
-    description: 简洁、统一大小与边距，使用系统默认边角圆角
-    implementation_hint: 使用Tailwind的`rounded-lg py-2 px-4`类结合图标统一样式
-  input:
-    description: 支持状态提示（focus/disabled），最小化占用空间
-    implementation_hint: 使用`focus:outline-none`配合统一 placeholder 设计
-  card:
-    description: 信息模块化容器，需留白和阴影
-    implementation_hint: 使用`shadow-md rounded-2xl`组件模板，避免嵌套过深
+  - name: Card
+    description: 用于展示内容区块的基础组件，默认圆角、阴影
+    implementation_hint: 使用 Tailwind 中的 rounded-2xl 和 shadow-md，保持统一 padding 与 margin
+
+  - name: Button
+    description: 所有按钮均为无边框简约风格，避免强烈颜色干扰
+    implementation_hint: 使用 shadcn/ui 按钮组件，去除 hover 强色彩，采用幽灵按钮样式
+
+  - name: Modal/Dialog
+    description: 所有弹窗需包含关闭按钮，并避免遮挡主要内容
+    implementation_hint: 使用 shadcn/ui 的 Dialog 组件，右上角添加 Lucide 的 `X` 图标

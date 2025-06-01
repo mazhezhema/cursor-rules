@@ -1,0 +1,4 @@
+ui_gesture:
+  - name: Basic Tap Only
+    description: 初期不设计复杂手势交互，避免学习成本
+    implementation_hint: 所有交互事件默认单击触发，不支持滑动翻页等功能
