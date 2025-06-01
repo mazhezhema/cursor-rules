@@ -1,16 +1,11 @@
 index:
   files:
-    - ux_philosophy.yaml
-    - ux_layout.yaml
-    - ux_text.yaml
-    - ux_ai_design.yaml
-    - ux_test_behavior.yaml
-    - ux_interaction.yaml
-    - ux_philosophy.yaml
-    - ux_layout.yaml
-    - ux_visual.yaml
-    - ux_ai_design.yaml
-    - ux_text.yaml
-    - ux_screen.yaml
-    - ux_interaction.yaml
-    - ux_test_behavior.yaml
+    - ui.yaml
+    - ui_components.yaml
+    - ui_layout.yaml
+    - ui_responsive.yaml
+    - ui_theme.yaml
+    - ui_accessibility.yaml
+    - ui_iconography.yaml
+    - ui_test_behavior.yaml
+    - ui_animation.yaml

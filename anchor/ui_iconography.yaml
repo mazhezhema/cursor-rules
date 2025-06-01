@@ -1,0 +1,4 @@
+ui_iconography:
+  icon_source: Lucide + HeroIcons
+  size_standard: 20px
+  implementation_hint: 使用 icon 组件统一封装大小、填充、hover 状态

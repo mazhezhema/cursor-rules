@@ -1,0 +1,9 @@
+ui_responsive:
+  screen_adaptation:
+    - 支持横屏锁定
+    - 折叠屏仅渲染主视图，不扩展副屏
+    - 全尺寸自动适配，比例保持
+  dpi_scaling:
+    - 使用百分比尺寸控制
+    - 禁止固定px宽高
+  implementation_hint: 结合媒体查询与Flexbox百分比实现宽高比例自适应

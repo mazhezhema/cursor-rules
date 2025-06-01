@@ -1,0 +1,7 @@
+ui_test_behavior:
+  ui_consistency:
+    - 按钮尺寸在各页面保持一致
+    - 文本段落留白间距一致
+  behavior:
+    - 所有点击需反馈：动画/色变
+  implementation_hint: UI验收标准文档纳入CI验收流程中

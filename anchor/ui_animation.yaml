@@ -1,0 +1,6 @@
+ui_animation:
+  principle: 降低动画存在感，只用于用户状态切换
+  type:
+    - 页面切换：无动画或极淡fade
+    - 按钮点击：scale 0.98微缩
+  implementation_hint: 禁止大型Lottie，限制CSS动画总时长 < 200ms

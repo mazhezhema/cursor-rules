@@ -1,0 +1,10 @@
+ui_components:
+  button:
+    description: 简洁、统一大小与边距，使用系统默认边角圆角
+    implementation_hint: 使用Tailwind的`rounded-lg py-2 px-4`类结合图标统一样式
+  input:
+    description: 支持状态提示（focus/disabled），最小化占用空间
+    implementation_hint: 使用`focus:outline-none`配合统一 placeholder 设计
+  card:
+    description: 信息模块化容器，需留白和阴影
+    implementation_hint: 使用`shadow-md rounded-2xl`组件模板，避免嵌套过深

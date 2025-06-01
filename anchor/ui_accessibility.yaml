@@ -1,0 +1,4 @@
+ui_accessibility:
+  contrast_ratio: 所有前景背景对比度需大于4.5:1
+  font_scaling: 支持系统字体缩放
+  implementation_hint: 使用rem/em单位字体，并开启高对比色模式检测
