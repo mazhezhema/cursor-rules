@@ -75,3 +75,50 @@ payment:
 compliance:
   gdpr: ✅ 计划中
   user_data_access: ✅ 用户可查看自己行为数据日志
+
+ops:
+  growth_strategy:
+    - 用户上传门槛：OAuth 授权 + 默认设为换脸 profile
+    - 成就分享引导（连续换脸、击败百分比）
+    - 模板挑战机制：用户参与PK，激励生产内容
+    - 打卡成长机制 + 白嫖换模特奖励
+    - 朋友圈、短链引流、爆款话题模板分发
+  viral_mechanics:
+    - 每次换脸后可一键分享到社交媒体
+    - 智能埋点追踪跳出/分享/回访链路
+    - 分享后奖励一次免费高质量换脸
+
+infra:
+  cloud_platforms:
+    - Vercel（静态页部署）
+    - Railway（FastAPI 后端部署）
+    - Cloudflare R2（图像 CDN 存储）
+  analytics_tools:
+    - Firebase（原有，计划替换）
+    - Umani.io（或 Posthog 自部署）
+  shortlink_tracking:
+    - t.ly / bitly（或 Cloudflare Workers 自建）
+  image_watermark:
+    - 后端合成 Logo 水印图层
+
+metrics:
+  kpis:
+    - 注册用户数、换脸数、成功率、失败率
+    - 模板热度榜单、用户模板上传量
+    - 分享链转化率、点击率、带来新用户数
+  user_profile_stats:
+    - 换脸次数排行、挑战达成进度
+    - 连续活跃天数、分享成功率
+
+changelog:
+  mechanism: 所有 anchor 更新记录写入 changelog/YYYY-MM-DD.md
+  current: 2025-06-02.md（下一步创建）
+
+cursor_rules:
+  config_location: .cursor/config.yaml
+  module_structure:
+    - frontend: Flutter + Tailwind 结构组件
+    - backend: FastAPI + UCWorker 路由规范
+    - db: PostgreSQL 表命名与字段注解规则
+    - infra: 云资源接入规范（Vercel、R2 等）
+    - naming_conventions: 所有 model、api、组件、mdt 保持统一风格
