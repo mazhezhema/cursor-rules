@@ -1,5 +1,4 @@
-includes:
-  - product.yaml
-  - user.yaml
-  - growth.yaml
-  - ux.yaml
+index:
+  files:
+    - ux.yaml
+    - ux_adaptation.yaml
