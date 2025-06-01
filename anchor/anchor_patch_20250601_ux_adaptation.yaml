@@ -1,0 +1,98 @@
+# anchor_patch_20250601_ux_adaptation.yaml
+# Date: 2025-06-01
+# Type: ADDING
+# Scope: UX, UI, Adaptation, Visual, Testing
+
+UX:
+  DesignPhilosophy:
+    description: >
+      Emphasizes Gen Z values — emotional expression, identity contrast between online and real life.
+      Focuses on storytelling, comfort visuals, light interaction, and AI-generated enhancements.
+    sources:
+      - UI / UE / UX 设计规范（Project MDT）20250531
+      - 参与感与情绪价值 gpt 20250512
+      - ux 页面与文案 20250527
+
+  Layout:
+    GridSystem: true
+    PaddingSpacingGuidelines: true
+    FlexboxBased: true
+    sources:
+      - UI视觉与交互准则 20250531
+      - Project UI 风格定义 20250531
+
+  VisualGuidelines:
+    Fonts:
+      - Size: adaptive
+      - Contrast: optimized for daylight/night use
+    Colors:
+      - Primary: white background
+      - Accent: minimalist gradients, single highlight color
+    Buttons:
+      - Shape: rounded-2xl
+      - Shadow: soft
+    Icons: system level recommended
+    sources:
+      - Project UI 风格定义 20250531
+      - UI辅助开发最佳实践 20250521
+
+  AIDesignWorkflow:
+    UsedFor:
+      - Prompt-generated UI drafts
+      - Style guidance
+      - LLM-produced placeholder copy
+    Strategy:
+      - Cursor rules with .mdt auto-generation
+    sources:
+      - AI 辅助前端开发
+      - MVP前端ai辅助开发 20250521
+
+  LogoUsage:
+    MinSize: 32px
+    SafeZone: true
+    BackgroundLimit: only white or soft color
+    Placement: bottom right by default
+    sources:
+      - 用户上传 LOGO 设计图（2025-06-01）
+
+  ScreenTest:
+    Resolution:
+      - 720p, 1080p, 2K, 4K
+    DPI:
+      - LDPI to XXXHDPI
+    Orientation:
+      - Portrait
+      - Landscape
+      - Foldable
+    Framework: Flutter with MediaQuery adaptive logic
+    sources:
+      - Z时代用户设备适配UI规范 gpt 20250510
+      - 前端自适应 20250520
+
+  BehaviorTest:
+    ClickFlow:
+      - Touch response within 100ms
+      - Toast, vibration, animation consistency
+    EdgeCases:
+      - Offline state
+      - No-login operation
+    sources:
+      - fr 开发最佳实践20250527
+
+  UXGhostPages:
+    EmptyStates:
+      - No favorite
+      - No uploads
+      - Invite-first flow
+    404Handling:
+      - Emoji + retry CTA
+    sources:
+      - UX幽灵页策略草案（未正式文档化）
+
+  Accessibility:
+    ContrastRatio: WCAG compliant
+    FontSizeSupport: system scaling
+    VoiceOverSupport: planned
+    sources:
+      - TBD future compliance
+
