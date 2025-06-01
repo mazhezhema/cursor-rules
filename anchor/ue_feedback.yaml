@@ -1,3 +1,3 @@
-feedback_design:
-  description: 操作结果应提供及时反馈，提升用户控制感
-  implementation_hint: 例如操作成功后使用toast、颜色反馈、动画等形式立即提示
+ue_feedback:
+  description: 提供及时正向反馈机制，包括操作完成、加载成功、保存提示等
+  implementation_hint: 所有用户操作完成后，提供toast、动画或震动等反馈

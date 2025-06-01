@@ -1,3 +1,3 @@
-loading_design:
-  description: 加载等待过程应提供视觉反馈，减少焦虑感
-  implementation_hint: 引导加载动画、骨架屏、预加载关键内容
+ue_loading:
+  description: 优化等待体验，包括加载动画、占位图、预加载策略等
+  implementation_hint: 使用趣味动画和进度提示，避免静态Loading界面，提升感知速度
