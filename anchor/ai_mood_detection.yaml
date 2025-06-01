@@ -1,0 +1,4 @@
+ai_design:
+  mood_detection:
+    description: 结合用户使用时情绪识别结果调整 UI 的语调与视觉
+    implementation_hint: 可通过摄像头或点击行为节奏判断情绪，提供温柔或鼓励式界面文本

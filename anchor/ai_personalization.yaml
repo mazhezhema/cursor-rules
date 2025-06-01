@@ -1,0 +1,4 @@
+ai_design:
+  personalization:
+    description: AI根据用户行为、偏好自动调整UI呈现内容
+    implementation_hint: 建议集成用户画像建模，推荐符合其兴趣的内容模板与操作提示
