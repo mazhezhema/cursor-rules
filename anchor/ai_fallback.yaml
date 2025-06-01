@@ -1,0 +1,3 @@
+ai_fallback:
+  description: 当AI模块失效或出错时提供稳定的fallback机制
+  implementation_hint: 前端显示默认内容或提示“AI服务暂不可用”，同时记录错误上报日志
