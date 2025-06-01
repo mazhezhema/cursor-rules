@@ -1,25 +1,8 @@
 index:
   files:
-    - ux.yaml
-    - ux_adaptation.yaml
-    - ux_behavior.yaml
-    - ux_emotion.yaml
-    - ux_guidance.yaml
-    - ux_participation.yaml
-    - ui_component.yaml
-    - ui_layout.yaml
-    - ui_performance.yaml
-    - ue_entry.yaml
-    - ue_flows.yaml
-    - ue_feedback.yaml
-    - ue_conversion.yaml
-  - ue_behavior.yaml
-  - ue_flow.yaml
-  - ue_transition.yaml
-  - ue_guidance.yaml
-  - ue_test.yaml
-  - visual_brand.yaml
-  - visual_contrast.yaml
-  - visual_placeholder.yaml
-  - visual_theme.yaml
-  - visual_typography.yaml
+    - test_responsive.yaml
+    - test_interaction.yaml
+    - test_data_integrity.yaml
+    - test_device.yaml
+    - test_error.yaml
+    - test_ab_test.yaml
