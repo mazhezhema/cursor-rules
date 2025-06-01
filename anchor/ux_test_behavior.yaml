@@ -1,8 +1,3 @@
 ux_test_behavior:
-  states:
-    - empty_state: 无内容时展示激励文案
-    - error_state: 网络失败给出重新尝试的按钮
-    - loading_state: 加载动画应展示小动效提示
-  edge_cases:
-    - 异常图像尺寸
-    - 网络延迟极端情况
+  value: 所有 UI 模块在多屏幕尺寸下必须通过 QA 验收。
+  implementation_hint: 测试用例覆盖 DPI、屏幕尺寸、响应延迟、点击热区验证。

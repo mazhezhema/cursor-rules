@@ -1,8 +1,3 @@
 ux_ai_design:
-  assisted_elements:
-    - 自动生成按钮文案
-    - 基于模板智能调整布局结构
-    - 根据用户操作推荐颜色和排版
-  tips_engineering:
-    - 提示词中加入页面目标/风格参考
-    - 预设结构组件作为AI设计框架
+  value: 通过 AI 协助生成UI组件和内容，提高开发效率。
+  implementation_hint: 前端可集成 Cursor、AI prompt 接口进行 UI 雏形生成与文本填充。

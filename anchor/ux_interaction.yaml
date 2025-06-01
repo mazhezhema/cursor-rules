@@ -1,16 +1,3 @@
-interaction:
-  gesture_controls:
-    - description: 支持轻点、滑动、长按等基础手势，符合主流智能手机用户操作习惯
-    - description: 针对Z世代用户行为分析，强化下滑刷新、双击喜爱等高频交互模式
-  feedback:
-    - description: 所有交互操作必须在300ms内给予视觉或动效反馈，避免用户误操作
-    - description: 滑动、点击、长按均提供不同层级的触觉与视觉反馈
-  animation_guidelines:
-    - description: 使用微动效增强操作感知，强化操作因果关系，增强愉悦感
-    - description: 动效时长建议不超过500ms，使用Bezier缓动函数提升自然度
-  accessibility:
-    - description: 所有交互组件支持TalkBack及VoiceOver，遵循WCAG标准
-    - description: 重点元素支持焦点高亮与按键导航，兼顾老年人用户体验
-  z_gen_special:
-    - description: 提供沉浸式、轻拟物的滑动穿透体验，提升沉浸感与控制感
-    - description: 鼓励使用emoji反馈、滑动选择、语音操作等Z世代偏好方式
+ux_interaction:
+  value: 交互设计优先使用通用 icon，简化使用流程，减少解释成本。
+  implementation_hint: 参考 Twitter、Instagram 常见 icon 设计，图标需自解释。
