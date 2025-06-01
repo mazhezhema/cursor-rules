@@ -16,4 +16,4 @@ __pycache__/
 
 # 忽略.idea等IDE配置
 .idea/
-.vscode/
+.vscode/anchor_backup_*.yaml
