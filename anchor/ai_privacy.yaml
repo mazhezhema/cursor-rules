@@ -1,3 +1,3 @@
 ai_privacy:
-  description: 用户数据使用的隐私保护原则，透明授权、用途说明与最小化存储
-  implementation_hint: 遵循GDPR/CCPA标准，在前端添加隐私授权弹窗与数据收集说明页面
+  description: AI设计中应保障用户隐私，数据仅用于明确用途。
+  implementation_hint: 明确数据用途，在UI中提示用户AI是否使用其数据进行学习；提供数据删除与匿名处理接口。
