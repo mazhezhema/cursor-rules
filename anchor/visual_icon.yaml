@@ -1,3 +1,9 @@
 visual_icon:
-  principle: 全局统一图标规范，采用系统默认图标或 Lucide 系列
-  implementation_hint: 使用 Lucide 图标组件，如 <Icon name='share' />，避免自绘图标
+  description: 系统级图标风格与适配原则
+  rules:
+  - content: 优先使用 Z 世代用户熟悉的系统图标（如 Material、Feather）替代自定义图形
+    implementation_hint: 组件库中直接复用 react-icons / lucide-react 图标包
+    name: 使用通用图标库
+  - content: 图标设计保持线性、简约，避免复杂装饰
+    implementation_hint: 所有图标设置为 1.5px 或 2px 的描边宽度，SVG路径不超过3层
+    name: 图标线条简洁

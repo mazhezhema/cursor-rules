@@ -1,0 +1,9 @@
+visual_motion:
+  description: 动画风格与交互动态指引
+  rules:
+  - content: 所有过渡与动画只为强调页面结构或用户反馈，避免娱乐化动画
+    implementation_hint: 使用 framer-motion 定义入场出场动画，持续时间 <300ms，缓动为 ease-in-out
+    name: 动画只为强调关键动作
+  - content: 滑动/点击/长按反馈需提供视觉强化（如放大、震动），并确保动作有明确完成状态
+    implementation_hint: 给所有手势事件定义 animation state 并绑定样式类名
+    name: 手势动画需可预判

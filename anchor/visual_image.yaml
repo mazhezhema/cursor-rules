@@ -1,0 +1,9 @@
+visual_image:
+  description: 图片使用风格与展示策略
+  rules:
+  - content: UI中展示图片需符合整体色调、对比度与品牌气质
+    implementation_hint: 推荐统一使用白底/灰底背景处理主图，使用图层蒙版统一色彩基调
+    name: 图片应主视觉一致
+  - content: 图片内避免添加过多文字或装饰信息，突出主体即可
+    implementation_hint: 上传图片前进行压缩、裁剪、背景清理处理
+    name: 避免信息干扰
