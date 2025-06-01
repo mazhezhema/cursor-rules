@@ -1,0 +1,7 @@
+visual_typography:
+  fonts:
+    - primary_font: "Inter"
+    - fallback: "sans-serif"
+    - heading: "600"
+  implementation_hint:
+    - 字体通过 Tailwind config 自定义扩展，统一管理字重与字号。

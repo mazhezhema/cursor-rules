@@ -1,3 +1,6 @@
 visual_spacing:
-  rule: 所有元素采用固定间距单位，基于 Tailwind 的 spacing scale（如 p-2, m-4）
-  implementation_hint: 尽量避免 hardcode 像素，统一使用 Tailwind 的 spacing 类名
+  rules:
+    - 使用 4 的倍数作为 spacing 单位：4px, 8px, 12px...
+    - 组件间间距清晰分层（内容内边距，模块间距，容器留白）
+  implementation_hint:
+    - Tailwind 中使用自定义 spacing token: spacing-1, spacing-2, spacing-3...

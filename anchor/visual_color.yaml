@@ -1,3 +1,7 @@
 visual_color:
-  palette: 以白色背景+主色点缀为主，避免大面积色块与渐变色
-  implementation_hint: Tailwind 优先使用 bg-white, text-neutral-800 等配色组合
+  palette:
+    - primary: "#3366FF"
+    - secondary: "#FFAA00"
+    - accent: "#FF3366"
+  implementation_hint:
+    - 所有颜色定义统一在 tokens/color.ts 中集中管理，避免组件散乱引用。
