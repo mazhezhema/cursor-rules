@@ -1,0 +1,187 @@
+# Lokibble Anchor File (v0.1)
+# 当前系统唯一主线定义，后续每次重大更新都需同步修改此文件
+# 每个模块都标记有状态：✅已确认 / 🕵️待确认 / 🚧冲突待决策
+
+project:
+  name: Lokibble
+  type: AI换脸社交App
+  version: MVP阶段
+  status: 开发中
+  last_updated: 2025-06-01
+
+product:
+  core_features:
+    - 用户上传自拍并换脸模板图
+    - 模板图分发、点赞、评论、分享
+    - 模型换脸结果展示、引导分享
+    - 激励用户上传、参与、传播
+  user_segments:
+    - 初期目标市场：欧美Z世代
+    - 激励型用户、话题参与型用户
+  platform: Android（首发），Web端待定
+
+ux:
+  style: 简约风，仿Twitter图文流
+  image_display: 以换脸图为主，尽量不使用文案按钮
+  behavior_hooks:
+    - 上传换脸后显示对比图
+    - 成就图+分享引导（打败了90%用户等）
+
+frontend:
+  framework: Flutter
+  architecture: 模块化组件 + 全局状态管理
+  status: MVP阶段中
+  analytics: Firebase（⚠️计划切换 Posthog）
+
+backend:
+  framework: FastAPI
+  architecture: Nginx + UCWorker + FastAPI + PG
+  media_processing: Roop API（未来计划替换 SimSwap + ArcFace）
+  storage:
+    image: Cloudflare R2（✅）
+    avatar: 自动转为默认 profile 供后续调用
+  scalability: 🕵️未定义横向扩展方案
+  api_design: 支持换模型、换服务、换模板系统
+
+ai_model:
+  current: Roop（换脸耗时 ~3s）
+  fallback: None
+  future: SimSwap + ArcFace（已预留接口设计）
+  failure_handling: 模板筛选机制确保生成成功率
+
+database:
+  type: PostgreSQL
+  connection_pool: mysql-connector（用于MySQL，已封装db_pool）
+  user_data: 匿名UUID记录，OAuth后迁移行为数据
+
+deployment:
+  platform:
+    - ✅ Railway（用于后端）
+    - ✅ Vercel（用于前端静态部署）
+    - ✅ Supabase（用于匿名登录和数据记录）
+  infra_notes: 简化部署，快速上线为首要
+
+analytics:
+  tool: Firebase（现用）/ Posthog / Umani.io（计划切换）
+  user_tracking:
+    - 游客ID行为记录
+    - 登录后统一迁移
+    - 事件结构已定义（事件ID + 结构体）
+
+payment:
+  status: MVP阶段仅设计
+  future_plan: 支付入口 toast 提示 + 订阅按钮图标常驻
+
+compliance:
+  gdpr: ✅ 计划中
+  user_data_access: ✅ 用户可查看自己行为数据日志
+
+ops:
+  growth_strategy:
+    - 用户上传门槛：OAuth 授权 + 默认设为换脸 profile
+    - 成就分享引导（连续换脸、击败百分比）
+    - 模板挑战机制：用户参与PK，激励生产内容
+    - 打卡成长机制 + 白嫖换模特奖励
+    - 朋友圈、短链引流、爆款话题模板分发
+  viral_mechanics:
+    - 每次换脸后可一键分享到社交媒体
+    - 智能埋点追踪跳出/分享/回访链路
+    - 分享后奖励一次免费高质量换脸
+
+infra:
+  cloud_platforms:
+    - Vercel（静态页部署）
+    - Railway（FastAPI 后端部署）
+    - Cloudflare R2（图像 CDN 存储）
+  analytics_tools:
+    - Firebase（原有，计划替换）
+    - Umani.io（或 Posthog 自部署）
+  shortlink_tracking:
+    - t.ly / bitly（或 Cloudflare Workers 自建）
+  image_watermark:
+    - 后端合成 Logo 水印图层
+
+metrics:
+  kpis:
+    - 注册用户数、换脸数、成功率、失败率
+    - 模板热度榜单、用户模板上传量
+    - 分享链转化率、点击率、带来新用户数
+  user_profile_stats:
+    - 换脸次数排行、挑战达成进度
+    - 连续活跃天数、分享成功率
+
+changelog:
+  mechanism: 所有 anchor 更新记录写入 changelog/YYYY-MM-DD.md
+  current: 2025-06-02.md（下一步创建）
+
+cursor_rules:
+  config_location: .cursor/config.yaml
+  module_structure:
+    - frontend: Flutter + Tailwind 结构组件
+    - backend: FastAPI + UCWorker 路由规范
+    - db: PostgreSQL 表命名与字段注解规则
+    - infra: 云资源接入规范（Vercel、R2 等）
+    - naming_conventions: 所有 model、api、组件、mdt 保持统一风格
+
+product:
+  core_positioning:
+    - 面向 Z 世代用户，提供“换脸穿搭+爆款话题+参与感表达”的社交娱乐平台
+    - 从工具类转向高频社交入口，强调用户参与、话题制造与情绪表达
+  value_proposition:
+    - 让用户可以实现“反差人格”表达，打造与现实不同的虚拟形象
+    - 每一个模版即是一次个性释放的机会，让内容天然适合自传播
+  strategic_pillars:
+    - 参与感三三制：
+        - 参与感：每个模版都能让用户加入进来换脸/互动
+        - 爆品话题：基于热点人物、情绪、场景制造争议与热度
+        - 粉丝传播：模版自带“传播属性”，方便用户做自媒体分享
+    - 高频入口刚需三三制：
+        - 高频：设计日常行为路径（打卡、上传、PK、挑战榜等）
+        - 刚需：用户表达、身份认同、情绪释放等深层心理需求
+        - 入口：话题广场、排行榜、挑战榜、私聊分享等高转化入口
+  ux_principles:
+    - 极简结构，白底主色 + 图标优先，无需文字教学
+    - 所有模版入口可一眼识别，提升低认知操作体验
+    - 首页 feed 强调参与感与用户内容曝光机会，激励互动
+
+user:
+  personas:
+    - nickname: “造梦者Z”
+      age_group: 18–29
+      traits: 喜欢玩梗、热衷表达、追求反差感
+      behaviors: 喜欢参与挑战、PK晒图、关注模版更新与潮流趋势
+    - nickname: “表达型CoolGirl”
+      age_group: 22–35
+      traits: 感性细腻、有内容创作欲望
+      behaviors: 经常用模版表达心情，收藏爆款模版，维护“第二人格”
+  emotional_drivers:
+    - 用户希望在虚拟世界中表达自己现实中不能表达的“另一面”
+    - 喜欢通过“变脸、穿搭、设定”获得认同与关注
+    - 渴望参与社区式挑战和自我比较（排行榜、点赞PK等）
+
+growth:
+  viral_mechanics:
+    - 模版+话题联动：每个模版附带热词/挑战/榜单话题，形成裂变
+    - 参与感激励机制：连续使用、参与挑战、登上榜单可获得激励（虚拟勋章/打卡记录）
+    - 激励式私聊推荐：分享模版给好友可解锁专属模版或特效
+    - 情绪榜：每日/每周/节日情绪分类模版推荐，驱动主动使用频次
+  distribution_channels:
+    - 模版广场、话题挑战榜
+    - 私域传播：用户私聊分享、朋友圈晒图、自媒体参与挑战
+    - 首页精选 feed，自动推荐最新参与度高的模版
+
+growth:
+  viral_loop:
+    - 成就图激励：打败xx%的用户
+    - 晒模版分享：激发用户参与感
+    - 模板PK机制：鼓励互动与再传播
+
+emotional_positioning:
+  - 参与感表达：换脸即表达情绪
+  - 反差人设：现实与网络身份的切换
+  - 情绪价值：记录心情与状态
+
+user_asset:
+  - 换脸记录作为个人数字资产
+  - 模板使用记录可复用
+  - 成就展示与累计机制
