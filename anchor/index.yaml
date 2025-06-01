@@ -18,3 +18,8 @@ index:
   - ue_transition.yaml
   - ue_guidance.yaml
   - ue_test.yaml
+  - visual_brand.yaml
+  - visual_contrast.yaml
+  - visual_placeholder.yaml
+  - visual_theme.yaml
+  - visual_typography.yaml
