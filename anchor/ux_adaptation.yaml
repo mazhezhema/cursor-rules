@@ -1,28 +1,4 @@
-adaptation:
-  screen_types:
-    - 手机直板屏（iPhone 14, 小米 13）
-    - 手机刘海屏/打孔屏（三星 S22、小米 Mix4）
-    - 折叠屏手机（荣耀 Magic V2、三星 Z Fold）
-    - 横屏设备（安卓TV、平板横屏）
-    - Web 网页版（桌面端大屏）
-
-  screen_resolution_dpi:
-    - 自动计算物理像素密度（dpi），适配高清渲染
-    - 采用 Tailwind 的 rem/em 单位实现比例缩放
-    - 提供 dpi 配置参数供组件动态调整大小
-
-  layout_adaptation:
-    - 支持横竖屏自动切换，UI 组件流式布局
-    - 页面内容区域以百分比为主，兼顾固定高度组件
-    - 使用 Flexbox 或 Grid 自动适应容器宽高
-
-  device_behavior:
-    - 页面元素不出现断层或遮挡，避免内容溢出滚动
-    - 弹窗、Toast 自动居中并适配不同分辨率
-    - 保证所有按钮图标在任意尺寸下可点击区域不小于 44px
-
-  test_scope:
-    - 安卓手机（主流 720p ~ 2K）
-    - iOS 手机（iPhone SE ~ Pro Max）
-    - 平板（iPad Air、华为平板）
-    - Web 桌面（1920x1080、1440p）
+ux_adaptation:
+  - 适配DPI与分辨率
+  - 响应式布局
+  - 折叠屏与横竖屏兼容

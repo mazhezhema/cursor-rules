@@ -1,3 +1,8 @@
 ux:
-  philosophy: Z时代的审美风格与交互偏好
-  adaptation: !include ./ux_adaptation.yaml
+  philosophy: 设计理念与Z世代审美偏好
+  emotion: 情绪价值与用户共鸣构建
+  interaction: 页面交互体验与动线流畅度设计
+  adaptation: 多终端适配策略（DPI、横竖屏、刘海屏、折叠屏等）
+  behavior: 用户行为预测与动机驱动路径
+  participation: 用户参与感机制与爆款传播钩子
+  guidance: 引导文案与系统提示设计策略
