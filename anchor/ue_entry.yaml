@@ -1,0 +1,7 @@
+ue_entry:
+  description: 用户首次接触页面的入口设计规范
+  rules:
+    - name: Splash 页面不超过 3 秒自动跳转
+      implementation_hint: 使用定时器控制过渡动画长度，避免阻断用户操作
+    - name: 首屏加载优先展示内容区域
+      implementation_hint: 延迟加载底部模块，保证核心内容优先可见

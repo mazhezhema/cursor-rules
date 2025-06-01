@@ -1,0 +1,7 @@
+ue_conversion:
+  description: 提升用户转化（注册、登录、分享、付费）的设计规范
+  rules:
+    - name: 注册引导设计应结合激励机制
+      implementation_hint: 展示“注册领取奖励”文案，并突出按钮 CTA
+    - name: 分享行为应可获得积分或话题热度曝光
+      implementation_hint: 分享后展示浮层提示获得奖励，并提供再分享选项

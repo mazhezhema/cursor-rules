@@ -1,3 +1,7 @@
 ue_feedback:
-  description: 提供及时正向反馈机制，包括操作完成、加载成功、保存提示等
-  implementation_hint: 所有用户操作完成后，提供toast、动画或震动等反馈
+  description: 用户操作反馈机制与提示信息规范
+  rules:
+    - name: 每次操作应提供视觉或振动反馈
+      implementation_hint: 使用 Toast、SnackBar 或轻微振动提示成功
+    - name: 异常或失败操作提供修复建议
+      implementation_hint: 附带原因说明与“重试”按钮
