@@ -1,4 +1,4 @@
 ui_iconography:
-  principle: 全站复用系统图标，避免视觉负担
-  usage: 所有图标来源统一图标库，例如Lucide、Material Icons
-  implementation_hint: 禁止使用PNG图标，Flutter建议使用vector_drawable或svg
+  style: 统一使用线性图标风格
+  usage: 图标仅用于通用含义，例如返回、分享、点赞
+  implementation_hint: 优先使用 Lucide、Heroicons 作为 icon 库来源

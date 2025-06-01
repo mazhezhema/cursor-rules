@@ -1,4 +1,4 @@
 ui_gesture:
-  principle: 手势最小化，避免误触
-  usage: 禁止滑动手势作为唯一入口，保留返回与点击主交互
-  implementation_hint: Flutter中禁止使用PageView作为主结构，避免复杂拖拽嵌套滚动
+  interaction: 限制手势数量，保留主流行为如滑动返回
+  performance: 减少复杂动画，优先性能
+  implementation_hint: 仅对核心组件引入左右滑、上滑收起等通用手势，禁用复杂多指手势

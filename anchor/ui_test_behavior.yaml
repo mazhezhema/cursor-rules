@@ -1,4 +1,4 @@
 ui_test_behavior:
-  principle: 关键流程必须覆盖自动化测试
-  usage: 对登录、分享、换脸操作加入自动测试逻辑
-  implementation_hint: 对Flutter组件加入WidgetTest与模拟点击行为覆盖
+  visual_regression: 保证 UI 稳定性，可视化自动化测试支持
+  click_area: 检查控件热区，避免误触
+  implementation_hint: 使用 Playwright / Detox + 快照测试，确保组件样式不回退
