@@ -1,7 +1,14 @@
 index:
   files:
-    - visual.yaml
-    - visual_color.yaml
-    - visual_icon.yaml
-    - visual_spacing.yaml
-    - visual_shadow.yaml
+  - ui.yaml
+  - ui_accessibility.yaml
+  - ui_animation.yaml
+  - ui_components.yaml
+  - ui_controls.yaml
+  - ui_gesture.yaml
+  - ui_iconography.yaml
+  - ui_layout.yaml
+  - ui_responsive.yaml
+  - ui_test_behavior.yaml
+  - ui_text.yaml
+  - ui_theme.yaml
