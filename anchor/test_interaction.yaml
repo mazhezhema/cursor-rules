@@ -1,7 +1,10 @@
 test_interaction:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   goal: 验证点击、长按、滑动、缩放等交互是否具备响应性和逻辑一致性
   implementation_hint: 模拟用户行为路径，监听 gestureDetector 和状态变化
   interaction_cases:
-    - 连续滑动组件位置稳定性
-    - 快速点击按钮 debounce 生效
-    - 多手势嵌套处理优先级正确
+  - 连续滑动组件位置稳定性
+  - 快速点击按钮 debounce 生效
+  - 多手势嵌套处理优先级正确
+  tag: '[AI补全] 示例 tag 内容'

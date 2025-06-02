@@ -1,7 +1,10 @@
 ue_flows:
   description: 全局用户动线流程与跳转交互设计规范
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
   rules:
-    - name: 注册流程控制在 3 步以内
-      implementation_hint: 精简字段，支持 OAuth 登录合并流程
-    - name: 所有核心操作路径不超过 3 次点击
-      implementation_hint: 使用嵌套导航菜单、浮层窗口优化路径
+  - implementation_hint: 精简字段，支持 OAuth 登录合并流程
+    name: 注册流程控制在 3 步以内
+  - implementation_hint: 使用嵌套导航菜单、浮层窗口优化路径
+    name: 所有核心操作路径不超过 3 次点击
+  tag: '[AI补全] 示例 tag 内容'

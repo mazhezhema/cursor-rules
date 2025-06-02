@@ -1,6 +1,9 @@
 visual_grid:
-  layout:
-    - 移动端最多 2 列，平板 3 列，桌面端 4-6 列
-    - 内容对齐统一采用 8/12/16 栅格
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint:
-    - 使用 Tailwind grid system 或 CSS Grid 模拟响应式栅格，统一列宽。
+  - 使用 Tailwind grid system 或 CSS Grid 模拟响应式栅格，统一列宽。
+  layout:
+  - 移动端最多 2 列，平板 3 列，桌面端 4-6 列
+  - 内容对齐统一采用 8/12/16 栅格
+  tag: '[AI补全] 示例 tag 内容'

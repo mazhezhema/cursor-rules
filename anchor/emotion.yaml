@@ -1,13 +1,17 @@
 ux:
+  description: '[AI补全] 示例 description 内容'
   emotion:
-    purpose: 增强用户的表达动机与心理连接，强化产品的情绪黏性
-    highlights:
-      - 利用反差感打造网络人格分裂体验，如现实压抑与网络放飞的对比
-      - 日记式表达，支持用户每日心情、照片、装扮留存，形成自我数字资产
-      - 情绪互动机制，例如“今天心情”、“我是谁”标签辅助快速表达
-      - 利用情绪价值引导内容裂变，激励分享自我形象和心理共鸣
-      - 与参与感挂钩，形成“我也能上热门”的强心智触发机制
     design_principles:
-      - 情绪引导设计（Emotion-driven Design）
-      - 自我映射界面（Self-reflective UI）
-      - 场景式表达入口（Contextual Triggers）
+    - 情绪引导设计（Emotion-driven Design）
+    - 自我映射界面（Self-reflective UI）
+    - 场景式表达入口（Contextual Triggers）
+    highlights:
+    - 利用反差感打造网络人格分裂体验，如现实压抑与网络放飞的对比
+    - 日记式表达，支持用户每日心情、照片、装扮留存，形成自我数字资产
+    - 情绪互动机制，例如“今天心情”、“我是谁”标签辅助快速表达
+    - 利用情绪价值引导内容裂变，激励分享自我形象和心理共鸣
+    - 与参与感挂钩，形成“我也能上热门”的强心智触发机制
+    purpose: 增强用户的表达动机与心理连接，强化产品的情绪黏性
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  tag: '[AI补全] 示例 tag 内容'

@@ -1,9 +1,13 @@
 growth:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
   strategy:
-    - 爆款模板激发用户参与感
-    - 分享机制带动社交裂变
-    - 连续签到+挑战机制，沉淀用户日记资产
+  - 爆款模板激发用户参与感
+  - 分享机制带动社交裂变
+  - 连续签到+挑战机制，沉淀用户日记资产
+  tag: '[AI补全] 示例 tag 内容'
   viral_hooks:
-    - 情绪榜单/爆款话题榜
-    - 模拟朋友圈晒图
-    - 模板PK/反差换脸挑战
+  - 情绪榜单/爆款话题榜
+  - 模拟朋友圈晒图
+  - 模板PK/反差换脸挑战

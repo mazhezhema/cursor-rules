@@ -1,4 +1,7 @@
 ui_responsive:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 使用 Tailwind 的 breakpoints（sm, md, lg）进行响应式设计
   layout_adaptation: 所有布局需支持移动端、平板、桌面端自适应
   screen_check: 适配 iPhone、小米、三星、折叠屏等主流尺寸
-  implementation_hint: 使用 Tailwind 的 breakpoints（sm, md, lg）进行响应式设计
+  tag: '[AI补全] 示例 tag 内容'

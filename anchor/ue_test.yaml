@@ -1,7 +1,11 @@
 ue_test:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   gesture_test:
     description: 测试各类滑动、点击、长按等交互是否按预期响应。
     implementation_hint: 使用 integration_test 编写 UI 自动化测试。
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  tag: '[AI补全] 示例 tag 内容'
   transition_test:
     description: 页面跳转动画是否卡顿、loading 状态是否被遮盖等。
     implementation_hint: 使用 Flutter Driver 观察帧率与用户路径准确性。

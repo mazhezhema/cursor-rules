@@ -1,3 +1,6 @@
 ux_test_behavior:
-  value: 所有 UI 模块在多屏幕尺寸下必须通过 QA 验收。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 测试用例覆盖 DPI、屏幕尺寸、响应延迟、点击热区验证。
+  tag: '[AI补全] 示例 tag 内容'
+  value: 所有 UI 模块在多屏幕尺寸下必须通过 QA 验收。

@@ -1,7 +1,11 @@
 layout:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   grid_system:
     description: 简洁网格系统支持2-4列结构。
     implementation_hint: 优先使用Flexbox实现2列和3列响应式布局。
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
   margin_padding:
     description: 使用统一间距变量进行UI构建。
     implementation_hint: 前端设计系统中应定义 spacing 变量，例如 spacing-4, spacing-6。
+  tag: '[AI补全] 示例 tag 内容'

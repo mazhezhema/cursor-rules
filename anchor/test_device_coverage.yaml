@@ -1,7 +1,10 @@
 test_device_coverage:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   goal: 确保在主流机型、不同分辨率、不同系统版本下核心功能正常
   implementation_hint: 构建多端运行设备池，脚本自动执行 UI 快照比对
+  tag: '[AI补全] 示例 tag 内容'
   test_matrix:
-    - Android 8~14
-    - iOS 13~17
-    - 折叠屏切换状态
+  - Android 8~14
+  - iOS 13~17
+  - 折叠屏切换状态

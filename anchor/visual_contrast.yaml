@@ -1,3 +1,5 @@
 visual_contrast:
   description: 高对比度配色方案适用于视觉障碍、强光下阅读等场景。
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 定义一套辅助配色方案，通过切换模式或配置参数动态调整对比度。
+  tag: '[AI补全] 示例 tag 内容'

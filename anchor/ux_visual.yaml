@@ -1,3 +1,6 @@
 ux_visual:
-  value: 清新、明亮、统一的配色体系，辅以柔和圆角。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 所有卡片和按钮统一使用 2xl 圆角、阴影样式，配色风格参照 Project UI 风格定义。
+  tag: '[AI补全] 示例 tag 内容'
+  value: 清新、明亮、统一的配色体系，辅以柔和圆角。

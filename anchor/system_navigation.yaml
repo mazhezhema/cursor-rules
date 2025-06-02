@@ -1,4 +1,6 @@
 system_navigation:
-  principle: "统一导航路径与入口"
-  description: "提供全局统一导航体验，包括返回、主页、搜索等常驻功能入口"
-  implementation_hint: "使用系统底栏或抽屉导航统一处理主入口，并提供平台级统一手势支持"
+  description: 提供全局统一导航体验，包括返回、主页、搜索等常驻功能入口
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 使用系统底栏或抽屉导航统一处理主入口，并提供平台级统一手势支持
+  principle: 统一导航路径与入口
+  tag: '[AI补全] 示例 tag 内容'

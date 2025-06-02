@@ -1,7 +1,11 @@
 ue_flow:
-  linear_task_flow:
-    description: 将用户任务流线性分解为若干操作步骤，并清晰标注当前步骤状态。
-    implementation_hint: 使用 Stepper 或自定义状态指示组件，结合 PageView 控制导航。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   forked_decision_flow:
     description: 当用户路径分支时需在 UI 中显性展示选择项，并高亮当前选择。
     implementation_hint: 通过 ToggleButtons 或分支卡片设计提供明确操作入口。
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  linear_task_flow:
+    description: 将用户任务流线性分解为若干操作步骤，并清晰标注当前步骤状态。
+    implementation_hint: 使用 Stepper 或自定义状态指示组件，结合 PageView 控制导航。
+  tag: '[AI补全] 示例 tag 内容'

@@ -1,3 +1,5 @@
 ue_loading:
   description: 优化等待体验，包括加载动画、占位图、预加载策略等
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 使用趣味动画和进度提示，避免静态Loading界面，提升感知速度
+  tag: '[AI补全] 示例 tag 内容'

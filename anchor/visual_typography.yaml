@@ -1,3 +1,5 @@
 visual_typography:
   description: 字体排印规则，包括字体选择、字号层级、行高和对比度。
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 采用系统默认字体并结合Google Fonts或思源黑体，使用rem/em单位定义层级。
+  tag: '[AI补全] 示例 tag 内容'

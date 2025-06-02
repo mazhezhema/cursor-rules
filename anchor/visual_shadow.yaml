@@ -1,3 +1,6 @@
 visual_shadow:
-  usage: 仅在卡片与弹窗使用柔和阴影，避免全局阴影混乱
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 使用 Tailwind 类如 shadow-sm, shadow-md 控制层级，限制全局浮动
+  tag: '[AI补全] 示例 tag 内容'
+  usage: 仅在卡片与弹窗使用柔和阴影，避免全局阴影混乱

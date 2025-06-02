@@ -1,3 +1,6 @@
 ai_transparency:
-  rule: 提供明确的AI行为说明，避免用户误解AI操作意图。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 为每次AI介入添加辅助文本提示，如“AI为你精选”。
+  rule: 提供明确的AI行为说明，避免用户误解AI操作意图。
+  tag: '[AI补全] 示例 tag 内容'

@@ -1,4 +1,6 @@
 system_status:
-  principle: "状态栏与系统提示规范"
-  description: "定义状态栏颜色、沉浸式显示方式、系统提示Toast、加载动画一致性"
-  implementation_hint: "Android 上使用 immersive mode 与状态栏字体反色自动切换"
+  description: 定义状态栏颜色、沉浸式显示方式、系统提示Toast、加载动画一致性
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: Android 上使用 immersive mode 与状态栏字体反色自动切换
+  principle: 状态栏与系统提示规范
+  tag: '[AI补全] 示例 tag 内容'

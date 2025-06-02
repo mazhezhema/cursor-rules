@@ -1,3 +1,6 @@
 ux_ai_design:
-  value: 通过 AI 协助生成UI组件和内容，提高开发效率。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 前端可集成 Cursor、AI prompt 接口进行 UI 雏形生成与文本填充。
+  tag: '[AI补全] 示例 tag 内容'
+  value: 通过 AI 协助生成UI组件和内容，提高开发效率。

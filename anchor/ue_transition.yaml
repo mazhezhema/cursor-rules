@@ -1,7 +1,11 @@
 ue_transition:
-  page_transition:
-    description: 页面跳转时建议使用统一的动画规范，确保体验连贯性。
-    implementation_hint: 使用 Navigator 配合 PageRouteBuilder 实现自定义转场动画。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
   loading_state:
     description: 长操作应使用 skeleton 屏或 loading spinner，避免白屏。
     implementation_hint: Flutter 中配合 shimmer 或 CircularProgressIndicator 使用。
+  page_transition:
+    description: 页面跳转时建议使用统一的动画规范，确保体验连贯性。
+    implementation_hint: 使用 Navigator 配合 PageRouteBuilder 实现自定义转场动画。
+  tag: '[AI补全] 示例 tag 内容'

@@ -1,3 +1,5 @@
 ai_interaction:
   description: AI组件应与用户保持良好交互体验，例如提供反馈、加载动画、操作可控等。
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 使用简洁动画展示AI处理过程；允许用户中断或撤销AI任务；在AI处理时间超过3秒时显示幽灵提示。
+  tag: '[AI补全] 示例 tag 内容'

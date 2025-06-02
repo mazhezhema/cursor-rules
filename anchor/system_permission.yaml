@@ -1,4 +1,6 @@
 system_permission:
-  principle: "权限获取交互一致性"
-  description: "确保敏感权限请求有明确引导，避免强制跳转或黑屏弹窗"
-  implementation_hint: "遵循平台原生 permission request flow，并附带简要说明用途的提示"
+  description: 确保敏感权限请求有明确引导，避免强制跳转或黑屏弹窗
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 遵循平台原生 permission request flow，并附带简要说明用途的提示
+  principle: 权限获取交互一致性
+  tag: '[AI补全] 示例 tag 内容'

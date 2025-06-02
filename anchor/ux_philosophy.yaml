@@ -1,3 +1,6 @@
 ux_philosophy:
-  value: Z世代用户偏好轻松、有情绪价值、参与感强的交互体验。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 文案设计需使用 emoji、轻松语言，提升亲和力，参考小红书、Instagram风格。
+  tag: '[AI补全] 示例 tag 内容'
+  value: Z世代用户偏好轻松、有情绪价值、参与感强的交互体验。

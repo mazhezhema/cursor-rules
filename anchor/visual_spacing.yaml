@@ -1,6 +1,9 @@
 visual_spacing:
-  rules:
-    - 使用 4 的倍数作为 spacing 单位：4px, 8px, 12px...
-    - 组件间间距清晰分层（内容内边距，模块间距，容器留白）
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
   implementation_hint:
-    - Tailwind 中使用自定义 spacing token: spacing-1, spacing-2, spacing-3...
+  - Tailwind 中使用自定义 spacing token: spacing-1, spacing-2, spacing-3...
+  rules:
+  - 使用 4 的倍数作为 spacing 单位：4px, 8px, 12px...
+  - 组件间间距清晰分层（内容内边距，模块间距，容器留白）
+  tag: '[AI补全] 示例 tag 内容'

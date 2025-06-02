@@ -1,3 +1,5 @@
 visual_brand:
   description: 品牌标识的统一规范，包括LOGO使用尺寸、边距、位置及适配模式。
+  example: '[AI补全] 示例 example 内容'
   implementation_hint: 使用SVG矢量图作为LOGO，使用组件封装Logo位置信息，避免UI层硬编码。
+  tag: '[AI补全] 示例 tag 内容'
