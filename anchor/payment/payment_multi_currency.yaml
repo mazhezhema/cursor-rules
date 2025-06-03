@@ -1,0 +1,3 @@
+# 多币种支付支持 anchor
+spec:
+  description: 支持按国家币种切换展示与结算
