@@ -1,0 +1,15 @@
+anchor: payment_sla_monitor
+description: 支付模块的SLA可用性监测与异常告警机制
+tags:
+  - payment
+  - ops
+  - monitoring
+scenarios:
+  - title: 支付接口响应时间超标
+    steps:
+      - 接入Prometheus监控
+      - 达阈值自动告警
+  - title: 通道服务中断监测
+    steps:
+      - 定时请求探测通道可用性
+      - 自动切换备用通道
