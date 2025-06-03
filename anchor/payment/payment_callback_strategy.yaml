@@ -1,0 +1,7 @@
+id: payment_callback_strategy
+title: 支付回调与幂等策略
+description: 规范第三方支付回调处理方式，确保幂等处理与安全校验。
+principles:
+  - 所有回调需验证签名与来源 IP
+  - 回调处理必须具备幂等性（order_id 唯一确认）
+  - 若回调失败应写入失败队列定期重试
