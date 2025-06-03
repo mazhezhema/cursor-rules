@@ -1,0 +1,12 @@
+name: test_cold_start
+description: 冷启动场景下的性能与功能可用性测试
+scenarios:
+  - id: COLD_START_OPEN
+    title: 断开后台后重新打开 APP
+    steps: 杀死 APP → 冷启动进入首页
+    expected: 首页加载时间 < 2 秒，toast/引导组件正常显示
+
+  - id: COLD_START_SWAP_PATH
+    title: 冷启动后首次换脸操作测试
+    steps: 冷启动后立即上传图并换脸
+    expected: 换脸成功率不低于 98%，过程不闪退
