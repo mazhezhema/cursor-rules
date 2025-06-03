@@ -1,0 +1,18 @@
+id: ui_support_chat
+title: UI Support Chat Design Spec
+description: 客服气泡按钮的UI视觉规范，样式、交互反馈和遮挡优先级处理策略。
+tags:
+  - ui
+  - support
+  - button
+  - floating-element
+structure:
+  - position: bottom_right
+  - style:
+      - icon: support
+      - shape: circular
+      - shadow: subtle
+  - animation: fade_in_slide
+  - display_priority:
+      - above_content
+      - avoid_conflict_with_toast_and_tabbar
