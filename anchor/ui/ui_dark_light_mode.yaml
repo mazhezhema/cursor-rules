@@ -1,0 +1,10 @@
+title: 明暗模式支持策略
+description: |
+  描述产品如何适配暗黑/明亮主题，包含自动切换、颜色替代、图标处理等。
+modes:
+  - name: Light
+    background: "#FFFFFF"
+    text: "#111111"
+  - name: Dark
+    background: "#121212"
+    text: "#E0E0E0"

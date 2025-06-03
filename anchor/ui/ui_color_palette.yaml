@@ -1,0 +1,13 @@
+title: UI 色彩体系定义
+description: |
+  定义产品统一的色彩规范，包括主色、副色、状态色、灰阶色、背景色等，确保多端一致性。
+items:
+  - name: PrimaryColor
+    value: "#3D5AFE"
+    usage: "主按钮、链接、强调文字"
+  - name: SecondaryColor
+    value: "#FF6D00"
+    usage: "辅按钮、标签、激活状态"
+  - name: ErrorColor
+    value: "#D32F2F"
+    usage: "错误提示、边框、图标"

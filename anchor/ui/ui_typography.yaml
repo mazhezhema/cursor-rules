@@ -1,0 +1,16 @@
+title: 字体体系与排版规范
+description: |
+  设定字体类型、字号等级、字重和使用场景，统一产品的排版系统。
+items:
+  - level: h1
+    size: 32px
+    weight: Bold
+    usage: 页面主标题
+  - level: h2
+    size: 24px
+    weight: Medium
+    usage: 页面副标题
+  - level: body
+    size: 16px
+    weight: Regular
+    usage: 正文内容

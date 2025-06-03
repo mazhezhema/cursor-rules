@@ -1,0 +1,11 @@
+title: 动效与反馈建议
+description: |
+  明确 UI 动效的使用时机与节奏，避免过度动画干扰体验。
+animations:
+  - type: "Page Transition"
+    duration: "300ms"
+    easing: "ease-in-out"
+    usage: "页面之间切换"
+  - type: "Tap Feedback"
+    duration: "150ms"
+    usage: "按钮点击波纹反馈"
