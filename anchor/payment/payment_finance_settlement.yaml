@@ -1,0 +1,9 @@
+# 支付结算策略 anchor
+id: payment_finance_settlement
+title: 支付结算策略配置
+description: 描述平台如何将用户支付收入结算至公司银行账户，包括结算周期、货币转换、费用扣除等。
+structure:
+  - settlement_cycle: 支持按日/周/月结算
+  - currency_conversion: 多币种转换策略
+  - service_fee_deduction: 平台抽成与手续费设定
+  - settlement_trigger: 结算触发机制（如余额达到阈值、定时执行）

@@ -1,0 +1,9 @@
+# 财务账户绑定 anchor
+id: payment_finance_account_binding
+title: 财务账户绑定机制
+description: 用户绑定银行卡、支付宝、PayPal等收款账户的流程，涵盖验证、权限与风控逻辑。
+structure:
+  - bind_type: 支持的账户类型（银行卡/PayPal）
+  - verification: 实名认证与绑定验证方式
+  - security_policy: 防止盗绑机制
+  - usage_scope: 该账户是否用于提现、支付或转账
