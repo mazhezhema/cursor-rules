@@ -1,0 +1,18 @@
+
+id: ui_responsive
+name: UI 响应式设计
+tags:
+  - ui
+  - responsive
+description: |
+  UI 层面设计应支持不同尺寸和平台的响应式布局，兼顾主流手机和平板的视觉统一。
+structure:
+  scaling:
+    width: 使用百分比/弹性布局替代固定宽度
+    tools: MediaQuery, LayoutBuilder, FractionallySizedBox
+  font_scaling:
+    strategy: 遵守系统缩放策略，最大放大比例限制为 1.5x
+  layout_patterns:
+    techniques:
+      - 使用 GridView/FlexColumn 控制响应式分区
+      - 使用约束布局配合屏幕边界控制组件延展

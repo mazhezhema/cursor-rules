@@ -1,0 +1,17 @@
+
+id: ux_screen
+name: UX 屏幕适配体验
+tags:
+  - ux
+  - screen
+  - adaptation
+description: |
+  用户体验层面需兼顾不同终端的视觉、操作逻辑与感知一致性，避免割裂体验。
+structure:
+  user_perception:
+    maintain_consistency: 保持视觉与行为统一
+    reduce_fragmentation: 不因设备尺寸不同而提供不同内容
+  interactive_elements:
+    ensure_tappable: 保持交互元素可达、可点击区域足够
+  transition_behavior:
+    portrait_to_landscape: 横竖屏切换时，布局顺滑过渡
