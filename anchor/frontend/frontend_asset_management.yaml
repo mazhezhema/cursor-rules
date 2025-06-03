@@ -1,0 +1,8 @@
+anchor: frontend_asset_management
+title: 前端静态资源管理策略
+description: 说明静态资源（如图片、SVG、字体）的管理、加载优化、压缩与缓存机制。
+content:
+  - images: lazy_load, resolution_adaptation, preloading, webp_preference
+  - fonts: subset_usage, cdn_strategy, fallback_fonts
+  - svg: inline_svg_preference, animation_support, reuse_strategy
+  - cache: asset_bundle_versioning, long_term_cache, pre_cache_rules

@@ -1,0 +1,7 @@
+anchor: frontend_cross_platform
+title: 跨平台平台差异封装策略
+description: 说明 Flutter 多平台适配中，iOS/Android/Web 的差异封装处理机制。
+content:
+  - abstraction_layer: platform_interface, plugin_adapter
+  - gestures: back_gesture, edge_swipe_behavior
+  - style: theme_gap_adjustment, safearea_policy
