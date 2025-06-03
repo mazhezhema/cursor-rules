@@ -1,0 +1,9 @@
+anchor: auth_oauth_integration
+title: OAuth 授权登录集成
+description: 接入第三方 OAuth（如 Google、Facebook）流程，支持匿名 UUID 到绑定账号的无缝迁移。
+content:
+  - 授权平台选择与配置（Google, Facebook）
+  - OAuth 登录成功后的 Token 存储与更新策略
+  - 匿名 UUID 与 OAuth 账号合并逻辑
+  - 安全性策略（Token 刷新，身份校验）
+  - MVP 阶段仅支持 OAuth，后续可拓展邮箱/手机号登录

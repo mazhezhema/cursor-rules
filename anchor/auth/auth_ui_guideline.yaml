@@ -1,0 +1,8 @@
+anchor: auth_ui_guideline
+title: 登录注册 UI 设计规范
+description: 登录、注册相关页面的 UI 组件、排版与文案规范。
+content:
+  - 输入框样式、按钮高亮风格、错误状态提示样式
+  - 多状态处理（加载中、失败、成功跳转）
+  - OAuth 图标按钮规范（Google / Facebook）
+  - 统一与现有 UI 风格一致的设计语言
