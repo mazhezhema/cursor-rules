@@ -1,12 +1,9 @@
-name: test_boundary
-description: 功能边界测试，验证极限输入条件下系统稳定性
-scenarios:
-  - id: BOUNDARY_USERNAME_LENGTH
-    title: 用户名最大长度测试
-    steps: 输入 200 字符用户名
-    expected: 正常注册，无格式错乱，数据库写入成功
 
-  - id: BOUNDARY_IMAGE_SIZE
-    title: 图片最大尺寸上传测试
-    steps: 上传 20MB 以上高分辨率照片
-    expected: 接口正常处理，无超时或失败
+id: test_boundary
+name: 边界条件测试
+description: 针对输入输出的边界值进行测试
+scenarios:
+  - 图片尺寸最小与最大限制
+  - 支付金额最小 0.01 与最大9999
+rules:
+  - 所有字段均有明确边界测试用例并验证

@@ -1,9 +1,10 @@
-anchor: test_performance
-category: black_box
+
+id: test_performance
+name: 性能测试
+description: 对核心模块进行吞吐量、响应时间测试
 scenarios:
-  - name: 首屏加载性能
-    input: 打开首页
-    expected_result: 页面2秒内完成加载
-  - name: 换脸响应时间
-    input: 上传图+换脸
-    expected_result: 5秒内返回结果
+  - 并发请求首页推荐流
+  - 高频使用下用户换脸流程平均响应时间
+rules:
+  - 首页加载时间 < 2s
+  - 单用户上传图片到换脸结果返回 < 3s

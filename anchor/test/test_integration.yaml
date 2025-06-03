@@ -1,9 +1,9 @@
-anchor: test_integration
-category: black_box
+
+id: test_integration
+name: 集成测试
+description: 跨模块交互流程是否按照预期行为运行，侧重接口间数据一致性。
 scenarios:
-  - name: 登录后上传并换脸
-    input: 第三方登录 + 上传图
-    expected_result: 登录态延续，图像换脸成功
-  - name: 保存并分享到社交网络
-    input: 上传 -> 生成 -> 分享按钮
-    expected_result: 成功跳转分享，图像正确显示
+  - 用户授权后换脸 + 上传 + 分享全链路
+  - 支付成功后回调触发订单更新
+rules:
+  - 集成流程中任意一环失败可回滚，不影响前置流程数据一致性

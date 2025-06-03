@@ -1,9 +1,9 @@
-anchor: test_compatibility
-category: black_box
+
+id: test_compatibility
+name: 兼容性测试
+description: 检测在不同设备、操作系统、浏览器、语言环境下系统运行是否正常。
 scenarios:
-  - name: 安卓低端设备适配
-    input: Android 8.0 系统
-    expected_result: 换脸功能正常，不卡顿
-  - name: 不同分辨率兼容
-    input: 横屏设备
-    expected_result: UI 自动适配，无错位
+  - Android 平板 / 手机 / Chrome 浏览器
+  - 英语、法语、中文等切换
+rules:
+  - 所有核心流程在主流平台下均能无障碍执行

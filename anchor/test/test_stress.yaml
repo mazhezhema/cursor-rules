@@ -1,9 +1,9 @@
-anchor: test_stress
-category: black_box
+
+id: test_stress
+name: 压力测试
+description: 模拟极端负载条件，评估系统极限承载能力。
 scenarios:
-  - name: 高并发上传
-    input: 并发50用户上传图像
-    expected_result: 系统稳定，无崩溃
-  - name: 连续换脸请求
-    input: 用户连续点击换脸
-    expected_result: 正常排队处理，资源不泄漏
+  - 模拟1000用户并发换脸
+  - 突发访问支付接口，连续10分钟
+rules:
+  - 系统在最大负载下不宕机，接口响应率 > 95%
