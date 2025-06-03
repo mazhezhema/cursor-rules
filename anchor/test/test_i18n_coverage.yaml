@@ -1,0 +1,5 @@
+id: test_i18n_coverage
+title: 国际化覆盖测试
+description: 对UI文本、toast、dialog、文案等进行多语言覆盖率评估，确保所有关键路径均已翻译。
+tags: [i18n, ux, localization]
+stage: mvp

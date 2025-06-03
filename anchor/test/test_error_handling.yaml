@@ -1,0 +1,5 @@
+id: test_error_handling
+title: 异常处理能力测试
+description: 模拟多种输入错误、接口异常、数据不一致等情况，验证系统稳定性与用户提示合理性。
+tags: [error, edge_case, fallback, robustness]
+stage: mvp

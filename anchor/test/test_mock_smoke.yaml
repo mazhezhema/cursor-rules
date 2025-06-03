@@ -1,0 +1,5 @@
+id: test_mock_smoke
+title: Mock流程冒烟测试
+description: 使用mock数据快速验证系统集成关键路径，适用于CI阶段冒烟测试。
+tags: [mock, smoke, ci, integration]
+stage: mvp
