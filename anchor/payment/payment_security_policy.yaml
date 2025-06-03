@@ -1,10 +1,2 @@
-anchor: payment_security_policy
-title: 支付安全策略与接口签名机制
-stage: MVP
-tags: [支付安全, 接口签名, 回调校验]
-content: |
-  规定所有支付相关的服务端/客户端请求都必须使用 HMAC-SHA256 签名，防止中间人攻击与篡改。
-  - 所有支付请求带时间戳和nonce
-  - 后台统一校验签名合法性
-  - 回调结果必须二次校验有效性
-  - 异常签名记录日志并报警
+id: payment_security_policy
+description: 支付安全策略总览，包括防刷、限频等
