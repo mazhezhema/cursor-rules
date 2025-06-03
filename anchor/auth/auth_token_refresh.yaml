@@ -1,0 +1,8 @@
+summary: Token 刷新机制
+description: |
+  说明当 access token 过期时，如何利用 refresh token 自动刷新以维持用户登录状态，避免中断体验。
+components:
+  - 检查 refresh token 有效性
+  - 自动调用刷新 API
+  - 异步更新前端状态并缓存新 token
+  - 失败处理 fallback 到重新登录流程
