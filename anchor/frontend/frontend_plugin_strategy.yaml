@@ -1,0 +1,14 @@
+
+id: frontend_plugin_strategy
+name: 插件引入与封装策略
+description: 说明第三方 Flutter 插件的引入原则、封装标准、版本约束及安全审查
+tags:
+  - Flutter
+  - 插件管理
+  - 第三方依赖
+  - 插件封装
+structure:
+  - plugin_selection_criteria: 插件选择标准（Star 数、维护活跃度）
+  - plugin_isolation: 对 UI/数据混合插件进行封装解耦
+  - security_review: 插件数据读取权限、日志风险说明
+  - update_control: 插件版本锁定与升级策略
