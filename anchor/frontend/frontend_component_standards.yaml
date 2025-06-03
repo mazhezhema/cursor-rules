@@ -1,0 +1,11 @@
+frontend_component_standards:
+  desc: 页面结构与 UI 模块命名规则、文件结构拆分逻辑
+  directory_structure:
+  - components/
+  - pages/
+  - hooks/
+  naming_conventions:
+  - upload_card
+  - share_modal
+  - look_item
+  title: 前端组件规范

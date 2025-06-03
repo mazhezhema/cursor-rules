@@ -1,3 +1,12 @@
-# Anchor: Frontend Security
-
-Covers input validation, content security policy, XSS prevention, and CORS handling.
+frontend_security:
+  auth:
+    strategy: 支持 Google/Apple 登录
+    token_storage: 本地加密存储 OAuth token
+  desc: 管理用户上传数据、OAuth登录、接口调用的安全措施
+  permission_requests:
+  - camera
+  - photo
+  title: 前端安全与权限控制
+  upload_security:
+    image_type: 限制 JPEG/PNG，自动压缩大图
+    size_limit: 图片大小限制 < 5MB

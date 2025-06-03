@@ -1,0 +1,11 @@
+frontend_ai_copilot:
+  desc: 使用 Cursor + GPT + Claude 辅助开发 UI 组件、流程与命名一致性
+  title: AI协同开发实践
+  tools:
+  - cursor
+  - gpt-4o
+  - claude-opus
+  use_cases:
+  - 自动生成组件代码
+  - 调整交互逻辑
+  - 检查状态变更一致性

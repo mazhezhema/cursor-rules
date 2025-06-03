@@ -1,3 +1,14 @@
-# Anchor: Frontend Architecture
-
-Defines the overall structure, layout engine, and technology stack.
+frontend_architecture:
+  desc: 描述 flutter 架构中组件划分、路由结构、状态管理等核心设计
+  modules:
+  - name: 页面入口组件
+    role: 展示层，入口分发，如 HomePage, UploadPage
+  - name: 逻辑与状态组件
+    role: 使用 provider/zustand 统一管理用户状态、换脸流程
+  - name: 请求与接口适配层
+    role: 封装 HTTP 请求、处理 fastapi API 返回值
+  routing:
+    mode: 静态配置 + 动态路由（换脸页、Look详情页）
+    protected: 登录页跳转保护 + 参数校验
+  state_management: Flutter Provider 或 Zustand
+  title: 前端项目结构与模块划分

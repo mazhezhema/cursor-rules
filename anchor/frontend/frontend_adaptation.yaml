@@ -1,3 +1,9 @@
-# Anchor: Multi-device Adaptation
-
-Covers responsive layout, screen ratio detection, pixel density adjustments, and touch/mouse input handling.
+frontend_adaptation:
+  desc: 针对主流 Z 世代用户设备（iOS + Android）制定的 UI 适配原则
+  image_ratio: 9:16 优先，支持 4:5、1:1 自动裁切
+  pixel_density: 自动缩放 DPI + 文字缩放兼容系统字体大小
+  screen_ranges:
+    large: '> 768px'
+    medium: <= 768px
+    small: <= 375px
+  title: 屏幕适配策略

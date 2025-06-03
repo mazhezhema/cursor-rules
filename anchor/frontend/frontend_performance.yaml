@@ -1,3 +1,8 @@
-# Anchor: Frontend Performance
-
-Includes lazy loading, cache strategies, render optimization and resource bundling.
+frontend_performance:
+  desc: 为保障换脸体验流畅，前端需在加载、渲染、缓存等方面优化
+  optimizations:
+  - 'lazy_loading: 页面模块分批加载，首屏优先'
+  - 'image_caching: CDN + 本地图片缓存，避免重复请求'
+  - 'animation_frame_limit: 降低复杂动效帧率，减少掉帧'
+  - 'shimmer: 骨架屏加载动画优化，优先展示图框'
+  title: 前端性能优化策略
