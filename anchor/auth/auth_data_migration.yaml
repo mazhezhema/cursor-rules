@@ -1,0 +1,12 @@
+anchor:
+  id: auth_data_migration
+  title: 游客数据与正式账号数据迁移策略
+  description: 游客模式下的行为记录（换脸/分享/收藏等）在绑定 OAuth 正式账号后自动迁移。
+  scenarios:
+    - 游客切换为正式账号
+    - OAuth 登录后未找回数据
+  guideline:
+    - 所有游客数据使用 UUID 存储
+    - 登录后将游客 UUID 行为迁移至 OAuth 账户
+    - 登录前弹窗提示可继承数据
+  priority: medium
