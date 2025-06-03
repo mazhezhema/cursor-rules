@@ -1,0 +1,3 @@
+# payment_ab_test.yaml
+name: payment_ab_test
+scenario: 支付路径 AB 测试配置
