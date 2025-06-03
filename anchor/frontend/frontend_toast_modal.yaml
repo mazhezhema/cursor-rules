@@ -1,0 +1,10 @@
+
+id: frontend_toast_modal
+title: Toast 与 Modal 弹窗规范
+description: 定义统一的 toast 和 modal 组件交互规范，简化用户反馈与操作提示。
+tags: [ui, toast, modal, feedback, flutter]
+status: active
+---
+- 所有 Toast 使用统一组件封装，支持文字、图标、自动消失
+- Modal 弹窗必须支持遮罩、点击关闭、动画可控
+- 错误弹窗优先采用轻量 Toast，不打断流程

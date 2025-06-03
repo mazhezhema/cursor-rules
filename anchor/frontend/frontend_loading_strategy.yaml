@@ -1,0 +1,11 @@
+
+id: frontend_loading_strategy
+title: 前端加载策略
+description: 定义前端懒加载、预加载、骨架屏等资源加载策略，适配 Flutter MVP 结构。
+tags: [flutter, loading, skeleton, performance, mvp]
+status: active
+---
+- 使用 FutureBuilder 实现懒加载页面逻辑
+- 对图片和资源采用异步加载 + 占位图策略
+- 骨架屏用于卡片流与用户内容区
+- 首屏关键路径资源内联
