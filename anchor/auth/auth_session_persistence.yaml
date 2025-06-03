@@ -1,0 +1,16 @@
+id: auth_session_persistence
+name: 会话持久化机制
+tags: [auth, token, session, mvp]
+description: 定义用户登录状态的会话保持策略，保障 token 生命周期和用户体验的连贯性。
+scenarios:
+  - 用户杀进程后重新打开 App，应自动登录且无感知
+  - 用户切回 App，Token 已过期但未提示重新登录
+structure:
+  - session_storage: 使用安全存储（如FlutterSecureStorage）保存 token 与 userId
+  - silent_login: App 启动时自动检查 token 并尝试无感登录
+  - fallback_ui: 无法恢复 session 时的 UI 提示与重定向逻辑
+rules:
+  - token 不应长期存储于内存，需持久化到加密存储中
+  - 若 token 有效且未过期，自动登录流程应完全静默
+  - 若失败需 fallback 到登录页并提示用户
+  - 支持设置自动登录失败的埋点事件，方便排查
