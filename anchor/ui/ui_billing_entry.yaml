@@ -1,0 +1,10 @@
+id: ui_billing_entry
+title: 计费相关 UI 入口定义
+description: 所有与订阅、VIP、付费相关的 UI 展示与组件定义。
+entries:
+  - location: user_profile_page
+    component: vip_banner
+  - location: export_button
+    component: locked_overlay
+  - location: home_top
+    component: subscription_call_to_action

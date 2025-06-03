@@ -1,3 +1,12 @@
-# payment_ab_test.yaml
-name: payment_ab_test
-scenario: 支付路径 AB 测试配置
+id: payment_ab_test
+title: 支付 A/B 测试配置
+description: 针对不同计费提示时机、内容、频率进行 A/B 测试策略定义。
+ab_tests:
+  - id: billing_popup_timing
+    variants:
+      - name: immediate_after_action
+      - name: delayed_after_action
+  - id: vip_banner_placement
+    variants:
+      - name: top_of_home
+      - name: bottom_of_feed

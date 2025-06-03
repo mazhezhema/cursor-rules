@@ -1,0 +1,10 @@
+id: user_action_hooks
+title: 用户行为触发策略
+description: 用户行为与系统提示之间的 hook 映射，例如行为触发登录/订阅提示。
+hooks:
+  - action: click_share
+    trigger: login_required
+  - action: click_favorite
+    trigger: subscription_prompt
+  - action: upload_avatar
+    trigger: oauth_required

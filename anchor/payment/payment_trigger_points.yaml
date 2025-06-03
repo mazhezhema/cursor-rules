@@ -1,0 +1,14 @@
+id: payment_trigger_points
+title: 计费触发点定义
+description: 定义所有用户行为触发的计费点，例如导出、保存、收藏、换脸等。
+triggers:
+  - action: export_image
+    condition: not_vip
+    prompt: show_subscription_popup
+  - action: face_swap
+    count_limit: 3
+    condition: not_logged_in
+    prompt: require_login
+  - action: save_template
+    condition: not_logged_in
+    prompt: login_then_continue
