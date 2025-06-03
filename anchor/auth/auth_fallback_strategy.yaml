@@ -1,0 +1,28 @@
+id: auth_fallback_strategy
+title: OAuth 授权失败处理与 UI 策略
+description: 描述 OAuth 登录失败时的用户引导、UI 降级机制和错误码反馈建议，避免因授权异常造成用户流失。
+tags: [auth, fallback, error, oauth, 异常处理]
+stage: MVP
+
+---
+
+## 异常场景识别
+- token 获取失败
+- 授权平台网络错误
+- OAuth 回调中断或 code 无效
+- 用户拒绝授权后返回
+
+## 前端处理策略
+- 提供 fallback 登录方式（如匿名进入、绑定邮箱）
+- 清晰错误提示文案：“授权失败，请稍后重试或选择其他方式登录”
+- 降级路径：OAuth → 匿名 → 本地使用（记录 UUID）
+- 所有异常加入日志系统（如 Firebase Crashlytics / 自建日志服务）
+
+## 后端接口行为
+- 明确错误码分类：平台异常、参数错误、权限拒绝等
+- 提供建议恢复方式在响应中：如 `{"error_code": 103, "message": "Google 登录超时", "action": "try_another_provider"}`
+
+## UI/UX 设计建议
+- 错误页面不应空白或崩溃
+- 使用弹窗或轻提示方式引导切换方式
+- 若平台无法使用超 2 次，自动隐藏该登录方式
