@@ -1,12 +1,13 @@
-frontend_tracking:
-  behavior_events:
-  - event: click_try_on
-    trigger: 点击 “Try On” 按钮
-  - event: upload_photo
-    trigger: 上传自拍图
-  desc: 定义前端事件埋点结构、Umani.io接入方案与匿名 ID 映射机制
-  identity:
-    merge_after_login: 登录后将匿名历史行为迁移至正式账号
-    uuid: 匿名 UUID 分配
-  system: Umani.io
-  title: 埋点系统设计
+anchor: frontend_tracking
+title: 前端埋点设计
+description: 定义前端页面与组件的事件埋点标准
+events:
+  - type: page_view
+    trigger: 页面进入
+    payload: { page_id: string, referrer: string }
+  - type: button_click
+    trigger: 按钮点击
+    payload: { button_id: string, location: string }
+  - type: component_exposure
+    trigger: 元素曝光
+    payload: { component_id: string, duration: number }
