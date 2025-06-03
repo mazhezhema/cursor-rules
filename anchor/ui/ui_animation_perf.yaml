@@ -1,0 +1,27 @@
+# UI Animation Performance Anchor (Flutter)
+
+metadata:
+  id: ui_animation_perf
+  title: 动效性能优化（Flutter）
+  module: ui
+  tags: [animation, performance, fps, flutter]
+
+summary:
+  - 避免复杂嵌套动画导致帧率下降
+  - 使用 GPU 加速的动画组件（如 Transform、Opacity）
+  - 尽量使用 Implicit Animations 简化控制逻辑
+  - 使用 Hero 动画和 PageTransition 优化页面跳转体验
+
+patterns:
+  - 限制动画链路：一次仅激活 1~2 个复杂动画组件
+  - 使用 TickerProviderStateMixin 管理动画控制器，释放资源
+  - 动画中避免频繁 setState，可用 AnimatedBuilder
+
+kpi:
+  - 动效执行期间帧率 ≥ 50fps
+  - 动效启动时间 < 150ms
+  - 动效回收无内存泄漏，控制器销毁及时
+
+tools:
+  - Flutter DevTools → Performance → Frame Chart
+  - Timeline events 分析渲染分段耗时
