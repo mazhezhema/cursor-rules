@@ -1,0 +1,9 @@
+anchor: payment_platform_entry
+title: 支付平台初始化配置入口策略
+stage: MVP
+tags: [支付平台, 能力初始化, 配置管理]
+content: |
+  说明不同支付渠道（如Stripe、微信、Apple Pay）在客户端初始化加载策略。
+  - 启动时动态加载可用支付平台
+  - 配置中心控制是否显示入口（如地区/版本限制）
+  - 异常平台 fallback 到默认方案

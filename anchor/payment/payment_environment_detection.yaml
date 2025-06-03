@@ -1,0 +1,9 @@
+anchor: payment_environment_detection
+title: 检测支付运行环境与兼容性策略
+stage: MVP
+tags: [支付环境检测, 模拟器识别, 支付兼容性]
+content: |
+  描述支付 SDK 在不同设备与系统下运行兼容性检测机制，包括云手机、模拟器与越狱设备识别，防止异常支付环境。
+  - SDK 初始化时注入设备环境探测器
+  - 检查系统签名、root权限、debug模式等
+  - 对不兼容环境限制支付能力，并提供提示 UI
