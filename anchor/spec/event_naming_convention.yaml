@@ -1,0 +1,24 @@
+id: event_naming_convention
+title: 埋点事件命名规范
+description: 定义事件命名的风格、结构和分类方式，确保跨端一致性和数据可追踪性。
+rules:
+  style: snake_case
+  prefix:
+    - ui_: UI相关，如 ui_button_click
+    - ux_: 用户体验相关，如 ux_flow_exit
+    - sys_: 系统行为，如 sys_crash
+  suffix:
+    - _click: 点击事件
+    - _view: 页面曝光
+    - _submit: 表单提交
+  constraints:
+    - 避免使用中文
+    - 避免缩写不清
+    - 限定事件长度不超过 30 字符
+examples:
+  - event: ui_button_click
+    description: 用户点击了某个 UI 按钮
+  - event: ux_onboarding_view
+    description: 新手引导被用户看到
+  - event: sys_crash_report
+    description: 应用崩溃上报事件
