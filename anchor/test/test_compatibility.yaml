@@ -1,5 +1,9 @@
-id: test_compatibility
-scope: UI
-platforms:
-  - Android 13
-  - iOS 16
+anchor: test_compatibility
+category: black_box
+scenarios:
+  - name: 安卓低端设备适配
+    input: Android 8.0 系统
+    expected_result: 换脸功能正常，不卡顿
+  - name: 不同分辨率兼容
+    input: 横屏设备
+    expected_result: UI 自动适配，无错位

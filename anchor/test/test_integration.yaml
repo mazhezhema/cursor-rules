@@ -1,0 +1,9 @@
+anchor: test_integration
+category: black_box
+scenarios:
+  - name: 登录后上传并换脸
+    input: 第三方登录 + 上传图
+    expected_result: 登录态延续，图像换脸成功
+  - name: 保存并分享到社交网络
+    input: 上传 -> 生成 -> 分享按钮
+    expected_result: 成功跳转分享，图像正确显示

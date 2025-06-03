@@ -1,4 +1,9 @@
-id: test_performance
-module: Order
-metric: latency
-threshold: 200ms
+anchor: test_performance
+category: black_box
+scenarios:
+  - name: 首屏加载性能
+    input: 打开首页
+    expected_result: 页面2秒内完成加载
+  - name: 换脸响应时间
+    input: 上传图+换脸
+    expected_result: 5秒内返回结果
