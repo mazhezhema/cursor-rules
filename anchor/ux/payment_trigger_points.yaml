@@ -1,0 +1,33 @@
+# Anchor: UX支付计费点设计
+
+id: payment_trigger_points
+title: 支付转化关键路径与计费点设计
+category: ux
+module: payment
+
+summary: |
+  本 anchor 主要梳理用户在产品中各阶段可触发的计费点策略，支持多种变现方式，包括一次性购买、订阅升级、功能解锁等。
+
+points:
+  - stage: 首页浏览
+    trigger: 浏览3秒以上
+    action: 弹窗展示限时优惠订阅
+
+  - stage: 上传换脸完成
+    trigger: 用户完成首次换脸
+    action: 弹窗引导订阅或解锁高清图
+
+  - stage: 收藏模板
+    trigger: 收藏数超过5个
+    action: 弹窗提示订阅解锁无限收藏
+
+  - stage: 导出图片
+    trigger: 尝试保存或分享高清图
+    action: 弹窗引导升级VIP解锁高清下载
+
+  - stage: 登录后首次换脸
+    trigger: 用户完成OAuth登录并使用换脸
+    action: 提示解锁订阅特权或享受限时折扣
+
+note: |
+  所有计费点设计须考虑用户心理阈值，避免过早打断使用流程。
