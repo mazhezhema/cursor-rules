@@ -1,0 +1,12 @@
+name: test_stress
+description: 压力测试，包括并发访问、频繁换脸等
+scenarios:
+  - id: STRESS_CONCURRENT_SWAP
+    title: 并发换脸任务测试
+    steps: 模拟 50 个并发用户同时上传头像进行换脸
+    expected: 系统稳定无崩溃，处理成功率 > 95%
+
+  - id: STRESS_SHARE_BURST
+    title: 高频分享行为测试
+    steps: 模拟 100 次分享行为（10 秒内）
+    expected: 系统无延迟/卡顿，埋点完整记录

@@ -1,0 +1,12 @@
+name: test_compatibility
+description: 兼容性测试，涵盖不同系统/机型/分辨率/DPI 下运行稳定性
+scenarios:
+  - id: COMP_ANDROID_13_TABLET
+    title: Android 13 平板高分屏兼容性
+    steps: 打开首页 → 上传头像 → 进入结果页
+    expected: 所有页面组件无错位，操作顺畅
+
+  - id: COMP_BROWSER_EDGE
+    title: Edge 浏览器兼容性
+    steps: 登录 + 换脸 + 分享
+    expected: 功能无异常，埋点无缺漏
