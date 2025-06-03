@@ -1,9 +1,34 @@
-frontend_adaptation:
-  desc: 针对主流 Z 世代用户设备（iOS + Android）制定的 UI 适配原则
-  image_ratio: 9:16 优先，支持 4:5、1:1 自动裁切
-  pixel_density: 自动缩放 DPI + 文字缩放兼容系统字体大小
-  screen_ranges:
-    large: '> 768px'
-    medium: <= 768px
-    small: <= 375px
-  title: 屏幕适配策略
+
+id: frontend_adaptation
+name: Flutter 前端适配
+tags:
+  - frontend
+  - flutter
+  - responsive
+  - adaptation
+description: |
+  统一 Flutter 前端在不同设备上的表现，覆盖屏幕尺寸、DPI、平台差异、横竖屏、无障碍等维度，确保 MVP 阶段即具备良好的适配策略。
+structure:
+  screen_size_adaptation:
+    method: 使用 MediaQuery, LayoutBuilder, ScreenUtil 进行适配
+    design_baseline: 375x812 (iPhone 11)
+    tips: 避免硬编码尺寸，采用逻辑像素和相对单位
+  safe_area_support:
+    strategy: 全页面使用 SafeArea，处理刘海/虚拟导航栏
+    additional: 使用 Padding.fromViewInsets() 自适应系统输入框
+  orientation:
+    default: 竖屏
+    partial_landscape_support: 使用 OrientationBuilder 针对页面适配
+  dpi_and_accessibility:
+    text_scaling: 控制 textScaleFactor 放大倍数
+    min_tap_target: 不小于 48px
+    semantics: 语义支持 + semanticLabel
+  platform_diff:
+    ios_vs_android:
+      buttons: Cupertino vs Material
+      permission: 使用 permission_handler 封装
+  tools:
+    - flutter_screenutil
+    - responsive_framework
+    - device_info_plus
+    - flutter_svg
