@@ -1,0 +1,13 @@
+id: test_support_chat
+title: Crisp Chat 客服集成测试
+description: 确保 Crisp Chat 嵌入脚本加载正常，触发行为正确，未出现资源加载错误。
+tags:
+  - Testing
+  - Crisp
+  - SaaS
+structure:
+  test_cases:
+    - script_loaded: true
+    - button_appears: true
+    - chat_window_triggers: on_click
+    - blocked_behavior: script not loaded, no crash
