@@ -1,0 +1,4 @@
+# Payment error boundary handling rules
+error_boundary:
+  - type: network_timeout
+  - type: sdk_failure
