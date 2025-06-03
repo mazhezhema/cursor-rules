@@ -1,0 +1,39 @@
+ux_guidance:
+  ai_support_opportunities:
+  - AI 检测到用户连续失败，自动弹出建议
+  - 根据用户使用习惯自动推荐模版
+  - 根据用户行为偏好自动调整引导提示内容
+  common_pitfalls:
+  - 首次进入时信息量过大导致用户跳出
+  - 失败提示过于技术化导致用户困惑
+  - 缺少完成任务后的反馈导致体验断裂
+  desc: 引导用户在首次使用、操作失败、社交分享等场景中顺利完成核心操作并建立信任。
+  design_principles:
+  - 避免一次性塞入太多信息
+  - 使用动态逐步引导
+  - 鼓励探索 + 成就感结合
+  last_updated: '2025-06-03'
+  scenarios:
+  - id: guidance.first_time
+    methods:
+    - 轻提示动画
+    - 点击动效引导
+    - 简短说明文案
+    name: 首次使用
+  - id: guidance.failure_retry
+    methods:
+    - toast重试按钮
+    - 弹窗解释原因
+    - 鼓励性文案
+    name: 操作失败引导
+  - id: guidance.sharing
+    methods:
+    - 弹窗提示：分享成功
+    - 激励文案 + 彩蛋奖励
+    - 短链生成 + OG卡片
+    name: 社交分享引导
+  title: 用户引导策略
+  visual_support:
+  - 首次上传引导使用图文动效或微动画
+  - 失败后页面振动 + 表情符号提示
+  - 社交分享后展示“晒图最多用户榜单”

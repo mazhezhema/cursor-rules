@@ -1,17 +1,52 @@
-ux:
-  description: '[AI补全] 示例 description 内容'
-  emotion:
-    design_principles:
-    - 情绪引导设计（Emotion-driven Design）
-    - 自我映射界面（Self-reflective UI）
-    - 场景式表达入口（Contextual Triggers）
-    highlights:
-    - 利用反差感打造网络人格分裂体验，如现实压抑与网络放飞的对比
-    - 日记式表达，支持用户每日心情、照片、装扮留存，形成自我数字资产
-    - 情绪互动机制，例如“今天心情”、“我是谁”标签辅助快速表达
-    - 利用情绪价值引导内容裂变，激励分享自我形象和心理共鸣
-    - 与参与感挂钩，形成“我也能上热门”的强心智触发机制
-    purpose: 增强用户的表达动机与心理连接，强化产品的情绪黏性
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
-  tag: '[AI补全] 示例 tag 内容'
+emotion:
+  categories:
+  - examples:
+    - 连续登录打卡
+    - 挑战换脸次数
+    - 超过90%的用户
+    id: emotion.participation.challenge
+    name: 挑战型参与感
+  - examples:
+    - 邀请好友PK换脸
+    - 点赞排名挑战
+    id: emotion.participation.pk
+    name: PK型参与感
+  - examples:
+    - 今日换脸次数
+    - 生成Look数量
+    - 模板收藏记录
+    id: emotion.participation.record
+    name: 记录型参与感
+  desc: 为 Z 世代用户构建高参与感、高共鸣的互动体验，包括参与感类型、反馈文案风格、视觉提示等设计维度。
+  emotional_keywords:
+  - en: Glow up
+    zh: 变美
+  - en: Go viral
+    zh: 出圈
+  - en: Aesthetic vibes
+    zh: 氛围感
+  - en: Idol-style
+    zh: 女团感
+  - en: OOTD twins
+    zh: 同款穿搭
+  feedback_style:
+    style_examples:
+    - 哎呀～这张脸好像没识别到 😅
+    - 照片不错哦！魔法正在施展中 ✨
+    - 再试一次？我们在为你加油 💪
+    tone: emoji丰富、轻松对话式
+  last_updated: '2025-06-03'
+  motivational_phrases:
+  - 再试一次？说不定这次爆款就是你 🌟
+  - 你已经超越 90% 的用户啦 📈
+  - 这套 Look 太绝了，快去晒图炸场子 💥
+  - 美得太过分啦～快分享给闺蜜看看 👯‍♀️
+  title: 情绪价值设计体系
+  ui_hooks:
+  - 分享后浮窗鼓励引导
+  - 生成失败3次后激发情绪性提示
+  - 连续换脸成功后的彩蛋反馈
+  visual_hints:
+  - 上传页添加 emoji 鼓励文案
+  - 换脸生成页添加“彩蛋生成中...”动画
+  - 首页浮窗显示“连续登录2天，再来1天可解锁专属模版”
