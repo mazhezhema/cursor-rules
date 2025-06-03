@@ -1,12 +1,4 @@
-name: test_performance
-description: 性能测试，包括首页加载、换脸速度、支付响应等
-scenarios:
-  - id: PERF_HOMEPAGE_LOAD
-    title: 首页首屏加载时间
-    steps: 打开应用首页，记录加载完首张图时间
-    expected: 小于 1.2 秒
-
-  - id: PERF_FACE_SWAP
-    title: 换脸处理速度
-    steps: 上传自拍 + 模板图后发起换脸
-    expected: 返回处理结果时间小于 3 秒
+id: test_performance
+module: Order
+metric: latency
+threshold: 200ms

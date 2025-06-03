@@ -1,17 +1,3 @@
-name: test_visual_regression
-description: 测试 UI 元素在不同状态下的视觉差异，包括主题切换、暗光模式等
-scenarios:
-  - title: 主题切换后的按钮样式一致性
-    steps:
-      - 打开首页
-      - 切换暗黑模式
-      - 截图按钮区域
-      - 对比截图与基准图像是否一致
-    expected: 按钮背景色与文字颜色符合 UI 规范
-
-  - title: toast 弹窗位置偏移校验
-    steps:
-      - 模拟网络错误，触发 toast
-      - 记录 toast 出现位置截图
-      - 对比 toast 像素位置与设计稿标准
-    expected: toast 应在底部中央浮现，不遮挡底部导航
+id: test_visual_regression
+component: CheckoutPage
+method: screenshot_diff

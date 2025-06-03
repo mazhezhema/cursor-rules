@@ -1,0 +1,3 @@
+id: test_regression
+coverage: all_features
+strategy: automated_daily_suite
