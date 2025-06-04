@@ -1,0 +1,12 @@
+swap_template_strategy:
+  desc: 用于支持模板图分类、爆款模版管理与模板视觉标准定义。
+  fields:
+    model_fallback: 适配失败时的图源替换策略
+    tagging_system: 标签结构与模板选择逻辑
+    template_categories: 模板分类（剧情、头像、爆款等）
+    visual_quality: 模板图分辨率、光影结构等标准
+  tag:
+  - swap
+  - template
+  - source
+  title: 换脸模板选择与图源策略

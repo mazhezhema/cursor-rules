@@ -1,0 +1,13 @@
+swap_engine_deploy:
+  desc: 定义 Roop 模型如何部署在 Runpod / 容器中的完整架构流程。
+  fields:
+    api_gateway: 接口封装与调用限流策略
+    container_setup: Docker 配置与自动启动脚本
+    gpu_type: GPU 类型与配置策略（A10, A100）
+    resource_cost: 运行成本与监控指标
+    runtime_env: 运行环境与依赖（如 Python 3.10, torch）
+  tag:
+  - swap
+  - deploy
+  - runpod
+  title: 换脸引擎部署架构
