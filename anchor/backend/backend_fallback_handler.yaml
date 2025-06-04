@@ -1,0 +1,16 @@
+# Anchor: 后端服务异常兜底机制
+
+id: backend_fallback_handler
+title: 后端异常兜底与服务容错
+description: 当模型或API服务失败时提供备用机制以提升稳定性和用户体验。
+tags: [backend, fallback, error_handling, mvp]
+stage: mvp
+
+scenarios:
+  - 模型服务超时返回默认图像
+  - 第三方服务失败返回前端友好提示而不是中断流程
+
+requirements:
+  - 每个关键服务需定义兜底响应逻辑
+  - 日志记录所有 fallback 触发次数和占比
+  - 出错时前端提示需通用而非技术报错信息

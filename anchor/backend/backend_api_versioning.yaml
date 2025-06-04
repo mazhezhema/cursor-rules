@@ -1,0 +1,16 @@
+# Anchor: API 版本管理与兼容性控制
+
+id: backend_api_versioning
+title: API版本控制与稳定性策略
+description: 管理后端API接口的版本生命周期，保障MVP阶段接口向前兼容。
+tags: [backend, api, versioning, compatibility, mvp]
+stage: mvp
+
+scenarios:
+  - 接口版本 v1 推出后新增字段如何兼容旧客户端
+  - 废弃旧接口时是否保留兼容接口，持续时间多久
+
+requirements:
+  - 所有 API 接口必须明确版本路径（如 /api/v1/）
+  - 废弃接口需标注 deprecated 并保持兼容不少于两周
+  - 每个版本接口必须有独立测试用例及监控项
