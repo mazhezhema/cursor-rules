@@ -1,0 +1,14 @@
+anchor: backend_ai_refactoring
+name: AI Assisted Code Refactoring
+description: |
+  Support developers in refactoring legacy code, suggesting structural improvements,
+  modularization, and complexity reduction using AI models.
+scenarios:
+  - trigger: "Developer submits large unstructured code"
+    response: "AI suggests modular structure and code splitting recommendations"
+  - trigger: "Code contains duplicated logic or long functions"
+    response: "AI recommends refactor patterns like extraction, renaming, encapsulation"
+best_practices:
+  - "Use explainable AI suggestions to maintain developer trust"
+  - "Always offer before/after diff preview"
+  - "Integrate with Git for pre-commit inspection"
