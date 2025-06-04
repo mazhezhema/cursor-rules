@@ -1,6 +1,4 @@
-description: 用户上传内容的安全检查机制
-tags: [backend, upload, security]
-content:
-  - 限制上传文件类型（如仅允许 JPG/PNG）
-  - 设置最大上传尺寸，防止大文件攻击
-  - 图片内容审核预留接口
+# Anchor: backend_upload_security.yaml
+
+summary: <填写 backend backend_upload_security 的设计规则、实践和约束。>
+

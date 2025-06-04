@@ -1,14 +1,4 @@
+# Anchor: backend_request_validation.yaml
 
-anchor: backend_request_validation
-title: 请求参数验证策略
-owner: backend-team
-tags:
-  - backend
-  - security
-  - validation
-description: |
-  通过统一请求验证机制避免无效数据、攻击注入等问题。
-content:
-  schema_validation: 使用 Pydantic 或 Marshmallow 校验结构
-  security_checks: 包含 SQL 注入、XSS 注入、越权访问检测
-  type_strict: 所有参数强类型限制，避免隐式转换异常
+summary: <填写 backend backend_request_validation 的设计规则、实践和约束。>
+

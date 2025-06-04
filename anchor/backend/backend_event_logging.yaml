@@ -1,16 +1,4 @@
-# Anchor: 后端日志采集与事件追踪规范
+# Anchor: backend_event_logging.yaml
 
-id: backend_event_logging
-title: 后端日志采集与事件埋点设计
-description: 记录后端服务行为、模型调用、接口错误等关键事件并用于分析。
-tags: [backend, logging, tracking, umani, mvp]
-stage: mvp
+summary: <填写 backend backend_event_logging 的设计规则、实践和约束。>
 
-scenarios:
-  - 模型调用成功/失败/耗时记录
-  - 用户请求分布日志追踪，辅助发现瓶颈
-
-requirements:
-  - 所有关键路径需调用日志模块记录事件
-  - 日志结构标准化，含事件类型、用户ID、耗时等字段
-  - 支持导出到统一追踪平台（如 Umani、Posthog）

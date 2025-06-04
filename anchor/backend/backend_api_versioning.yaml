@@ -1,10 +1,4 @@
-name: backend_api_versioning
-summary: API版本管理策略，防止前端/客户端与后端接口脱节。
-tags:
-  - backend
-  - api
-  - versioning
-specs:
-  - 路由中支持 /v1/, /v2/ 等形式进行接口隔离
-  - 对旧版接口提供兼容性保留机制
-  - 版本升级需发布 changelog 并由前端适配更新
+# Anchor: backend_api_versioning.yaml
+
+summary: <填写 backend backend_api_versioning 的设计规则、实践和约束。>
+

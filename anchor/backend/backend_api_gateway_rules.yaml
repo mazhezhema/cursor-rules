@@ -1,6 +1,4 @@
-description: API Gateway 的配置策略
-tags: [backend, gateway, nginx]
-content:
-  - Nginx 层配置接口路由转发规则
-  - 接口鉴权逻辑位置定义
-  - 请求日志记录策略
+# Anchor: backend_api_gateway_rules.yaml
+
+summary: <填写 backend backend_api_gateway_rules 的设计规则、实践和约束。>
+

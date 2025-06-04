@@ -1,16 +1,4 @@
-# Anchor: 匿名用户行为与OAuth用户映射
+# Anchor: backend_anonymous_user_mapping.yaml
 
-id: backend_anonymous_user_mapping
-title: 匿名用户与正式账号映射机制
-description: 在用户登录前后保持行为记录一致性，实现数据不丢失。
-tags: [backend, user, uuid, mapping, mvp]
-stage: mvp
+summary: <填写 backend backend_anonymous_user_mapping 的设计规则、实践和约束。>
 
-scenarios:
-  - 匿名用户上传图片后登录，保留上传记录并同步至账号
-  - 用户先浏览、分享、收藏，登录后继续保留历史数据
-
-requirements:
-  - 后端需提供匿名UUID记录所有行为
-  - 登录后映射行为数据至正式UID
-  - 映射关系应可追溯，可选项记录时间戳与来源

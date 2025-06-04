@@ -1,11 +1,4 @@
-id: backend_tdd_reference
-title: 后端模块中对测试驱动开发（TDD）的支持
-description: 后端开发模块在MVP阶段必须严格遵守TDD流程，所有逻辑开发需有对应的单元测试和集成测试。
-tags:
-  - backend
-  - tdd
-  - test-driven-development
-structure:
-  - require_tdd: 所有 API 和服务逻辑开发前先定义测试用例
-  - ci_integration: 所有测试需集成至CI流程中，支持自动化回归
-  - error_handling: 所有边界条件和错误分支均需测试覆盖
+# Anchor: backend_tdd_reference.yaml
+
+summary: <填写 backend backend_tdd_reference 的设计规则、实践和约束。>
+

@@ -1,10 +1,4 @@
-name: backend_mq_integration
-summary: 消息队列在异步任务处理中的应用。
-tags:
-  - backend
-  - message_queue
-  - async
-specs:
-  - MVP阶段建议集成 Redis Pub/Sub 机制
-  - 后期可迁移至 Kafka/NATS 等高吞吐系统
-  - 所有任务类处理加入队列中间层隔离
+# Anchor: backend_mq_integration.yaml
+
+summary: <填写 backend backend_mq_integration 的设计规则、实践和约束。>
+

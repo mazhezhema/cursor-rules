@@ -1,16 +1,4 @@
-# Anchor: 多模型服务编排与异步调用
+# Anchor: backend_model_invocation.yaml
 
-id: backend_model_invocation
-title: 模型服务编排与异步任务管理
-description: 定义多模型交替执行的顺序与调度机制，适用于换脸、图像生成等异步处理。
-tags: [backend, model, async, orchestration, mvp]
-stage: mvp
+summary: <填写 backend backend_model_invocation 的设计规则、实践和约束。>
 
-scenarios:
-  - 用户提交换脸请求后，先调用 Roop，再调用 ArcFace 样式微调
-  - 模型执行耗时超过 3s，任务后台排队并记录状态
-
-requirements:
-  - 所有模型调用需异步封装并带有 fallback
-  - 模型调用之间应支持事件钩子链式触发
-  - 每个模型服务独立维护超时、错误状态码定义
