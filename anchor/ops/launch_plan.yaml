@@ -1,0 +1,21 @@
+description: 定义 MVP 首发节奏、目标市场与用户获取路径。
+fields:
+  first_market:
+  - 美国
+  - 英国
+  - 加拿大
+  internal_test_size: 200
+  monitor_points:
+  - 首次换脸耗时
+  - 登录/分享失败率
+  - bug 留存数量
+  phases:
+  - 技术预上线
+  - 种子用户灰度
+  - 社交试爆
+  - 正式发布
+  seed_user_channels:
+  - Reddit sub
+  - Discord
+  - 微型红人 Telegram 群
+title: MVP 上线计划
