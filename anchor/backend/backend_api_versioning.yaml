@@ -1,15 +1,10 @@
-
-anchor: backend_api_versioning
-title: 接口版本控制机制
-owner: backend-team
+name: backend_api_versioning
+summary: API版本管理策略，防止前端/客户端与后端接口脱节。
 tags:
   - backend
   - api
   - versioning
-  - compatibility
-description: |
-  保障接口版本迭代中的兼容性和演进策略。
-content:
-  default_policy: 每次重大修改发布新版本，如 v1 → v2
-  fallback: 支持旧版本接口访问一段缓冲期
-  routing: 基于路径路由，如 /v1/user/info 与 /v2/user/info
+specs:
+  - 路由中支持 /v1/, /v2/ 等形式进行接口隔离
+  - 对旧版接口提供兼容性保留机制
+  - 版本升级需发布 changelog 并由前端适配更新

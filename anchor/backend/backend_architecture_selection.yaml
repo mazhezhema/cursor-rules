@@ -1,0 +1,11 @@
+name: backend_architecture_selection
+summary: 后端架构选型参考，包括微服务 vs 单体架构，适用于MVP阶段的高适配性。
+tags:
+  - backend
+  - architecture
+  - mvp
+specs:
+  - 使用FastAPI作为主服务框架，兼容异步处理与高并发需求
+  - Nginx为前端服务代理与API路由管理
+  - 考虑未来拆分微服务可能性，当前保持服务模块化
+  - 后期可引入容器（Docker）与Orchestration（K8s）

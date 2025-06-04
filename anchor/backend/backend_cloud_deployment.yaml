@@ -1,0 +1,10 @@
+name: backend_cloud_deployment
+summary: 云端部署策略，包括 Railway、Render、VPS、Firebase Functions 对比。
+tags:
+  - backend
+  - deployment
+  - cloud
+specs:
+  - MVP阶段优先选择 Railway 部署，快速上线
+  - 支持 Railway 的环境变量配置、Webhook 部署触发
+  - 后期支持迁移至自建 K8s 或 VPS 以优化成本
