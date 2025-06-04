@@ -1,0 +1,12 @@
+auth_flow:
+  desc: 定义游客访问、OAuth 登录、账号绑定等身份识别流程。
+  fields:
+    auth_modes: 支持的登录方式（如 Google, Apple, 匿名）
+    binding_logic: 游客转正式账号的合并机制
+    security_policy: 登录流程中的加密与校验策略
+    token_flow: token 获取与刷新机制
+  tag:
+  - auth
+  - oauth
+  - login
+  title: 用户登录与身份认证流程
