@@ -1,6 +1,7 @@
-description: 后端接口频控策略
-tags: [backend, rate_limit, security]
+id: backend_rate_limit
+title: 接口请求限流与反爬机制
+description: 定义后端的限流逻辑、防刷策略及异常请求处理方式。
+tags: [backend, security, rate_limit]
 content:
-  - 针对不同接口设定访问频率限制，如 IP 限流、Token 限流
-  - 限制恶意刷请求，防止 DoS 攻击
-  - 提供错误码与用户提示信息
+  strategy: "IP + Token 双因子"
+  response_code: 429
