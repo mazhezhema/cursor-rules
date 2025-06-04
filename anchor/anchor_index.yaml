@@ -1,755 +1,446 @@
-ai:
-- desc: Ai faceswap inference flow
-  file: anchor/ai/ai_faceswap_inference_flow.yaml
-analytics:
-- desc: Analytics sample 1
-  file: anchor/analytics/analytics_sample_1.yaml
-- desc: Analytics sample 2
-  file: anchor/analytics/analytics_sample_2.yaml
-- desc: Payment click
-  file: anchor/analytics/payment_click.yaml
-- desc: Payment success
-  file: anchor/analytics/payment_success.yaml
-- desc: Subscription restore
-  file: anchor/analytics/subscription_restore.yaml
-- desc: Basic event
-  file: anchor/analytics/basic_event.yaml
-auth:
-- desc: Auth entry trigger
-  file: anchor/auth/auth_entry_trigger.yaml
-- desc: Auth flow structure
-  file: anchor/auth/auth_flow_structure.yaml
-- desc: Auth oauth integration
-  file: anchor/auth/auth_oauth_integration.yaml
-- desc: Auth security policy
-  file: anchor/auth/auth_security_policy.yaml
-- desc: Auth ui guideline
-  file: anchor/auth/auth_ui_guideline.yaml
-- desc: Auth anonymous id
-  file: anchor/auth/auth_anonymous_id.yaml
-- desc: Auth merge strategy
-  file: anchor/auth/auth_merge_strategy.yaml
-- desc: Auth oauth fallback
-  file: anchor/auth/auth_oauth_fallback.yaml
-- desc: Auth token lifecycle
-  file: anchor/auth/auth_token_lifecycle.yaml
-- desc: Auth data migration
-  file: anchor/auth/auth_data_migration.yaml
-- desc: Auth locale timezone
-  file: anchor/auth/auth_locale_timezone.yaml
-- desc: Auth provider switch
-  file: anchor/auth/auth_provider_switch.yaml
-- desc: Auth token error recovery
-  file: anchor/auth/auth_token_error_recovery.yaml
-- desc: Auth fallback strategy
-  file: anchor/auth/auth_fallback_strategy.yaml
-- desc: Auth concurrent login
-  file: anchor/auth/auth_concurrent_login.yaml
-- desc: Auth deep link restore
-  file: anchor/auth/auth_deep_link_restore.yaml
-- desc: Auth regulation compliance
-  file: anchor/auth/auth_regulation_compliance.yaml
-- desc: Auth session persistence
-  file: anchor/auth/auth_session_persistence.yaml
-- desc: Auth error boundary
-  file: anchor/auth/auth_error_boundary.yaml
-- desc: Auth error code mapping
-  file: anchor/auth/auth_error_code_mapping.yaml
-- desc: Auth token expiry strategy
-  file: anchor/auth/auth_token_expiry_strategy.yaml
-- desc: Auth token refresh
-  file: anchor/auth/auth_token_refresh.yaml
-- desc: Auth country region fallback
-  file: anchor/auth/auth_country_region_fallback.yaml
-- desc: Auth device binding
-  file: anchor/auth/auth_device_binding.yaml
-- desc: Auth identity conflict
-  file: anchor/auth/auth_identity_conflict.yaml
-- desc: Auth platform capability
-  file: anchor/auth/auth_platform_capability.yaml
-backend:
-- desc: Event tracking pipeline
-  file: anchor/backend/event_tracking_pipeline.yaml
-- desc: Backend tdd reference
-  file: anchor/backend/backend_tdd_reference.yaml
-- desc: Backend anonymous user mapping
-  file: anchor/backend/backend_anonymous_user_mapping.yaml
-- desc: Backend api versioning
-  file: anchor/backend/backend_api_versioning.yaml
-- desc: Backend event logging
-  file: anchor/backend/backend_event_logging.yaml
-- desc: Backend fallback handler
-  file: anchor/backend/backend_fallback_handler.yaml
-- desc: Backend model invocation
-  file: anchor/backend/backend_model_invocation.yaml
-- desc: Backend cache layering
-  file: anchor/backend/backend_cache_layering.yaml
-- desc: Backend storage policy
-  file: anchor/backend/backend_storage_policy.yaml
-- desc: Backend rate limit
-  file: anchor/backend/backend_rate_limit.yaml
-- desc: Backend error handling
-  file: anchor/backend/backend_error_handling.yaml
-- desc: Backend upload security
-  file: anchor/backend/backend_upload_security.yaml
-- desc: Backend temp data cleanup
-  file: anchor/backend/backend_temp_data_cleanup.yaml
-- desc: Backend api gateway rules
-  file: anchor/backend/backend_api_gateway_rules.yaml
-- desc: Backend async processing
-  file: anchor/backend/backend_async_processing.yaml
-- desc: Backend data anonymization
-  file: anchor/backend/backend_data_anonymization.yaml
-- desc: Backend request validation
-  file: anchor/backend/backend_request_validation.yaml
-- desc: Backend feature flag
-  file: anchor/backend/backend_feature_flag.yaml
-- desc: Backend architecture selection
-  file: anchor/backend/backend_architecture_selection.yaml
-- desc: Backend cloud deployment
-  file: anchor/backend/backend_cloud_deployment.yaml
-- desc: Backend mq integration
-  file: anchor/backend/backend_mq_integration.yaml
-- desc: Backend abtest
-  file: anchor/backend/backend_abtest.yaml
-- desc: Backend api gateway
-  file: anchor/backend/backend_api_gateway.yaml
-- desc: Backend async queue
-  file: anchor/backend/backend_async_queue.yaml
-- desc: Backend auth strategy
-  file: anchor/backend/backend_auth_strategy.yaml
-- desc: Backend config management
-  file: anchor/backend/backend_config_management.yaml
-- desc: Backend logging
-  file: anchor/backend/backend_logging.yaml
-- desc: Backend service boundary
-  file: anchor/backend/backend_service_boundary.yaml
-- desc: Backend cdn cache strategy
-  file: anchor/backend/backend_cdn_cache_strategy.yaml
-- desc: Backend redis structure
-  file: anchor/backend/backend_redis_structure.yaml
-- desc: Backend storage migration
-  file: anchor/backend/backend_storage_migration.yaml
-- desc: Backend file storage
-  file: anchor/backend/backend_file_storage.yaml
-- desc: Backend persistent store
-  file: anchor/backend/backend_persistent_store.yaml
-- desc: Backend admin dashboard
-  file: anchor/backend/backend_admin_dashboard.yaml
-- desc: Backend template curation
-  file: anchor/backend/backend_template_curation.yaml
-- desc: Backend crud schema
-  file: anchor/backend/backend_crud_schema.yaml
-- desc: Backend content moderation
-  file: anchor/backend/backend_content_moderation.yaml
-- desc: Backend abuse detection
-  file: anchor/backend/backend_abuse_detection.yaml
-- desc: Backend behavior tracking
-  file: anchor/backend/backend_behavior_tracking.yaml
-- desc: Backend kpi storage
-  file: anchor/backend/backend_kpi_storage.yaml
-- desc: Backend job scheduler
-  file: anchor/backend/backend_job_scheduler.yaml
-- desc: Backend healthcheck policy
-  file: anchor/backend/backend_healthcheck_policy.yaml
-- desc: Backend cache invalidation
-  file: anchor/backend/backend_cache_invalidation.yaml
-- desc: Backend ranking logic
-  file: anchor/backend/backend_ranking_logic.yaml
-- desc: Backend blob storage
-  file: anchor/backend/backend_blob_storage.yaml
-- desc: Backend cache eviction
-  file: anchor/backend/backend_cache_eviction.yaml
-- desc: Backend cdn cache
-  file: anchor/backend/backend_cdn_cache.yaml
-- desc: Backend data retention
-  file: anchor/backend/backend_data_retention.yaml
-- desc: Backend db indexing strategy
-  file: anchor/backend/backend_db_indexing_strategy.yaml
-- desc: Backend deployment freeze
-  file: anchor/backend/backend_deployment_freeze.yaml
-- desc: Backend deployment strategy
-  file: anchor/backend/backend_deployment_strategy.yaml
-- desc: Cdn
-  file: anchor/backend/cdn.yaml
-- desc: Backend release rollback
-  file: anchor/backend/backend_release_rollback.yaml
-- desc: Backend schema migration
-  file: anchor/backend/backend_schema_migration.yaml
-- desc: Backend version negotiation
-  file: anchor/backend/backend_version_negotiation.yaml
-- desc: Backend version trace
-  file: anchor/backend/backend_version_trace.yaml
-- desc: Backend ai development
-  file: anchor/backend/backend_ai_development.yaml
-- desc: Backend ai prompt cache
-  file: anchor/backend/backend_ai_prompt_cache.yaml
-- desc: Backend ai refactoring
-  file: anchor/backend/backend_ai_refactoring.yaml
-- desc: Auth flow
-  file: anchor/backend/auth_flow.yaml
-- desc: Cache management
-  file: anchor/backend/cache_management.yaml
-ci:
-- desc: Ci pipeline structure
-  file: anchor/ci/ci_pipeline_structure.yaml
-- desc: Ci test trigger
-  file: anchor/ci/ci_test_trigger.yaml
-- desc: Ci env variable policy
-  file: anchor/ci/ci_env_variable_policy.yaml
-- desc: Ci build deploy
-  file: anchor/ci/ci_build_deploy.yaml
-- desc: Ci git tag versioning
-  file: anchor/ci/ci_git_tag_versioning.yaml
-- desc: Ci test pipeline
-  file: anchor/ci/ci_test_pipeline.yaml
-cloud:
-- desc: Cost monitoring
-  file: anchor/cloud/cost_monitoring.yaml
-- desc: Isolation
-  file: anchor/cloud/isolation.yaml
-- desc: Throttling
-  file: anchor/cloud/throttling.yaml
-- desc: Token verification
-  file: anchor/cloud/token_verification.yaml
-data:
-- desc: Analytics
-  file: anchor/data/analytics.yaml
-- desc: Log tracking
-  file: anchor/data/log_tracking.yaml
-- desc: Content evaluation
-  file: anchor/data/content_evaluation.yaml
-finance:
-- desc: Cost monitoring
-  file: anchor/finance/cost_monitoring.yaml
-- desc: Global compliance
-  file: anchor/finance/global_compliance.yaml
-- desc: Invoice management
-  file: anchor/finance/invoice_management.yaml
-- desc: Offshore account
-  file: anchor/finance/offshore_account.yaml
-- desc: Payment entity
-  file: anchor/finance/payment_entity.yaml
-- desc: Profit model
-  file: anchor/finance/profit_model.yaml
-- desc: Token verification
-  file: anchor/finance/token_verification.yaml
-- desc: Withdraw policy
-  file: anchor/finance/withdraw_policy.yaml
-firebase:
-- desc: Firebase analytics
-  file: anchor/firebase/firebase_analytics.yaml
-frontend:
-- desc: Frontend architecture
-  file: anchor/frontend/frontend_architecture.yaml
-- desc: Frontend error handling
-  file: anchor/frontend/frontend_error_handling.yaml
-- desc: Frontend adaptation
-  file: anchor/frontend/frontend_adaptation.yaml
-- desc: Frontend performance
-  file: anchor/frontend/frontend_performance.yaml
-- desc: Frontend security
-  file: anchor/frontend/frontend_security.yaml
-- desc: Frontend api definition
-  file: anchor/frontend/frontend_api_definition.yaml
-- desc: Frontend interactive ai
-  file: anchor/frontend/frontend_interactive_ai.yaml
-- desc: Frontend tracking
-  file: anchor/frontend/frontend_tracking.yaml
-- desc: Frontend ai copilot
-  file: anchor/frontend/frontend_ai_copilot.yaml
-- desc: Frontend component standards
-  file: anchor/frontend/frontend_component_standards.yaml
-- desc: Frontend tracking sdk
-  file: anchor/frontend/frontend_tracking_sdk.yaml
-- desc: Frontend support chat
-  file: anchor/frontend/frontend_support_chat.yaml
-- desc: Frontend support entry
-  file: anchor/frontend/frontend_support_entry.yaml
-- desc: Frontend devtools support
-  file: anchor/frontend/frontend_devtools_support.yaml
-- desc: Frontend navigation
-  file: anchor/frontend/frontend_navigation.yaml
-- desc: Frontend plugin strategy
-  file: anchor/frontend/frontend_plugin_strategy.yaml
-- desc: Frontend render optimization
-  file: anchor/frontend/frontend_render_optimization.yaml
-- desc: Frontend state management
-  file: anchor/frontend/frontend_state_management.yaml
-- desc: Frontend asset management
-  file: anchor/frontend/frontend_asset_management.yaml
-- desc: Frontend cross platform
-  file: anchor/frontend/frontend_cross_platform.yaml
-- desc: Frontend error boundary
-  file: anchor/frontend/frontend_error_boundary.yaml
-- desc: Frontend micro interaction
-  file: anchor/frontend/frontend_micro_interaction.yaml
-- desc: Frontend performance metrics
-  file: anchor/frontend/frontend_performance_metrics.yaml
-- desc: Frontend responsive testing
-  file: anchor/frontend/frontend_responsive_testing.yaml
-- desc: Frontend animation performance
-  file: anchor/frontend/frontend_animation_performance.yaml
-- desc: Frontend build strategy
-  file: anchor/frontend/frontend_build_strategy.yaml
-- desc: Frontend interaction latency
-  file: anchor/frontend/frontend_interaction_latency.yaml
-- desc: Frontend memory footprint
-  file: anchor/frontend/frontend_memory_footprint.yaml
-- desc: Frontend startup latency
-  file: anchor/frontend/frontend_startup_latency.yaml
-- desc: Frontend widget abstraction
-  file: anchor/frontend/frontend_widget_abstraction.yaml
-- desc: Frontend loading strategy
-  file: anchor/frontend/frontend_loading_strategy.yaml
-- desc: Frontend toast modal
-  file: anchor/frontend/frontend_toast_modal.yaml
-- desc: Frontend component stub
-  file: anchor/frontend/frontend_component_stub.yaml
-- desc: Frontend tdd reference
-  file: anchor/frontend/frontend_tdd_reference.yaml
-- desc: Frontend
-  file: anchor/frontend/frontend.yaml
-- desc: Flutter ui
-  file: anchor/frontend/flutter_ui.yaml
-- desc: Ai dev frontend
-  file: anchor/frontend/ai_dev_frontend.yaml
-- desc: Flutter responsive
-  file: anchor/frontend/flutter_responsive.yaml
-- desc: Frontend structure
-  file: anchor/frontend/frontend_structure.yaml
-- desc: Frontend infra
-  file: anchor/frontend/frontend_infra.yaml
-- desc: Chat support
-  file: anchor/frontend/chat_support.yaml
-growth:
-- desc: Gamification
-  file: anchor/growth/gamification.yaml
-infra:
-- desc: Infra event tracking
-  file: anchor/infra/infra_event_tracking.yaml
-- desc: Infra analytics tools
-  file: anchor/infra/infra_analytics_tools.yaml
-meta:
-- desc: Structure index
-  file: anchor/meta/structure_index.yaml
-monitoring:
-- desc: Monitoring healthcheck
-  file: anchor/monitoring/monitoring_healthcheck.yaml
-- desc: Monitoring error alert
-  file: anchor/monitoring/monitoring_error_alert.yaml
-- desc: Monitoring business kpi
-  file: anchor/monitoring/monitoring_business_kpi.yaml
-- desc: Logs alert
-  file: anchor/monitoring/logs_alert.yaml
-ops:
-- desc: Compliance user data
-  file: anchor/ops/compliance_user_data.yaml
-- desc: Launch plan
-  file: anchor/ops/launch_plan.yaml
-- desc: Growth loop
-  file: anchor/ops/growth_loop.yaml
-- desc: Share trigger
-  file: anchor/ops/share_trigger.yaml
-- desc: Hook strategy
-  file: anchor/ops/hook_strategy.yaml
-- desc: Okr
-  file: anchor/ops/okr.yaml
-- desc: Share loop
-  file: anchor/ops/share_loop.yaml
-- desc: Store launch
-  file: anchor/ops/store_launch.yaml
-- desc: Trending content
-  file: anchor/ops/trending_content.yaml
-- desc: Cold start ops
-  file: anchor/ops/cold_start_ops.yaml
-- desc: Content evaluation
-  file: anchor/ops/content_evaluation.yaml
-- desc: Template variation
-  file: anchor/ops/template_variation.yaml
-- desc: Template creator incentive
-  file: anchor/ops/template_creator_incentive.yaml
-- desc: Template tagging
-  file: anchor/ops/template_tagging.yaml
-- desc: Template trigger chain
-  file: anchor/ops/template_trigger_chain.yaml
-- desc: Share conversion tracking
-  file: anchor/ops/share_conversion_tracking.yaml
-- desc: User leaderboard
-  file: anchor/ops/user_leaderboard.yaml
-- desc: Ab test strategy
-  file: anchor/ops/ab_test_strategy.yaml
-- desc: Event tracking structure
-  file: anchor/ops/event_tracking_structure.yaml
-- desc: User behavior metrics
-  file: anchor/ops/user_behavior_metrics.yaml
-- desc: Ops faq
-  file: anchor/ops/ops_faq.yaml
-- desc: Ops region market entry
-  file: anchor/ops/ops_region_market_entry.yaml
-order:
-- desc: Order api interface
-  file: anchor/order/order_api_interface.yaml
-- desc: Order exception handling
-  file: anchor/order/order_exception_handling.yaml
-- desc: Order lifecycle management
-  file: anchor/order/order_lifecycle_management.yaml
-- desc: Order payment binding
-  file: anchor/order/order_payment_binding.yaml
-- desc: Order state model
-  file: anchor/order/order_state_model.yaml
-- desc: Order test cases
-  file: anchor/order/order_test_cases.yaml
-- desc: Order deletion policy
-  file: anchor/order/order_deletion_policy.yaml
-- desc: Order dispatch status
-  file: anchor/order/order_dispatch_status.yaml
-- desc: Order price calculation
-  file: anchor/order/order_price_calculation.yaml
-- desc: Order state retry
-  file: anchor/order/order_state_retry.yaml
-- desc: Order sample 1
-  file: anchor/order/order_sample_1.yaml
-- desc: Order sample 2
-  file: anchor/order/order_sample_2.yaml
-payment:
-- desc: Payment callback strategy
-  file: anchor/payment/payment_callback_strategy.yaml
-- desc: Payment entry trigger
-  file: anchor/payment/payment_entry_trigger.yaml
-- desc: Payment order lifecycle
-  file: anchor/payment/payment_order_lifecycle.yaml
-- desc: Payment sdk integration
-  file: anchor/payment/payment_sdk_integration.yaml
-- desc: Payment subscription policy
-  file: anchor/payment/payment_subscription_policy.yaml
-- desc: Payment ui guideline
-  file: anchor/payment/payment_ui_guideline.yaml
-- desc: Payment error boundary
-  file: anchor/payment/payment_error_boundary.yaml
-- desc: Payment platform capability
-  file: anchor/payment/payment_platform_capability.yaml
-- desc: Payment retry fallback
-  file: anchor/payment/payment_retry_fallback.yaml
-- desc: Payment currency conversion
-  file: anchor/payment/payment_currency_conversion.yaml
-- desc: Payment environment detection
-  file: anchor/payment/payment_environment_detection.yaml
-- desc: Payment modal flow
-  file: anchor/payment/payment_modal_flow.yaml
-- desc: Payment platform entry
-  file: anchor/payment/payment_platform_entry.yaml
-- desc: Payment receipt tracking
-  file: anchor/payment/payment_receipt_tracking.yaml
-- desc: Payment security policy
-  file: anchor/payment/payment_security_policy.yaml
-- desc: Payment fraud detection
-  file: anchor/payment/payment_fraud_detection.yaml
-- desc: Payment multi currency
-  file: anchor/payment/payment_multi_currency.yaml
-- desc: Payment platform configuration
-  file: anchor/payment/payment_platform_configuration.yaml
-- desc: Payment popup flow
-  file: anchor/payment/payment_popup_flow.yaml
-- desc: Payment receipt and invoice
-  file: anchor/payment/payment_receipt_and_invoice.yaml
-- desc: Payment ab test
-  file: anchor/payment/payment_ab_test.yaml
-- desc: Payment failed retry
-  file: anchor/payment/payment_failed_retry.yaml
-- desc: Payment geo routing
-  file: anchor/payment/payment_geo_routing.yaml
-- desc: Payment limited time offer
-  file: anchor/payment/payment_limited_time_offer.yaml
-- desc: Payment gpb strategy
-  file: anchor/payment/payment_gpb_strategy.yaml
-- desc: Payment iap strategy
-  file: anchor/payment/payment_iap_strategy.yaml
-- desc: Payment platform notification
-  file: anchor/payment/payment_platform_notification.yaml
-- desc: Payment receipt validation
-  file: anchor/payment/payment_receipt_validation.yaml
-- desc: Payment sample 1
-  file: anchor/payment/payment_sample_1.yaml
-- desc: Payment sample 2
-  file: anchor/payment/payment_sample_2.yaml
-- desc: Payment finance account binding
-  file: anchor/payment/payment_finance_account_binding.yaml
-- desc: Payment finance settlement
-  file: anchor/payment/payment_finance_settlement.yaml
-- desc: Payment finance withdrawal
-  file: anchor/payment/payment_finance_withdrawal.yaml
-- desc: Payment 2fa authentication
-  file: anchor/payment/payment_2fa_authentication.yaml
-- desc: Payment blacklist mechanism
-  file: anchor/payment/payment_blacklist_mechanism.yaml
-- desc: Payment notification failure
-  file: anchor/payment/payment_notification_failure.yaml
-- desc: Payment notification subscription
-  file: anchor/payment/payment_notification_subscription.yaml
-- desc: Payment notification success
-  file: anchor/payment/payment_notification_success.yaml
-- desc: Payment user identity verification
-  file: anchor/payment/payment_user_identity_verification.yaml
-- desc: Payment user payment limit
-  file: anchor/payment/payment_user_payment_limit.yaml
-- desc: Payment user profile
-  file: anchor/payment/payment_user_profile.yaml
-- desc: Payment api rate limit
-  file: anchor/payment/payment_api_rate_limit.yaml
-- desc: Payment retry policy server
-  file: anchor/payment/payment_retry_policy_server.yaml
-- desc: Payment sla monitor
-  file: anchor/payment/payment_sla_monitor.yaml
-- desc: Payment config currency usd
-  file: anchor/payment/payment_config_currency_usd.yaml
-- desc: Payment config whitelist manual
-  file: anchor/payment/payment_config_whitelist_manual.yaml
-- desc: Payment settlement manual
-  file: anchor/payment/payment_settlement_manual.yaml
-- desc: Payment trigger points
-  file: anchor/payment/payment_trigger_points.yaml
-- desc: Payment subscription pricing
-  file: anchor/payment/payment_subscription_pricing.yaml
-- desc: Payment point
-  file: anchor/payment/payment_point.yaml
-- desc: Payment callback
-  file: anchor/payment/payment_callback.yaml
-- desc: Payment config
-  file: anchor/payment/payment_config.yaml
-- desc: Token verification
-  file: anchor/payment/token_verification.yaml
-qa:
-- desc: Qa device matrix
-  file: anchor/qa/qa_device_matrix.yaml
-- desc: Qa known issues
-  file: anchor/qa/qa_known_issues.yaml
-- desc: Qa manual check
-  file: anchor/qa/qa_manual_check.yaml
-- desc: Qa release checklist
-  file: anchor/qa/qa_release_checklist.yaml
-rag:
-- desc: Rag meta
-  file: anchor/rag/rag_meta.yaml
-- desc: Anchor index
-  file: anchor/rag/anchor_index.yaml
-- desc: Tag map
-  file: anchor/rag/tag_map.yaml
-- desc: Vector config
-  file: anchor/rag/vector_config.yaml
-scheduler:
-- desc: Scheduler task retry
-  file: anchor/scheduler/scheduler_task_retry.yaml
-- desc: Scheduler cleanup strategy
-  file: anchor/scheduler/scheduler_cleanup_strategy.yaml
-- desc: Scheduler delayed trigger
-  file: anchor/scheduler/scheduler_delayed_trigger.yaml
-security:
-- desc: Anti abuse
-  file: anchor/security/anti_abuse.yaml
-- desc: Auth flow
-  file: anchor/security/auth_flow.yaml
-- desc: Data protection
-  file: anchor/security/data_protection.yaml
-- desc: Permission matrix
-  file: anchor/security/permission_matrix.yaml
-- desc: Secure upload
-  file: anchor/security/secure_upload.yaml
-- desc: Token strategy
-  file: anchor/security/token_strategy.yaml
-- desc: Api security guideline
-  file: anchor/security/api_security_guideline.yaml
-- desc: Security baseline
-  file: anchor/security/security_baseline.yaml
-share:
-- desc: Share sample 1
-  file: anchor/share/share_sample_1.yaml
-- desc: Share sample 2
-  file: anchor/share/share_sample_2.yaml
-spec:
-- desc: Event naming convention
-  file: anchor/spec/event_naming_convention.yaml
-swap:
-- desc: Swap model comparison
-  file: anchor/swap/swap_model_comparison.yaml
-- desc: Swap engine deploy
-  file: anchor/swap/swap_engine_deploy.yaml
-- desc: Swap image requirements
-  file: anchor/swap/swap_image_requirements.yaml
-- desc: Swap cost structure
-  file: anchor/swap/swap_cost_structure.yaml
-- desc: Swap template strategy
-  file: anchor/swap/swap_template_strategy.yaml
-- desc: Swap task queue
-  file: anchor/swap/swap_task_queue.yaml
-- desc: Swap failure handling
-  file: anchor/swap/swap_failure_handling.yaml
-- desc: Swap roop to simswap
-  file: anchor/swap/swap_roop_to_simswap.yaml
-- desc: Api error code
-  file: anchor/swap/api_error_code.yaml
-- desc: Gpu cold start
-  file: anchor/swap/gpu_cold_start.yaml
-- desc: Roop config
-  file: anchor/swap/roop_config.yaml
-- desc: Swap retry logic
-  file: anchor/swap/swap_retry_logic.yaml
-- desc: Swap timeout
-  file: anchor/swap/swap_timeout.yaml
-system:
-- desc: System crisp chat
-  file: anchor/system/system_crisp_chat.yaml
-test:
-- desc: Test tracking validation
-  file: anchor/test/test_tracking_validation.yaml
-- desc: Test cloud device
-  file: anchor/test/test_cloud_device.yaml
-- desc: Test device emulation
-  file: anchor/test/test_device_emulation.yaml
-- desc: Test support chat
-  file: anchor/test/test_support_chat.yaml
-- desc: Test event tracking
-  file: anchor/test/test_event_tracking.yaml
-- desc: Test loading latency
-  file: anchor/test/test_loading_latency.yaml
-- desc: Test payment trigger
-  file: anchor/test/test_payment_trigger.yaml
-- desc: Test toast feedback
-  file: anchor/test/test_toast_feedback.yaml
-- desc: Test user path
-  file: anchor/test/test_user_path.yaml
-- desc: Test visual regression
-  file: anchor/test/test_visual_regression.yaml
-- desc: Test aging
-  file: anchor/test/test_aging.yaml
-- desc: Test boundary
-  file: anchor/test/test_boundary.yaml
-- desc: Test compatibility
-  file: anchor/test/test_compatibility.yaml
-- desc: Test performance
-  file: anchor/test/test_performance.yaml
-- desc: Test stress
-  file: anchor/test/test_stress.yaml
-- desc: Test api stability
-  file: anchor/test/test_api_stability.yaml
-- desc: Test cold start
-  file: anchor/test/test_cold_start.yaml
-- desc: Test network conditions
-  file: anchor/test/test_network_conditions.yaml
-- desc: Test ci autotest
-  file: anchor/test/test_ci_autotest.yaml
-- desc: Test report review
-  file: anchor/test/test_report_review.yaml
-- desc: Test tdd principle
-  file: anchor/test/test_tdd_principle.yaml
-- desc: Test class payment service
-  file: anchor/test/test_class_payment_service.yaml
-- desc: Test feature login
-  file: anchor/test/test_feature_login.yaml
-- desc: Test function currency convert
-  file: anchor/test/test_function_currency_convert.yaml
-- desc: Test regression
-  file: anchor/test/test_regression.yaml
-- desc: Test ab test
-  file: anchor/test/test_ab_test.yaml
-- desc: Test api contract
-  file: anchor/test/test_api_contract.yaml
-- desc: Test auto report
-  file: anchor/test/test_auto_report.yaml
-- desc: Test data persistence
-  file: anchor/test/test_data_persistence.yaml
-- desc: Test fallback
-  file: anchor/test/test_fallback.yaml
-- desc: Test i18n
-  file: anchor/test/test_i18n.yaml
-- desc: Test mock data
-  file: anchor/test/test_mock_data.yaml
-- desc: Test offline mode
-  file: anchor/test/test_offline_mode.yaml
-- desc: Test security
-  file: anchor/test/test_security.yaml
-- desc: Test boundary conditions
-  file: anchor/test/test_boundary_conditions.yaml
-- desc: Test functional
-  file: anchor/test/test_functional.yaml
-- desc: Test integration
-  file: anchor/test/test_integration.yaml
-- desc: Test path coverage
-  file: anchor/test/test_path_coverage.yaml
-- desc: Test tdd policy
-  file: anchor/test/test_tdd_policy.yaml
-- desc: Test config verification
-  file: anchor/test/test_config_verification.yaml
-- desc: Test conversion funnel
-  file: anchor/test/test_conversion_funnel.yaml
-- desc: Test end to end
-  file: anchor/test/test_end_to_end.yaml
-- desc: Test error handling
-  file: anchor/test/test_error_handling.yaml
-- desc: Test i18n coverage
-  file: anchor/test/test_i18n_coverage.yaml
-- desc: Test mock smoke
-  file: anchor/test/test_mock_smoke.yaml
-- desc: Test upload format
-  file: anchor/test/test_upload_format.yaml
-ui:
-- desc: Ui responsive
-  file: anchor/ui/ui_responsive.yaml
-- desc: Ui render
-  file: anchor/ui/ui_render.yaml
-- desc: Ui image opt
-  file: anchor/ui/ui_image_opt.yaml
-- desc: Ui animation perf
-  file: anchor/ui/ui_animation_perf.yaml
-- desc: Ui first frame perf
-  file: anchor/ui/ui_first_frame_perf.yaml
-- desc: Ui scroll perf
-  file: anchor/ui/ui_scroll_perf.yaml
-- desc: Ui lazyload perf
-  file: anchor/ui/ui_lazyload_perf.yaml
-- desc: Ui main thread perf
-  file: anchor/ui/ui_main_thread_perf.yaml
-- desc: Ui layer perf
-  file: anchor/ui/ui_layer_perf.yaml
-- desc: Ui support chat
-  file: anchor/ui/ui_support_chat.yaml
-- desc: Ui animation guideline
-  file: anchor/ui/ui_animation_guideline.yaml
-- desc: Ui color palette
-  file: anchor/ui/ui_color_palette.yaml
-- desc: Ui component style
-  file: anchor/ui/ui_component_style.yaml
-- desc: Ui dark light mode
-  file: anchor/ui/ui_dark_light_mode.yaml
-- desc: Ui spacing layout
-  file: anchor/ui/ui_spacing_layout.yaml
-- desc: Ui typography
-  file: anchor/ui/ui_typography.yaml
-- desc: Ui billing entry
-  file: anchor/ui/ui_billing_entry.yaml
-user:
-- desc: User action hooks
-  file: anchor/user/user_action_hooks.yaml
-- desc: User growth mission
-  file: anchor/user/user_growth_mission.yaml
-ux:
-- desc: Ux screen
-  file: anchor/ux/ux_screen.yaml
-- desc: Ux support chat
-  file: anchor/ux/ux_support_chat.yaml
-- desc: Ux support bubble
-  file: anchor/ux/ux_support_bubble.yaml
-- desc: Payment trigger points
-  file: anchor/ux/payment_trigger_points.yaml
-- desc: Brand
-  file: anchor/ux/brand.yaml
-- desc: Visual style
-  file: anchor/ux/visual_style.yaml
-- desc: Icon guideline
-  file: anchor/ux/icon_guideline.yaml
-- desc: Feedback ui
-  file: anchor/ux/feedback_ui.yaml
-- desc: Ux i18n
-  file: anchor/ux/ux_i18n.yaml
-- desc: Ux user feedback
-  file: anchor/ux/ux_user_feedback.yaml
+  - path: anchor/ai/ai_faceswap_inference_flow.yaml
+  - path: anchor/ai_a11y_adaptation.yaml
+  - path: anchor/ai_adaptation.yaml
+  - path: anchor/ai_component_recommendation.yaml
+  - path: anchor/ai_copywriting.yaml
+  - path: anchor/ai_data_driven.yaml
+  - path: anchor/ai_faceswap_inference_flow.yaml
+  - path: anchor/ai_fallback.yaml
+  - path: anchor/ai_guidance.yaml
+  - path: anchor/ai_interaction.yaml
+  - path: anchor/ai_layout_generation.yaml
+  - path: anchor/ai_mood_detection.yaml
+  - path: anchor/ai_personalization.yaml
+  - path: anchor/ai_privacy.yaml
+  - path: anchor/ai_style_transfer.yaml
+  - path: anchor/ai_transparency.yaml
+  - path: anchor/analytics/analytics_sample_1.yaml
+  - path: anchor/analytics/analytics_sample_2.yaml
+  - path: anchor/analytics/basic_event.yaml
+  - path: anchor/analytics/payment_click.yaml
+  - path: anchor/analytics/payment_success.yaml
+  - path: anchor/analytics/subscription_restore.yaml
+  - path: anchor/anchor_index.yaml
+  - path: anchor/auth/auth_anonymous_id.yaml
+  - path: anchor/auth/auth_concurrent_login.yaml
+  - path: anchor/auth/auth_country_region_fallback.yaml
+  - path: anchor/auth/auth_data_migration.yaml
+  - path: anchor/auth/auth_deep_link_restore.yaml
+  - path: anchor/auth/auth_device_binding.yaml
+  - path: anchor/auth/auth_entry_trigger.yaml
+  - path: anchor/auth/auth_error_boundary.yaml
+  - path: anchor/auth/auth_error_code_mapping.yaml
+  - path: anchor/auth/auth_fallback_strategy.yaml
+  - path: anchor/auth/auth_flow_structure.yaml
+  - path: anchor/auth/auth_identity_conflict.yaml
+  - path: anchor/auth/auth_locale_timezone.yaml
+  - path: anchor/auth/auth_merge_strategy.yaml
+  - path: anchor/auth/auth_oauth_fallback.yaml
+  - path: anchor/auth/auth_oauth_integration.yaml
+  - path: anchor/auth/auth_platform_capability.yaml
+  - path: anchor/auth/auth_provider_switch.yaml
+  - path: anchor/auth/auth_regulation_compliance.yaml
+  - path: anchor/auth/auth_security_policy.yaml
+  - path: anchor/auth/auth_session_persistence.yaml
+  - path: anchor/auth/auth_token_error_recovery.yaml
+  - path: anchor/auth/auth_token_expiry_strategy.yaml
+  - path: anchor/auth/auth_token_lifecycle.yaml
+  - path: anchor/auth/auth_token_refresh.yaml
+  - path: anchor/auth/auth_ui_guideline.yaml
+  - path: anchor/backend/auth_flow.yaml
+  - path: anchor/backend/backend_abtest.yaml
+  - path: anchor/backend/backend_abuse_detection.yaml
+  - path: anchor/backend/backend_admin_dashboard.yaml
+  - path: anchor/backend/backend_ai_development.yaml
+  - path: anchor/backend/backend_ai_prompt_cache.yaml
+  - path: anchor/backend/backend_ai_refactoring.yaml
+  - path: anchor/backend/backend_anonymous_user_mapping.yaml
+  - path: anchor/backend/backend_api_gateway.yaml
+  - path: anchor/backend/backend_api_gateway_rules.yaml
+  - path: anchor/backend/backend_api_versioning.yaml
+  - path: anchor/backend/backend_architecture_selection.yaml
+  - path: anchor/backend/backend_async_processing.yaml
+  - path: anchor/backend/backend_async_queue.yaml
+  - path: anchor/backend/backend_auth_strategy.yaml
+  - path: anchor/backend/backend_behavior_tracking.yaml
+  - path: anchor/backend/backend_blob_storage.yaml
+  - path: anchor/backend/backend_cache_eviction.yaml
+  - path: anchor/backend/backend_cache_invalidation.yaml
+  - path: anchor/backend/backend_cache_layering.yaml
+  - path: anchor/backend/backend_cdn_cache.yaml
+  - path: anchor/backend/backend_cdn_cache_strategy.yaml
+  - path: anchor/backend/backend_cloud_deployment.yaml
+  - path: anchor/backend/backend_config_management.yaml
+  - path: anchor/backend/backend_content_moderation.yaml
+  - path: anchor/backend/backend_crud_schema.yaml
+  - path: anchor/backend/backend_data_anonymization.yaml
+  - path: anchor/backend/backend_data_retention.yaml
+  - path: anchor/backend/backend_db_indexing_strategy.yaml
+  - path: anchor/backend/backend_deployment_freeze.yaml
+  - path: anchor/backend/backend_deployment_strategy.yaml
+  - path: anchor/backend/backend_error_handling.yaml
+  - path: anchor/backend/backend_event_logging.yaml
+  - path: anchor/backend/backend_fallback_handler.yaml
+  - path: anchor/backend/backend_feature_flag.yaml
+  - path: anchor/backend/backend_file_storage.yaml
+  - path: anchor/backend/backend_healthcheck_policy.yaml
+  - path: anchor/backend/backend_job_scheduler.yaml
+  - path: anchor/backend/backend_kpi_storage.yaml
+  - path: anchor/backend/backend_logging.yaml
+  - path: anchor/backend/backend_model_invocation.yaml
+  - path: anchor/backend/backend_mq_integration.yaml
+  - path: anchor/backend/backend_persistent_store.yaml
+  - path: anchor/backend/backend_ranking_logic.yaml
+  - path: anchor/backend/backend_rate_limit.yaml
+  - path: anchor/backend/backend_redis_structure.yaml
+  - path: anchor/backend/backend_release_rollback.yaml
+  - path: anchor/backend/backend_request_validation.yaml
+  - path: anchor/backend/backend_schema_migration.yaml
+  - path: anchor/backend/backend_service_boundary.yaml
+  - path: anchor/backend/backend_storage_migration.yaml
+  - path: anchor/backend/backend_storage_policy.yaml
+  - path: anchor/backend/backend_tdd_reference.yaml
+  - path: anchor/backend/backend_temp_data_cleanup.yaml
+  - path: anchor/backend/backend_template_curation.yaml
+  - path: anchor/backend/backend_upload_security.yaml
+  - path: anchor/backend/backend_version_negotiation.yaml
+  - path: anchor/backend/backend_version_trace.yaml
+  - path: anchor/backend/cache_management.yaml
+  - path: anchor/backend/cdn.yaml
+  - path: anchor/backend/event_tracking_pipeline.yaml
+  - path: anchor/backend_cache_layering.yaml
+  - path: anchor/backend_storage_policy.yaml
+  - path: anchor/changelog_test.yaml
+  - path: anchor/ci/ci_build_deploy.yaml
+  - path: anchor/ci/ci_env_variable_policy.yaml
+  - path: anchor/ci/ci_git_tag_versioning.yaml
+  - path: anchor/ci/ci_pipeline_structure.yaml
+  - path: anchor/ci/ci_test_pipeline.yaml
+  - path: anchor/ci/ci_test_trigger.yaml
+  - path: anchor/cloud/cost_monitoring.yaml
+  - path: anchor/cloud/isolation.yaml
+  - path: anchor/cloud/throttling.yaml
+  - path: anchor/cloud/token_verification.yaml
+  - path: anchor/compliance_user_data.yaml
+  - path: anchor/data/analytics.yaml
+  - path: anchor/data/content_evaluation.yaml
+  - path: anchor/data/log_tracking.yaml
+  - path: anchor/emotion.yaml
+  - path: anchor/finance/cost_monitoring.yaml
+  - path: anchor/finance/global_compliance.yaml
+  - path: anchor/finance/invoice_management.yaml
+  - path: anchor/finance/offshore_account.yaml
+  - path: anchor/finance/payment_entity.yaml
+  - path: anchor/finance/profit_model.yaml
+  - path: anchor/finance/token_verification.yaml
+  - path: anchor/finance/withdraw_policy.yaml
+  - path: anchor/firebase/firebase_analytics.yaml
+  - path: anchor/frontend/ai_dev_frontend.yaml
+  - path: anchor/frontend/chat_support.yaml
+  - path: anchor/frontend/flutter_responsive.yaml
+  - path: anchor/frontend/flutter_ui.yaml
+  - path: anchor/frontend/frontend.yaml
+  - path: anchor/frontend/frontend_adaptation.yaml
+  - path: anchor/frontend/frontend_ai_copilot.yaml
+  - path: anchor/frontend/frontend_animation_performance.yaml
+  - path: anchor/frontend/frontend_api_definition.yaml
+  - path: anchor/frontend/frontend_architecture.yaml
+  - path: anchor/frontend/frontend_asset_management.yaml
+  - path: anchor/frontend/frontend_build_strategy.yaml
+  - path: anchor/frontend/frontend_component_standards.yaml
+  - path: anchor/frontend/frontend_component_stub.yaml
+  - path: anchor/frontend/frontend_cross_platform.yaml
+  - path: anchor/frontend/frontend_devtools_support.yaml
+  - path: anchor/frontend/frontend_error_boundary.yaml
+  - path: anchor/frontend/frontend_error_handling.yaml
+  - path: anchor/frontend/frontend_infra.yaml
+  - path: anchor/frontend/frontend_interaction_latency.yaml
+  - path: anchor/frontend/frontend_interactive_ai.yaml
+  - path: anchor/frontend/frontend_loading_strategy.yaml
+  - path: anchor/frontend/frontend_memory_footprint.yaml
+  - path: anchor/frontend/frontend_micro_interaction.yaml
+  - path: anchor/frontend/frontend_navigation.yaml
+  - path: anchor/frontend/frontend_performance.yaml
+  - path: anchor/frontend/frontend_performance_metrics.yaml
+  - path: anchor/frontend/frontend_plugin_strategy.yaml
+  - path: anchor/frontend/frontend_render_optimization.yaml
+  - path: anchor/frontend/frontend_responsive_testing.yaml
+  - path: anchor/frontend/frontend_security.yaml
+  - path: anchor/frontend/frontend_startup_latency.yaml
+  - path: anchor/frontend/frontend_state_management.yaml
+  - path: anchor/frontend/frontend_structure.yaml
+  - path: anchor/frontend/frontend_support_chat.yaml
+  - path: anchor/frontend/frontend_support_entry.yaml
+  - path: anchor/frontend/frontend_tdd_reference.yaml
+  - path: anchor/frontend/frontend_toast_modal.yaml
+  - path: anchor/frontend/frontend_tracking.yaml
+  - path: anchor/frontend/frontend_tracking_sdk.yaml
+  - path: anchor/frontend/frontend_widget_abstraction.yaml
+  - path: anchor/growth.yaml
+  - path: anchor/growth/gamification.yaml
+  - path: anchor/index.yaml
+  - path: anchor/infra/infra_analytics_tools.yaml
+  - path: anchor/infra/infra_event_tracking.yaml
+  - path: anchor/meta/structure_index.yaml
+  - path: anchor/monitoring/logs_alert.yaml
+  - path: anchor/monitoring/monitoring_business_kpi.yaml
+  - path: anchor/monitoring/monitoring_error_alert.yaml
+  - path: anchor/monitoring/monitoring_healthcheck.yaml
+  - path: anchor/ops/ab_test_strategy.yaml
+  - path: anchor/ops/cold_start_ops.yaml
+  - path: anchor/ops/compliance_user_data.yaml
+  - path: anchor/ops/content_evaluation.yaml
+  - path: anchor/ops/event_tracking_structure.yaml
+  - path: anchor/ops/growth_loop.yaml
+  - path: anchor/ops/hook_strategy.yaml
+  - path: anchor/ops/launch_plan.yaml
+  - path: anchor/ops/okr.yaml
+  - path: anchor/ops/ops_faq.yaml
+  - path: anchor/ops/ops_region_market_entry.yaml
+  - path: anchor/ops/share_conversion_tracking.yaml
+  - path: anchor/ops/share_loop.yaml
+  - path: anchor/ops/share_trigger.yaml
+  - path: anchor/ops/store_launch.yaml
+  - path: anchor/ops/template_creator_incentive.yaml
+  - path: anchor/ops/template_tagging.yaml
+  - path: anchor/ops/template_trigger_chain.yaml
+  - path: anchor/ops/template_variation.yaml
+  - path: anchor/ops/trending_content.yaml
+  - path: anchor/ops/user_behavior_metrics.yaml
+  - path: anchor/ops/user_leaderboard.yaml
+  - path: anchor/order/order_api_interface.yaml
+  - path: anchor/order/order_deletion_policy.yaml
+  - path: anchor/order/order_dispatch_status.yaml
+  - path: anchor/order/order_exception_handling.yaml
+  - path: anchor/order/order_lifecycle_management.yaml
+  - path: anchor/order/order_payment_binding.yaml
+  - path: anchor/order/order_price_calculation.yaml
+  - path: anchor/order/order_sample_1.yaml
+  - path: anchor/order/order_sample_2.yaml
+  - path: anchor/order/order_state_model.yaml
+  - path: anchor/order/order_state_retry.yaml
+  - path: anchor/order/order_test_cases.yaml
+  - path: anchor/payment/payment_2fa_authentication.yaml
+  - path: anchor/payment/payment_ab_test.yaml
+  - path: anchor/payment/payment_api_rate_limit.yaml
+  - path: anchor/payment/payment_blacklist_mechanism.yaml
+  - path: anchor/payment/payment_callback.yaml
+  - path: anchor/payment/payment_callback_strategy.yaml
+  - path: anchor/payment/payment_config.yaml
+  - path: anchor/payment/payment_config_currency_usd.yaml
+  - path: anchor/payment/payment_config_whitelist_manual.yaml
+  - path: anchor/payment/payment_currency_conversion.yaml
+  - path: anchor/payment/payment_entry_trigger.yaml
+  - path: anchor/payment/payment_environment_detection.yaml
+  - path: anchor/payment/payment_error_boundary.yaml
+  - path: anchor/payment/payment_failed_retry.yaml
+  - path: anchor/payment/payment_finance_account_binding.yaml
+  - path: anchor/payment/payment_finance_settlement.yaml
+  - path: anchor/payment/payment_finance_withdrawal.yaml
+  - path: anchor/payment/payment_fraud_detection.yaml
+  - path: anchor/payment/payment_geo_routing.yaml
+  - path: anchor/payment/payment_gpb_strategy.yaml
+  - path: anchor/payment/payment_iap_strategy.yaml
+  - path: anchor/payment/payment_limited_time_offer.yaml
+  - path: anchor/payment/payment_modal_flow.yaml
+  - path: anchor/payment/payment_multi_currency.yaml
+  - path: anchor/payment/payment_notification_failure.yaml
+  - path: anchor/payment/payment_notification_subscription.yaml
+  - path: anchor/payment/payment_notification_success.yaml
+  - path: anchor/payment/payment_order_lifecycle.yaml
+  - path: anchor/payment/payment_platform_capability.yaml
+  - path: anchor/payment/payment_platform_configuration.yaml
+  - path: anchor/payment/payment_platform_entry.yaml
+  - path: anchor/payment/payment_platform_notification.yaml
+  - path: anchor/payment/payment_point.yaml
+  - path: anchor/payment/payment_popup_flow.yaml
+  - path: anchor/payment/payment_receipt_and_invoice.yaml
+  - path: anchor/payment/payment_receipt_tracking.yaml
+  - path: anchor/payment/payment_receipt_validation.yaml
+  - path: anchor/payment/payment_retry_fallback.yaml
+  - path: anchor/payment/payment_retry_policy_server.yaml
+  - path: anchor/payment/payment_sample_1.yaml
+  - path: anchor/payment/payment_sample_2.yaml
+  - path: anchor/payment/payment_sdk_integration.yaml
+  - path: anchor/payment/payment_security_policy.yaml
+  - path: anchor/payment/payment_settlement_manual.yaml
+  - path: anchor/payment/payment_sla_monitor.yaml
+  - path: anchor/payment/payment_subscription_policy.yaml
+  - path: anchor/payment/payment_subscription_pricing.yaml
+  - path: anchor/payment/payment_trigger_points.yaml
+  - path: anchor/payment/payment_ui_guideline.yaml
+  - path: anchor/payment/payment_user_identity_verification.yaml
+  - path: anchor/payment/payment_user_payment_limit.yaml
+  - path: anchor/payment/payment_user_profile.yaml
+  - path: anchor/payment/token_verification.yaml
+  - path: anchor/payment_subscription_pricing.yaml
+  - path: anchor/product.yaml
+  - path: anchor/qa/qa_device_matrix.yaml
+  - path: anchor/qa/qa_known_issues.yaml
+  - path: anchor/qa/qa_manual_check.yaml
+  - path: anchor/qa/qa_release_checklist.yaml
+  - path: anchor/rag/anchor_index.yaml
+  - path: anchor/rag/rag_meta.yaml
+  - path: anchor/rag/tag_map.yaml
+  - path: anchor/rag/vector_config.yaml
+  - path: anchor/scheduler/scheduler_cleanup_strategy.yaml
+  - path: anchor/scheduler/scheduler_delayed_trigger.yaml
+  - path: anchor/scheduler/scheduler_task_retry.yaml
+  - path: anchor/security/anti_abuse.yaml
+  - path: anchor/security/api_security_guideline.yaml
+  - path: anchor/security/auth_flow.yaml
+  - path: anchor/security/data_protection.yaml
+  - path: anchor/security/permission_matrix.yaml
+  - path: anchor/security/secure_upload.yaml
+  - path: anchor/security/security_baseline.yaml
+  - path: anchor/security/token_strategy.yaml
+  - path: anchor/share/share_sample_1.yaml
+  - path: anchor/share/share_sample_2.yaml
+  - path: anchor/spec/event_naming_convention.yaml
+  - path: anchor/swap/swap_cost_structure.yaml
+  - path: anchor/swap/swap_engine_deploy.yaml
+  - path: anchor/swap/swap_failure_handling.yaml
+  - path: anchor/swap/swap_image_requirements.yaml
+  - path: anchor/swap/swap_model_comparison.yaml
+  - path: anchor/swap/swap_roop_to_simswap.yaml
+  - path: anchor/swap/swap_task_queue.yaml
+  - path: anchor/swap/swap_template_strategy.yaml
+  - path: anchor/swap/system/api_error_code.yaml
+  - path: anchor/swap/system/gpu_cold_start.yaml
+  - path: anchor/swap/system/roop_config.yaml
+  - path: anchor/swap/system/swap_retry_logic.yaml
+  - path: anchor/swap/system/swap_timeout.yaml
+  - path: anchor/system/system_crisp_chat.yaml
+  - path: anchor/system_navigation.yaml
+  - path: anchor/system_permission.yaml
+  - path: anchor/system_status.yaml
+  - path: anchor/system_theme.yaml
+  - path: anchor/test/test_ab_test.yaml
+  - path: anchor/test/test_aging.yaml
+  - path: anchor/test/test_api_contract.yaml
+  - path: anchor/test/test_api_stability.yaml
+  - path: anchor/test/test_auto_report.yaml
+  - path: anchor/test/test_boundary.yaml
+  - path: anchor/test/test_boundary_conditions.yaml
+  - path: anchor/test/test_ci_autotest.yaml
+  - path: anchor/test/test_class_payment_service.yaml
+  - path: anchor/test/test_cloud_device.yaml
+  - path: anchor/test/test_cold_start.yaml
+  - path: anchor/test/test_compatibility.yaml
+  - path: anchor/test/test_config_verification.yaml
+  - path: anchor/test/test_conversion_funnel.yaml
+  - path: anchor/test/test_data_persistence.yaml
+  - path: anchor/test/test_device_emulation.yaml
+  - path: anchor/test/test_end_to_end.yaml
+  - path: anchor/test/test_error_handling.yaml
+  - path: anchor/test/test_event_tracking.yaml
+  - path: anchor/test/test_fallback.yaml
+  - path: anchor/test/test_feature_login.yaml
+  - path: anchor/test/test_function_currency_convert.yaml
+  - path: anchor/test/test_functional.yaml
+  - path: anchor/test/test_i18n.yaml
+  - path: anchor/test/test_i18n_coverage.yaml
+  - path: anchor/test/test_integration.yaml
+  - path: anchor/test/test_loading_latency.yaml
+  - path: anchor/test/test_mock_data.yaml
+  - path: anchor/test/test_mock_smoke.yaml
+  - path: anchor/test/test_network_conditions.yaml
+  - path: anchor/test/test_offline_mode.yaml
+  - path: anchor/test/test_path_coverage.yaml
+  - path: anchor/test/test_payment_trigger.yaml
+  - path: anchor/test/test_performance.yaml
+  - path: anchor/test/test_regression.yaml
+  - path: anchor/test/test_report_review.yaml
+  - path: anchor/test/test_security.yaml
+  - path: anchor/test/test_stress.yaml
+  - path: anchor/test/test_support_chat.yaml
+  - path: anchor/test/test_tdd_policy.yaml
+  - path: anchor/test/test_tdd_principle.yaml
+  - path: anchor/test/test_toast_feedback.yaml
+  - path: anchor/test/test_tracking_validation.yaml
+  - path: anchor/test/test_upload_format.yaml
+  - path: anchor/test/test_user_path.yaml
+  - path: anchor/test/test_visual_regression.yaml
+  - path: anchor/test_ab_test.yaml
+  - path: anchor/test_data_integrity.yaml
+  - path: anchor/test_device_coverage.yaml
+  - path: anchor/test_error_handling.yaml
+  - path: anchor/test_interaction.yaml
+  - path: anchor/test_responsive.yaml
+  - path: anchor/ue_behavior.yaml
+  - path: anchor/ue_conversion.yaml
+  - path: anchor/ue_entry.yaml
+  - path: anchor/ue_error.yaml
+  - path: anchor/ue_feedback.yaml
+  - path: anchor/ue_flow.yaml
+  - path: anchor/ue_flows.yaml
+  - path: anchor/ue_guidance.yaml
+  - path: anchor/ue_loading.yaml
+  - path: anchor/ue_onboarding.yaml
+  - path: anchor/ue_test.yaml
+  - path: anchor/ue_transition.yaml
+  - path: anchor/ui/ui_animation_guideline.yaml
+  - path: anchor/ui/ui_animation_perf.yaml
+  - path: anchor/ui/ui_billing_entry.yaml
+  - path: anchor/ui/ui_color_palette.yaml
+  - path: anchor/ui/ui_component_style.yaml
+  - path: anchor/ui/ui_dark_light_mode.yaml
+  - path: anchor/ui/ui_first_frame_perf.yaml
+  - path: anchor/ui/ui_image_opt.yaml
+  - path: anchor/ui/ui_layer_perf.yaml
+  - path: anchor/ui/ui_lazyload_perf.yaml
+  - path: anchor/ui/ui_main_thread_perf.yaml
+  - path: anchor/ui/ui_render.yaml
+  - path: anchor/ui/ui_responsive.yaml
+  - path: anchor/ui/ui_scroll_perf.yaml
+  - path: anchor/ui/ui_spacing_layout.yaml
+  - path: anchor/ui/ui_support_chat.yaml
+  - path: anchor/ui/ui_typography.yaml
+  - path: anchor/ui_accessibility.yaml
+  - path: anchor/ui_animation.yaml
+  - path: anchor/ui_component.yaml
+  - path: anchor/ui_controls.yaml
+  - path: anchor/ui_gesture.yaml
+  - path: anchor/ui_iconography.yaml
+  - path: anchor/ui_layout.yaml
+  - path: anchor/ui_performance.yaml
+  - path: anchor/ui_responsive.yaml
+  - path: anchor/ui_test_behavior.yaml
+  - path: anchor/ui_text.yaml
+  - path: anchor/ui_theme.yaml
+  - path: anchor/user.yaml
+  - path: anchor/user/user_action_hooks.yaml
+  - path: anchor/user/user_growth_mission.yaml
+  - path: anchor/user_growth_mission.yaml
+  - path: anchor/ux/brand.yaml
+  - path: anchor/ux/feedback_ui.yaml
+  - path: anchor/ux/icon_guideline.yaml
+  - path: anchor/ux/payment_trigger_points.yaml
+  - path: anchor/ux/ux_i18n.yaml
+  - path: anchor/ux/ux_screen.yaml
+  - path: anchor/ux/ux_support_bubble.yaml
+  - path: anchor/ux/ux_support_chat.yaml
+  - path: anchor/ux/ux_user_feedback.yaml
+  - path: anchor/ux/visual_style.yaml
+  - path: anchor/ux_ai_design.yaml
+  - path: anchor/ux_guidance.yaml
+  - path: anchor/ux_interaction.yaml
+  - path: anchor/ux_layout.yaml
+  - path: anchor/ux_philosophy.yaml
+  - path: anchor/ux_screen.yaml
+  - path: anchor/ux_test_behavior.yaml
+  - path: anchor/ux_text.yaml
+  - path: anchor/ux_visual.yaml
+  - path: anchor/visual_brand.yaml
+  - path: anchor/visual_color.yaml
+  - path: anchor/visual_contrast.yaml
+  - path: anchor/visual_grid.yaml
+  - path: anchor/visual_icon.yaml
+  - path: anchor/visual_image.yaml
+  - path: anchor/visual_motion.yaml
+  - path: anchor/visual_placeholder.yaml
+  - path: anchor/visual_principle.yaml
+  - path: anchor/visual_shadow.yaml
+  - path: anchor/visual_spacing.yaml
+  - path: anchor/visual_theme.yaml
+  - path: anchor/visual_typography.yaml
