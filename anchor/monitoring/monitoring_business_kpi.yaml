@@ -1,0 +1,5 @@
+description: 业务KPI指标统计策略
+tags: [monitoring, kpi]
+content:
+  - 注册转化、换脸次数、订阅购买等核心指标追踪
+  - 每日/每周自动汇总发送运营报告

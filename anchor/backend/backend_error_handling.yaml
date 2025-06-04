@@ -1,0 +1,6 @@
+description: 后端统一错误处理机制
+tags: [backend, error_handling]
+content:
+  - 定义统一的错误响应结构：错误码、错误信息、追踪ID
+  - 捕获全局异常并记录日志
+  - 与前端约定错误码语义

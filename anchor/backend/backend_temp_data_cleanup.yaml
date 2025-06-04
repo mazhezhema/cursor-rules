@@ -1,0 +1,5 @@
+description: 后端临时数据清理策略
+tags: [backend, cleanup, temp]
+content:
+  - 清理换脸过程中产生的临时图片与中间产物
+  - 日志与缓存的定期清理任务策略

@@ -1,0 +1,5 @@
+description: 服务健康监测机制
+tags: [monitoring, health]
+content:
+  - 所有后端服务提供健康检查接口（/health）
+  - 监测服务是否在线

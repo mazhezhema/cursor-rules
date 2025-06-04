@@ -1,0 +1,6 @@
+description: 用户上传内容的安全检查机制
+tags: [backend, upload, security]
+content:
+  - 限制上传文件类型（如仅允许 JPG/PNG）
+  - 设置最大上传尺寸，防止大文件攻击
+  - 图片内容审核预留接口

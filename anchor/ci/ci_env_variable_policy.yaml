@@ -1,0 +1,5 @@
+description: CI/CD 环境变量策略
+tags: [ci, security]
+content:
+  - 所有敏感参数通过环境变量注入
+  - 明确变量命名规范与文档记录方式
