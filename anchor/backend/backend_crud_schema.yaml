@@ -1,0 +1,4 @@
+anchor: backend_crud_schema
+tags: [backend, crud, schema]
+title: 管理后台数据结构定义
+description: 管理后台字段结构、校验规则、字段权限等定义规范，适配低代码平台如 Appsmith。

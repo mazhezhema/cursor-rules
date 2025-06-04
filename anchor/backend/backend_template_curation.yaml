@@ -1,0 +1,4 @@
+anchor: backend_template_curation
+tags: [backend, content, ranking]
+title: 模板榜单与运营筛选逻辑
+description: 定义模板热度计算、榜单规则、筛选条件等数据生成流程。

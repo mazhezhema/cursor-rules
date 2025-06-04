@@ -1,0 +1,4 @@
+anchor: backend_abuse_detection
+tags: [backend, abuse, security]
+title: 恶意行为检测
+description: 定义识别刷榜、刷点击、批量注册等恶意行为的监控策略与报警逻辑。

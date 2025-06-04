@@ -1,0 +1,4 @@
+anchor: backend_behavior_tracking
+tags: [backend, behavior, tracking]
+title: 用户行为数据存储
+description: 后端记录用户点赞、收藏、换脸次数等行为数据，结构化存储用于后续推荐分析。

@@ -1,0 +1,4 @@
+anchor: backend_cache_invalidation
+tags: [backend, cache, invalidation]
+title: 缓存失效策略
+description: 定义当模板发生更新、下线等事件时，缓存如何同步失效、自动刷新。
