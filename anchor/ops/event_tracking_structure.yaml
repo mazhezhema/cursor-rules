@@ -1,0 +1,13 @@
+anchor: event_tracking_structure
+owner: ops
+stage: mvp
+tags: [event, analytics, tracking]
+description: 事件追踪结构体（前端页面/模块埋点）
+content:
+  event_types:
+    - page_view
+    - button_click
+    - upload_success
+    - swap_success
+    - share_click
+  tracking_id_structure: "page_module_event_timestamp"
