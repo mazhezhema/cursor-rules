@@ -1,0 +1,6 @@
+id: ai_faceswap_inference_flow
+name: 换脸推理调用链路
+description: 描述从用户上传自拍图，到换脸模型调用、生成图像、缓存结果的完整推理流程。
+tags: [ai, faceswap, inference]
+status: active
+version: 1.0
