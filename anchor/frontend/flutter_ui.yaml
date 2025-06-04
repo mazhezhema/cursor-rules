@@ -1,0 +1,12 @@
+flutter_ui:
+  desc: 描述 Flutter 实现的 UI 元素、交互布局与动画动效逻辑。
+  fields:
+    animation_usage: 关键动效与过渡效果定义
+    custom_widget: 定制 Widget 的命名与用途
+    input_elements: 用户输入交互组件说明，如上传按钮、拖拽框等
+    layout_scheme: 采用的布局方式，如 Flex、Stack、Grid 等
+  tag:
+  - flutter
+  - ui
+  - design
+  title: Flutter UI 输入结构与布局规范

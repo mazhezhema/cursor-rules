@@ -1,0 +1,12 @@
+analytics:
+  desc: 定义埋点字段、指标体系、分析目的与数据上报方式。
+  fields:
+    event_structure: 事件名称、参数结构定义
+    granularity: 采样频率与上报周期
+    metric: 分析的核心指标，如点击率、留存率
+    platform: 使用的埋点系统（如 umani.io）
+  tag:
+  - data
+  - analytics
+  - behavior
+  title: 用户行为数据分析结构

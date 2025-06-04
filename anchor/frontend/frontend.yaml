@@ -1,0 +1,12 @@
+frontend:
+  desc: 描述前端的技术选型、主要页面结构与模块划分逻辑，便于理解 UI 层分工。
+  fields:
+    component_structure: 组件化结构说明
+    framework: 使用的框架（Flutter）
+    page_types: 页面类型划分：浏览页、详情页、上传页等
+    platform_adaptation: 对 Android/iOS/web 的适配处理
+  tag:
+  - ui
+  - flutter
+  - interaction
+  title: 前端开发框架与页面结构
