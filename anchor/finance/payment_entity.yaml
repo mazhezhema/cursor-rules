@@ -1,0 +1,9 @@
+id: finance/payment_entity
+title: 支付公司架构设计
+description: MVP 阶段的支付公司主体规划与分工，包括境内外法人、收款通道配置等
+fields:
+  - entity_type: enum[domestic, offshore, dual]
+  - legal_entity: string
+  - payment_channel: list[string]
+  - currency_settlement: enum[USD, EUR, RMB, Multi]
+  - notes: string

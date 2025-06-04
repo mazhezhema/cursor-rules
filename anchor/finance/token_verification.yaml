@@ -1,0 +1,8 @@
+id: finance/token_verification
+title: 支付 Token 验证策略
+description: 接入支付平台后的身份认证机制，保障支付请求来源合法
+fields:
+  - provider: string
+  - token_validation_endpoint: string
+  - ttl_seconds: int
+  - verify_signature: boolean

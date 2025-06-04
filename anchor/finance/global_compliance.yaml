@@ -1,0 +1,9 @@
+id: finance/global_compliance
+title: 出海变现与税务合规
+description: 涉及海外平台变现（如 Stripe、PayPal）、结汇申报与税务合规操作建议
+fields:
+  - revenue_platforms: list[enum[Stripe, PayPal, Gumroad]]
+  - tax_strategy: enum[个人报税, 企业申报, 自动扣税]
+  - legal_consulted: boolean
+  - withdrawal_method: enum[公司账户, 个人账户, 第三方]
+  - compliance_level: enum[高, 中, 低]

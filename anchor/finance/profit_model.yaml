@@ -1,0 +1,7 @@
+id: finance/profit_model
+title: 盈利模型概览
+description: MVP 期间的收费模式、付费转化率预估与定价策略
+fields:
+  - revenue_streams: list[enum[template_unlock, VIP, Ad]]
+  - target_arpu: float
+  - conversion_rate_estimate: float
