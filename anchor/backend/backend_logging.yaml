@@ -1,0 +1,8 @@
+id: backend_logging
+title: 后端日志系统标准
+description: 定义后端日志等级划分、日志记录格式、异常日志上报机制等。
+tags: [backend, logging, monitoring]
+content:
+  log_framework: loguru + logging
+  levels: [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+  error_alert: "Error级别上报邮件 + Webhook"

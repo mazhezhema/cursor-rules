@@ -1,0 +1,7 @@
+id: backend_service_boundary
+title: 模块服务边界划分策略
+description: 每个 API 模块的调用权限范围与隔离边界。
+tags: [backend, modularization]
+content:
+  policy: "跨模块调用需通过service层"
+  separation: "/api/user/* vs /api/payment/*"

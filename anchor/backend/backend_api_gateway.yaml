@@ -1,0 +1,8 @@
+id: backend_api_gateway
+title: API Gateway 路由与版本管理
+description: 定义后端接口的版本控制策略与路由隔离机制。
+tags: [backend, gateway, api]
+content:
+  default_version: v1
+  deprecate_strategy: "v1保留1周，v2灰度后强推"
+  routing_structure: "/api/v1/..., /api/v2/..."
