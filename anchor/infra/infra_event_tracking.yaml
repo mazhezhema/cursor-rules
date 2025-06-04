@@ -1,0 +1,8 @@
+id: infra_event_tracking
+title: 埋点事件设计
+description: 记录核心用户行为事件，支持留存与漏斗分析。
+events:
+  - upload_face
+  - swap_success
+  - share_button_click
+  - save_to_gallery
