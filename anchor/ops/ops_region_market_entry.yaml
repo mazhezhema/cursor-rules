@@ -1,0 +1,8 @@
+id: ops_region_market_entry
+title: 区域市场首发策略
+description: 根据用户活跃度与传播意愿选择首发国家（美国、加拿大、英国、澳大利亚）。
+priority:
+  - USA
+  - UK
+  - Canada
+  - Australia

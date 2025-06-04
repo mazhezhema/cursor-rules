@@ -1,15 +1,6 @@
-name: test_user_path
-description: 验证用户路径中的关键节点，包括注册、订阅、支付状态后的引导逻辑
-scenarios:
-  - title: 注册后引导订阅提示
-    steps:
-      - 新用户打开 APP
-      - 完成注册流程
-      - 观察首页是否出现订阅引导 toast 或弹窗
-    expected: 成功注册后首次登录首页即出现订阅 CTA
-
-  - title: 订阅成功后的跳转流程
-    steps:
-      - 用户点击订阅按钮，完成购买
-      - 观察跳转是否落回首页并提示 VIP 状态
-    expected: 页面跳转至首页，并显示“订阅成功”toast
+id: test_user_path
+title: 用户路径测试
+description: 测试用户从上传头像到完成分享是否路径通畅，无中断。
+cases:
+  - path: 上传头像 → 自动授权 → 换脸 → 保存 → 分享
+  - assertion: 每一步跳转后均应进入目标页，按钮可点击，无死链

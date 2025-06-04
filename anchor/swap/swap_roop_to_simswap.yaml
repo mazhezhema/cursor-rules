@@ -1,0 +1,7 @@
+id: swap_roop_to_simswap
+title: Roop → SimSwap 模型切换预案
+description: 当前使用 Roop，未来可替换为 SimSwap+ArcFace 等组合模型。
+plan:
+  - 保持接口兼容
+  - 预留参数配置入口
+  - 版本字段标识模型

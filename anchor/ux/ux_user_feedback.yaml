@@ -1,0 +1,7 @@
+id: ux_user_feedback
+title: 用户反馈路径
+description: 引导用户反馈体验问题，支持截图上传与文字填写。
+method:
+  - form
+  - email
+  - 自动弹窗邀请反馈

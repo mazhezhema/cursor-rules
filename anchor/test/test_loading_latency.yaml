@@ -1,14 +1,7 @@
-name: test_loading_latency
-description: 检查各模块加载时间，识别慢加载/首屏空白问题
-scenarios:
-  - title: 首页加载速度检测
-    steps:
-      - 启动应用，记录首页图片加载时间
-    expected: 所有首图加载时间 < 1.5 秒
-
-  - title: 异常网络下 fallback 提示是否及时
-    steps:
-      - 模拟断网
-      - 打开探索页
-      - 检查是否 2s 内出现网络错误提示
-    expected: 断网后 2 秒内出现 fallback 文案
+id: test_loading_latency
+title: 页面加载时长测试
+description: 检查换脸流程中前端页面和模型接口的加载时间是否在可接受范围内。
+checks:
+  - description: 首页加载时间小于1秒
+  - description: 模型调用返回时间小于3秒
+  - description: 图片上传并完成换脸流程总时长小于6秒

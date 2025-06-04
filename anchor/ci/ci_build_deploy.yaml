@@ -1,0 +1,10 @@
+id: ci_build_deploy
+title: CI构建与部署流程
+description: 配置在 git push 后自动触发 Railway/Vercel 部署，支持预览与生产部署区分。
+tools:
+  - Railway
+  - GitHub Actions
+steps:
+  - test
+  - build
+  - deploy
