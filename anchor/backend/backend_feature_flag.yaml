@@ -1,0 +1,15 @@
+
+anchor: backend_feature_flag
+title: 功能开关与灰度发布机制
+owner: backend-team
+tags:
+  - backend
+  - release
+  - feature-flag
+  - a/b-test
+description: |
+  通过配置中心控制功能是否开启，实现灰度与实验控制。
+content:
+  config_center: 基于 Redis 或 etcd 管理功能开关状态
+  user_scope: 可配置指定用户、区域、设备、渠道
+  support_a_b: 支持 A/B 测试与版本分流实验

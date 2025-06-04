@@ -1,0 +1,19 @@
+
+anchor: backend_async_processing
+title: 后端异步处理机制
+owner: backend-team
+tags:
+  - backend
+  - async
+  - queue
+  - mvp
+description: |
+  本 anchor 定义后端中异步任务处理的设计原则与策略。
+content:
+  queue_engine: 支持基于 Redis Stream / RabbitMQ 的异步任务队列。
+  retry_policy: 每个任务允许最多重试 3 次，间隔指数退避。
+  failure_logging: 所有失败任务写入独立日志，供后续排查。
+  use_cases:
+    - 冷存延迟写入
+    - 图像上传后异步处理
+    - 第三方通知发送
