@@ -1,0 +1,9 @@
+id: cloud.token_verification
+name: 云端 API 调用鉴权配置
+owner: cloud
+tags: [cloud, security, api, token]
+desc: 所有对模型接口的调用需提供合法身份 token，避免未授权访问
+content: |
+  - 所有云端 API 使用 Bearer Token 签名机制
+  - Token 定期刷新，绑定用户 UID + 设备信息
+  - 非法请求记录至安全日志，触发告警
