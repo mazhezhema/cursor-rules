@@ -1,0 +1,9 @@
+anchor: token_verification
+owner: payment
+stage: mvp
+tags: [security, payment]
+description: 支付 token 验签逻辑
+content:
+  source: Stripe/GooglePlay
+  verification_method: HMAC + timestamp
+  expiration_seconds: 300

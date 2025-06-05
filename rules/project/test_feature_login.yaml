@@ -1,0 +1,5 @@
+id: test_feature_login
+scenario: 用户登录功能验证
+steps:
+  - 输入正确账号密码
+  - 验证跳转到首页

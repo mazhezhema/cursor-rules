@@ -1,0 +1,8 @@
+ai_design:
+  data_driven_design:
+    description: 基于用户数据反馈动态迭代 UI 设计方案
+    implementation_hint: 每次用户行为被记录并用于调整模块热度排序、按钮摆放权重
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  tag: '[AI补全] 示例 tag 内容'

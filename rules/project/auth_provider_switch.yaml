@@ -1,0 +1,12 @@
+anchor:
+  id: auth_provider_switch
+  title: OAuth 登录方式切换支持
+  description: 支持用户在多种 OAuth 平台间切换登录方式（如 Google → Apple），并进行数据合并与提示。
+  scenarios:
+    - 用户使用不同 OAuth 登录方式登录同一设备
+    - 系统识别到同一设备的不同 OAuth ID 关联同一匿名 ID
+  guideline:
+    - 提供账号合并提醒机制，避免重复账户产生
+    - 同一账号支持绑定多个 OAuth ID
+    - 避免用户因切换登录方式而丢失数据
+  priority: high

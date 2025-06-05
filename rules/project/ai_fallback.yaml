@@ -1,0 +1,5 @@
+ai_fallback:
+  description: 当AI结果不可靠或出错时，应提供替代方案或回退机制。
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 为AI推荐或换脸等核心功能设计备选方案，如AI生成失败时自动启用默认结果或提示用户重试。
+  tag: '[AI补全] 示例 tag 内容'

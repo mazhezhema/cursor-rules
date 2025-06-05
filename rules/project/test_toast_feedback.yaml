@@ -1,0 +1,14 @@
+name: test_toast_feedback
+description: 验证各功能操作后 toast 正确触发与消失
+scenarios:
+  - title: 保存成功提示反馈
+    steps:
+      - 点击保存按钮
+      - 观察是否出现“保存成功”toast
+    expected: toast 在操作后 0.3 秒内弹出，并在 2 秒后自动消失
+
+  - title: 登录失败提示是否覆盖旧内容
+    steps:
+      - 模拟错误密码登录两次
+      - 检查第二次 toast 是否覆盖第一次
+    expected: toast 内容自动更新，不叠加

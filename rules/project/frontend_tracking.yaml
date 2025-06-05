@@ -1,0 +1,13 @@
+anchor: frontend_tracking
+title: 前端埋点设计
+description: 定义前端页面与组件的事件埋点标准
+events:
+  - type: page_view
+    trigger: 页面进入
+    payload: { page_id: string, referrer: string }
+  - type: button_click
+    trigger: 按钮点击
+    payload: { button_id: string, location: string }
+  - type: component_exposure
+    trigger: 元素曝光
+    payload: { component_id: string, duration: number }

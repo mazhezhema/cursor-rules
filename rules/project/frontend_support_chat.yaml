@@ -1,0 +1,19 @@
+id: frontend_support_chat
+title: Frontend Support Chat Bubble
+description: 跨平台前端中的客服气泡组件，主要用于Flutter实现的交互逻辑、显示策略和平台兼容。
+tags:
+  - flutter
+  - support
+  - chat-bubble
+  - widget
+structure:
+  - platform_visibility:
+      - android
+      - ios
+      - web
+  - trigger_conditions:
+      - long_idle_time
+      - error_detected
+  - floating_layer_rules:
+      - avoid_bottom_tabbar_conflict
+      - always_above_content_layer

@@ -1,0 +1,9 @@
+anchor: auth_security_policy
+title: 认证安全策略与接口验证规范
+description: 确保登录状态的 API 认证机制符合数据安全要求。
+content:
+  - 前端通过 Bearer Token 请求接口
+  - Token 存储策略（内存/本地持久化）
+  - Token 过期与刷新机制设计
+  - 服务端接口权限校验机制
+  - 统一错误码与未登录状态下的通用处理逻辑

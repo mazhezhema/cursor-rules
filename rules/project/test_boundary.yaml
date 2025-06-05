@@ -1,0 +1,9 @@
+
+id: test_boundary
+name: 边界条件测试
+description: 针对输入输出的边界值进行测试
+scenarios:
+  - 图片尺寸最小与最大限制
+  - 支付金额最小 0.01 与最大9999
+rules:
+  - 所有字段均有明确边界测试用例并验证

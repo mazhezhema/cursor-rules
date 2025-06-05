@@ -1,0 +1,3 @@
+# 发票与收据管理 anchor
+spec:
+  description: 提供用户收据与发票自动生成能力

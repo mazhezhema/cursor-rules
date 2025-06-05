@@ -1,0 +1,13 @@
+id: qa_device_matrix
+category: qa
+description: MVP 支持的设备 / 分辨率 / 操作系统版本矩阵
+devices:
+  - name: Android 平板
+    resolution: 1920x1200
+    os: Android 13+
+  - name: Android 手机
+    resolution: 1080x2400
+    os: Android 12+
+  - name: iPhone XR+
+    resolution: 828x1792+
+    os: iOS 15+

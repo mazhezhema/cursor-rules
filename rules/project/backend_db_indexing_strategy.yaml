@@ -1,0 +1,7 @@
+# Anchor: backend_db_indexing_strategy.yaml
+description: |
+  数据库索引设计策略，优化查询性能，避免慢 SQL。
+specs:
+  - index_types: "联合索引 / 覆盖索引 / GIN 索引（PostgreSQL）"
+  - optimization_tool: "EXPLAIN ANALYZE"
+  - anti_pattern: "过度索引 / 重复索引"

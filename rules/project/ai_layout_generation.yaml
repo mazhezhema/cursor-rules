@@ -1,0 +1,8 @@
+ai_design:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  layout_generation:
+    description: 基于AI自动生成或优化UI布局结构
+    implementation_hint: 使用约束布局算法结合GPT辅助结构生成，提升布局一致性和响应性
+  tag: '[AI补全] 示例 tag 内容'

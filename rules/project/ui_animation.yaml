@@ -1,0 +1,7 @@
+ui_animation:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 在安卓设备上使用低帧率简单补间动画，Flutter建议使用AnimatedSwitcher代替复杂Tween
+  principle: 减少不必要动画，强调性能优先
+  tag: '[AI补全] 示例 tag 内容'
+  usage: 禁止复杂 3D 动效，采用 CSS Transition 或 Flutter 动画封装

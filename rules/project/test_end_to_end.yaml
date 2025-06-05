@@ -1,0 +1,5 @@
+id: test_end_to_end
+title: 端到端测试用例覆盖
+description: 验证从用户输入到服务响应的完整链路，包括换脸成功流程、失败流程、支付验证和内容生成。
+tags: [end_to_end, mvp, stability, automation]
+stage: mvp

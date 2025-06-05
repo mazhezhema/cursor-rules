@@ -1,0 +1,4 @@
+anchor: backend_healthcheck_policy
+tags: [backend, healthcheck, monitoring]
+title: 后端接口健康检查策略
+description: FastAPI 服务接口级别的健康检查规范，支持部署监控集成。

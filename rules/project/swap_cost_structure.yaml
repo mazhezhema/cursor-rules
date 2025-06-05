@@ -1,0 +1,12 @@
+swap_cost_structure:
+  desc: 定义每次调用换脸的成本、批量优化方式及最终对用户的定价影响。
+  fields:
+    bulk_strategy: 并发处理与缓存策略
+    pricing_model: 内部计费模型（如按秒、按图）
+    unit_cost: 每次换脸的 GPU 时间/成本
+    user_price_plan: 给用户的价格结构（免费额度/订阅）
+  tag:
+  - swap
+  - cost
+  - gpu
+  title: 换脸模型运行成本与定价结构

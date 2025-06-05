@@ -1,0 +1,7 @@
+id: test_loading_latency
+title: 页面加载时长测试
+description: 检查换脸流程中前端页面和模型接口的加载时间是否在可接受范围内。
+checks:
+  - description: 首页加载时间小于1秒
+  - description: 模型调用返回时间小于3秒
+  - description: 图片上传并完成换脸流程总时长小于6秒

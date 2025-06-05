@@ -1,0 +1,6 @@
+ux_layout:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 使用 Tailwind 或 Flexbox 实现横竖屏、刘海屏、折叠屏自适应布局。
+  tag: '[AI补全] 示例 tag 内容'
+  value: 模块化、栅格化布局，适应各类屏幕尺寸和方向。

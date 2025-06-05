@@ -1,0 +1,13 @@
+id: auth_deep_link_restore
+name: 深链跳转恢复策略
+tags: [auth, deeplink, redirect]
+description: 用户点击外部链接触发 OAuth 登录流程后，登录完成返回原始目标页。
+scenarios:
+  - 用户在浏览器打开分享链接，跳转登录后未能回到原页
+structure:
+  - pre_auth_url_capture: 登录前保存当前目标页面URL（如 via redirect param）
+  - post_auth_redirect: 登录成功后统一判断是否跳转回 pre_auth_url
+  - fallback_url: 未能恢复目标页时的默认降级页面
+rules:
+  - 每次 OAuth 请求应附带 redirect 参数
+  - 登录流程中需全局支持 redirect 恢复逻辑（无状态 session 配合）

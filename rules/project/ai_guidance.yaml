@@ -1,0 +1,6 @@
+ai_guidance:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 将AI提示作为浮层出现，仅在用户操作困难时自动激活。
+  rule: 使用AI提示提升用户操作效率，但避免AI喧宾夺主。
+  tag: '[AI补全] 示例 tag 内容'

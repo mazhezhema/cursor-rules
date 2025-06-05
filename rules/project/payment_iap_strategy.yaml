@@ -1,0 +1,10 @@
+id: payment_iap_strategy
+name: Apple IAP 支付策略
+description: 针对 iOS 系统集成 Apple In-App Purchase 支付方案，包括订阅试用及自动续费。
+tags: [payment, iap, apple, ios, subscription, in-app]
+priority: high
+structure:
+  - 客户端调用 StoreKit 发起购买请求
+  - 获取 transactionId 并上传给服务端
+  - 后端请求 Apple Server 校验收据有效性
+  - 自动处理续费、试用期、订阅取消通知

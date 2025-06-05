@@ -1,0 +1,10 @@
+test_responsive:
+  coverage:
+  - 手机：iPhone SE, iPhone 15 Pro Max, 小米 13, 三星 Galaxy Fold
+  - 平板：iPad, 华为 MatePad, 安卓大屏
+  - 折叠屏：横竖切换、展开收起动态布局
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  goal: 确保UI在不同设备尺寸、DPI下自动适配且无布局错乱
+  implementation_hint: 使用Flutter MediaQuery和LayoutBuilder进行布局监听与适配
+  tag: '[AI补全] 示例 tag 内容'

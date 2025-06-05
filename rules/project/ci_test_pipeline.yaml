@@ -1,0 +1,7 @@
+id: ci_test_pipeline
+title: CI自动化测试流程
+description: 所有提交推送后触发单元测试、接口测试、视觉测试。
+pipeline:
+  - unittest
+  - api test
+  - visual diff

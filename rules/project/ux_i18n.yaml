@@ -1,0 +1,10 @@
+id: ux_i18n
+title: 国际化文案配置
+description: 提前预留所有按钮与提示文案的英文翻译结构，支持多语言切换。
+examples:
+  - key: home.start_button
+    zh: 开始换脸
+    en: Start Swapping
+  - key: result.save
+    zh: 保存图片
+    en: Save Image

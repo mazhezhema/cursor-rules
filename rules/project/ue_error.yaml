@@ -1,0 +1,5 @@
+ue_error:
+  description: 错误容忍与兜底机制，包括弱网、上传失败、AI处理失败、换脸失败等场景
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 出现失败时，提供可重试按钮，并解释失败原因，避免无提示
+  tag: '[AI补全] 示例 tag 内容'

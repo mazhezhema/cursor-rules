@@ -1,0 +1,12 @@
+chat_support:
+  desc: 定义使用 Crisp 等气泡客服系统的集成方案与平台适配。
+  fields:
+    interaction_entry: 入口设置方式（悬浮/按钮/自动弹出）
+    platform_support: Flutter/iOS/Android/web 接入方式
+    privacy_mode: 是否匿名对话与数据存储规范
+    provider: 客服系统类型（如 Crisp）
+  tag:
+  - support
+  - chat
+  - crisp
+  title: 嵌入式客服系统集成

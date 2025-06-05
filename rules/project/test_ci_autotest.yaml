@@ -1,0 +1,23 @@
+id: test_ci_autotest
+title: CI 自动化测试流程
+description: |
+  定义在 CI/CD 流水线中自动执行的测试用例，包括单元测试、集成测试和回归测试。
+  每次 push 或合并 PR 时自动触发，确保主干代码始终稳定。
+structure:
+  - event: code_push_or_merge
+    actions:
+      - run_unit_tests
+      - run_integration_tests
+      - run_visual_regression
+      - notify_on_failure
+  - tools:
+      - pytest
+      - playwright
+      - custom_latency_checker
+    environments:
+      - node: latest
+      - python: 3.10
+  - outputs:
+      - junit_report.xml
+      - visual_diff.png
+      - latency_stats.log

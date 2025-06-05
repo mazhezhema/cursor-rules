@@ -1,0 +1,12 @@
+visual_icon:
+  description: 系统级图标风格与适配原则
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  rules:
+  - content: 优先使用 Z 世代用户熟悉的系统图标（如 Material、Feather）替代自定义图形
+    implementation_hint: 组件库中直接复用 react-icons / lucide-react 图标包
+    name: 使用通用图标库
+  - content: 图标设计保持线性、简约，避免复杂装饰
+    implementation_hint: 所有图标设置为 1.5px 或 2px 的描边宽度，SVG路径不超过3层
+    name: 图标线条简洁
+  tag: '[AI补全] 示例 tag 内容'

@@ -1,0 +1,10 @@
+test_ab_test:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  experiment_design:
+  - 不同引导文案
+  - 按钮文案/颜色对点击影响
+  - 收费入口位置变更实验
+  goal: 跟踪运营入口配置对用户转化影响
+  implementation_hint: 设置分流参数，埋点追踪行为路径与留存曲线
+  tag: '[AI补全] 示例 tag 内容'

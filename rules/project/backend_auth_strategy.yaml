@@ -1,0 +1,7 @@
+id: backend_auth_strategy
+title: 鉴权与身份识别机制
+description: 阐述 OAuth2 + JWT 模型的身份识别机制。
+tags: [backend, auth, oauth]
+content:
+  mode: OAuth2.0 + JWT
+  anonymous_policy: "limited access, token required"

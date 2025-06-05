@@ -1,0 +1,7 @@
+summary: OAuth 错误码与提示文案映射表
+description: |
+  对接第三方 OAuth 平台（如 Google、Facebook）后，整理常见错误码及其用户提示策略。
+components:
+  - 错误码与说明映射表
+  - 显示语言与 UI 样式建议
+  - 建议重试间隔与 fallback 建议操作

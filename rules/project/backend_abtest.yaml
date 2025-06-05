@@ -1,0 +1,7 @@
+id: backend_abtest
+title: 后端 ABTest 实验接入
+description: 后端通过 Header 分析用户实验组策略，进行逻辑分支。
+tags: [backend, abtest, experimentation]
+content:
+  header: X-ABTest
+  behavior: 参数解析并落表

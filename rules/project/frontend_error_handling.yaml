@@ -1,0 +1,14 @@
+frontend_error_handling:
+  desc: 包含上传失败、AI生成失败、权限拒绝等错误场景下的 UI/UX 设计
+  fallback:
+  - action: 提示用户提交反馈或换图重试
+    condition: AI生成失败3次
+  permission_denied:
+  - camera: 未授权相机，弹窗引导用户前往系统设置
+  - photo: 未授权相册，提示并给出跳转路径
+  title: 错误处理策略
+  toast_errors:
+  - context: 上传模糊图
+    message: 照片太糊啦～换张清晰自拍吧 😵
+  - context: AI超时
+    message: AI 正在努力中...再试一次？

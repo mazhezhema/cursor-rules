@@ -1,0 +1,6 @@
+ux_screen:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: Flutter 架构中使用 LayoutBuilder 和 MediaQuery 实现适配策略。
+  tag: '[AI补全] 示例 tag 内容'
+  value: 支持不同分辨率、DPI、比例的设备，覆盖横屏、竖屏、折叠屏。

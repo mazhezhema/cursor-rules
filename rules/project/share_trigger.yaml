@@ -1,0 +1,18 @@
+description: 定义 App 中所有可能诱发用户自发传播的 UI 时机与激励机制。
+fields:
+  channels_supported:
+  - Instagram
+  - TikTok
+  - Twitter
+  - Facebook
+  - Telegram
+  share_rewards:
+  - 限时模版
+  - 积分兑换
+  - 称号/身份标识
+  trigger_points:
+  - 首次成功换脸后
+  - 换脸挑战榜单排名上升
+  - 收到他人点赞或评论
+  - 解锁稀有模版
+title: 用户行为中触发分享的关键节点

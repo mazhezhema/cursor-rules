@@ -1,0 +1,8 @@
+id: order_dispatch_status
+title: 派单/履约状态建模
+description: 支付成功后进入履约或派单流程的状态定义
+statuses:
+  - to_dispatch: 待派发（如内容/服务）
+  - dispatched: 已派发
+  - delivered: 已交付
+  - failed_dispatch: 派发失败（需客服介入）

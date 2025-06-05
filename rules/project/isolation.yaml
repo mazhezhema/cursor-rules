@@ -1,0 +1,9 @@
+id: cloud.isolation
+name: 容器隔离与权限控制
+owner: cloud
+tags: [cloud, security, isolation]
+desc: 模型部署容器采用最小权限原则，严格隔离计算与存储资源，防止横向攻击或逃逸
+content: |
+  - 每个模型服务实例在独立沙盒中运行，使用非 root 权限容器
+  - 网络仅开放所需端口，磁盘挂载只允许模型/缓存目录
+  - 禁止容器内执行系统管理命令

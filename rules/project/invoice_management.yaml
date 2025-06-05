@@ -1,0 +1,7 @@
+id: finance/invoice_management
+title: 发票与对账管理
+description: 对用户开具发票的能力，确保财务合规
+fields:
+  - invoice_type: enum[e-invoice, paper]
+  - issue_trigger: enum[pay_success, monthly_summary]
+  - reconciliation_cycle: enum[weekly, monthly]

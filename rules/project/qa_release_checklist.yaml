@@ -1,0 +1,9 @@
+id: qa_release_checklist
+category: qa
+description: MVP 阶段上线前回归、配置和权限检查清单
+checklist:
+  - [ ] 支付流程成功率 >= 99%
+  - [ ] 所有登录流程无阻塞
+  - [ ] 用户换脸操作结果正确率 >= 95%
+  - [ ] 所有页面加载时间 < 2s
+  - [ ] 异常日志无重大未处理

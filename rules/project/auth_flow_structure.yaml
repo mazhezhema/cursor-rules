@@ -1,0 +1,8 @@
+anchor: auth_flow_structure
+title: 登录注册流程结构设计
+description: 登录与注册的完整交互流程定义，用于 Cursor 自动生成前端页面。
+content:
+  - 登录页结构（标题、输入区、按钮区、OAuth 区）
+  - 注册页结构（多步验证/一次性页）
+  - 错误提示/状态反馈组件位置
+  - 登录成功后行为定义（跳转/Toast）

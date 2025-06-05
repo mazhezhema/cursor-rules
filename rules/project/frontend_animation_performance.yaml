@@ -1,0 +1,14 @@
+# 动画性能 Anchor
+
+## 场景
+复杂动画是 Flutter 常见性能瓶颈，需对动画过程 GPU 利用率、掉帧率、内存消耗进行监控。
+
+## 优化方法
+- 使用 Implicit Animation 替代复杂的自定义 Ticker
+- 使用 AnimatedBuilder、TweenBuilder 提高效率
+- 控制动画帧率在 60fps（移动）或 120fps（高刷）
+- 避免在动画中 rebuild 整个 widget tree
+
+## 工具建议
+- Flutter DevTools → Performance → Timeline
+- 使用 Repaint Rainbow 辅助分析不必要重绘

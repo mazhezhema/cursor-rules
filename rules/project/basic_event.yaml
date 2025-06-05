@@ -1,0 +1,20 @@
+description: 定义换脸 App 的基本行为埋点事件与字段结构，用于初期数据分析。
+fields:
+  events:
+    login:
+      method: google/facebook/email
+      timestamp: ISO8601
+      user_id: UUID
+    share_result:
+      platform: instagram/twitter/tiktok
+      result_url: string
+      user_id: UUID
+    start_swap:
+      runtime: float (seconds)
+      template_id: string
+      user_id: UUID
+    upload_image:
+      face_detected: bool
+      image_type: selfie/template
+      user_id: UUID
+title: 埋点事件结构（基础版）

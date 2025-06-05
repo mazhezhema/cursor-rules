@@ -1,0 +1,8 @@
+anchor: backend_deployment_freeze
+title: 部署冻结与窗口管理
+description: 在高峰期或敏感时期暂停部署操作，避免影响稳定性。
+tags: [deployment, freeze, schedule]
+spec:
+  - 每年固定冻结窗口配置（如大促、节假日）
+  - 发布审批制度
+  - 特殊场景支持手动临时冻结

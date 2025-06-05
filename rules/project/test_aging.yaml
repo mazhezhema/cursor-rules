@@ -1,0 +1,12 @@
+name: test_aging
+description: 老化测试，检测长时间运行后是否出现性能退化、内存泄露
+scenarios:
+  - id: AGING_CONTINUOUS_SWAP
+    title: 连续换脸老化测试
+    steps: 每分钟执行换脸操作 1 次，持续 12 小时
+    expected: 无内存溢出，响应时间波动不超过 10%
+
+  - id: AGING_UPLOAD_LOOP
+    title: 图片上传连续运行测试
+    steps: 每 30 秒上传 1 张图，持续 6 小时
+    expected: 上传接口稳定、无卡死

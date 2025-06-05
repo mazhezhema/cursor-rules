@@ -1,0 +1,3 @@
+# Anchor: API Interface Definition
+
+Describes client-side API structure, versioning, error code structure, and response fallback.

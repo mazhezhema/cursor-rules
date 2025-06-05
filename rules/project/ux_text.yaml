@@ -1,0 +1,6 @@
+ux_text:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 标题党风格吸引点击，正文使用问句或语气词，鼓励评论互动。
+  tag: '[AI补全] 示例 tag 内容'
+  value: 强调共鸣感与亲切感的文案表达方式。

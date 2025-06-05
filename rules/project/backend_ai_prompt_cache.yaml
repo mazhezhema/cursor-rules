@@ -1,0 +1,14 @@
+anchor: backend_ai_prompt_cache
+name: AI Prompt Result Caching
+description: |
+  Cache the results of high-frequency or heavy-cost prompts used in AI-assisted development
+  to improve performance and reduce latency.
+scenarios:
+  - trigger: "Developer repeatedly uses similar prompt during debugging"
+    response: "System returns cached result to avoid redundant AI calls"
+  - trigger: "Prompt used in CI/CD pipelines"
+    response: "Results are pre-fetched and stored for fast feedback"
+best_practices:
+  - "Use SHA256 of normalized prompt text as cache key"
+  - "Set TTL for cache entries depending on prompt type (e.g., 10m for debug, 1h for refactor)"
+  - "Invalidate cache if source code changes"

@@ -1,0 +1,5 @@
+description: 每次提交后自动触发测试
+tags: [ci, test]
+content:
+  - 每次 git push 后自动运行全部 TDD 测试用例
+  - 失败阻止构建流程

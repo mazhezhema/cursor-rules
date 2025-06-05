@@ -1,0 +1,10 @@
+ue_feedback:
+  description: 用户操作反馈机制与提示信息规范
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  rules:
+  - implementation_hint: 使用 Toast、SnackBar 或轻微振动提示成功
+    name: 每次操作应提供视觉或振动反馈
+  - implementation_hint: 附带原因说明与“重试”按钮
+    name: 异常或失败操作提供修复建议
+  tag: '[AI补全] 示例 tag 内容'

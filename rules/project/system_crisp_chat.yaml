@@ -1,0 +1,20 @@
+id: system_crisp_chat
+title: Crisp Chat SaaS 客服服务集成
+description: 第一期客服气泡模块使用 Crisp Chat 免费版集成，通过嵌入脚本方式加载。
+tags:
+  - SaaS
+  - Crisp
+  - CustomerSupport
+structure:
+  sdk_integration:
+    - name: crisp.js
+      load_timing: 页面加载后延迟 1 秒插入 script 标签
+      domain_configurable: true
+  customization:
+    - button_position: right-bottom
+    - trigger_method: auto + manual
+    - language: 自动识别 + 默认英文
+  fallback_strategy:
+    - if_blocked: 隐藏按钮
+    - if_error: console warn
+notes: Crisp 免费版不支持自定义用户字段，不支持 API 写入。

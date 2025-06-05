@@ -1,0 +1,9 @@
+visual_principle:
+  core_rules:
+  - 避免视觉干扰，优先确保功能直觉可达。
+  - 强调品牌感知一致性，统一使用官方字体与色彩方案。
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint:
+  - 使用统一的色板文件与 Token 系统进行主题切换与维护。
+  tag: '[AI补全] 示例 tag 内容'

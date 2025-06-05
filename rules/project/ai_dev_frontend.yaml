@@ -1,0 +1,12 @@
+ai_dev_frontend:
+  desc: 总结使用 AI 工具（如 Cursor、Copilot）辅助 Flutter 前端开发的经验、流程与规则。
+  fields:
+    coding_pattern: 前端代码结构最佳实践
+    file_structure: 推荐的前端目录组织方式
+    interaction_flow: AI 辅助时的提示词结构与约定
+    toolchain: 使用的 AI 工具组合与版本
+  tag:
+  - frontend
+  - ai
+  - workflow
+  title: AI 辅助前端开发规范

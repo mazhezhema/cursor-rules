@@ -1,0 +1,5 @@
+id: auth_token_lifecycle
+title: Token 生命周期管理
+description: 定义 access token 和 refresh token 的过期机制、自动刷新策略、失效处理逻辑。
+tags: [auth, token, 安全]
+stage: MVP

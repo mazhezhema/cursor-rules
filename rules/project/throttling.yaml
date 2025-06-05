@@ -1,0 +1,9 @@
+id: cloud.throttling
+name: 云端换脸请求限流与滥用检测
+owner: cloud
+tags: [cloud, api, throttle, abuse]
+desc: 限制单用户/设备调用频率，防止接口滥用和 GPU 资源刷爆
+content: |
+  - 使用 Nginx + Redis 实现请求频率限制（如每分钟 10 次）
+  - 针对换脸行为配置限流规则，超过触发警告与封禁机制
+  - 后台记录异常行为设备 ID / IP，做风控识别

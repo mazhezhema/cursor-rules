@@ -1,0 +1,8 @@
+ai_design:
+  component_recommendation:
+    description: 使用AI根据上下文推荐最适合的UI组件
+    implementation_hint: 可结合用户行为数据和当前页面结构，使用LLM进行推荐候选组件
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
+  tag: '[AI补全] 示例 tag 内容'

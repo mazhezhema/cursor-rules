@@ -1,0 +1,9 @@
+changelog:
+  - date: 2025-06-01
+    changes:
+      - Added test_responsive.yaml: Test cases for screen size and orientation compatibility.
+      - Added test_interaction.yaml: Covers gesture, tap, swipe, and animation response tests.
+      - Added test_data_integrity.yaml: Ensures correct user data flow across modules.
+      - Added test_device.yaml: Tests across iOS, Android, tablets, and foldables.
+      - Added test_error.yaml: Verifies error message visibility and feedback quality.
+      - Added test_ab_test.yaml: Basic A/B test verification support.

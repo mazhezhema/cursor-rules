@@ -1,0 +1,5 @@
+ai_privacy:
+  description: AI设计中应保障用户隐私，数据仅用于明确用途。
+  example: '[AI补全] 示例 example 内容'
+  implementation_hint: 明确数据用途，在UI中提示用户AI是否使用其数据进行学习；提供数据删除与匿名处理接口。
+  tag: '[AI补全] 示例 tag 内容'

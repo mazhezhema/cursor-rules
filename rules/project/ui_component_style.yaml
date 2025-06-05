@@ -1,0 +1,12 @@
+title: 组件样式规范
+description: |
+  统一 UI 基础组件的样式和行为，提升用户体验一致性。
+components:
+  - name: Button
+    shape: "圆角 8px"
+    padding: "12px 16px"
+    font: "16px Medium"
+  - name: Card
+    shadow: "2dp"
+    radius: "12px"
+    spacing: "16px 外边距"

@@ -1,0 +1,7 @@
+# Anchor: backend_cache_eviction.yaml
+description: |
+  设计缓存失效策略（LRU、TTL、定期清理）以避免内存溢出、数据污染。
+specs:
+  - eviction_strategy: "LRU / LFU / TTL"
+  - refresh_trigger: "主动刷新 / 过期拉新"
+  - monitoring: "缓存命中率 / 失效率"

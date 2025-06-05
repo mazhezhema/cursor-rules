@@ -1,0 +1,14 @@
+name: test_payment_trigger
+description: 覆盖支付触发流程，包括点击路径、试用到期逻辑等
+scenarios:
+  - title: 收藏超过限制后触发计费弹窗
+    steps:
+      - 收藏第 21 个模板
+      - 检查是否立即弹出订阅弹窗
+    expected: 达到上限即触发订阅 CTA，无需刷新
+
+  - title: 试用期结束后触发提示
+    steps:
+      - 模拟试用期第 8 天登录
+      - 观察是否出现订阅提示
+    expected: 弹出订阅 toast 或弹窗提示

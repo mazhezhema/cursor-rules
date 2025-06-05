@@ -1,0 +1,4 @@
+anchor: backend_content_moderation
+tags: [backend, moderation, safety]
+title: 内容审核策略
+description: 对用户上传图片、视频进行AI审核、人审、关键词过滤等安全机制定义。

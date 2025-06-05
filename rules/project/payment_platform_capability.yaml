@@ -1,0 +1,9 @@
+# Payment platform capability mapping
+platforms:
+  - name: stripe
+    supports:
+      - subscription
+      - one_time
+  - name: paypal
+    supports:
+      - one_time

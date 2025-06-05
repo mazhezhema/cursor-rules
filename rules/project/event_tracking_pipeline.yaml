@@ -1,0 +1,8 @@
+anchor: event_tracking_pipeline
+title: 后端埋点数据管道
+description: 埋点事件采集、解析、入库、转发的后端架构
+pipeline:
+  - collector: 接收 HTTP 事件请求并落盘
+  - processor: Kafka + ETL 处理事件格式
+  - storage: 持久化至 OLAP 数据仓库
+  - alerting: 支持监控异常埋点频率

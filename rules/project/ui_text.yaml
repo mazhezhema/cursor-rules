@@ -1,0 +1,8 @@
+ui_text:
+  description: '[AI补全] 示例 description 内容'
+  example: '[AI补全] 示例 example 内容'
+  hierarchy: 使用层级感明确的信息组织
+  implementation_hint: 使用 Tailwind 的 text-base、text-lg 配合 font-medium 控制字号与语气感
+  tag: '[AI补全] 示例 tag 内容'
+  tone: 语言风格轻松温和，适配 Z 世代
+  typography: 保持字体大小一致，适配不同屏幕

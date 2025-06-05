@@ -1,0 +1,7 @@
+id: backend_async_queue
+title: 异步任务队列与临时数据管理
+description: 描述后台异步任务如何调度、超时处理及临时文件清理逻辑。
+tags: [backend, async, celery]
+content:
+  queue_system: Celery
+  timeout: 10s
