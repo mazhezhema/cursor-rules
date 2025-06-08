@@ -1,0 +1,4 @@
+id: page_settings
+title: 设置页设计规范
+tags: [page, settings, ui]
+description: 规定设置页的结构与配置项，如语言切换、深色模式、版本信息、用户反馈入口等。

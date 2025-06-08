@@ -1,4 +1,3 @@
 id: page_user_profile
-title: 用户中心页设计
-tags: [page, user, profile]
-description: 用户个人主页结构，包括 VIP 状态、历史记录、参与统计与个性化推荐展示等。
+title: 用户资料
+...

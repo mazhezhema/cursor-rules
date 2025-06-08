@@ -573,6 +573,13 @@
     "description": ""
   },
   {
+    "file_path": "anchor/ai_faceswap_inference_flow.yaml",
+    "id": "ai_faceswap_inference_flow",
+    "type": ".",
+    "title": "",
+    "description": "描述从用户上传自拍图，到换脸模型调用、生成图像、缓存结果的完整推理流程。"
+  },
+  {
     "file_path": "anchor/ai/ai_faceswap_inference_flow.yaml",
     "id": "ai_faceswap_inference_flow",
     "type": "ai",
@@ -583,36 +590,36 @@
     "file_path": "anchor/page/page_home.yaml",
     "id": "page_home",
     "type": "page",
-    "title": "首页功能设计",
-    "description": "定义首页的主要组件与功能模块，包括换脸入口、爆款模板展示、上传按钮与分享引导。"
+    "title": "首页",
+    "description": ""
   },
   {
     "file_path": "anchor/page/page_share.yaml",
     "id": "page_share",
     "type": "page",
-    "title": "分享页功能设计",
-    "description": "定义内容分享页的布局结构，包括展示图、下载按钮、社交平台分享按钮和分享文案逻辑。"
+    "title": "分享页",
+    "description": ""
   },
   {
     "file_path": "anchor/page/page_settings.yaml",
     "id": "page_settings",
     "type": "page",
-    "title": "设置页设计规范",
-    "description": "规定设置页的结构与配置项，如语言切换、深色模式、版本信息、用户反馈入口等。"
+    "title": "设置页",
+    "description": ""
   },
   {
     "file_path": "anchor/page/page_result.yaml",
     "id": "page_result",
     "type": "page",
-    "title": "结果页展示逻辑",
-    "description": "设计换脸/生成操作后的结果页，包含图像展示、保存、再创作、打分/评论引导模块。"
+    "title": "结果页",
+    "description": ""
   },
   {
     "file_path": "anchor/page/page_user_profile.yaml",
     "id": "page_user_profile",
     "type": "page",
-    "title": "用户中心页设计",
-    "description": "用户个人主页结构，包括 VIP 状态、历史记录、参与统计与个性化推荐展示等。"
+    "title": "用户资料",
+    "description": ""
   },
   {
     "file_path": "anchor/page/page_history.yaml",
@@ -633,7 +640,7 @@
     "id": "page_template_list",
     "type": "page",
     "title": "模板列表页",
-    "description": "展示所有可换脸模板的浏览页，支持分类筛选、收藏与搜索功能。"
+    "description": ""
   },
   {
     "file_path": "anchor/page/page_about.yaml",
@@ -660,8 +667,50 @@
     "file_path": "anchor/dialog/dialog_delete_account.yaml",
     "id": "dialog_delete_account",
     "type": "dialog",
-    "title": "注销账号弹窗",
-    "description": "用户尝试注销账号时弹出的警示对话框。"
+    "title": "注销账户",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/dialog/dialog_feedback_form.yaml",
+    "id": "dialog_feedback_form",
+    "type": "dialog",
+    "title": "意见反馈表单弹窗",
+    "description": "将原反馈页面改为弹窗表单，简化跳转路径。"
+  },
+  {
+    "file_path": "anchor/dialog/dialog_about_info.yaml",
+    "id": "dialog_about_info",
+    "type": "dialog",
+    "title": "关于我们信息弹窗",
+    "description": "将“关于页面”信息整合为可弹出的对话框。"
+  },
+  {
+    "file_path": "anchor/dialog/dialog_settings.yaml",
+    "id": "dialog_settings",
+    "type": "dialog",
+    "title": "设置页设计规范",
+    "description": "规定设置页的结构与配置项，如语言切换、深色模式、版本信息、用户反馈入口等。"
+  },
+  {
+    "file_path": "anchor/dialog/dialog_user_profile.yaml",
+    "id": "dialog_user_profile",
+    "type": "dialog",
+    "title": "用户中心页设计",
+    "description": "用户个人主页结构，包括 VIP 状态、历史记录、参与统计与个性化推荐展示等。"
+  },
+  {
+    "file_path": "anchor/dialog/dialog_confirm_upload.yaml",
+    "id": "dialog_confirm_upload",
+    "type": "dialog",
+    "title": "确认上传",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/dialog/dialog_first_time_guide.yaml",
+    "id": "dialog_first_time_guide",
+    "type": "dialog",
+    "title": "首次引导",
+    "description": ""
   },
   {
     "file_path": "anchor/analytics/analytics_sample_1.yaml",
@@ -3081,7 +3130,70 @@
     "file_path": "anchor/toast/toast_save_success.yaml",
     "id": "toast_save_success",
     "type": "toast",
-    "title": "保存成功提示",
-    "description": "当用户完成保存操作时显示的提示。"
+    "title": "保存成功",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/toast/toast_upload_failed.yaml",
+    "id": "toast_upload_failed",
+    "type": "toast",
+    "title": "上传失败",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/toast/toast_faceswap_error.yaml",
+    "id": "toast_faceswap_error",
+    "type": "toast",
+    "title": "换脸出错提示",
+    "description": "用于换脸模型调用失败时，提醒用户稍后重试或更换图片。"
+  },
+  {
+    "file_path": "anchor/toast/toast_save_failed.yaml",
+    "id": "toast_save_failed",
+    "type": "toast",
+    "title": "保存失败",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/toast/toast_invalid_input.yaml",
+    "id": "toast_invalid_input",
+    "type": "toast",
+    "title": "无效输入提示",
+    "description": "用于输入项为空或格式不合法时，给出即时的 toast 提示反馈。"
+  },
+  {
+    "file_path": "anchor/toast/toast_feature_unavailable.yaml",
+    "id": "toast_feature_unavailable",
+    "type": "toast",
+    "title": "功能暂不可用提示",
+    "description": "用于特定功能尚未开放时，给出清晰的提示信息。"
+  },
+  {
+    "file_path": "anchor/toast/toast_logout_success.yaml",
+    "id": "toast_logout_success",
+    "type": "toast",
+    "title": "登出成功",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/toast/toast_upload_confirmed.yaml",
+    "id": "toast_upload_confirmed",
+    "type": "toast",
+    "title": "上传已确认提示",
+    "description": "原确认上传操作简化为上传成功/失败的 Toast 提示。"
+  },
+  {
+    "file_path": "anchor/toast/toast_authorization_notice.yaml",
+    "id": "toast_authorization_notice",
+    "type": "toast",
+    "title": "授权提醒提示",
+    "description": "授权请求时展示简洁提醒，取代对话框。"
+  },
+  {
+    "file_path": "anchor/toast/toast_exit_saved.yaml",
+    "id": "toast_exit_saved",
+    "type": "toast",
+    "title": "编辑退出保存提示",
+    "description": "离开编辑页面时自动保存，并提示保存成功。"
   }
 ]
