@@ -35,13 +35,6 @@
     "description": ""
   },
   {
-    "file_path": "anchor/ai_faceswap_inference_flow.yaml",
-    "id": "ai_faceswap_inference_flow",
-    "type": ".",
-    "title": "",
-    "description": "描述从用户上传自拍图，到换脸模型调用、生成图像、缓存结果的完整推理流程。"
-  },
-  {
     "file_path": "anchor/ai_fallback.yaml",
     "id": "ai_fallback",
     "type": ".",
