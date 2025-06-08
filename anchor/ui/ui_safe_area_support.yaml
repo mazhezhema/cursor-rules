@@ -1,0 +1,4 @@
+id: ui_safe_area_support
+title: 安全区域支持规范
+tags: [ui, safe_area, ios, android]
+description: 针对有刘海、导航栏等设备，定义内容与UI组件避让安全区域的策略。

@@ -3120,6 +3120,27 @@
     "description": "用户体验层面需兼顾不同终端的视觉、操作逻辑与感知一致性，避免割裂体验。\n"
   },
   {
+    "file_path": "anchor/ui/ui_adaptive_typography.yaml",
+    "id": "ui_adaptive_typography",
+    "type": "ui",
+    "title": "字体自适应排版规范",
+    "description": "规范字体在不同设备上的缩放与排版策略，确保在高DPI屏幕上具有良好可读性。"
+  },
+  {
+    "file_path": "anchor/ui/ui_safe_area_support.yaml",
+    "id": "ui_safe_area_support",
+    "type": "ui",
+    "title": "安全区域支持规范",
+    "description": "针对有刘海、导航栏等设备，定义内容与UI组件避让安全区域的策略。"
+  },
+  {
+    "file_path": "anchor/ui/ui_density_mode.yaml",
+    "id": "ui_density_mode",
+    "type": "ui",
+    "title": "布局密度适配模式",
+    "description": "支持紧凑与宽松两种布局密度模式，依据设备类型（手机/平板/TV）自动切换。"
+  },
+  {
     "file_path": "anchor/toast/toast_network_error.yaml",
     "id": "toast_network_error",
     "type": "toast",
