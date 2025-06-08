@@ -1,0 +1,2947 @@
+[
+  {
+    "file_path": "anchor/ai_a11y_adaptation.yaml",
+    "id": "ai_a11y_adaptation",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_adaptation.yaml",
+    "id": "ai_adaptation",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_component_recommendation.yaml",
+    "id": "ai_component_recommendation",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_copywriting.yaml",
+    "id": "ai_copywriting",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_data_driven.yaml",
+    "id": "ai_data_driven",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_faceswap_inference_flow.yaml",
+    "id": "ai_faceswap_inference_flow",
+    "type": ".",
+    "title": "",
+    "description": "描述从用户上传自拍图，到换脸模型调用、生成图像、缓存结果的完整推理流程。"
+  },
+  {
+    "file_path": "anchor/ai_fallback.yaml",
+    "id": "ai_fallback",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_guidance.yaml",
+    "id": "ai_guidance",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_interaction.yaml",
+    "id": "ai_interaction",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_layout_generation.yaml",
+    "id": "ai_layout_generation",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_mood_detection.yaml",
+    "id": "ai_mood_detection",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_personalization.yaml",
+    "id": "ai_personalization",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_privacy.yaml",
+    "id": "ai_privacy",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_style_transfer.yaml",
+    "id": "ai_style_transfer",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai_transparency.yaml",
+    "id": "ai_transparency",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/anchor_index.yaml",
+    "id": "anchor_index",
+    "type": ".",
+    "error": "'list' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/backend_cache_layering.yaml",
+    "id": "backend_cache_layering",
+    "type": ".",
+    "title": "",
+    "description": "描述前后端架构中使用的多级缓存机制，覆盖 L1/L2 缓存，冷热数据分层与 TTL 策略。"
+  },
+  {
+    "file_path": "anchor/backend_storage_policy.yaml",
+    "id": "backend_storage_policy",
+    "type": ".",
+    "title": "",
+    "description": "针对媒体类数据（如图像、视频），定义热存储与冷存储的转移条件与操作机制。"
+  },
+  {
+    "file_path": "anchor/changelog_test.yaml",
+    "id": "changelog_test",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/compliance_user_data.yaml",
+    "id": "compliance_user_data",
+    "type": ".",
+    "title": "",
+    "description": "支持 GDPR/CCPA 合规的用户隐私数据导出、注销申请与系统删除机制。"
+  },
+  {
+    "file_path": "anchor/emotion.yaml",
+    "id": "emotion",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/growth.yaml",
+    "id": "growth",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/index.yaml",
+    "id": "index",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment_subscription_pricing.yaml",
+    "id": "payment_subscription_pricing",
+    "type": ".",
+    "title": "",
+    "description": "支持 MVP 阶段简单定价与未来功能包/分层付费结构，按用户场景设计月/年定价策略。"
+  },
+  {
+    "file_path": "anchor/product.yaml",
+    "id": "product",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/system_navigation.yaml",
+    "id": "system_navigation",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/system_permission.yaml",
+    "id": "system_permission",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/system_status.yaml",
+    "id": "system_status",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/system_theme.yaml",
+    "id": "system_theme",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test_ab_test.yaml",
+    "id": "test_ab_test",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test_data_integrity.yaml",
+    "id": "test_data_integrity",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test_device_coverage.yaml",
+    "id": "test_device_coverage",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test_error_handling.yaml",
+    "id": "test_error_handling",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test_interaction.yaml",
+    "id": "test_interaction",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test_responsive.yaml",
+    "id": "test_responsive",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_behavior.yaml",
+    "id": "ue_behavior",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_conversion.yaml",
+    "id": "ue_conversion",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_entry.yaml",
+    "id": "ue_entry",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_error.yaml",
+    "id": "ue_error",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_feedback.yaml",
+    "id": "ue_feedback",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_flow.yaml",
+    "id": "ue_flow",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_flows.yaml",
+    "id": "ue_flows",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_guidance.yaml",
+    "id": "ue_guidance",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_loading.yaml",
+    "id": "ue_loading",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_onboarding.yaml",
+    "id": "ue_onboarding",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_test.yaml",
+    "id": "ue_test",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ue_transition.yaml",
+    "id": "ue_transition",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_accessibility.yaml",
+    "id": "ui_accessibility",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_animation.yaml",
+    "id": "ui_animation",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_component.yaml",
+    "id": "ui_component",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_controls.yaml",
+    "id": "ui_controls",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_gesture.yaml",
+    "id": "ui_gesture",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_iconography.yaml",
+    "id": "ui_iconography",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_layout.yaml",
+    "id": "ui_layout",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_performance.yaml",
+    "id": "ui_performance",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_responsive.yaml",
+    "id": "ui_responsive",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_test_behavior.yaml",
+    "id": "ui_test_behavior",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_text.yaml",
+    "id": "ui_text",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui_theme.yaml",
+    "id": "ui_theme",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/user.yaml",
+    "id": "user",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/user_growth_mission.yaml",
+    "id": "user_growth_mission",
+    "type": ".",
+    "title": "",
+    "description": "用户行为驱动的成长体系，包括连续登录、换脸分享、邀请好友等任务及积分系统。"
+  },
+  {
+    "file_path": "anchor/ux_ai_design.yaml",
+    "id": "ux_ai_design",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_guidance.yaml",
+    "id": "ux_guidance",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_interaction.yaml",
+    "id": "ux_interaction",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_layout.yaml",
+    "id": "ux_layout",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_philosophy.yaml",
+    "id": "ux_philosophy",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_screen.yaml",
+    "id": "ux_screen",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_test_behavior.yaml",
+    "id": "ux_test_behavior",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_text.yaml",
+    "id": "ux_text",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux_visual.yaml",
+    "id": "ux_visual",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_brand.yaml",
+    "id": "visual_brand",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_color.yaml",
+    "id": "visual_color",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_contrast.yaml",
+    "id": "visual_contrast",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_grid.yaml",
+    "id": "visual_grid",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_icon.yaml",
+    "id": "visual_icon",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_image.yaml",
+    "id": "visual_image",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_motion.yaml",
+    "id": "visual_motion",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_placeholder.yaml",
+    "id": "visual_placeholder",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_principle.yaml",
+    "id": "visual_principle",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_shadow.yaml",
+    "id": "visual_shadow",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_spacing.yaml",
+    "id": "visual_spacing",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_theme.yaml",
+    "id": "visual_theme",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual_typography.yaml",
+    "id": "visual_typography",
+    "type": ".",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ai/ai_faceswap_inference_flow.yaml",
+    "id": "ai_faceswap_inference_flow",
+    "type": "ai",
+    "title": "",
+    "description": "描述从用户上传自拍图，到换脸模型调用、生成图像、缓存结果的完整推理流程。"
+  },
+  {
+    "file_path": "anchor/analytics/analytics_sample_1.yaml",
+    "id": "analytics_sample_1",
+    "type": "analytics",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/analytics/analytics_sample_2.yaml",
+    "id": "analytics_sample_2",
+    "type": "analytics",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/analytics/basic_event.yaml",
+    "id": "basic_event",
+    "type": "analytics",
+    "title": "埋点事件结构（基础版）",
+    "description": "定义换脸 App 的基本行为埋点事件与字段结构，用于初期数据分析。"
+  },
+  {
+    "file_path": "anchor/analytics/payment_click.yaml",
+    "id": "payment_click",
+    "type": "analytics",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/analytics/payment_success.yaml",
+    "id": "payment_success",
+    "type": "analytics",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/analytics/subscription_restore.yaml",
+    "id": "subscription_restore",
+    "type": "analytics",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/auth/auth_anonymous_id.yaml",
+    "id": "auth_anonymous_id",
+    "type": "auth",
+    "title": "匿名 UUID 支持",
+    "description": "支持游客匿名使用，分配唯一 UUID 用于记录行为数据，便于后续合并账号。"
+  },
+  {
+    "file_path": "anchor/auth/auth_concurrent_login.yaml",
+    "id": "auth_concurrent_login",
+    "type": "auth",
+    "title": "",
+    "description": "处理用户在多个设备同时登录的冲突管理、账号安全策略。"
+  },
+  {
+    "file_path": "anchor/auth/auth_country_region_fallback.yaml",
+    "id": "auth_country_region_fallback",
+    "type": "auth",
+    "title": "",
+    "description": "提供 fallback 机制用于无法精确识别国家/地区的场景，确保后续服务正常。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_data_migration.yaml",
+    "id": "auth_data_migration",
+    "type": "auth",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/auth/auth_deep_link_restore.yaml",
+    "id": "auth_deep_link_restore",
+    "type": "auth",
+    "title": "",
+    "description": "用户点击外部链接触发 OAuth 登录流程后，登录完成返回原始目标页。"
+  },
+  {
+    "file_path": "anchor/auth/auth_device_binding.yaml",
+    "id": "auth_device_binding",
+    "type": "auth",
+    "title": "",
+    "description": "描述设备绑定机制的 anchor，包括设备标识存储、首次登录设备绑定逻辑，以及异常解绑策略。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_entry_trigger.yaml",
+    "id": "auth_entry_trigger",
+    "type": "auth",
+    "title": "登录触发时机与行为",
+    "description": "结合用户操作流程确定登录触发点，强调“高动机”场景驱动。"
+  },
+  {
+    "file_path": "anchor/auth/auth_error_boundary.yaml",
+    "id": "auth_error_boundary",
+    "type": "auth",
+    "title": "",
+    "description": "捕获登录与认证相关异常，防止未处理异常导致白屏、应用崩溃。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_error_code_mapping.yaml",
+    "id": "auth_error_code_mapping",
+    "type": "auth",
+    "title": "",
+    "description": "对接第三方 OAuth 平台（如 Google、Facebook）后，整理常见错误码及其用户提示策略。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_fallback_strategy.yaml",
+    "id": "auth_fallback_strategy",
+    "type": "auth",
+    "error": "expected a single document in the stream\n  in \"anchor/auth/auth_fallback_strategy.yaml\", line 1, column 1\nbut found another document\n  in \"anchor/auth/auth_fallback_strategy.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/auth/auth_flow_structure.yaml",
+    "id": "auth_flow_structure",
+    "type": "auth",
+    "title": "登录注册流程结构设计",
+    "description": "登录与注册的完整交互流程定义，用于 Cursor 自动生成前端页面。"
+  },
+  {
+    "file_path": "anchor/auth/auth_identity_conflict.yaml",
+    "id": "auth_identity_conflict",
+    "type": "auth",
+    "title": "",
+    "description": "描述 OAuth 登录时出现身份冲突的处理方式，如邮箱重复、账号绑定冲突等。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_locale_timezone.yaml",
+    "id": "auth_locale_timezone",
+    "type": "auth",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/auth/auth_merge_strategy.yaml",
+    "id": "auth_merge_strategy",
+    "type": "auth",
+    "title": "游客账号与正式账号合并策略",
+    "description": "登录后将游客阶段行为（如收藏、换脸、分享）与正式账号数据合并，确保无数据丢失。"
+  },
+  {
+    "file_path": "anchor/auth/auth_oauth_fallback.yaml",
+    "id": "auth_oauth_fallback",
+    "type": "auth",
+    "title": "OAuth 授权失败备选方案",
+    "description": "当主 OAuth 授权平台（如 Google/Facebook）异常时，提供游客登录或邮箱注册作为备用通道。"
+  },
+  {
+    "file_path": "anchor/auth/auth_oauth_integration.yaml",
+    "id": "auth_oauth_integration",
+    "type": "auth",
+    "title": "OAuth 授权登录集成",
+    "description": "接入第三方 OAuth（如 Google、Facebook）流程，支持匿名 UUID 到绑定账号的无缝迁移。"
+  },
+  {
+    "file_path": "anchor/auth/auth_platform_capability.yaml",
+    "id": "auth_platform_capability",
+    "type": "auth",
+    "title": "",
+    "description": "阐述不同平台在认证流程中支持能力差异的处理，如微信、Apple ID、Google 的 token 策略、弹窗限制等。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_provider_switch.yaml",
+    "id": "auth_provider_switch",
+    "type": "auth",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/auth/auth_regulation_compliance.yaml",
+    "id": "auth_regulation_compliance",
+    "type": "auth",
+    "title": "",
+    "description": "MVP 阶段预留 GDPR / CCPA 等全球市场数据合规机制的结构锚点。"
+  },
+  {
+    "file_path": "anchor/auth/auth_security_policy.yaml",
+    "id": "auth_security_policy",
+    "type": "auth",
+    "title": "认证安全策略与接口验证规范",
+    "description": "确保登录状态的 API 认证机制符合数据安全要求。"
+  },
+  {
+    "file_path": "anchor/auth/auth_session_persistence.yaml",
+    "id": "auth_session_persistence",
+    "type": "auth",
+    "title": "",
+    "description": "定义用户登录状态的会话保持策略，保障 token 生命周期和用户体验的连贯性。"
+  },
+  {
+    "file_path": "anchor/auth/auth_token_error_recovery.yaml",
+    "id": "auth_token_error_recovery",
+    "type": "auth",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/auth/auth_token_expiry_strategy.yaml",
+    "id": "auth_token_expiry_strategy",
+    "type": "auth",
+    "title": "",
+    "description": "定义 access token 与 refresh token 的生命周期、提前刷新时间策略、失效提示与错误码。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_token_lifecycle.yaml",
+    "id": "auth_token_lifecycle",
+    "type": "auth",
+    "title": "Token 生命周期管理",
+    "description": "定义 access token 和 refresh token 的过期机制、自动刷新策略、失效处理逻辑。"
+  },
+  {
+    "file_path": "anchor/auth/auth_token_refresh.yaml",
+    "id": "auth_token_refresh",
+    "type": "auth",
+    "title": "",
+    "description": "说明当 access token 过期时，如何利用 refresh token 自动刷新以维持用户登录状态，避免中断体验。\n"
+  },
+  {
+    "file_path": "anchor/auth/auth_ui_guideline.yaml",
+    "id": "auth_ui_guideline",
+    "type": "auth",
+    "title": "登录注册 UI 设计规范",
+    "description": "登录、注册相关页面的 UI 组件、排版与文案规范。"
+  },
+  {
+    "file_path": "anchor/backend/auth_flow.yaml",
+    "id": "auth_flow",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_abtest.yaml",
+    "id": "backend_abtest",
+    "type": "backend",
+    "title": "后端 ABTest 实验接入",
+    "description": "后端通过 Header 分析用户实验组策略，进行逻辑分支。"
+  },
+  {
+    "file_path": "anchor/backend/backend_abuse_detection.yaml",
+    "id": "backend_abuse_detection",
+    "type": "backend",
+    "title": "恶意行为检测",
+    "description": "定义识别刷榜、刷点击、批量注册等恶意行为的监控策略与报警逻辑。"
+  },
+  {
+    "file_path": "anchor/backend/backend_admin_dashboard.yaml",
+    "id": "backend_admin_dashboard",
+    "type": "backend",
+    "title": "后台管理面板",
+    "description": "提供后台权限管理、模版上传、用户操作记录等管理功能的设计与接口规范。"
+  },
+  {
+    "file_path": "anchor/backend/backend_ai_development.yaml",
+    "id": "backend_ai_development",
+    "type": "backend",
+    "title": "Backend AI Assisted Development & Collaboration",
+    "description": "规范后端团队使用AI工具（如Cursor、GPT）辅助编码、测试、调试与运维的最佳实践，提升效率和代码质量。\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_ai_prompt_cache.yaml",
+    "id": "backend_ai_prompt_cache",
+    "type": "backend",
+    "title": "",
+    "description": "Cache the results of high-frequency or heavy-cost prompts used in AI-assisted development\nto improve performance and reduce latency.\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_ai_refactoring.yaml",
+    "id": "backend_ai_refactoring",
+    "type": "backend",
+    "title": "",
+    "description": "Support developers in refactoring legacy code, suggesting structural improvements,\nmodularization, and complexity reduction using AI models.\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_anonymous_user_mapping.yaml",
+    "id": "backend_anonymous_user_mapping",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_api_gateway.yaml",
+    "id": "backend_api_gateway",
+    "type": "backend",
+    "title": "API Gateway 路由与版本管理",
+    "description": "定义后端接口的版本控制策略与路由隔离机制。"
+  },
+  {
+    "file_path": "anchor/backend/backend_api_gateway_rules.yaml",
+    "id": "backend_api_gateway_rules",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_api_versioning.yaml",
+    "id": "backend_api_versioning",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_architecture_selection.yaml",
+    "id": "backend_architecture_selection",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_async_processing.yaml",
+    "id": "backend_async_processing",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_async_queue.yaml",
+    "id": "backend_async_queue",
+    "type": "backend",
+    "title": "异步任务队列与临时数据管理",
+    "description": "描述后台异步任务如何调度、超时处理及临时文件清理逻辑。"
+  },
+  {
+    "file_path": "anchor/backend/backend_auth_strategy.yaml",
+    "id": "backend_auth_strategy",
+    "type": "backend",
+    "title": "鉴权与身份识别机制",
+    "description": "阐述 OAuth2 + JWT 模型的身份识别机制。"
+  },
+  {
+    "file_path": "anchor/backend/backend_behavior_tracking.yaml",
+    "id": "backend_behavior_tracking",
+    "type": "backend",
+    "title": "用户行为数据存储",
+    "description": "后端记录用户点赞、收藏、换脸次数等行为数据，结构化存储用于后续推荐分析。"
+  },
+  {
+    "file_path": "anchor/backend/backend_blob_storage.yaml",
+    "id": "backend_blob_storage",
+    "type": "backend",
+    "title": "",
+    "description": "大文件（视频、图像、音频等）采用分布式对象存储（如 S3、OSS）。\n配合元数据结构化存储实现访问控制与版本控制。\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_cache_eviction.yaml",
+    "id": "backend_cache_eviction",
+    "type": "backend",
+    "title": "",
+    "description": "设计缓存失效策略（LRU、TTL、定期清理）以避免内存溢出、数据污染。\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_cache_invalidation.yaml",
+    "id": "backend_cache_invalidation",
+    "type": "backend",
+    "title": "缓存失效策略",
+    "description": "定义当模板发生更新、下线等事件时，缓存如何同步失效、自动刷新。"
+  },
+  {
+    "file_path": "anchor/backend/backend_cache_layering.yaml",
+    "id": "backend_cache_layering",
+    "type": "backend",
+    "title": "",
+    "description": "描述前后端架构中使用的多级缓存机制，覆盖 L1/L2 缓存，冷热数据分层与 TTL 策略。"
+  },
+  {
+    "file_path": "anchor/backend/backend_cdn_cache.yaml",
+    "id": "backend_cdn_cache",
+    "type": "backend",
+    "title": "",
+    "description": "定义静态资源（图片、JS、CSS 等）在 CDN 中的缓存策略、版本控制、回源机制。\n支持灰度发布和多环境隔离。\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_cdn_cache_strategy.yaml",
+    "id": "backend_cdn_cache_strategy",
+    "type": "backend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/backend/backend_cdn_cache_strategy.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/backend/backend_cloud_deployment.yaml",
+    "id": "backend_cloud_deployment",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_config_management.yaml",
+    "id": "backend_config_management",
+    "type": "backend",
+    "title": "配置文件与环境变量策略",
+    "description": "不同部署环境通过 .env 文件区分配置，避免硬编码。"
+  },
+  {
+    "file_path": "anchor/backend/backend_content_moderation.yaml",
+    "id": "backend_content_moderation",
+    "type": "backend",
+    "title": "内容审核策略",
+    "description": "对用户上传图片、视频进行AI审核、人审、关键词过滤等安全机制定义。"
+  },
+  {
+    "file_path": "anchor/backend/backend_crud_schema.yaml",
+    "id": "backend_crud_schema",
+    "type": "backend",
+    "title": "管理后台数据结构定义",
+    "description": "管理后台字段结构、校验规则、字段权限等定义规范，适配低代码平台如 Appsmith。"
+  },
+  {
+    "file_path": "anchor/backend/backend_data_anonymization.yaml",
+    "id": "backend_data_anonymization",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_data_retention.yaml",
+    "id": "backend_data_retention",
+    "type": "backend",
+    "title": "",
+    "description": "后端数据保留策略（保留期、定期清理、分级分类）符合 GDPR/CCPA 合规要求。\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_db_indexing_strategy.yaml",
+    "id": "backend_db_indexing_strategy",
+    "type": "backend",
+    "title": "",
+    "description": "数据库索引设计策略，优化查询性能，避免慢 SQL。\n"
+  },
+  {
+    "file_path": "anchor/backend/backend_deployment_freeze.yaml",
+    "id": "backend_deployment_freeze",
+    "type": "backend",
+    "title": "部署冻结与窗口管理",
+    "description": "在高峰期或敏感时期暂停部署操作，避免影响稳定性。"
+  },
+  {
+    "file_path": "anchor/backend/backend_deployment_strategy.yaml",
+    "id": "backend_deployment_strategy",
+    "type": "backend",
+    "title": "后端部署策略（全量、灰度）",
+    "description": "规范化后端服务在MVP阶段的全量发布与灰度发布方式，控制风险。"
+  },
+  {
+    "file_path": "anchor/backend/backend_error_handling.yaml",
+    "id": "backend_error_handling",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_event_logging.yaml",
+    "id": "backend_event_logging",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_fallback_handler.yaml",
+    "id": "backend_fallback_handler",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_feature_flag.yaml",
+    "id": "backend_feature_flag",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_file_storage.yaml",
+    "id": "backend_file_storage",
+    "type": "backend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/backend/backend_file_storage.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/backend/backend_healthcheck_policy.yaml",
+    "id": "backend_healthcheck_policy",
+    "type": "backend",
+    "title": "后端接口健康检查策略",
+    "description": "FastAPI 服务接口级别的健康检查规范，支持部署监控集成。"
+  },
+  {
+    "file_path": "anchor/backend/backend_job_scheduler.yaml",
+    "id": "backend_job_scheduler",
+    "type": "backend",
+    "title": "后端定时任务管理",
+    "description": "定义模板更新、榜单刷新、内容清洗等周期性任务的调度和执行策略。"
+  },
+  {
+    "file_path": "anchor/backend/backend_kpi_storage.yaml",
+    "id": "backend_kpi_storage",
+    "type": "backend",
+    "title": "KPI 数据聚合与持久化",
+    "description": "存储模板维度的点击、分享、曝光等关键指标，支持榜单和推荐系统的数据需求。"
+  },
+  {
+    "file_path": "anchor/backend/backend_logging.yaml",
+    "id": "backend_logging",
+    "type": "backend",
+    "title": "后端日志系统标准",
+    "description": "定义后端日志等级划分、日志记录格式、异常日志上报机制等。"
+  },
+  {
+    "file_path": "anchor/backend/backend_model_invocation.yaml",
+    "id": "backend_model_invocation",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_mq_integration.yaml",
+    "id": "backend_mq_integration",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_persistent_store.yaml",
+    "id": "backend_persistent_store",
+    "type": "backend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/backend/backend_persistent_store.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/backend/backend_ranking_logic.yaml",
+    "id": "backend_ranking_logic",
+    "type": "backend",
+    "title": "模板榜单排序机制",
+    "description": "榜单权重、时间衰减、用户活跃度等因子的综合计算逻辑与可配置方案。"
+  },
+  {
+    "file_path": "anchor/backend/backend_rate_limit.yaml",
+    "id": "backend_rate_limit",
+    "type": "backend",
+    "title": "接口请求限流与反爬机制",
+    "description": "定义后端的限流逻辑、防刷策略及异常请求处理方式。"
+  },
+  {
+    "file_path": "anchor/backend/backend_redis_structure.yaml",
+    "id": "backend_redis_structure",
+    "type": "backend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/backend/backend_redis_structure.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/backend/backend_release_rollback.yaml",
+    "id": "backend_release_rollback",
+    "type": "backend",
+    "title": "后端版本回滚策略",
+    "description": "定义当发布失败或重大Bug出现时的快速回滚机制，确保服务稳定性。"
+  },
+  {
+    "file_path": "anchor/backend/backend_request_validation.yaml",
+    "id": "backend_request_validation",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_schema_migration.yaml",
+    "id": "backend_schema_migration",
+    "type": "backend",
+    "title": "数据库Schema迁移策略",
+    "description": "描述数据库结构更新时的管理机制，包括向后兼容的增量迁移和数据回填流程。"
+  },
+  {
+    "file_path": "anchor/backend/backend_service_boundary.yaml",
+    "id": "backend_service_boundary",
+    "type": "backend",
+    "title": "模块服务边界划分策略",
+    "description": "每个 API 模块的调用权限范围与隔离边界。"
+  },
+  {
+    "file_path": "anchor/backend/backend_storage_migration.yaml",
+    "id": "backend_storage_migration",
+    "type": "backend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/backend/backend_storage_migration.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/backend/backend_storage_policy.yaml",
+    "id": "backend_storage_policy",
+    "type": "backend",
+    "title": "",
+    "description": "针对媒体类数据（如图像、视频），定义热存储与冷存储的转移条件与操作机制。"
+  },
+  {
+    "file_path": "anchor/backend/backend_tdd_reference.yaml",
+    "id": "backend_tdd_reference",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_temp_data_cleanup.yaml",
+    "id": "backend_temp_data_cleanup",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_template_curation.yaml",
+    "id": "backend_template_curation",
+    "type": "backend",
+    "title": "模板榜单与运营筛选逻辑",
+    "description": "定义模板热度计算、榜单规则、筛选条件等数据生成流程。"
+  },
+  {
+    "file_path": "anchor/backend/backend_upload_security.yaml",
+    "id": "backend_upload_security",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/backend_version_negotiation.yaml",
+    "id": "backend_version_negotiation",
+    "type": "backend",
+    "title": "后端版本协商机制",
+    "description": "定义客户端与服务端之间的API版本协商与兼容策略，确保新旧客户端都能正确通信。"
+  },
+  {
+    "file_path": "anchor/backend/backend_version_trace.yaml",
+    "id": "backend_version_trace",
+    "type": "backend",
+    "title": "版本追踪与观测机制",
+    "description": "跟踪每个请求、每次变更与每个问题对应的代码版本，用于调试与溯源。"
+  },
+  {
+    "file_path": "anchor/backend/cache_management.yaml",
+    "id": "cache_management",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/cdn.yaml",
+    "id": "cdn",
+    "type": "backend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/backend/event_tracking_pipeline.yaml",
+    "id": "event_tracking_pipeline",
+    "type": "backend",
+    "title": "后端埋点数据管道",
+    "description": "埋点事件采集、解析、入库、转发的后端架构"
+  },
+  {
+    "file_path": "anchor/ci/ci_build_deploy.yaml",
+    "id": "ci_build_deploy",
+    "type": "ci",
+    "title": "CI构建与部署流程",
+    "description": "配置在 git push 后自动触发 Railway/Vercel 部署，支持预览与生产部署区分。"
+  },
+  {
+    "file_path": "anchor/ci/ci_env_variable_policy.yaml",
+    "id": "ci_env_variable_policy",
+    "type": "ci",
+    "title": "",
+    "description": "CI/CD 环境变量策略"
+  },
+  {
+    "file_path": "anchor/ci/ci_git_tag_versioning.yaml",
+    "id": "ci_git_tag_versioning",
+    "type": "ci",
+    "title": "Git Tag 版本控制策略",
+    "description": "规范版本命名为 vMAJOR.MINOR.PATCH，例如 v0.1.0，支持 alpha/beta 标记。"
+  },
+  {
+    "file_path": "anchor/ci/ci_pipeline_structure.yaml",
+    "id": "ci_pipeline_structure",
+    "type": "ci",
+    "title": "",
+    "description": "CI 流水线结构定义"
+  },
+  {
+    "file_path": "anchor/ci/ci_test_pipeline.yaml",
+    "id": "ci_test_pipeline",
+    "type": "ci",
+    "title": "CI自动化测试流程",
+    "description": "所有提交推送后触发单元测试、接口测试、视觉测试。"
+  },
+  {
+    "file_path": "anchor/ci/ci_test_trigger.yaml",
+    "id": "ci_test_trigger",
+    "type": "ci",
+    "title": "",
+    "description": "每次提交后自动触发测试"
+  },
+  {
+    "file_path": "anchor/cloud/cost_monitoring.yaml",
+    "id": "cost_monitoring",
+    "type": "cloud",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/cloud/isolation.yaml",
+    "id": "isolation",
+    "type": "cloud",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/cloud/throttling.yaml",
+    "id": "throttling",
+    "type": "cloud",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/cloud/token_verification.yaml",
+    "id": "token_verification",
+    "type": "cloud",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/data/content_evaluation.yaml",
+    "id": "content_evaluation",
+    "type": "data",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/data/log_tracking.yaml",
+    "id": "log_tracking",
+    "type": "data",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/data/analytics.yaml",
+    "id": "analytics",
+    "type": "data",
+    "title": "",
+    "description": "定义所有前端模块和关键路径的埋点事件结构、字段说明、触发条件，用于行为分析与增长指标追踪。"
+  },
+  {
+    "file_path": "anchor/finance/cost_monitoring.yaml",
+    "id": "cost_monitoring",
+    "type": "finance",
+    "title": "成本监控与预警",
+    "description": "云服务、模型调用、支付接口等运营成本监控策略"
+  },
+  {
+    "file_path": "anchor/finance/global_compliance.yaml",
+    "id": "global_compliance",
+    "type": "finance",
+    "title": "出海变现与税务合规",
+    "description": "涉及海外平台变现（如 Stripe、PayPal）、结汇申报与税务合规操作建议"
+  },
+  {
+    "file_path": "anchor/finance/invoice_management.yaml",
+    "id": "invoice_management",
+    "type": "finance",
+    "title": "发票与对账管理",
+    "description": "对用户开具发票的能力，确保财务合规"
+  },
+  {
+    "file_path": "anchor/finance/offshore_account.yaml",
+    "id": "offshore_account",
+    "type": "finance",
+    "title": "离岸公司银行开户策略",
+    "description": "介绍如何为出海产品建立离岸银行账户，包括开户流程、KYC 要求和备选银行清单"
+  },
+  {
+    "file_path": "anchor/finance/payment_entity.yaml",
+    "id": "payment_entity",
+    "type": "finance",
+    "title": "支付公司架构设计",
+    "description": "MVP 阶段的支付公司主体规划与分工，包括境内外法人、收款通道配置等"
+  },
+  {
+    "file_path": "anchor/finance/profit_model.yaml",
+    "id": "profit_model",
+    "type": "finance",
+    "title": "盈利模型概览",
+    "description": "MVP 期间的收费模式、付费转化率预估与定价策略"
+  },
+  {
+    "file_path": "anchor/finance/token_verification.yaml",
+    "id": "token_verification",
+    "type": "finance",
+    "title": "支付 Token 验证策略",
+    "description": "接入支付平台后的身份认证机制，保障支付请求来源合法"
+  },
+  {
+    "file_path": "anchor/finance/withdraw_policy.yaml",
+    "id": "withdraw_policy",
+    "type": "finance",
+    "title": "提现政策与用户收益管理",
+    "description": "面向创作者与内容方的收益分账、提现规则和周期策略"
+  },
+  {
+    "file_path": "anchor/firebase/firebase_analytics.yaml",
+    "id": "firebase_analytics",
+    "type": "firebase",
+    "title": "Firebase 埋点与远程配置",
+    "description": "使用 Firebase Analytics 对匿名行为进行采集，结合 remote_config 控制实验与页面曝光"
+  },
+  {
+    "file_path": "anchor/frontend/ai_dev_frontend.yaml",
+    "id": "ai_dev_frontend",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/chat_support.yaml",
+    "id": "chat_support",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/flutter_responsive.yaml",
+    "id": "flutter_responsive",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/flutter_ui.yaml",
+    "id": "flutter_ui",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend.yaml",
+    "id": "frontend",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_adaptation.yaml",
+    "id": "frontend_adaptation",
+    "type": "frontend",
+    "title": "",
+    "description": "统一 Flutter 前端在不同设备上的表现，覆盖屏幕尺寸、DPI、平台差异、横竖屏、无障碍等维度，确保 MVP 阶段即具备良好的适配策略。\n"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_ai_copilot.yaml",
+    "id": "frontend_ai_copilot",
+    "type": "frontend",
+    "title": "GPT + Cursor 协同开发实践",
+    "description": "定义前端如何使用 GPT 与 Cursor 协同进行组件生成、UI设计、代码结构优化的最佳实践。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_animation_performance.yaml",
+    "id": "frontend_animation_performance",
+    "type": "frontend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_animation_performance.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_api_definition.yaml",
+    "id": "frontend_api_definition",
+    "type": "frontend",
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_architecture.yaml",
+    "id": "frontend_architecture",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_asset_management.yaml",
+    "id": "frontend_asset_management",
+    "type": "frontend",
+    "title": "前端静态资源管理策略",
+    "description": "说明静态资源（如图片、SVG、字体）的管理、加载优化、压缩与缓存机制。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_build_strategy.yaml",
+    "id": "frontend_build_strategy",
+    "type": "frontend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_build_strategy.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_component_standards.yaml",
+    "id": "frontend_component_standards",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_component_stub.yaml",
+    "id": "frontend_component_stub",
+    "type": "frontend",
+    "error": "expected a single document in the stream\n  in \"anchor/frontend/frontend_component_stub.yaml\", line 2, column 1\nbut found another document\n  in \"anchor/frontend/frontend_component_stub.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_cross_platform.yaml",
+    "id": "frontend_cross_platform",
+    "type": "frontend",
+    "title": "跨平台平台差异封装策略",
+    "description": "说明 Flutter 多平台适配中，iOS/Android/Web 的差异封装处理机制。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_devtools_support.yaml",
+    "id": "frontend_devtools_support",
+    "type": "frontend",
+    "title": "",
+    "description": "定义前端开发调试阶段的工具使用和预埋逻辑（如 Flutter Inspector、日志打印）"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_error_boundary.yaml",
+    "id": "frontend_error_boundary",
+    "type": "frontend",
+    "title": "前端异常处理与崩溃防护策略",
+    "description": "Flutter 中的 ErrorWidget 捕获、自定义错误边界处理、异常日志上报机制。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_error_handling.yaml",
+    "id": "frontend_error_handling",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_infra.yaml",
+    "id": "frontend_infra",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_interaction_latency.yaml",
+    "id": "frontend_interaction_latency",
+    "type": "frontend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_interaction_latency.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_interactive_ai.yaml",
+    "id": "frontend_interactive_ai",
+    "type": "frontend",
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_loading_strategy.yaml",
+    "id": "frontend_loading_strategy",
+    "type": "frontend",
+    "error": "expected a single document in the stream\n  in \"anchor/frontend/frontend_loading_strategy.yaml\", line 2, column 1\nbut found another document\n  in \"anchor/frontend/frontend_loading_strategy.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_memory_footprint.yaml",
+    "id": "frontend_memory_footprint",
+    "type": "frontend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_memory_footprint.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_micro_interaction.yaml",
+    "id": "frontend_micro_interaction",
+    "type": "frontend",
+    "title": "微交互设计指南",
+    "description": "说明轻动效（点击反馈、滑动提示等）在 Flutter 中的实现策略与审美建议。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_navigation.yaml",
+    "id": "frontend_navigation",
+    "type": "frontend",
+    "title": "",
+    "description": "确定项目采用的路由管理方式（Navigator 2.0 或 GoRouter）以及导航状态跟踪策略"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_performance.yaml",
+    "id": "frontend_performance",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_performance_metrics.yaml",
+    "id": "frontend_performance_metrics",
+    "type": "frontend",
+    "title": "前端性能指标采集与分析",
+    "description": "定义首帧时间、平均帧率、内存使用等性能数据的采集方式与可视化方案。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_plugin_strategy.yaml",
+    "id": "frontend_plugin_strategy",
+    "type": "frontend",
+    "title": "",
+    "description": "说明第三方 Flutter 插件的引入原则、封装标准、版本约束及安全审查"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_render_optimization.yaml",
+    "id": "frontend_render_optimization",
+    "type": "frontend",
+    "title": "",
+    "description": "规范 Flutter 前端在多分辨率、多设备条件下的渲染性能优化策略"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_responsive_testing.yaml",
+    "id": "frontend_responsive_testing",
+    "type": "frontend",
+    "title": "响应式测试策略",
+    "description": "说明在不同设备与屏幕尺寸上进行自适应测试的标准流程与工具链支持。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_security.yaml",
+    "id": "frontend_security",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_startup_latency.yaml",
+    "id": "frontend_startup_latency",
+    "type": "frontend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_startup_latency.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_state_management.yaml",
+    "id": "frontend_state_management",
+    "type": "frontend",
+    "title": "",
+    "description": "明确不同业务和组件使用的状态管理方式（如 Provider、Riverpod、Bloc）"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_structure.yaml",
+    "id": "frontend_structure",
+    "type": "frontend",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/frontend/frontend_support_chat.yaml",
+    "id": "frontend_support_chat",
+    "type": "frontend",
+    "title": "Frontend Support Chat Bubble",
+    "description": "跨平台前端中的客服气泡组件，主要用于Flutter实现的交互逻辑、显示策略和平台兼容。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_support_entry.yaml",
+    "id": "frontend_support_entry",
+    "type": "frontend",
+    "title": "前端客服气泡入口设计",
+    "description": "设计 Crisp Chat 气泡在前端页面中的嵌入方式，包括按钮位置、点击响应与可配置性。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_tdd_reference.yaml",
+    "id": "frontend_tdd_reference",
+    "type": "frontend",
+    "title": "前端模块中对测试驱动开发（TDD）的支持",
+    "description": "前端开发需同步生成 E2E 和单元测试，确保关键交互路径与组件逻辑均可被验证。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_toast_modal.yaml",
+    "id": "frontend_toast_modal",
+    "type": "frontend",
+    "error": "expected a single document in the stream\n  in \"anchor/frontend/frontend_toast_modal.yaml\", line 2, column 1\nbut found another document\n  in \"anchor/frontend/frontend_toast_modal.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_tracking.yaml",
+    "id": "frontend_tracking",
+    "type": "frontend",
+    "title": "前端埋点设计",
+    "description": "定义前端页面与组件的事件埋点标准"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_tracking_sdk.yaml",
+    "id": "frontend_tracking_sdk",
+    "type": "frontend",
+    "error": "mapping values are not allowed here\n  in \"anchor/frontend/frontend_tracking_sdk.yaml\", line 13, column 37"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_widget_abstraction.yaml",
+    "id": "frontend_widget_abstraction",
+    "type": "frontend",
+    "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_widget_abstraction.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/growth/gamification.yaml",
+    "id": "gamification",
+    "type": "growth",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/infra/infra_event_tracking.yaml",
+    "id": "infra_event_tracking",
+    "type": "infra",
+    "title": "埋点事件设计",
+    "description": "记录核心用户行为事件，支持留存与漏斗分析。"
+  },
+  {
+    "file_path": "anchor/infra/infra_analytics_tools.yaml",
+    "id": "infra_analytics_tools",
+    "type": "infra",
+    "title": "",
+    "description": "对比 Firebase, Umani, GA4, Posthog 的部署、功能、费用、适用场景，为产品初期埋点系统选型提供决策依据。"
+  },
+  {
+    "file_path": "anchor/meta/structure_index.yaml",
+    "id": "structure_index",
+    "type": "meta",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/monitoring/logs_alert.yaml",
+    "id": "logs_alert",
+    "type": "monitoring",
+    "title": "日志监控与异常告警机制",
+    "description": "定义后端与模型日志监控规则，自动告警触发策略，适配 MVP 阶段云部署需求。"
+  },
+  {
+    "file_path": "anchor/monitoring/monitoring_business_kpi.yaml",
+    "id": "monitoring_business_kpi",
+    "type": "monitoring",
+    "title": "",
+    "description": "业务KPI指标统计策略"
+  },
+  {
+    "file_path": "anchor/monitoring/monitoring_error_alert.yaml",
+    "id": "monitoring_error_alert",
+    "type": "monitoring",
+    "title": "",
+    "description": "异常报警机制设计"
+  },
+  {
+    "file_path": "anchor/monitoring/monitoring_healthcheck.yaml",
+    "id": "monitoring_healthcheck",
+    "type": "monitoring",
+    "title": "",
+    "description": "服务健康监测机制"
+  },
+  {
+    "file_path": "anchor/ops/ab_test_strategy.yaml",
+    "id": "ab_test_strategy",
+    "type": "ops",
+    "title": "",
+    "description": "A/B 测试分流逻辑及变量机制"
+  },
+  {
+    "file_path": "anchor/ops/cold_start_ops.yaml",
+    "id": "cold_start_ops",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/compliance_user_data.yaml",
+    "id": "compliance_user_data",
+    "type": "ops",
+    "title": "",
+    "description": "支持 GDPR/CCPA 合规的用户隐私数据导出、注销申请与系统删除机制。"
+  },
+  {
+    "file_path": "anchor/ops/content_evaluation.yaml",
+    "id": "content_evaluation",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/event_tracking_structure.yaml",
+    "id": "event_tracking_structure",
+    "type": "ops",
+    "title": "",
+    "description": "事件追踪结构体（前端页面/模块埋点）"
+  },
+  {
+    "file_path": "anchor/ops/growth_loop.yaml",
+    "id": "growth_loop",
+    "type": "ops",
+    "title": "用户增长飞轮模型",
+    "description": "梳理完整的用户参与、晒图、引流、再转化机制，形成增长闭环。"
+  },
+  {
+    "file_path": "anchor/ops/hook_strategy.yaml",
+    "id": "hook_strategy",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/launch_plan.yaml",
+    "id": "launch_plan",
+    "type": "ops",
+    "title": "MVP 上线计划",
+    "description": "定义 MVP 首发节奏、目标市场与用户获取路径。"
+  },
+  {
+    "file_path": "anchor/ops/okr.yaml",
+    "id": "okr",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/ops_faq.yaml",
+    "id": "ops_faq",
+    "type": "ops",
+    "title": "用户常见问题",
+    "description": "整理用户使用过程中常见问题，便于客服或自动回复。"
+  },
+  {
+    "file_path": "anchor/ops/ops_region_market_entry.yaml",
+    "id": "ops_region_market_entry",
+    "type": "ops",
+    "title": "区域市场首发策略",
+    "description": "根据用户活跃度与传播意愿选择首发国家（美国、加拿大、英国、澳大利亚）。"
+  },
+  {
+    "file_path": "anchor/ops/share_conversion_tracking.yaml",
+    "id": "share_conversion_tracking",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/share_loop.yaml",
+    "id": "share_loop",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/share_trigger.yaml",
+    "id": "share_trigger",
+    "type": "ops",
+    "title": "用户行为中触发分享的关键节点",
+    "description": "定义 App 中所有可能诱发用户自发传播的 UI 时机与激励机制。"
+  },
+  {
+    "file_path": "anchor/ops/store_launch.yaml",
+    "id": "store_launch",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/template_creator_incentive.yaml",
+    "id": "template_creator_incentive",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/template_tagging.yaml",
+    "id": "template_tagging",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/template_trigger_chain.yaml",
+    "id": "template_trigger_chain",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/template_variation.yaml",
+    "id": "template_variation",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/trending_content.yaml",
+    "id": "trending_content",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ops/user_behavior_metrics.yaml",
+    "id": "user_behavior_metrics",
+    "type": "ops",
+    "title": "",
+    "description": "用户关键行为指标定义"
+  },
+  {
+    "file_path": "anchor/ops/user_leaderboard.yaml",
+    "id": "user_leaderboard",
+    "type": "ops",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/order/order_api_interface.yaml",
+    "id": "order_api_interface",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_deletion_policy.yaml",
+    "id": "order_deletion_policy",
+    "type": "order",
+    "title": "订单删除与保留策略",
+    "description": "定义用户/后台是否可删除订单记录，及其保留期限"
+  },
+  {
+    "file_path": "anchor/order/order_dispatch_status.yaml",
+    "id": "order_dispatch_status",
+    "type": "order",
+    "title": "派单/履约状态建模",
+    "description": "支付成功后进入履约或派单流程的状态定义"
+  },
+  {
+    "file_path": "anchor/order/order_exception_handling.yaml",
+    "id": "order_exception_handling",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_lifecycle_management.yaml",
+    "id": "order_lifecycle_management",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_payment_binding.yaml",
+    "id": "order_payment_binding",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_price_calculation.yaml",
+    "id": "order_price_calculation",
+    "type": "order",
+    "title": "订单价格计算逻辑",
+    "description": "定义订单创建时各类金额字段的计算方式（含原价、折扣、税费、币种等）"
+  },
+  {
+    "file_path": "anchor/order/order_sample_1.yaml",
+    "id": "order_sample_1",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_sample_2.yaml",
+    "id": "order_sample_2",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_state_model.yaml",
+    "id": "order_state_model",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/order/order_state_retry.yaml",
+    "id": "order_state_retry",
+    "type": "order",
+    "title": "订单状态重试机制",
+    "description": "当支付回调失败或订单状态异常时的自动重试逻辑"
+  },
+  {
+    "file_path": "anchor/order/order_test_cases.yaml",
+    "id": "order_test_cases",
+    "type": "order",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/payment/payment_2fa_authentication.yaml",
+    "id": "payment_2fa_authentication",
+    "type": "payment",
+    "title": "",
+    "description": "支付双因子认证机制（如短信 + 密码）"
+  },
+  {
+    "file_path": "anchor/payment/payment_ab_test.yaml",
+    "id": "payment_ab_test",
+    "type": "payment",
+    "title": "支付 A/B 测试配置",
+    "description": "针对不同计费提示时机、内容、频率进行 A/B 测试策略定义。"
+  },
+  {
+    "file_path": "anchor/payment/payment_api_rate_limit.yaml",
+    "id": "payment_api_rate_limit",
+    "type": "payment",
+    "title": "",
+    "description": "支付接口限流控制策略，防止滥用与服务过载"
+  },
+  {
+    "file_path": "anchor/payment/payment_blacklist_mechanism.yaml",
+    "id": "payment_blacklist_mechanism",
+    "type": "payment",
+    "title": "",
+    "description": "黑名单机制及拦截策略"
+  },
+  {
+    "file_path": "anchor/payment/payment_callback.yaml",
+    "id": "payment_callback",
+    "type": "payment",
+    "title": "",
+    "description": "支付回调处理逻辑（VIP/模版解锁）"
+  },
+  {
+    "file_path": "anchor/payment/payment_callback_strategy.yaml",
+    "id": "payment_callback_strategy",
+    "type": "payment",
+    "title": "支付回调与幂等策略",
+    "description": "规范第三方支付回调处理方式，确保幂等处理与安全校验。"
+  },
+  {
+    "file_path": "anchor/payment/payment_config.yaml",
+    "id": "payment_config",
+    "type": "payment",
+    "title": "",
+    "description": "多平台支付配置结构（Stripe, GooglePlay）"
+  },
+  {
+    "file_path": "anchor/payment/payment_config_currency_usd.yaml",
+    "id": "payment_config_currency_usd",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_config_whitelist_manual.yaml",
+    "id": "payment_config_whitelist_manual",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_currency_conversion.yaml",
+    "id": "payment_currency_conversion",
+    "type": "payment",
+    "title": "多币种支付支持与汇率策略",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_entry_trigger.yaml",
+    "id": "payment_entry_trigger",
+    "type": "payment",
+    "title": "支付触发入口",
+    "description": "明确用户在何种操作下会触发支付行为，例如超出免费次数、点击购买、尝试解锁内容等。"
+  },
+  {
+    "file_path": "anchor/payment/payment_environment_detection.yaml",
+    "id": "payment_environment_detection",
+    "type": "payment",
+    "title": "检测支付运行环境与兼容性策略",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_error_boundary.yaml",
+    "id": "payment_error_boundary",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_failed_retry.yaml",
+    "id": "payment_failed_retry",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_finance_account_binding.yaml",
+    "id": "payment_finance_account_binding",
+    "type": "payment",
+    "title": "财务账户绑定机制",
+    "description": "用户绑定银行卡、支付宝、PayPal等收款账户的流程，涵盖验证、权限与风控逻辑。"
+  },
+  {
+    "file_path": "anchor/payment/payment_finance_settlement.yaml",
+    "id": "payment_finance_settlement",
+    "type": "payment",
+    "title": "支付结算策略配置",
+    "description": "描述平台如何将用户支付收入结算至公司银行账户，包括结算周期、货币转换、费用扣除等。"
+  },
+  {
+    "file_path": "anchor/payment/payment_finance_withdrawal.yaml",
+    "id": "payment_finance_withdrawal",
+    "type": "payment",
+    "title": "提现请求与审核机制",
+    "description": "用户申请将账户余额提现至指定银行卡的流程，涉及审核、手续费与到账周期。"
+  },
+  {
+    "file_path": "anchor/payment/payment_fraud_detection.yaml",
+    "id": "payment_fraud_detection",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_geo_routing.yaml",
+    "id": "payment_geo_routing",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_gpb_strategy.yaml",
+    "id": "payment_gpb_strategy",
+    "type": "payment",
+    "title": "",
+    "description": "聚焦 MVP 阶段的安卓平台支付集成，依赖 GPB 官方 SDK，处理订阅、试用、促销等逻辑。"
+  },
+  {
+    "file_path": "anchor/payment/payment_iap_strategy.yaml",
+    "id": "payment_iap_strategy",
+    "type": "payment",
+    "title": "",
+    "description": "针对 iOS 系统集成 Apple In-App Purchase 支付方案，包括订阅试用及自动续费。"
+  },
+  {
+    "file_path": "anchor/payment/payment_limited_time_offer.yaml",
+    "id": "payment_limited_time_offer",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_modal_flow.yaml",
+    "id": "payment_modal_flow",
+    "type": "payment",
+    "title": "支付弹窗调用流程与状态控制",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_multi_currency.yaml",
+    "id": "payment_multi_currency",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_notification_failure.yaml",
+    "id": "payment_notification_failure",
+    "type": "payment",
+    "title": "",
+    "description": "支付失败场景下的通知与用户引导"
+  },
+  {
+    "file_path": "anchor/payment/payment_notification_subscription.yaml",
+    "id": "payment_notification_subscription",
+    "type": "payment",
+    "title": "",
+    "description": "订阅类支付的周期提醒机制"
+  },
+  {
+    "file_path": "anchor/payment/payment_notification_success.yaml",
+    "id": "payment_notification_success",
+    "type": "payment",
+    "title": "",
+    "description": "支付成功后的通知机制设计"
+  },
+  {
+    "file_path": "anchor/payment/payment_order_lifecycle.yaml",
+    "id": "payment_order_lifecycle",
+    "type": "payment",
+    "title": "支付订单生命周期管理",
+    "description": "明确订单从创建到支付完成/失败/回调的完整状态流转。"
+  },
+  {
+    "file_path": "anchor/payment/payment_platform_capability.yaml",
+    "id": "payment_platform_capability",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_platform_configuration.yaml",
+    "id": "payment_platform_configuration",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_platform_entry.yaml",
+    "id": "payment_platform_entry",
+    "type": "payment",
+    "title": "支付平台初始化配置入口策略",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_platform_notification.yaml",
+    "id": "payment_platform_notification",
+    "type": "payment",
+    "title": "",
+    "description": "集成 Apple/Google 的 Server-to-Server Notification 系统，追踪支付生命周期变化。"
+  },
+  {
+    "file_path": "anchor/payment/payment_point.yaml",
+    "id": "payment_point",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_popup_flow.yaml",
+    "id": "payment_popup_flow",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_receipt_and_invoice.yaml",
+    "id": "payment_receipt_and_invoice",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_receipt_tracking.yaml",
+    "id": "payment_receipt_tracking",
+    "type": "payment",
+    "title": "支付凭证追踪与发票管理机制",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_receipt_validation.yaml",
+    "id": "payment_receipt_validation",
+    "type": "payment",
+    "title": "",
+    "description": "用于从 Apple/Google 接收支付凭证并验证有效性，防止伪造交易。"
+  },
+  {
+    "file_path": "anchor/payment/payment_retry_fallback.yaml",
+    "id": "payment_retry_fallback",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_retry_policy_server.yaml",
+    "id": "payment_retry_policy_server",
+    "type": "payment",
+    "title": "",
+    "description": "支付服务端重试策略设计，保障高可用与幂等性"
+  },
+  {
+    "file_path": "anchor/payment/payment_sample_1.yaml",
+    "id": "payment_sample_1",
+    "type": "payment",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/payment/payment_sample_2.yaml",
+    "id": "payment_sample_2",
+    "type": "payment",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/payment/payment_sdk_integration.yaml",
+    "id": "payment_sdk_integration",
+    "type": "payment",
+    "title": "支付 SDK 集成策略",
+    "description": "指定各个平台使用的支付 SDK，及其集成方式和测试策略。"
+  },
+  {
+    "file_path": "anchor/payment/payment_security_policy.yaml",
+    "id": "payment_security_policy",
+    "type": "payment",
+    "title": "",
+    "description": "支付安全策略总览，包括防刷、限频等"
+  },
+  {
+    "file_path": "anchor/payment/payment_settlement_manual.yaml",
+    "id": "payment_settlement_manual",
+    "type": "payment",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/payment/payment_sla_monitor.yaml",
+    "id": "payment_sla_monitor",
+    "type": "payment",
+    "title": "",
+    "description": "支付模块的SLA可用性监测与异常告警机制"
+  },
+  {
+    "file_path": "anchor/payment/payment_subscription_policy.yaml",
+    "id": "payment_subscription_policy",
+    "type": "payment",
+    "title": "订阅策略定义",
+    "description": "明确订阅周期、试用期、续费逻辑与通知机制。"
+  },
+  {
+    "file_path": "anchor/payment/payment_subscription_pricing.yaml",
+    "id": "payment_subscription_pricing",
+    "type": "payment",
+    "title": "",
+    "description": "支持 MVP 阶段简单定价与未来功能包/分层付费结构，按用户场景设计月/年定价策略。"
+  },
+  {
+    "file_path": "anchor/payment/payment_trigger_points.yaml",
+    "id": "payment_trigger_points",
+    "type": "payment",
+    "error": "mapping values are not allowed here\n  in \"anchor/payment/payment_trigger_points.yaml\", line 14, column 40"
+  },
+  {
+    "file_path": "anchor/payment/payment_ui_guideline.yaml",
+    "id": "payment_ui_guideline",
+    "type": "payment",
+    "title": "支付界面与弹窗规范",
+    "description": "统一支付相关 UI 的展示方式，适配多端用户体验。"
+  },
+  {
+    "file_path": "anchor/payment/payment_user_identity_verification.yaml",
+    "id": "payment_user_identity_verification",
+    "type": "payment",
+    "title": "",
+    "description": "实名认证流程设计与风控接入"
+  },
+  {
+    "file_path": "anchor/payment/payment_user_payment_limit.yaml",
+    "id": "payment_user_payment_limit",
+    "type": "payment",
+    "title": "",
+    "description": "用户等级与支付额度控制机制"
+  },
+  {
+    "file_path": "anchor/payment/payment_user_profile.yaml",
+    "id": "payment_user_profile",
+    "type": "payment",
+    "title": "",
+    "description": "用户画像与支付行为分析"
+  },
+  {
+    "file_path": "anchor/payment/token_verification.yaml",
+    "id": "token_verification",
+    "type": "payment",
+    "title": "",
+    "description": "支付 token 验签逻辑"
+  },
+  {
+    "file_path": "anchor/qa/qa_device_matrix.yaml",
+    "id": "qa_device_matrix",
+    "type": "qa",
+    "title": "",
+    "description": "MVP 支持的设备 / 分辨率 / 操作系统版本矩阵"
+  },
+  {
+    "file_path": "anchor/qa/qa_known_issues.yaml",
+    "id": "qa_known_issues",
+    "type": "qa",
+    "title": "",
+    "description": "MVP 阶段已知问题记录"
+  },
+  {
+    "file_path": "anchor/qa/qa_manual_check.yaml",
+    "id": "qa_manual_check",
+    "type": "qa",
+    "title": "",
+    "description": "MVP 阶段需人工介入检查的流程"
+  },
+  {
+    "file_path": "anchor/qa/qa_release_checklist.yaml",
+    "id": "qa_release_checklist",
+    "type": "qa",
+    "error": "while parsing a block collection\n  in \"anchor/qa/qa_release_checklist.yaml\", line 5, column 3\nexpected <block end>, but found '<scalar>'\n  in \"anchor/qa/qa_release_checklist.yaml\", line 5, column 9"
+  },
+  {
+    "file_path": "anchor/rag/anchor_index.yaml",
+    "id": "anchor_index",
+    "type": "rag",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/rag/rag_meta.yaml",
+    "id": "rag_meta",
+    "type": "rag",
+    "title": "",
+    "description": "用户体验 Anchor 拆分后的 RAG 结构"
+  },
+  {
+    "file_path": "anchor/rag/tag_map.yaml",
+    "id": "tag_map",
+    "type": "rag",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/rag/vector_config.yaml",
+    "id": "vector_config",
+    "type": "rag",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/scheduler/scheduler_cleanup_strategy.yaml",
+    "id": "scheduler_cleanup_strategy",
+    "type": "scheduler",
+    "title": "",
+    "description": "后端定时清理机制"
+  },
+  {
+    "file_path": "anchor/scheduler/scheduler_delayed_trigger.yaml",
+    "id": "scheduler_delayed_trigger",
+    "type": "scheduler",
+    "title": "",
+    "description": "延迟触发任务机制"
+  },
+  {
+    "file_path": "anchor/scheduler/scheduler_task_retry.yaml",
+    "id": "scheduler_task_retry",
+    "type": "scheduler",
+    "title": "",
+    "description": "后端任务重试机制"
+  },
+  {
+    "file_path": "anchor/security/anti_abuse.yaml",
+    "id": "anti_abuse",
+    "type": "security",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/security/api_security_guideline.yaml",
+    "id": "api_security_guideline",
+    "type": "security",
+    "title": "",
+    "description": "后端 API 接口通用安全规则，覆盖认证、验签、速率控制、防爬等。"
+  },
+  {
+    "file_path": "anchor/security/auth_flow.yaml",
+    "id": "auth_flow",
+    "type": "security",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/security/data_protection.yaml",
+    "id": "data_protection",
+    "type": "security",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/security/permission_matrix.yaml",
+    "id": "permission_matrix",
+    "type": "security",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/security/secure_upload.yaml",
+    "id": "secure_upload",
+    "type": "security",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/security/security_baseline.yaml",
+    "id": "security_baseline",
+    "type": "security",
+    "title": "",
+    "description": "全项目级别的安全基线策略，覆盖网络、数据、身份、模型调用、系统层面。"
+  },
+  {
+    "file_path": "anchor/security/token_strategy.yaml",
+    "id": "token_strategy",
+    "type": "security",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/share/share_sample_1.yaml",
+    "id": "share_sample_1",
+    "type": "share",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/share/share_sample_2.yaml",
+    "id": "share_sample_2",
+    "type": "share",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/spec/event_naming_convention.yaml",
+    "id": "event_naming_convention",
+    "type": "spec",
+    "title": "埋点事件命名规范",
+    "description": "定义事件命名的风格、结构和分类方式，确保跨端一致性和数据可追踪性。"
+  },
+  {
+    "file_path": "anchor/swap/swap_cost_structure.yaml",
+    "id": "swap_cost_structure",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/swap_engine_deploy.yaml",
+    "id": "swap_engine_deploy",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/swap_failure_handling.yaml",
+    "id": "swap_failure_handling",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/swap_image_requirements.yaml",
+    "id": "swap_image_requirements",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/swap_model_comparison.yaml",
+    "id": "swap_model_comparison",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/swap_roop_to_simswap.yaml",
+    "id": "swap_roop_to_simswap",
+    "type": "swap",
+    "title": "Roop → SimSwap 模型切换预案",
+    "description": "当前使用 Roop，未来可替换为 SimSwap+ArcFace 等组合模型。"
+  },
+  {
+    "file_path": "anchor/swap/swap_task_queue.yaml",
+    "id": "swap_task_queue",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/swap_template_strategy.yaml",
+    "id": "swap_template_strategy",
+    "type": "swap",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/swap/system/api_error_code.yaml",
+    "id": "api_error_code",
+    "type": "swap/system",
+    "title": "换脸接口返回状态码与错误结构",
+    "description": "定义所有换脸相关 API 的错误码规范、错误结构、错误场景映射，确保前后端一致性。"
+  },
+  {
+    "file_path": "anchor/swap/system/gpu_cold_start.yaml",
+    "id": "gpu_cold_start",
+    "type": "swap/system",
+    "title": "GPU 云机器的冷启动优化策略",
+    "description": "云 GPU 冷机启动延迟的规避策略，保障体验一致性。"
+  },
+  {
+    "file_path": "anchor/swap/system/roop_config.yaml",
+    "id": "roop_config",
+    "type": "swap/system",
+    "title": "Roop 模型参数配置与调用约定",
+    "description": "记录当前使用的 Roop 模型调用参数、预处理与后处理设置。"
+  },
+  {
+    "file_path": "anchor/swap/system/swap_retry_logic.yaml",
+    "id": "swap_retry_logic",
+    "type": "swap/system",
+    "title": "换脸任务重试机制与失败兜底",
+    "description": "定义换脸任务在失败情况下的自动重试机制和异常处理逻辑。"
+  },
+  {
+    "file_path": "anchor/swap/system/swap_timeout.yaml",
+    "id": "swap_timeout",
+    "type": "swap/system",
+    "title": "换脸任务执行超时处理策略",
+    "description": "Runpod / 云函数换脸调用超时机制说明与处理方案。"
+  },
+  {
+    "file_path": "anchor/system/system_crisp_chat.yaml",
+    "id": "system_crisp_chat",
+    "type": "system",
+    "title": "Crisp Chat SaaS 客服服务集成",
+    "description": "第一期客服气泡模块使用 Crisp Chat 免费版集成，通过嵌入脚本方式加载。"
+  },
+  {
+    "file_path": "anchor/test/test_ab_test.yaml",
+    "id": "test_ab_test",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_aging.yaml",
+    "id": "test_aging",
+    "type": "test",
+    "title": "",
+    "description": "老化测试，检测长时间运行后是否出现性能退化、内存泄露"
+  },
+  {
+    "file_path": "anchor/test/test_api_contract.yaml",
+    "id": "test_api_contract",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_api_stability.yaml",
+    "id": "test_api_stability",
+    "type": "test",
+    "title": "",
+    "description": "接口稳定性和响应准确性测试"
+  },
+  {
+    "file_path": "anchor/test/test_auto_report.yaml",
+    "id": "test_auto_report",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_boundary.yaml",
+    "id": "test_boundary",
+    "type": "test",
+    "title": "",
+    "description": "针对输入输出的边界值进行测试"
+  },
+  {
+    "file_path": "anchor/test/test_boundary_conditions.yaml",
+    "id": "test_boundary_conditions",
+    "type": "test",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test/test_ci_autotest.yaml",
+    "id": "test_ci_autotest",
+    "type": "test",
+    "title": "CI 自动化测试流程",
+    "description": "定义在 CI/CD 流水线中自动执行的测试用例，包括单元测试、集成测试和回归测试。\n每次 push 或合并 PR 时自动触发，确保主干代码始终稳定。\n"
+  },
+  {
+    "file_path": "anchor/test/test_class_payment_service.yaml",
+    "id": "test_class_payment_service",
+    "type": "test",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test/test_cloud_device.yaml",
+    "id": "test_cloud_device",
+    "type": "test",
+    "title": "",
+    "description": "用于在云手机环境中执行多机型、多分辨率、多DPI下的兼容性与行为验证测试。"
+  },
+  {
+    "file_path": "anchor/test/test_cold_start.yaml",
+    "id": "test_cold_start",
+    "type": "test",
+    "title": "",
+    "description": "冷启动场景下的性能与功能可用性测试"
+  },
+  {
+    "file_path": "anchor/test/test_compatibility.yaml",
+    "id": "test_compatibility",
+    "type": "test",
+    "title": "",
+    "description": "检测在不同设备、操作系统、浏览器、语言环境下系统运行是否正常。"
+  },
+  {
+    "file_path": "anchor/test/test_config_verification.yaml",
+    "id": "test_config_verification",
+    "type": "test",
+    "title": "配置文件合法性验证",
+    "description": "对系统配置文件进行字段完整性、数据类型、合法值范围的校验，防止部署错误。"
+  },
+  {
+    "file_path": "anchor/test/test_data_persistence.yaml",
+    "id": "test_data_persistence",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_device_emulation.yaml",
+    "id": "test_device_emulation",
+    "type": "test",
+    "title": "",
+    "description": "模拟不同分辨率、DPI、系统版本设备环境，辅助进行 UI 自适应和行为差异化测试。"
+  },
+  {
+    "file_path": "anchor/test/test_end_to_end.yaml",
+    "id": "test_end_to_end",
+    "type": "test",
+    "title": "端到端测试用例覆盖",
+    "description": "验证从用户输入到服务响应的完整链路，包括换脸成功流程、失败流程、支付验证和内容生成。"
+  },
+  {
+    "file_path": "anchor/test/test_error_handling.yaml",
+    "id": "test_error_handling",
+    "type": "test",
+    "title": "异常处理能力测试",
+    "description": "模拟多种输入错误、接口异常、数据不一致等情况，验证系统稳定性与用户提示合理性。"
+  },
+  {
+    "file_path": "anchor/test/test_event_tracking.yaml",
+    "id": "test_event_tracking",
+    "type": "test",
+    "title": "",
+    "description": "验证核心埋点事件是否成功记录，避免重复/缺失"
+  },
+  {
+    "file_path": "anchor/test/test_fallback.yaml",
+    "id": "test_fallback",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_feature_login.yaml",
+    "id": "test_feature_login",
+    "type": "test",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test/test_function_currency_convert.yaml",
+    "id": "test_function_currency_convert",
+    "type": "test",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test/test_functional.yaml",
+    "id": "test_functional",
+    "type": "test",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/test/test_i18n.yaml",
+    "id": "test_i18n",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_i18n_coverage.yaml",
+    "id": "test_i18n_coverage",
+    "type": "test",
+    "title": "国际化覆盖测试",
+    "description": "对UI文本、toast、dialog、文案等进行多语言覆盖率评估，确保所有关键路径均已翻译。"
+  },
+  {
+    "file_path": "anchor/test/test_integration.yaml",
+    "id": "test_integration",
+    "type": "test",
+    "title": "",
+    "description": "跨模块交互流程是否按照预期行为运行，侧重接口间数据一致性。"
+  },
+  {
+    "file_path": "anchor/test/test_loading_latency.yaml",
+    "id": "test_loading_latency",
+    "type": "test",
+    "title": "页面加载时长测试",
+    "description": "检查换脸流程中前端页面和模型接口的加载时间是否在可接受范围内。"
+  },
+  {
+    "file_path": "anchor/test/test_mock_data.yaml",
+    "id": "test_mock_data",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_mock_smoke.yaml",
+    "id": "test_mock_smoke",
+    "type": "test",
+    "title": "Mock流程冒烟测试",
+    "description": "使用mock数据快速验证系统集成关键路径，适用于CI阶段冒烟测试。"
+  },
+  {
+    "file_path": "anchor/test/test_network_conditions.yaml",
+    "id": "test_network_conditions",
+    "type": "test",
+    "title": "",
+    "description": "模拟不同网络状况下的系统稳定性与反馈机制"
+  },
+  {
+    "file_path": "anchor/test/test_offline_mode.yaml",
+    "id": "test_offline_mode",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_path_coverage.yaml",
+    "id": "test_path_coverage",
+    "type": "test",
+    "title": "",
+    "description": "通过路径建模与测试用例执行，确保所有功能流程分支均被覆盖。"
+  },
+  {
+    "file_path": "anchor/test/test_payment_trigger.yaml",
+    "id": "test_payment_trigger",
+    "type": "test",
+    "title": "",
+    "description": "覆盖支付触发流程，包括点击路径、试用到期逻辑等"
+  },
+  {
+    "file_path": "anchor/test/test_performance.yaml",
+    "id": "test_performance",
+    "type": "test",
+    "title": "",
+    "description": "对核心模块进行吞吐量、响应时间测试"
+  },
+  {
+    "file_path": "anchor/test/test_regression.yaml",
+    "id": "test_regression",
+    "type": "test",
+    "title": "",
+    "description": "保障历史功能在新增功能或修改后不被破坏，适用于核心模块的自动化回归验证。"
+  },
+  {
+    "file_path": "anchor/test/test_report_review.yaml",
+    "id": "test_report_review",
+    "type": "test",
+    "title": "测试报告归档与复审机制",
+    "description": "每次测试结果将自动归档，供后续比对。测试报告应包含失败率、异常详情、性能波动。\n"
+  },
+  {
+    "file_path": "anchor/test/test_security.yaml",
+    "id": "test_security",
+    "type": "test",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/test/test_stress.yaml",
+    "id": "test_stress",
+    "type": "test",
+    "title": "",
+    "description": "模拟极端负载条件，评估系统极限承载能力。"
+  },
+  {
+    "file_path": "anchor/test/test_support_chat.yaml",
+    "id": "test_support_chat",
+    "type": "test",
+    "title": "Crisp Chat 客服集成测试",
+    "description": "确保 Crisp Chat 嵌入脚本加载正常，触发行为正确，未出现资源加载错误。"
+  },
+  {
+    "file_path": "anchor/test/test_tdd_policy.yaml",
+    "id": "test_tdd_policy",
+    "type": "test",
+    "title": "",
+    "description": "测试驱动开发核心要求与落地策略"
+  },
+  {
+    "file_path": "anchor/test/test_tdd_principle.yaml",
+    "id": "test_tdd_principle",
+    "type": "test",
+    "title": "TDD 开发原则约定",
+    "description": "明确所有新功能、bug 修复必须遵循测试驱动开发流程，先写 test case 再开发逻辑。\n所有 PR 都需包含相应测试。\n"
+  },
+  {
+    "file_path": "anchor/test/test_toast_feedback.yaml",
+    "id": "test_toast_feedback",
+    "type": "test",
+    "title": "",
+    "description": "验证各功能操作后 toast 正确触发与消失"
+  },
+  {
+    "file_path": "anchor/test/test_tracking_validation.yaml",
+    "id": "test_tracking_validation",
+    "type": "test",
+    "title": "埋点验证与测试",
+    "description": "自动化验证埋点逻辑是否正常触发、参数完整"
+  },
+  {
+    "file_path": "anchor/test/test_upload_format.yaml",
+    "id": "test_upload_format",
+    "type": "test",
+    "title": "上传格式兼容性测试",
+    "description": "针对用户上传的头像、模板图、视频等格式进行合法性与兼容性验证。"
+  },
+  {
+    "file_path": "anchor/test/test_user_path.yaml",
+    "id": "test_user_path",
+    "type": "test",
+    "title": "用户路径测试",
+    "description": "测试用户从上传头像到完成分享是否路径通畅，无中断。"
+  },
+  {
+    "file_path": "anchor/test/test_visual_regression.yaml",
+    "id": "test_visual_regression",
+    "type": "test",
+    "title": "UI视觉回归测试",
+    "description": "检查核心界面在不同设备、分辨率下是否布局错乱。"
+  },
+  {
+    "file_path": "anchor/test/test_conversion_funnel.yaml",
+    "id": "test_conversion_funnel",
+    "type": "test",
+    "title": "",
+    "description": "覆盖从用户进入到注册、上传、换脸、分享、付费等关键路径的测试结构，用于漏斗分析与功能验证。"
+  },
+  {
+    "file_path": "anchor/user/user_action_hooks.yaml",
+    "id": "user_action_hooks",
+    "type": "user",
+    "title": "用户行为触发策略",
+    "description": "用户行为与系统提示之间的 hook 映射，例如行为触发登录/订阅提示。"
+  },
+  {
+    "file_path": "anchor/user/user_growth_mission.yaml",
+    "id": "user_growth_mission",
+    "type": "user",
+    "title": "",
+    "description": "用户行为驱动的成长体系，包括连续登录、换脸分享、邀请好友等任务及积分系统。"
+  },
+  {
+    "file_path": "anchor/ux/feedback_ui.yaml",
+    "id": "feedback_ui",
+    "type": "ux",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ux/ux_i18n.yaml",
+    "id": "ux_i18n",
+    "type": "ux",
+    "title": "国际化文案配置",
+    "description": "提前预留所有按钮与提示文案的英文翻译结构，支持多语言切换。"
+  },
+  {
+    "file_path": "anchor/ux/ux_support_chat.yaml",
+    "id": "ux_support_chat",
+    "type": "ux",
+    "title": "客服气泡 UX 设计",
+    "description": "面向年轻用户设计的客服入口气泡，包括语义提示、默认表情、时机触发策略。"
+  },
+  {
+    "file_path": "anchor/ux/ux_user_feedback.yaml",
+    "id": "ux_user_feedback",
+    "type": "ux",
+    "title": "用户反馈路径",
+    "description": "引导用户反馈体验问题，支持截图上传与文字填写。"
+  },
+  {
+    "file_path": "anchor/visual/visual_brand.yaml",
+    "id": "visual_brand",
+    "type": "visual",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual/visual_icon.yaml",
+    "id": "visual_icon",
+    "type": "visual",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/visual/visual_theme.yaml",
+    "id": "visual_theme",
+    "type": "visual",
+    "title": "",
+    "description": ""
+  },
+  {
+    "file_path": "anchor/ui/ui_responsive.yaml",
+    "id": "ui_responsive",
+    "type": "ui",
+    "title": "",
+    "description": "用户体验层面需兼顾不同终端的视觉、操作逻辑与感知一致性，避免割裂体验。\n"
+  }
+]
