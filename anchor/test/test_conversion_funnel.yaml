@@ -1,5 +1,0 @@
-id: test_conversion_funnel
-title: 漏斗转化率测试
-description: 记录用户从访问到完成换脸/分享的转化路径，评估跳失点，配合Crisp/GA4数据验证。
-tags: [funnel, crisp, ux, conversion]
-stage: mvp

@@ -1,6 +1,0 @@
-id: infra_analytics_tools
-title: 数据分析工具选型
-description: 记录与分析用户行为，当前使用 Umani，预留 Posthog 备选。
-tools:
-  - Umani.io
-  - Posthog (future optional)
