@@ -1,0 +1,6 @@
+id: performance_cache_strategy
+category: performance
+title: 前端缓存策略说明
+description: 规定页面数据在浏览器缓存（memory、sessionStorage、localStorage、IndexedDB）中的使用策略。
+level: MVP
+related_to: [performance_data_prefetching, performance_lazy_module_registry]
