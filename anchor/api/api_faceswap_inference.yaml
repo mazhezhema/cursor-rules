@@ -1,0 +1,14 @@
+id: api_faceswap_inference
+title: 换脸推理接口
+description: 定义换脸调用的 API 请求结构及返回逻辑。
+endpoint: POST /api/face/swap
+request_params:
+  - source_image: string - 用户上传的头像 base64
+  - target_template_id: string - 模板图 ID
+  - token: string - 用户授权令牌
+response:
+  code: 0
+  message: "换脸成功"
+  data:
+    result_url: string - 返回生成后的图片地址
+    duration_ms: int - 推理耗时

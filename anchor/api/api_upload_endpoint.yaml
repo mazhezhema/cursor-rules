@@ -1,0 +1,16 @@
+id: api_upload_endpoint
+title: 上传接口定义
+description: 定义上传图片、素材的接口路径、参数、返回结构。
+endpoint: POST /api/upload/image
+request_params:
+  - field: file
+    type: binary
+    required: true
+  - field: token
+    type: string
+    required: true
+response:
+  code: 0
+  message: "上传成功"
+  data:
+    url: string - 返回上传后的图片地址

@@ -1,0 +1,11 @@
+id: api_url_naming_convention
+title: API 命名规范
+description: 所有 API 路径统一采用 RESTful 风格，并分模块组织。
+rules:
+  - 所有路径小写，用连字符分隔
+  - 路径采用资源/动词结构，如 /user/profile/update
+  - 所有接口统一以 /api 前缀开头
+examples:
+  - /api/auth/login
+  - /api/user/profile
+  - /api/template/list
