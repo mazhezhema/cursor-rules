@@ -657,6 +657,12 @@
     "description": "收集用户的建议与问题反馈。"
   },
   {
+    "file_path": "anchor/page/page_trace_id.yaml",
+    "id": "page_trace_id",
+    "type": "page",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
     "file_path": "anchor/dialog/dialog_confirm_logout.yaml",
     "id": "dialog_confirm_logout",
     "type": "dialog",
@@ -2906,13 +2912,6 @@
     "description": "跨模块交互流程是否按照预期行为运行，侧重接口间数据一致性。"
   },
   {
-    "file_path": "anchor/test/test_loading_latency.yaml",
-    "id": "test_loading_latency",
-    "type": "test",
-    "title": "页面加载时长测试",
-    "description": "检查换脸流程中前端页面和模型接口的加载时间是否在可接受范围内。"
-  },
-  {
     "file_path": "anchor/test/test_mock_data.yaml",
     "id": "test_mock_data",
     "type": "test",
@@ -3141,6 +3140,40 @@
     "description": "支持紧凑与宽松两种布局密度模式，依据设备类型（手机/平板/TV）自动切换。"
   },
   {
+    "file_path": "anchor/ui/ui_spacing_guidelines.yaml",
+    "id": "ui_spacing_guidelines",
+    "type": "ui",
+    "title": "UI 间距规范",
+    "description": "统一定义组件间的边距、内边距、行间距等，确保各页面视觉统一性。"
+  },
+  {
+    "file_path": "anchor/ui/ui_button_spec.yaml",
+    "id": "ui_button_spec",
+    "type": "ui",
+    "title": "按钮组件设计规范",
+    "description": "定义所有按钮的尺寸、圆角、字体大小、图标位置、边框规范，支持主按钮/次按钮/危险按钮等类型。"
+  },
+  {
+    "file_path": "anchor/ui/ui_color_tokens.yaml",
+    "id": "ui_color_tokens",
+    "type": "ui",
+    "title": "UI 颜色规范",
+    "description": "定义全局使用的颜色变量，包括主色、次色、背景色、文本色、提示色、错误色等，支持亮/暗主题切换。"
+  },
+  {
+    "file_path": "anchor/ui/ui_typography_tokens.yaml",
+    "id": "ui_typography_tokens",
+    "type": "ui",
+    "title": "字体排版规范",
+    "description": "统一定义字体大小、行高、字重、文本间距等，用于保持文本可读性与页面风格一致性。"
+  },
+  {
+    "file_path": "anchor/ui/ui_skeleton_loading.yaml",
+    "id": "ui_skeleton_loading",
+    "type": "ui",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
     "file_path": "anchor/toast/toast_network_error.yaml",
     "id": "toast_network_error",
     "type": "toast",
@@ -3216,5 +3249,90 @@
     "type": "toast",
     "title": "编辑退出保存提示",
     "description": "离开编辑页面时自动保存，并提示保存成功。"
+  },
+  {
+    "file_path": "anchor/toast/toast_perf_alert.yaml",
+    "id": "toast_perf_alert",
+    "type": "toast",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/performance/test_loading_latency.yaml",
+    "id": "test_loading_latency",
+    "type": "performance",
+    "title": "页面加载时长测试",
+    "description": "检查换脸流程中前端页面和模型接口的加载时间是否在可接受范围内。"
+  },
+  {
+    "file_path": "anchor/performance/performance_animation_limit.yaml",
+    "id": "performance_animation_limit",
+    "type": "performance",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/performance/performance_image_optimize.yaml",
+    "id": "performance_image_optimize",
+    "type": "performance",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/performance/performance_lazyload.yaml",
+    "id": "performance_lazyload",
+    "type": "performance",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/performance/performance_cache_policy.yaml",
+    "id": "performance_cache_policy",
+    "type": "performance",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/performance/performance_cache_strategy.yaml",
+    "id": "performance_cache_strategy",
+    "type": "performance",
+    "title": "前端缓存策略说明",
+    "description": "规定页面数据在浏览器缓存（memory、sessionStorage、localStorage、IndexedDB）中的使用策略。"
+  },
+  {
+    "file_path": "anchor/performance/loading_time_report.yaml",
+    "id": "loading_time_report",
+    "type": "performance",
+    "error": "'NoneType' object has no attribute 'get'"
+  },
+  {
+    "file_path": "anchor/api/api_common_error_codes.yaml",
+    "id": "api_common_error_codes",
+    "type": "api",
+    "title": "API 错误码规范",
+    "description": "系统与业务错误码统一定义，前端可根据 code 区分展示不同 toast。"
+  },
+  {
+    "file_path": "anchor/api/api_faceswap_inference.yaml",
+    "id": "api_faceswap_inference",
+    "type": "api",
+    "title": "换脸推理接口",
+    "description": "定义换脸调用的 API 请求结构及返回逻辑。"
+  },
+  {
+    "file_path": "anchor/api/api_standard_response.yaml",
+    "id": "api_standard_response",
+    "type": "api",
+    "title": "API 统一返回格式",
+    "description": "定义所有 API 的标准响应格式结构，帮助前端快速识别数据和错误。"
+  },
+  {
+    "file_path": "anchor/api/api_upload_endpoint.yaml",
+    "id": "api_upload_endpoint",
+    "type": "api",
+    "title": "上传接口定义",
+    "description": "定义上传图片、素材的接口路径、参数、返回结构。"
+  },
+  {
+    "file_path": "anchor/api/api_url_naming_convention.yaml",
+    "id": "api_url_naming_convention",
+    "type": "api",
+    "title": "API 命名规范",
+    "description": "所有 API 路径统一采用 RESTful 风格，并分模块组织。"
   }
 ]
