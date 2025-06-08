@@ -1,0 +1,13 @@
+name: upload_page
+description: 上传页面，用户上传照片用于换脸
+components:
+  - image_picker
+  - confirm_button
+  - upload_progress_bar
+tracking:
+  - event: upload_page_view
+    description: 用户进入上传页面
+  - event: image_selected
+    description: 用户选择了图片
+  - event: click_confirm_upload
+    description: 用户确认上传图片

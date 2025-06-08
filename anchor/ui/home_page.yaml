@@ -1,0 +1,14 @@
+name: home_page
+description: 主页，展示换脸内容流，简约风格，Twitter/Youtube 风格
+components:
+  - feed_list
+  - top_nav_bar
+  - upload_entry_button
+  - floating_action_button
+tracking:
+  - event: home_page_view
+    description: 用户打开首页
+  - event: click_upload_entry
+    description: 点击上传入口按钮
+  - event: scroll_feed
+    description: 浏览内容流时滚动

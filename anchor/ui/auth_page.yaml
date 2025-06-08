@@ -1,0 +1,13 @@
+name: auth_page
+description: 登录/授权页面，支持OAuth平台登录
+components:
+  - oauth_button_list
+  - terms_link
+  - skip_button
+tracking:
+  - event: auth_page_view
+    description: 用户进入授权页
+  - event: click_oauth_login
+    description: 用户点击 OAuth 登录（Apple, Google, Facebook 等）
+  - event: click_skip_auth
+    description: 用户点击跳过登录
