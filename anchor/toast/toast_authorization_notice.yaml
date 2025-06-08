@@ -1,0 +1,4 @@
+id: toast_authorization_notice
+title: 授权提醒提示
+tags: [frontend, toast, auth]
+description: 授权请求时展示简洁提醒，取代对话框。

@@ -1,0 +1,4 @@
+id: dialog_feedback_form
+title: 意见反馈表单弹窗
+tags: [frontend, dialog, feedback]
+description: 将原反馈页面改为弹窗表单，简化跳转路径。

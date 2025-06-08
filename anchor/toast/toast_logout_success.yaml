@@ -1,0 +1,4 @@
+id: toast_logout_success
+title: 退出登录成功提示
+tags: [frontend, toast, auth]
+description: 用户点击退出登录后显示简洁的退出成功提示。
