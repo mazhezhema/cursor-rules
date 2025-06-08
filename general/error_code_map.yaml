@@ -1,0 +1,9 @@
+title: 错误码定义
+description: 统一错误码及其含义，便于前后端调试与文案展示。
+errors:
+  - code: AUTH_001
+    message: 用户未登录
+  - code: AUTH_002
+    message: Token 无效或过期
+  - code: UPLOAD_001
+    message: 上传失败，请检查网络

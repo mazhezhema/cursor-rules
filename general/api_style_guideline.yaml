@@ -1,0 +1,7 @@
+title: API 风格定义
+description: 统一 API 请求路径、方法、参数风格，规范 RESTful 路径命名。
+rules:
+  - method: 使用符合语义的 HTTP 方法（GET, POST, PATCH, DELETE）
+  - route_style: 使用短横线分隔单词，如 /user-profile/list
+  - versioning: 所有接口以 /v1/ 开头
+  - pluralize: 资源名使用复数，如 /users/

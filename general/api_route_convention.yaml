@@ -1,0 +1,9 @@
+title: API 路由路径规范
+description: 统一接口路由设计，支持未来自动文档生成。
+examples:
+  - path: /v1/users/{user_id}/profile
+    method: GET
+    description: 获取用户信息
+  - path: /v1/faceswap/{session_id}
+    method: POST
+    description: 提交换脸任务

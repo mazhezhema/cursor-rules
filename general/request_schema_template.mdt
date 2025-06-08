@@ -1,0 +1,10 @@
+title: 请求结构模板
+template:
+  method: POST
+  headers:
+    Content-Type: application/json
+    Authorization: Bearer <token>
+  body:
+    user_id: string
+    action: string
+    payload: object

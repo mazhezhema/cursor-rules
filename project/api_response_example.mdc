@@ -1,0 +1,10 @@
+title: 接口响应样例定义
+description: 提供标准返回结构，用于 Cursor 自动补全接口说明。
+examples:
+  - name: 换脸成功响应
+    body:
+      status: 200
+      code: OK
+      message: Success
+      data:
+        face_url: https://cdn.example.com/faceswap/abc.jpg
