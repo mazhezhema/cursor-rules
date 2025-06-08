@@ -1,0 +1,32 @@
+# firebase_event_map.yaml
+# 映射事件名 → 页面 → 描述 → 参数（供自动生成调用和校验使用）
+events:
+  - name: upload_start
+    page: upload_page
+    description: 用户点击上传按钮开始选图
+    parameters: [source]
+
+  - name: upload_success
+    page: upload_page
+    description: 用户成功上传图像
+    parameters: [image_size, device_model]
+
+  - name: swap_start
+    page: swap_page
+    description: 用户开始执行换脸操作
+    parameters: [template_id]
+
+  - name: swap_success
+    page: swap_page
+    description: 换脸成功
+    parameters: [template_id]
+
+  - name: share_click
+    page: result_page
+    description: 用户点击分享按钮
+    parameters: [channel]
+
+  - name: view_vip_page
+    page: vip_page
+    description: 用户访问 VIP 页面
+    parameters: []

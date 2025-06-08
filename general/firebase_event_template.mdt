@@ -1,0 +1,13 @@
+# firebase_event_template.mdt
+# 定义如何结构化每一个 Firebase logEvent 调用
+
+log_event_template:
+  dart: |
+    FirebaseAnalytics.instance.logEvent(
+      name: "{name}",
+      parameters: {{
+        {%- for param in parameters %}
+        "{{ param }}": {{ param }},
+        {%- endfor %}
+      }},
+    );

@@ -1,0 +1,24 @@
+# test_tracking_validation.yaml
+# 用于自动化测试中检查指定页面是否打点成功
+
+test:
+  name: track_event_validation
+  steps:
+    - page: upload_page
+      action: click_upload
+      expect_event: upload_start
+    - page: upload_page
+      action: upload_complete
+      expect_event: upload_success
+    - page: swap_page
+      action: start_swap
+      expect_event: swap_start
+    - page: swap_page
+      action: swap_complete
+      expect_event: swap_success
+    - page: result_page
+      action: click_share
+      expect_event: share_click
+    - page: vip_page
+      action: visit
+      expect_event: view_vip_page
