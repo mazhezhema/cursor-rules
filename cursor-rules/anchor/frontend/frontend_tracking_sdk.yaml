@@ -1,0 +1,17 @@
+id: frontend_tracking_sdk
+title: Flutter/Frontend 埋点 SDK 对接说明
+description: 定义如何在 Flutter 前端集成和调用埋点 SDK，包括初始化、事件触发与错误处理。
+fields:
+  sdk_installation:
+    description: 安装 SDK 所需依赖和初始化代码
+    example: flutter pub add firebase_analytics
+  initialization:
+    description: 初始化埋点 SDK 及设置匿名用户ID
+    example: FirebaseAnalytics.instance.setUserId('anon_123')
+  event_calling:
+    description: 如何封装通用事件调用
+    example: analytics.logEvent(name: 'button_click', parameters: {'button_id': 'share'})
+  privacy:
+    description: 用户隐私相关设置（如开启/关闭追踪、隐私弹窗）
+  fallback:
+    description: 网络异常或初始化失败时的处理策略
