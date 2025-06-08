@@ -1,0 +1,4 @@
+id: page_template_list
+title: 模板列表页
+tags: [page, template, ui]
+description: 展示所有可换脸模板的浏览页，支持分类筛选、收藏与搜索功能。

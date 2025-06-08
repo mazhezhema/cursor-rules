@@ -1,0 +1,4 @@
+id: page_home
+title: 首页功能设计
+tags: [page, home, ui]
+description: 定义首页的主要组件与功能模块，包括换脸入口、爆款模板展示、上传按钮与分享引导。

@@ -1,0 +1,4 @@
+id: page_result
+title: 结果页展示逻辑
+tags: [page, result, ui]
+description: 设计换脸/生成操作后的结果页，包含图像展示、保存、再创作、打分/评论引导模块。

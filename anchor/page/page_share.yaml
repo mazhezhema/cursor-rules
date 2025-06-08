@@ -1,0 +1,4 @@
+id: page_share
+title: 分享页功能设计
+tags: [page, share, ui]
+description: 定义内容分享页的布局结构，包括展示图、下载按钮、社交平台分享按钮和分享文案逻辑。
