@@ -1,0 +1,7 @@
+id: security_audit_log
+title: 用户行为审计日志策略
+description: 记录登录失败、上传行为、敏感接口调用等安全相关日志
+tags:
+  - security
+  - audit
+  - logging

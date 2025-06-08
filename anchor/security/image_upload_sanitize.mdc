@@ -1,0 +1,10 @@
+#cursor:check(upload_file)
+#cursor:verify(image_safety)
+
+if file.content_type not in ['image/jpeg', 'image/png', 'image/webp']:
+    raise UnsupportedMediaType("仅支持 JPG/PNG/WEBP")
+
+if file.size > 10 * 1024 * 1024:
+    raise FileTooLarge("文件大小不能超过 10MB")
+
+image = sanitize_and_reencode(file)
