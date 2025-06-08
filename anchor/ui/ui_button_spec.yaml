@@ -1,0 +1,4 @@
+id: ui_button_spec
+title: 按钮组件设计规范
+tags: [ui, button, component]
+description: 定义所有按钮的尺寸、圆角、字体大小、图标位置、边框规范，支持主按钮/次按钮/危险按钮等类型。
