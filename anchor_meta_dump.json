@@ -636,6 +636,34 @@
     "description": "展示所有可换脸模板的浏览页，支持分类筛选、收藏与搜索功能。"
   },
   {
+    "file_path": "anchor/page/page_about.yaml",
+    "id": "page_about",
+    "type": "page",
+    "title": "关于页面",
+    "description": "展示应用信息、版本号、隐私政策等内容。"
+  },
+  {
+    "file_path": "anchor/page/page_feedback.yaml",
+    "id": "page_feedback",
+    "type": "page",
+    "title": "用户反馈页面",
+    "description": "收集用户的建议与问题反馈。"
+  },
+  {
+    "file_path": "anchor/dialog/dialog_confirm_logout.yaml",
+    "id": "dialog_confirm_logout",
+    "type": "dialog",
+    "title": "退出登录确认弹窗",
+    "description": "用于用户点击退出登录时的二次确认。"
+  },
+  {
+    "file_path": "anchor/dialog/dialog_delete_account.yaml",
+    "id": "dialog_delete_account",
+    "type": "dialog",
+    "title": "注销账号弹窗",
+    "description": "用户尝试注销账号时弹出的警示对话框。"
+  },
+  {
     "file_path": "anchor/analytics/analytics_sample_1.yaml",
     "id": "analytics_sample_1",
     "type": "analytics",
@@ -3041,5 +3069,19 @@
     "type": "ui",
     "title": "",
     "description": "用户体验层面需兼顾不同终端的视觉、操作逻辑与感知一致性，避免割裂体验。\n"
+  },
+  {
+    "file_path": "anchor/toast/toast_network_error.yaml",
+    "id": "toast_network_error",
+    "type": "toast",
+    "title": "网络异常提示",
+    "description": "当用户网络请求失败时的错误提示。"
+  },
+  {
+    "file_path": "anchor/toast/toast_save_success.yaml",
+    "id": "toast_save_success",
+    "type": "toast",
+    "title": "保存成功提示",
+    "description": "当用户完成保存操作时显示的提示。"
   }
 ]

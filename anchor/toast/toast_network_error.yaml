@@ -1,0 +1,4 @@
+id: toast_network_error
+title: 网络异常提示
+tags: ['toast', 'error', 'network']
+description: 当用户网络请求失败时的错误提示。
