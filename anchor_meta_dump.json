@@ -580,6 +580,62 @@
     "description": "描述从用户上传自拍图，到换脸模型调用、生成图像、缓存结果的完整推理流程。"
   },
   {
+    "file_path": "anchor/page/page_home.yaml",
+    "id": "page_home",
+    "type": "page",
+    "title": "首页功能设计",
+    "description": "定义首页的主要组件与功能模块，包括换脸入口、爆款模板展示、上传按钮与分享引导。"
+  },
+  {
+    "file_path": "anchor/page/page_share.yaml",
+    "id": "page_share",
+    "type": "page",
+    "title": "分享页功能设计",
+    "description": "定义内容分享页的布局结构，包括展示图、下载按钮、社交平台分享按钮和分享文案逻辑。"
+  },
+  {
+    "file_path": "anchor/page/page_settings.yaml",
+    "id": "page_settings",
+    "type": "page",
+    "title": "设置页设计规范",
+    "description": "规定设置页的结构与配置项，如语言切换、深色模式、版本信息、用户反馈入口等。"
+  },
+  {
+    "file_path": "anchor/page/page_result.yaml",
+    "id": "page_result",
+    "type": "page",
+    "title": "结果页展示逻辑",
+    "description": "设计换脸/生成操作后的结果页，包含图像展示、保存、再创作、打分/评论引导模块。"
+  },
+  {
+    "file_path": "anchor/page/page_user_profile.yaml",
+    "id": "page_user_profile",
+    "type": "page",
+    "title": "用户中心页设计",
+    "description": "用户个人主页结构，包括 VIP 状态、历史记录、参与统计与个性化推荐展示等。"
+  },
+  {
+    "file_path": "anchor/page/page_history.yaml",
+    "id": "page_history",
+    "type": "page",
+    "title": "使用记录页",
+    "description": "显示用户过往换脸记录与操作日志，支持删除与再次编辑功能。"
+  },
+  {
+    "file_path": "anchor/page/page_invite.yaml",
+    "id": "page_invite",
+    "type": "page",
+    "title": "邀请页设计",
+    "description": "用户邀请他人使用 App 的专属页，含分享卡片、邀请文案、奖励机制提示等。"
+  },
+  {
+    "file_path": "anchor/page/page_template_list.yaml",
+    "id": "page_template_list",
+    "type": "page",
+    "title": "模板列表页",
+    "description": "展示所有可换脸模板的浏览页，支持分类筛选、收藏与搜索功能。"
+  },
+  {
     "file_path": "anchor/analytics/analytics_sample_1.yaml",
     "id": "analytics_sample_1",
     "type": "analytics",
