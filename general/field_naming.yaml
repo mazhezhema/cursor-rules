@@ -1,0 +1,60 @@
+filename: general/field_naming.yaml
+title: 字段命名规范（Field Naming Convention）
+description: 定义 lokibble-app 项目中通用字段的命名规范，用于数据模型、日志埋点、接口通信等场景，确保项目结构一致性。
+version: 1.0.0
+category: general
+
+fields:
+  user_id:
+    type: string
+    description: 用户唯一标识。来源于 OAuth 登录系统。
+    naming: userId（驼峰式）
+    required: true
+
+  session_id:
+    type: string
+    description: 当前登录会话的唯一 ID，用于日志追踪与行为分析。
+    naming: sessionId
+    required: true
+
+  device_id:
+    type: string
+    description: 设备标识符，用于区分不同终端，默认通过设备指纹或系统 ID 获取。
+    naming: deviceId
+    required: true
+
+  event_id:
+    type: string
+    description: 埋点事件的唯一标识，通常为日志系统内部定义。
+    naming: eventId
+    required: false
+
+  timestamp:
+    type: int
+    description: 事件或行为发生的时间戳（ms）。
+    naming: timestamp
+    required: true
+
+  country:
+    type: string
+    description: 用户所属国家（ISO Alpha-2 格式，如“US”）。
+    naming: country
+    required: false
+
+  platform:
+    type: string
+    description: 当前设备平台（如 android、ios、web）。
+    naming: platform
+    required: true
+
+  language:
+    type: string
+    description: 用户当前所用语言环境（如 en-US、fr-FR）。
+    naming: language
+    required: false
+
+  referral_code:
+    type: string
+    description: 推广邀请码或分销渠道参数。
+    naming: referralCode
+    required: false
