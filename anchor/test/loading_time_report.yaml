@@ -1,5 +1,4 @@
 id: loading_time_report
-name: 页面加载时间统计
-description: 所有核心页面需埋点记录加载时间，便于后续分析慢加载问题。
-category: performance
-level: should
+name: 页面加载时间上报
+category: test
+description: 记录页面加载的时间，超过阈值进行告警和埋点。

@@ -1,3 +1,20 @@
-- 利用 Firebase Performance SDK 自动采集页面加载指标。
-- 如需精细化统计，可手动标记开始/结束节点。
-- 在 toast 弹出时，将 trace_id 附加在日志中，提升排查效率。
+# Firebase 上报代码片段
+
+```dart
+final stopwatch = Stopwatch()..start();
+// 页面加载逻辑...
+stopwatch.stop();
+
+final duration = stopwatch.elapsedMilliseconds;
+if (duration > 1500) {
+  FirebaseAnalytics.instance.logEvent(
+    name: "slow_page_load",
+    parameters: {
+      "page": "HomePage",
+      "duration_ms": duration,
+      "trace_id": currentTraceId,
+    },
+  );
+  showToast("页面加载较慢，请稍后再试");
+}
+```
