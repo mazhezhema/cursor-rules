@@ -1,0 +1,5 @@
+id: loading_time_report
+name: 页面加载时间统计
+description: 所有核心页面需埋点记录加载时间，便于后续分析慢加载问题。
+category: performance
+level: should

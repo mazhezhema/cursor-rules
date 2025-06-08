@@ -1,0 +1,3 @@
+- 所有首屏页面在加载时需记录加载总时长。
+- 使用 perf_sdk 上报 loading_time 字段。
+- 如出现 toast_error，应记录并上报 trace_id 与时间戳。
