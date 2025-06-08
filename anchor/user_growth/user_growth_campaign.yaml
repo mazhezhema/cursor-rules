@@ -1,0 +1,4 @@
+id: user_growth_campaign
+title: 用户增长活动配置
+description: 配置首批用户增长策略，包括启动奖励、任务激励、拉新机制等。
+stage: mvp
