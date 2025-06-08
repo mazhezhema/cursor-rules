@@ -1,0 +1,11 @@
+# anchor/infra/infra_analytics_tools.yaml
+# 比较主流埋点统计工具的选型建议
+
+id: infra_analytics_tools
+name: 分析工具选型
+description: 对比 Firebase, Umani, GA4, Posthog 的部署、功能、费用、适用场景，为产品初期埋点系统选型提供决策依据。
+related:
+  - data_analytics
+  - test_conversion_funnel
+  - firebase
+  - backend
