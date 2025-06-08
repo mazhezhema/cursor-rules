@@ -1,0 +1,11 @@
+# 支付UI指引结构定义
+fields:
+  - name: show_button_text
+    type: string
+    description: 支付按钮上显示的文案
+  - name: pre_popup_hint
+    type: string
+    description: 支付前弹窗提示语
+  - name: confirmation_required
+    type: boolean
+    description: 是否需要点击确认按钮后再支付

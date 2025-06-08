@@ -1,0 +1,11 @@
+# 支付安全策略结构定义
+fields:
+  - name: require_https
+    type: boolean
+    description: 是否要求使用 HTTPS 通信
+  - name: signature_required
+    type: boolean
+    description: 是否要求签名校验请求
+  - name: token_expiry_limit
+    type: int
+    description: 支付令牌的过期时间限制（单位：秒）

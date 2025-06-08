@@ -1,0 +1,11 @@
+# 支付SDK集成结构定义
+fields:
+  - name: sdk_name
+    type: string
+    description: SDK 名称，如 GooglePaySDK、ApplePayKit
+  - name: version
+    type: string
+    description: 当前集成的 SDK 版本
+  - name: config_params
+    type: dict
+    description: 配置参数，通常包括商户ID、公钥等信息

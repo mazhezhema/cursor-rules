@@ -1,0 +1,11 @@
+# 支付平台能力描述 (MDT)
+fields:
+  - name: platform_name
+    type: string
+    description: 支付平台名称，如 google_pay、apple_pay
+  - name: supported_features
+    type: list<string>
+    description: 平台支持的支付能力（如：one_click, recurring, promo_code）
+  - name: version
+    type: string
+    description: 平台 SDK 或 API 的版本号
