@@ -1,0 +1,3 @@
+# Loading time report anchor
+id: loading_time_report
+track: start_time, first_paint, full_load
