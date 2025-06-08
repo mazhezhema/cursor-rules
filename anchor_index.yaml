@@ -1,0 +1,73 @@
+# Anchor Index (Optimized Version)
+
+- ai/
+  - ai_a11y_adaptation.yaml
+  - ai_adaptation.yaml
+  - ai_component_recommendation.yaml
+  - ai_copywriting.yaml
+  - ai_data_driven.yaml
+  - ai_faceswap_inference_flow.yaml
+  - ai_guidance.yaml
+  - ai_layout_generation.yaml
+  - ai_mood_detection.yaml
+  - ai_personalization.yaml
+  - ai_privacy.yaml
+  - ai_style_transfer.yaml
+  - ai_transparency.yaml
+
+- dialog/
+  - dialog_browser_block.yaml
+  - dialog_invite_success.yaml
+  - dialog_oauth_login.yaml
+  - dialog_terms_agreement.yaml
+  - dialog_upload_requirements.yaml
+  - dialog_vip_expired.yaml
+
+- page/
+  - page_login_required.yaml
+  - page_model_preview.yaml
+  - page_template_rank.yaml
+  - page_upload.yaml
+  - page_user_profile.yaml
+
+- toast/
+  - toast_copy_link.yaml
+  - toast_daily_limit_reached.yaml
+  - toast_login_status.yaml
+  - toast_reward_received.yaml
+  - toast_share_success.yaml
+  - toast_upload_success.yaml
+  - toast_vip_only_feature.yaml
+
+- ui/
+  - ui_accessibility.yaml
+  - ui_animation.yaml
+  - ui_component.yaml
+  - ui_controls.yaml
+  - ui_gesture.yaml
+  - ui_iconography.yaml
+  - ui_layout.yaml
+  - ui_performance.yaml
+  - ui_responsive.yaml
+  - ui_text.yaml
+  - ui_theme.yaml
+
+- ux/
+  - ux_guidance.yaml
+  - ux_interaction.yaml
+  - ux_layout.yaml
+  - ux_onboarding.yaml
+  - ux_philosophy.yaml
+  - ux_screen.yaml
+  - ux_test_behavior.yaml
+  - ux_text.yaml
+  - ux_visual.yaml
+
+- test/
+  - test_ab_test.yaml
+  - test_data_integrity.yaml
+  - test_device_coverage.yaml
+  - test_error_boundary.yaml
+  - test_error_handling.yaml
+  - test_interaction.yaml
+  - test_responsive.yaml

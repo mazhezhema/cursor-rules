@@ -1,0 +1,17 @@
+# Changelog 2025-06-08: Anchor 优化与合并
+
+## ✅ 合并内容
+
+- `toast_favorite_limit.yaml` 合并入 `toast_daily_limit_reached.yaml`
+- `toast_already_logged_in.yaml` 重命名为 `toast_login_status.yaml`
+- `dialog_face_swap_error.yaml`, `dialog_image_invalid.yaml` 等视觉类 Dialog 已合并至其他模块或弃用
+- `page_onboarding.yaml` 移入 `ux_onboarding.yaml`
+- `page_fallback_browser.yaml` 与 `dialog_browser_block.yaml` 合并统一为后者
+- `upload_page.yaml` 移动至 `page/page_upload.yaml`，避免 `ui/` 冗余定义
+- 去除重复文件（如 `ui_responsive.yaml`, `ui_typography.yaml` 多次被提交）
+
+## ✅ 说明
+
+- UI 与 UX 明确区分：UI 专注基础组件和控件样式；UX 强调引导流程、情绪反馈等感知层级
+- Toast 与 Dialog 命名统一，确保 Cursor 可解析时无歧义
+- 删除冗余旧版未用文件，提升 anchor 文件清晰度
