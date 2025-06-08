@@ -1,0 +1,4 @@
+id: toast_feature_unavailable
+title: 功能暂不可用提示
+tags: ['toast', 'error', 'feature']
+description: 用于特定功能尚未开放时，给出清晰的提示信息。

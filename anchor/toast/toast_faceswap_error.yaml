@@ -1,0 +1,4 @@
+id: toast_faceswap_error
+title: 换脸出错提示
+tags: ['toast', 'error', 'faceswap']
+description: 用于换脸模型调用失败时，提醒用户稍后重试或更换图片。

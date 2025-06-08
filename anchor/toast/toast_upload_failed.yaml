@@ -1,0 +1,4 @@
+id: toast_upload_failed
+title: 上传失败提示
+tags: ['toast', 'error', 'upload']
+description: 用于上传过程中出现网络或格式错误时，提示用户上传失败。
