@@ -1488,8 +1488,8 @@
     "file_path": "anchor/frontend/frontend_error_boundary.yaml",
     "id": "frontend_error_boundary",
     "type": "frontend",
-    "title": "前端异常处理与崩溃防护策略",
-    "description": "Flutter 中的 ErrorWidget 捕获、自定义错误边界处理、异常日志上报机制。"
+    "title": "前端错误边界设计",
+    "description": "规范前端错误捕获、UI fallback 显示方式，提升异常容忍度。"
   },
   {
     "file_path": "anchor/frontend/frontend_error_handling.yaml",
@@ -1595,8 +1595,8 @@
     "file_path": "anchor/frontend/frontend_state_management.yaml",
     "id": "frontend_state_management",
     "type": "frontend",
-    "title": "",
-    "description": "明确不同业务和组件使用的状态管理方式（如 Provider、Riverpod、Bloc）"
+    "title": "前端状态管理方案",
+    "description": "定义 MVP 阶段使用的前端状态管理体系（如 Riverpod / Provider），包含状态流转与跨组件共享逻辑。"
   },
   {
     "file_path": "anchor/frontend/frontend_structure.yaml",
@@ -1650,6 +1650,55 @@
     "id": "frontend_widget_abstraction",
     "type": "frontend",
     "error": "expected '<document start>', but found '<block sequence start>'\n  in \"anchor/frontend/frontend_widget_abstraction.yaml\", line 7, column 1"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_component_structure.yaml",
+    "id": "frontend_component_structure",
+    "type": "frontend",
+    "title": "前端组件结构与拆分",
+    "description": "制定页面组件拆分结构，包括核心页面（首页、分享页、设置页）和 UI 模块拆分规范。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_routing_strategy.yaml",
+    "id": "frontend_routing_strategy",
+    "type": "frontend",
+    "title": "页面路由与导航策略",
+    "description": "规定路由跳转、深链策略、Tab与嵌套路由使用规范，确保用户路径清晰。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_i18n_config.yaml",
+    "id": "frontend_i18n_config",
+    "type": "frontend",
+    "title": "国际化配置策略",
+    "description": "定义国际化语言管理方案，支持多语言文本切换与格式本地化。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_theme_switch.yaml",
+    "id": "frontend_theme_switch",
+    "type": "frontend",
+    "title": "前端主题切换方案",
+    "description": "定义主题模式（亮/暗/系统）的配置与切换策略，支持 MVP 可配置。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_loading_behavior.yaml",
+    "id": "frontend_loading_behavior",
+    "type": "frontend",
+    "title": "加载动画与空状态处理",
+    "description": "设计加载动画、骨架屏、无内容占位等策略，提升 UX 感知性能。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_offline_support.yaml",
+    "id": "frontend_offline_support",
+    "type": "frontend",
+    "title": "离线与持久化支持",
+    "description": "定义是否支持离线数据缓存、前端本地存储策略（如 Hive）。"
+  },
+  {
+    "file_path": "anchor/frontend/frontend_accessibility.yaml",
+    "id": "frontend_accessibility",
+    "type": "frontend",
+    "title": "基础无障碍支持",
+    "description": "定义前端对高对比、放大字体、语音辅助的基本适配策略。"
   },
   {
     "file_path": "anchor/growth/gamification.yaml",

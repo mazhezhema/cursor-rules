@@ -1,0 +1,4 @@
+id: frontend_routing_strategy
+title: 页面路由与导航策略
+tags: [frontend, routing, navigation]
+description: 规定路由跳转、深链策略、Tab与嵌套路由使用规范，确保用户路径清晰。

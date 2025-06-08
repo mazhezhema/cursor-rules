@@ -1,0 +1,4 @@
+id: frontend_theme_switch
+title: 前端主题切换方案
+tags: [frontend, theme, darkmode]
+description: 定义主题模式（亮/暗/系统）的配置与切换策略，支持 MVP 可配置。

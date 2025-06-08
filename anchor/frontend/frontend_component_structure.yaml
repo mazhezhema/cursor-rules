@@ -1,0 +1,4 @@
+id: frontend_component_structure
+title: 前端组件结构与拆分
+tags: [frontend, component, ui]
+description: 制定页面组件拆分结构，包括核心页面（首页、分享页、设置页）和 UI 模块拆分规范。

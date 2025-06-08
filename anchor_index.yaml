@@ -71,3 +71,9 @@
   - test_error_handling.yaml
   - test_interaction.yaml
   - test_responsive.yaml
+  - path: anchor/frontend/frontend_state_management.yaml
+  - path: anchor/frontend/frontend_component_structure.yaml
+  - path: anchor/frontend/frontend_routing_strategy.yaml
+  - path: anchor/frontend/frontend_error_boundary.yaml
+  - path: anchor/frontend/frontend_i18n_config.yaml
+  - path: anchor/frontend/frontend_theme_switch.yaml

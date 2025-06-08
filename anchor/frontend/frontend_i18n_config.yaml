@@ -1,0 +1,4 @@
+id: frontend_i18n_config
+title: 国际化配置策略
+tags: [frontend, i18n, localization]
+description: 定义国际化语言管理方案，支持多语言文本切换与格式本地化。

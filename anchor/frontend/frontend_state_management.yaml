@@ -1,15 +1,4 @@
-
 id: frontend_state_management
-name: 状态管理策略
-description: 明确不同业务和组件使用的状态管理方式（如 Provider、Riverpod、Bloc）
-tags:
-  - Flutter
-  - 状态管理
-  - Provider
-  - Riverpod
-  - Bloc
-structure:
-  - global_state_architecture: 统一状态源结构说明
-  - local_component_state: 组件级状态隔离与清理机制
-  - async_state_sync: 异步加载状态更新规范（含 loading/error）
-  - performance_considerations: 状态更新与组件 rebuild 策略
+title: 前端状态管理方案
+tags: [frontend, architecture, state]
+description: 定义 MVP 阶段使用的前端状态管理体系（如 Riverpod / Provider），包含状态流转与跨组件共享逻辑。
