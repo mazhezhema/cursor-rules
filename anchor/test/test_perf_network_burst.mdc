@@ -1,0 +1,1 @@
+Cursor should simulate concurrent API calls and observe throughput and error rates.

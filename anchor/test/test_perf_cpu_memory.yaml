@@ -1,0 +1,3 @@
+id: test_perf_cpu_memory
+description: Monitor CPU and memory usage during runtime.
+category: performance
