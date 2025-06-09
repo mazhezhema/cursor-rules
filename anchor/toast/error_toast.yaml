@@ -1,0 +1,2 @@
+id: error_toast
+scenario: Show toast on critical UI errors

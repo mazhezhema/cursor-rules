@@ -1,0 +1,2 @@
+id: service_downgrade
+scenario: Fallback strategy on service error
