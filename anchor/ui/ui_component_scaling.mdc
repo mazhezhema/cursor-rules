@@ -1,0 +1,2 @@
+# Code:
+Text('Label', style: TextStyle(fontSize: 16 * MediaQuery.of(context).textScaleFactor))

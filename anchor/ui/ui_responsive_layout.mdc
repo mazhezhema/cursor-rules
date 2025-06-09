@@ -1,0 +1,6 @@
+# Code:
+LayoutBuilder(
+  builder: (context, constraints) {
+    return constraints.maxWidth > 600 ? TabletLayout() : MobileLayout();
+  },
+)

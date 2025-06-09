@@ -1,0 +1,3 @@
+# Anchor for defining safe area rules on different devices
+id: ui_touch_safe_area
+category: ui

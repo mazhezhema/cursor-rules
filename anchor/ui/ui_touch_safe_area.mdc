@@ -1,0 +1,2 @@
+# Code:
+return SafeArea(child: YourWidget());
