@@ -1,3 +1,4 @@
-anchor: ui_responsive_layout
-category: ui
-description: 使用百分比/Flex布局适应各种分辨率
+id: ui_responsive_layout
+title: UI 响应式布局策略
+description: 针对不同屏幕尺寸、DPI、比例的响应式布局标准，定义布局规则。
+tags: [ui, responsive, layout, MVP]

@@ -1,2 +1,3 @@
-目标：支持不同分辨率下布局一致性。
-实现：尽量避免固定像素，使用 Expanded / Flexible / LayoutBuilder。
+- 使用百分比宽高或Flex布局替代固定px
+- 启用MediaQuery判断屏幕宽度分级
+- 设置最小/最大宽度边界，防止内容挤压或溢出

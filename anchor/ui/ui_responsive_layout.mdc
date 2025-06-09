@@ -1,6 +1,6 @@
-Row(
-  children: [
-    Expanded(child: LeftPane()),
-    Expanded(flex: 2, child: MainPane()),
-  ],
-)
+实现方式建议：
+- Flutter: 使用LayoutBuilder, MediaQuery.of(context).size.width适配
+- CSS: 使用vw, vh单位，flexbox布局方式
+
+兼容性说明：
+- 需预设断点，如 <360dp, <600dp, >=1024dp 等

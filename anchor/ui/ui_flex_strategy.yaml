@@ -1,3 +1,4 @@
-anchor: ui_flex_strategy
-category: ui
-description: 基于Flex布局策略的适配系统
+id: ui_flex_strategy
+title: Flex 弹性布局策略
+description: 定义UI结构中统一的Flex方向、间距、主轴与交叉轴对齐规则。
+tags: [ui, layout, flexbox, MVP]

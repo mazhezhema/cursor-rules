@@ -1,2 +1,3 @@
-目标：不同模块可灵活排列。
-实现：利用 Row/Column + Expanded/Flexible 自适应布局。
+- 所有主要UI组件采用Flex布局
+- 默认主轴方向为 Row，交叉轴为 Center
+- 主轴间距建议为 8dp / 16dp / 24dp 的倍数
