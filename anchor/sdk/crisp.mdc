@@ -1,0 +1,15 @@
+implementation:
+  flutter:
+    sdk: crisp
+    method:
+      - initialize_crisp(site_id: string)
+      - set_user_info(email: string, nickname: string)
+      - open_chat()
+    fallback: webview_embed("https://go.crisp.chat/chat/embed/")
+    packages:
+      - crisp_sdk_flutter
+    compatibility:
+      - ios: true
+      - android: true
+      - web: true
+    notes: "推荐使用 WebView 方案以避免平台差异；生产环境需配置域名白名单。"

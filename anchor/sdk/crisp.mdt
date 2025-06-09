@@ -1,0 +1,10 @@
+module: CrispChat
+purpose: 快速集成 Crisp 聊天 SDK 到前端 Flutter 项目
+details:
+  - 使用 crisp官方flutter插件，或 webview 嵌入方案
+  - SDK初始化需指定网站ID
+  - 可选设置用户邮箱、昵称、头像等信息
+  - 提供打开客服对话框的统一方法（按钮/自动唤起）
+notes:
+  - Crisp 免费版本限制支持人数
+  - iOS App 需配置 App Transport Security (ATS)
