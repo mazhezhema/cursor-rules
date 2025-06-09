@@ -1,2 +1,15 @@
-屏幕浏览 -> screen_view
-点击事件 -> click_event
+// Firebase logEvent 示例
+import { logEvent } from '@firebase/analytics';
+
+function trackPageView(pageId) {
+  logEvent(analytics, 'page_view', {
+    page_id: pageId
+  });
+}
+
+function trackButtonClick(buttonName, location) {
+  logEvent(analytics, 'button_click', {
+    button_name: buttonName,
+    location: location
+  });
+}
