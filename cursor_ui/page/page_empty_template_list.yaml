@@ -1,0 +1,4 @@
+id: page_empty_template_list
+title: 模版列表为空页面
+tags: ['page', 'empty', 'template']
+description: 在用户尚未选择任何模版时展示提示与引导操作。
