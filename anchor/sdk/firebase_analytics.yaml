@@ -1,0 +1,12 @@
+name: firebase_analytics
+description: Firebase 埋点字段定义，用于行为追踪。
+type: sdk
+fields:
+  - name: event_name
+    type: string
+    required: true
+    description: 自定义事件名称
+  - name: params
+    type: object
+    required: false
+    description: 附加参数，如页面、操作等信息

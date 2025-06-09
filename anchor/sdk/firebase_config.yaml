@@ -1,0 +1,20 @@
+name: firebase_config
+description: 初始化配置项
+type: sdk
+fields:
+  - name: project_id
+    type: string
+    required: true
+    description: Firebase 项目 ID
+  - name: api_key
+    type: string
+    required: true
+    description: Firebase Web API Key
+  - name: messaging_sender_id
+    type: string
+    required: false
+    description: 消息发送方ID
+  - name: app_id
+    type: string
+    required: false
+    description: 应用 ID

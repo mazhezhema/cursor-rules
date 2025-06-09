@@ -1,0 +1,16 @@
+name: firebase_auth
+description: Firebase OAuth 登录接入配置，支持 Google、Apple 等平台。
+type: sdk
+fields:
+  - name: provider
+    type: string
+    required: true
+    description: 登录平台（google, apple）
+  - name: token
+    type: string
+    required: true
+    description: 第三方返回的身份令牌
+  - name: uid
+    type: string
+    required: false
+    description: Firebase 分配的用户唯一标识
