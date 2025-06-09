@@ -1,0 +1,2 @@
+目标：不同模块可灵活排列。
+实现：利用 Row/Column + Expanded/Flexible 自适应布局。

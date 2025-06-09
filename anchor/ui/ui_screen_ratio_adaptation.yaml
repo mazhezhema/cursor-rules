@@ -1,0 +1,3 @@
+anchor: ui_screen_ratio_adaptation
+category: ui
+description: 支持极端屏幕比例设备（如折叠屏）

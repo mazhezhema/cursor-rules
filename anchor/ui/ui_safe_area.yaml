@@ -1,0 +1,3 @@
+anchor: ui_safe_area
+category: ui
+description: 定义适配不同设备安全区域（刘海屏、挖孔屏）策略

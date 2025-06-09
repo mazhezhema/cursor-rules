@@ -1,0 +1,6 @@
+Column(
+  children: [
+    Flexible(child: Header()),
+    Expanded(child: MainContent()),
+  ],
+)

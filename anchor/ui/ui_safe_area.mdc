@@ -1,0 +1,4 @@
+Container(
+  padding: MediaQuery.of(context).padding,
+  child: YourComponent(),
+)

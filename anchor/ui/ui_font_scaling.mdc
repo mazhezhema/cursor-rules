@@ -1,0 +1,4 @@
+Text(
+  '内容',
+  style: TextStyle(fontSize: 14 * MediaQuery.of(context).textScaleFactor),
+)
