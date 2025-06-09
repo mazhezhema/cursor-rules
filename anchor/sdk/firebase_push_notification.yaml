@@ -1,0 +1,17 @@
+id: firebase_push_notification
+title: Firebase 推送通知配置
+description: MVP 阶段用于配置 Firebase Cloud Messaging（FCM）推送服务。
+tags:
+  - firebase
+  - push
+  - notification
+  - MVP
+  - Flutter
+platforms:
+  - android
+  - ios
+  - web
+required:
+  - firebase projectId
+  - firebase_messaging plugin
+  - notification permission
