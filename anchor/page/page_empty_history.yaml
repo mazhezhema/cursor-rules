@@ -1,0 +1,4 @@
+id: page_empty_history
+title: 历史记录为空页面
+tags: ['page', 'empty', 'history']
+description: 在用户尚未进行过任何换脸操作时显示。
