@@ -1,0 +1,8 @@
+anchor: test_tracking_validation
+title: 埋点验证与测试
+description: 自动化验证埋点逻辑是否正常触发、参数完整
+test_cases:
+  - name: 页面进入时是否发送 page_view
+  - name: 按钮点击事件是否触发对应事件
+  - name: 埋点字段是否包含必要参数
+  - name: 错误参数类型是否被拒绝

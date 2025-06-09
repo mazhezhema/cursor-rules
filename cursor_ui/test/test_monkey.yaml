@@ -1,0 +1,4 @@
+# Monkey 测试配置
+name: monkey_test
+type: stress
+method: random_ui_events

@@ -1,0 +1,9 @@
+
+id: test_compatibility
+name: 兼容性测试
+description: 检测在不同设备、操作系统、浏览器、语言环境下系统运行是否正常。
+scenarios:
+  - Android 平板 / 手机 / Chrome 浏览器
+  - 英语、法语、中文等切换
+rules:
+  - 所有核心流程在主流平台下均能无障碍执行

@@ -1,0 +1,7 @@
+
+id: test_tdd_policy
+name: TDD 实施要求
+description: 测试驱动开发核心要求与落地策略
+rules:
+  - 所有函数级组件需先定义测试用例再开发
+  - 所有新增功能需附带至少1主流程 + 1异常流程测试

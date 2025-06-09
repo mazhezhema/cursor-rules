@@ -1,0 +1,11 @@
+id: test_visual_regression
+title: UI视觉回归测试
+description: 检查核心界面在不同设备、分辨率下是否布局错乱。
+screens:
+  - home
+  - face_upload
+  - face_swap_result
+resolutions:
+  - 1920x1080
+  - 1280x720
+  - 720x1280

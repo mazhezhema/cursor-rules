@@ -1,0 +1,12 @@
+name: test_api_stability
+description: 接口稳定性和响应准确性测试
+scenarios:
+  - id: API_SWAP_STABLE
+    title: 连续发起换脸请求 100 次
+    steps: 模拟正常头像 + 模板，连续请求 100 次
+    expected: 成功率不低于 95%，失败接口有 fallback 返回
+
+  - id: API_PAYMENT_HOOK
+    title: 支付回调接口健壮性
+    steps: 构造重复支付回调请求 10 次
+    expected: 系统识别重复请求，不生成重复订单

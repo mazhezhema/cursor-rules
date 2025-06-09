@@ -1,0 +1,1 @@
+Cursor should profile I/O operations and warn on operations exceeding thresholds.

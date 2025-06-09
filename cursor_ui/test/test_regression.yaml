@@ -1,0 +1,4 @@
+# 回归测试配置
+name: regression_test
+trigger: release
+scope: full
