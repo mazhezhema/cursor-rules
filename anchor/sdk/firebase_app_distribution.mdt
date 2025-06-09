@@ -1,0 +1,6 @@
+## Firebase App Distribution 自动集成模板（MVP 版本）
+
+1. 引入 Firebase App Distribution SDK。
+2. 获取测试用户邮箱绑定。
+3. 设置 Remote Config 读取版本控制策略（是否强制升级）。
+4. 如果需要自定义升级策略，调用 `/version.json` 后决定是否弹出升级提示。
