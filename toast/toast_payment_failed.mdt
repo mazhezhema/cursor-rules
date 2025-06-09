@@ -1,0 +1,2 @@
+# [mdt] Template for toast_payment_failed
+{{ toast.message }}

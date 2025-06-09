@@ -1,0 +1,2 @@
+# [mdt] Template for toast_login_required
+{{ toast.message }}

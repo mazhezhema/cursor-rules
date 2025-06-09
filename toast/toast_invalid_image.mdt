@@ -1,0 +1,2 @@
+# [mdt] Template for toast_invalid_image
+{{ toast.message }}

@@ -1,0 +1,2 @@
+# [mdt] Template for toast_error_generic
+{{ toast.message }}
