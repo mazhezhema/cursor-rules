@@ -1,0 +1,2 @@
+# [mdt] Template for toast_copy_success
+{{ toast.message }}

@@ -1,0 +1,4 @@
+id: dialog_confirm_upload
+title: 确认上传弹窗
+tags: ['dialog', 'upload', 'confirmation']
+description: 在用户尝试上传图像或模版前提示确认。

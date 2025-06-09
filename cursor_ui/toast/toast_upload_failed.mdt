@@ -1,0 +1,2 @@
+# [mdt] Template for toast_upload_failed
+{{ toast.message }}

@@ -1,0 +1,4 @@
+id: dialog_exit_editing
+title: 退出编辑确认弹窗
+tags: ['dialog', 'edit', 'confirmation']
+description: 提示用户是否确认放弃当前未保存的编辑操作。

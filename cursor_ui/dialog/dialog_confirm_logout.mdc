@@ -1,0 +1,4 @@
+# dialog_confirm_logout.mdc
+
+- confirm_button: OK
+- cancel_button: Cancel

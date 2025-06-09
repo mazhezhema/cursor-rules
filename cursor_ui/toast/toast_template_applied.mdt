@@ -1,0 +1,2 @@
+# [mdt] Template for toast_template_applied
+{{ toast.message }}
