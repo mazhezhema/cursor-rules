@@ -1,0 +1,5 @@
+# Remote Config 模板字段定义
+key: string # 配置项 key
+value: any # 配置项值
+description: string # 配置项说明
+targeting: string # 生效条件（如 user_id, country 等）
