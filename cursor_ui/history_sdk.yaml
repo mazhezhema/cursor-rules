@@ -1,0 +1,6 @@
+title: 用户历史记录 API
+description: 获取、添加、删除用户历史换脸记录
+endpoints:
+  - GET /api/history/list
+  - POST /api/history/add
+  - DELETE /api/history/delete

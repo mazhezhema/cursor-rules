@@ -1,0 +1,9 @@
+@Widget AppBar("历史记录")
+@List FaceHistoryList:
+  - image
+  - template_id
+  - timestamp
+  - actions: [再换一次, 分享]
+
+@EmptyView if no record:
+  - message: 暂无记录，快去换一个脸吧！
