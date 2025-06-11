@@ -1,0 +1,6 @@
+# Dialog: subscription (mdc)
+<Modal>
+  <Text>解锁 VIP 模板库和高清导出</Text>
+  <Button>立即订阅</Button>
+  <Button>稍后再说</Button>
+</Modal>

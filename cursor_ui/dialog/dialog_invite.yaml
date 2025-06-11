@@ -1,0 +1,11 @@
+title: 邀请好友得奖励
+description: 通过邀请获取免费模板和VIP时长
+layout: modal_center
+components:
+  - type: image
+    src: assets/invite_bonus.png
+  - type: text
+    value: 每邀请一位好友注册，即可获得3天VIP！
+  - type: button
+    text: 立即邀请
+    action: share_invite_link

@@ -1,0 +1,12 @@
+title: 用户协议与隐私政策
+description: 首次使用需用户同意相关协议
+layout: modal_scroll
+components:
+  - type: text
+    value: 请阅读并同意我们的《用户协议》和《隐私政策》
+  - type: checkbox
+    label: 我已阅读并同意上述协议
+    bind: user_agreed
+  - type: button
+    text: 同意并继续
+    action: accept_agreement

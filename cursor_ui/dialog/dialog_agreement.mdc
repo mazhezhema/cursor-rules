@@ -1,0 +1,6 @@
+# Dialog: agreement (mdc)
+<Modal>
+  <Text>请阅读并同意...</Text>
+  <Checkbox>同意</Checkbox>
+  <Button>继续</Button>
+</Modal>
