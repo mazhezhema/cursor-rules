@@ -1,0 +1,14 @@
+id: sdk_chat_crisp
+title: Crisp Chat Integration
+description: Integrates Crisp floating chat bubble into the app.
+location: bottom-right
+visibility:
+  pages: all
+  exclude: [page_login, page_upload_processing]
+trigger:
+  auto_popup: true
+  delay_seconds: 5
+config:
+  crisp_website_id: "YOUR_CRISP_WEBSITE_ID"
+  theme: default
+  position: right
