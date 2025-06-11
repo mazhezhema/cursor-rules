@@ -1,3 +1,6 @@
-type: toast
-id: toast_login_required
-content: TODO - please fill in actual message content.
+title: 登录提示
+description: 用户未登录时操作提示
+layout:
+  type: toast
+  content: 请先登录
+duration: 3000

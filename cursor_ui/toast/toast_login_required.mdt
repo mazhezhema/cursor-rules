@@ -1,2 +1,3 @@
-# [mdt] Template for toast_login_required
-{{ toast.message }}
+toast_id: toast_login_required
+purpose: 未登录时提示用户先登录
+priority: high

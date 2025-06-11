@@ -1,2 +1,3 @@
-# [mdt] Template for toast_share_success
-{{ toast.message }}
+toast_id: toast_share_success
+purpose: 分享成功后提示用户
+priority: high

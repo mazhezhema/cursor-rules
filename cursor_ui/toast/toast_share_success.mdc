@@ -1,2 +1,5 @@
-# [mdc] Description for toast_share_success
-# This toast appears when share.
+visibility: always
+style:
+  color: success
+  background: light
+duration_ms: 3000

@@ -1,2 +1,5 @@
-# [mdc] Description for toast_upload_success
-# This toast appears when upload.
+visibility: always
+style:
+  color: success
+  background: light
+duration_ms: 3000
