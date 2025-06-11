@@ -1,0 +1,3 @@
+toast_id: toast_error_no_face
+purpose: 提示上传的图片未检测到人脸，提醒用户上传有效人脸图
+priority: high

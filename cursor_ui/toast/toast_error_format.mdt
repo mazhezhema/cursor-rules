@@ -1,0 +1,3 @@
+toast_id: toast_error_format
+purpose: 提示上传的图片格式不正确，支持 JPG、PNG
+priority: high

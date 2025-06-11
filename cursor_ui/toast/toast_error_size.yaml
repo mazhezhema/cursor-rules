@@ -1,0 +1,6 @@
+title: 图片大小超限
+description: 上传图片超过大小限制时提示
+layout:
+  type: toast
+  content: 图片大小超过5MB，请上传更小的图片
+duration: 3500

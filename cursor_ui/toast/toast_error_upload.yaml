@@ -1,0 +1,6 @@
+title: 上传失败
+description: 上传过程中出现失败时提示
+layout:
+  type: toast
+  content: 上传失败，请稍后重试
+duration: 3500
