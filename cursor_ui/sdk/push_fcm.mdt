@@ -1,0 +1,4 @@
+model push_fcm {
+  enabled: bool
+  config?: map
+}

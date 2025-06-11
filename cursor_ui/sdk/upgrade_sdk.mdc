@@ -1,0 +1,4 @@
+{
+  "import": "package:lokibble_sdk/upgrade_sdk.dart",
+  "code": "upgrade_sdk().init();"
+}

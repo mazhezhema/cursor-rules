@@ -1,0 +1,4 @@
+{
+  "import": "package:lokibble_sdk/push_fcm.dart",
+  "code": "push_fcm().init();"
+}

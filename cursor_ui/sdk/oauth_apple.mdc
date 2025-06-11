@@ -1,0 +1,4 @@
+{
+  "import": "package:lokibble_sdk/oauth_apple.dart",
+  "code": "oauth_apple().init();"
+}
