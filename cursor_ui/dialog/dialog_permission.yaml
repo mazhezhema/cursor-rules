@@ -1,1 +1,13 @@
-# Dialog: permission (yaml)
+title: 请求存储权限
+description: 用于首次上传或保存图片时，请求用户授权访问本地存储权限。
+layout:
+  type: dialog
+  elements:
+    - type: text
+      value: "我们需要您的存储权限以保存生成的图片"
+    - type: button
+      label: "允许访问"
+      action: grant_storage_permission
+    - type: button
+      label: "拒绝"
+      action: deny_storage_permission

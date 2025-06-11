@@ -1,1 +1,18 @@
-# Dialog: permission (mdc)
+visibility: conditional
+permission_type: storage
+default_grant: false
+cta_buttons:
+  - label: "允许访问"
+    action: grant_storage_permission
+    style: primary
+  - label: "拒绝"
+    action: deny_storage_permission
+    style: secondary
+behavior:
+  dismissible: true
+  persist_on_error: false
+analytics:
+  event_id: dialog_permission_shown
+  user_action_events:
+    - grant_storage_permission
+    - deny_storage_permission
