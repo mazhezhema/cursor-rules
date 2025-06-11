@@ -1,4 +1,0 @@
-id: dialog_authorization_notice
-title: 授权说明弹窗
-tags: ['dialog', 'authorization', 'notice']
-description: 用于用户授权自拍照使用说明，尤其涉及换脸或隐私信息使用的场景。

@@ -1,4 +1,0 @@
-id: dialog_confirm_logout
-title: 退出登录确认弹窗
-tags: ['dialog', 'auth', 'confirm']
-description: 用于用户点击退出登录时的二次确认。
