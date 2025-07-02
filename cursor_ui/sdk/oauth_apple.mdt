@@ -1,4 +1,0 @@
-model oauth_apple {
-  enabled: bool
-  config?: map
-}

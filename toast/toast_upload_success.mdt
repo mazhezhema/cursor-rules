@@ -1,2 +1,0 @@
-# [mdt] Template for toast_upload_success
-{{ toast.message }}

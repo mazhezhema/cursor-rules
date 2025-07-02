@@ -1,5 +1,0 @@
-id: test_config_verification
-title: 配置文件合法性验证
-description: 对系统配置文件进行字段完整性、数据类型、合法值范围的校验，防止部署错误。
-tags: [config, verification, deployment]
-stage: mvp

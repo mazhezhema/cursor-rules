@@ -1,6 +1,0 @@
-id: backend_cache_layering
-name: 多级缓存结构设计
-description: 描述前后端架构中使用的多级缓存机制，覆盖 L1/L2 缓存，冷热数据分层与 TTL 策略。
-tags: [backend, cache, performance]
-status: active
-version: 1.0

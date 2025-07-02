@@ -1,6 +1,0 @@
-# Loki API Naming Convention
-- 统一 REST 风格：
-  - GET /api/v1/user/info
-  - POST /api/v1/image/upload
-  - GET /api/v1/template/list
-- 动作命名：upload, delete, list, update, detail

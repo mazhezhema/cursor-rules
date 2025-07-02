@@ -1,5 +1,0 @@
-id: auth_anonymous_id
-title: 匿名 UUID 支持
-description: 支持游客匿名使用，分配唯一 UUID 用于记录行为数据，便于后续合并账号。
-tags: [auth, uuid, 匿名用户]
-stage: MVP

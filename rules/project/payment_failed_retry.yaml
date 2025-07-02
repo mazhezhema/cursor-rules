@@ -1,3 +1,0 @@
-# payment_failed_retry.yaml
-name: payment_failed_retry
-scenario: 支付失败重试机制

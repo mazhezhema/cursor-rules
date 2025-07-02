@@ -1,4 +1,0 @@
-id: ui_safe_area
-title: UI 安全区兼容策略
-description: 针对刘海屏、水滴屏、圆角屏幕的内容显示安全区设置。
-tags: [ui, safearea, compatibility, MVP]

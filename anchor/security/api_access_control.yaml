@@ -1,7 +1,0 @@
-id: api_access_control
-title: API 接口访问控制策略
-description: 定义不同身份用户（游客、登录用户、VIP）对各类 API 的访问权限。
-tags:
-  - security
-  - api
-  - access_control

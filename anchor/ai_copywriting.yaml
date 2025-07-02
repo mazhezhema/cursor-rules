@@ -1,8 +1,0 @@
-ai_design:
-  copywriting:
-    description: 文案自动撰写和语言风格统一
-    implementation_hint: 使用ChatGPT结合用户画像生成符合情绪语调的按钮文案和提示语
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
-  tag: '[AI补全] 示例 tag 内容'

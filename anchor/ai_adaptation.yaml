@@ -1,6 +1,0 @@
-ai_adaptation:
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 利用行为日志和偏好模型，动态调整首页布局和内容模块排序。
-  rule: AI应根据用户行为动态调整推荐内容与界面排布。
-  tag: '[AI补全] 示例 tag 内容'

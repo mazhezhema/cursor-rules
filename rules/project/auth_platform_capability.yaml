@@ -1,7 +1,0 @@
-# Anchor: auth_platform_capability
-description: >
-  阐述不同平台在认证流程中支持能力差异的处理，如微信、Apple ID、Google 的 token 策略、弹窗限制等。
-spec:
-  - 能力识别：识别当前平台支持的认证能力。
-  - 兜底策略：不支持弹窗/跳转的情况如何 fallback。
-  - 提示文案：根据能力差异生成不同提示内容。

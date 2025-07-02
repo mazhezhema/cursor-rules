@@ -1,7 +1,0 @@
-# Anchor: auth_country_region_fallback
-description: >
-  提供 fallback 机制用于无法精确识别国家/地区的场景，确保后续服务正常。
-spec:
-  - 自动识别失败：使用 IP、语言偏好、系统设置三者兜底。
-  - 国家区域关联：映射国家代码到可用配置（如默认语言、货币）。
-  - 配置策略：定义区域 fallback 优先级与行为。

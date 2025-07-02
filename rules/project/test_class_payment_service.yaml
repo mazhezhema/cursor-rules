@@ -1,5 +1,0 @@
-id: test_class_payment_service
-class: PaymentService
-methods:
-  - test_initiate_payment
-  - test_validate_transaction

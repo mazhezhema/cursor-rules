@@ -1,4 +1,0 @@
-id: ui_adaptive_typography
-title: 字体自适应排版规范
-tags: [ui, responsive, typography]
-description: 规范字体在不同设备上的缩放与排版策略，确保在高DPI屏幕上具有良好可读性。

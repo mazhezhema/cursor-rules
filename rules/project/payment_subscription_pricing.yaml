@@ -1,6 +1,0 @@
-id: payment_subscription_pricing
-name: 订阅定价模型
-description: 支持 MVP 阶段简单定价与未来功能包/分层付费结构，按用户场景设计月/年定价策略。
-tags: [payment, pricing, subscription]
-status: active
-version: 1.0

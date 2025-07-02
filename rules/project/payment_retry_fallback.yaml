@@ -1,7 +1,0 @@
-# Payment retry and fallback strategy
-retry:
-  max_attempts: 3
-  delay_seconds: 5
-fallback:
-  - platform: stripe
-    fallback_to: paypal

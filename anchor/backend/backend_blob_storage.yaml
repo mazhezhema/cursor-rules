@@ -1,8 +1,0 @@
-# Anchor: backend_blob_storage.yaml
-description: |
-  大文件（视频、图像、音频等）采用分布式对象存储（如 S3、OSS）。
-  配合元数据结构化存储实现访问控制与版本控制。
-specs:
-  - storage_backend: "MinIO / AWS S3 / 阿里云 OSS"
-  - metadata_storage: "PostgreSQL / MongoDB"
-  - access_policy: "预签名URL / 私有Bucket"

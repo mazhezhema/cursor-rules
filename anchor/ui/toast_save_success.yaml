@@ -1,4 +1,0 @@
-id: toast_save_success
-title: 保存成功提示
-tags: ['toast', 'success']
-description: 当用户完成保存操作时显示的提示。

@@ -1,4 +1,0 @@
-anchor: backend_ranking_logic
-tags: [backend, ranking, logic]
-title: 模板榜单排序机制
-description: 榜单权重、时间衰减、用户活跃度等因子的综合计算逻辑与可配置方案。

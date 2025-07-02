@@ -1,5 +1,0 @@
-fields:
-  - id: string
-  - text: string
-  - tags: list
-description: 用户体验 Anchor 拆分后的 RAG 结构

@@ -1,4 +1,0 @@
-id: toast_upload_confirmed
-title: 上传已确认提示
-tags: [frontend, toast, upload]
-description: 原确认上传操作简化为上传成功/失败的 Toast 提示。

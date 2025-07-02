@@ -1,6 +1,0 @@
-title: 非人脸图片错误
-description: 上传的图片未检测到人脸时提示
-layout:
-  type: toast
-  content: 图片未检测到人脸，请上传清晰的人像照片
-duration: 3500

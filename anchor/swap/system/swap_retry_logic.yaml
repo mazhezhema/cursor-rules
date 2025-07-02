@@ -1,9 +1,0 @@
-description: 定义换脸任务在失败情况下的自动重试机制和异常处理逻辑。
-fields:
-  fallback_strategy: 使用默认模版继续流程
-  max_retry: 2
-  non_retryable_errors:
-  - 非法图片
-  - 无脸数据
-  retry_delay_seconds: 5
-title: 换脸任务重试机制与失败兜底

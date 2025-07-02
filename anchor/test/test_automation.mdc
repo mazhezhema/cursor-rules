@@ -1,3 +1,0 @@
-# Automation Test MDC
-ci_integration: true
-fail_notify: slack/webhook

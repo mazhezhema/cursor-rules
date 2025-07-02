@@ -1,8 +1,0 @@
-anchor: backend_schema_migration
-title: 数据库Schema迁移策略
-description: 描述数据库结构更新时的管理机制，包括向后兼容的增量迁移和数据回填流程。
-tags: [database, migration, schema]
-spec:
-  - 使用版本号或时间戳标记每次迁移脚本
-  - 自动回滚策略与人工确认流程
-  - 支持灰度迁移

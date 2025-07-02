@@ -1,6 +1,0 @@
-ux_text:
-  tags: [UX, 文案, 引导]
-  file: anchor/ux_text.yaml
-ui_component:
-  tags: [UI, 控件]
-  file: anchor/ui_component.yaml

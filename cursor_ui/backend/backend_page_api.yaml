@@ -1,0 +1,277 @@
+id: backend_page_api
+title: 后端页面API设计规范
+description: Lokibble项目页面级API的FastAPI实现标准
+tags: [backend, api, page, fastapi]
+framework: FastAPI
+priority: high
+
+# =================== 页面API核心模式 ===================
+page_api_pattern:
+  naming: "GET /api/v1/{resource}"
+  pagination: "page, limit参数"
+  filtering: "category, status等过滤"
+  caching: "Redis缓存30分钟"
+  
+# =================== 标准实现模板 ===================
+template: |
+  from fastapi import APIRouter, Query, Depends
+  from typing import Optional
+  from pydantic import BaseModel
+  
+  router = APIRouter(prefix="/api/v1", tags=["{resource}"])
+  
+  class {Resource}Item(BaseModel):
+      id: str
+      name: str
+      created_at: str
+      # 添加其他字段...
+      
+  class {Resource}List(BaseModel):
+      total: int
+      page: int
+      limit: int
+      items: List[{Resource}Item]
+      has_next: bool
+      has_prev: bool
+  
+  @router.get("/{resource}", response_model={Resource}List)
+  async def get_{resource}(
+      page: int = Query(1, ge=1, description="页码"),
+      limit: int = Query(20, ge=1, le=100, description="每页数量"),
+      category: Optional[str] = Query(None, description="分类过滤"),
+      status: Optional[str] = Query(None, description="状态过滤"),
+      search: Optional[str] = Query(None, description="搜索关键词"),
+      current_user: User = Depends(get_current_user)
+  ):
+      """获取{resource}列表页面数据"""
+      
+      # 构建查询条件
+      query = db.query({Resource})
+      
+      if category:
+          query = query.filter({Resource}.category == category)
+      if status:
+          query = query.filter({Resource}.status == status)
+      if search:
+          query = query.filter({Resource}.name.contains(search))
+          
+      # 分页查询
+      total = query.count()
+      items = query.offset((page - 1) * limit).limit(limit).all()
+      
+      return {Resource}List(
+          total=total,
+          page=page, 
+          limit=limit,
+          items=items,
+          has_next=page * limit < total,
+          has_prev=page > 1
+      )
+
+# =================== 具体页面API实现示例 ===================
+implementations:
+  home_dashboard:
+    endpoint: "/api/v1/home/dashboard"
+    description: "首页仪表板数据聚合"
+    code: |
+      @router.get("/home/dashboard")
+      async def get_home_dashboard(
+          current_user: User = Depends(get_current_user)
+      ):
+          """首页仪表板数据"""
+          
+          # 用户统计
+          user_stats = await get_user_stats(current_user.id)
+          
+          # 推荐模板
+          featured_templates = await get_featured_templates(limit=6)
+          
+          # 最近历史
+          recent_history = await get_recent_history(current_user.id, limit=5)
+          
+          # 系统公告
+          announcements = await get_announcements(limit=3)
+          
+          return {
+              "user_stats": user_stats,
+              "featured_templates": featured_templates,
+              "recent_history": recent_history,
+              "announcements": announcements
+          }
+          
+  template_list:
+    endpoint: "/api/v1/templates"
+    description: "模板列表页面"
+    code: |
+      @router.get("/templates", response_model=TemplateList)
+      async def get_templates(
+          page: int = Query(1, ge=1),
+          limit: int = Query(20, ge=1, le=100),
+          category: Optional[str] = Query(None),
+          is_premium: Optional[bool] = Query(None),
+          tags: Optional[str] = Query(None, description="逗号分隔的标签"),
+          search: Optional[str] = Query(None)
+      ):
+          """获取模板列表"""
+          
+          # 缓存键
+          cache_key = f"templates:page:{page}:limit:{limit}:cat:{category}:premium:{is_premium}"
+          
+          # 尝试从Redis获取
+          cached_data = await redis.get(cache_key)
+          if cached_data:
+              return json.loads(cached_data)
+          
+          # 数据库查询
+          query = db.query(Template).filter(Template.is_active == True)
+          
+          if category and category != "全部":
+              query = query.filter(Template.category == category)
+          if is_premium is not None:
+              query = query.filter(Template.is_premium == is_premium)
+          if search:
+              query = query.filter(Template.name.contains(search))
+              
+          total = query.count()
+          templates = query.order_by(Template.usage_count.desc()).offset(
+              (page - 1) * limit
+          ).limit(limit).all()
+          
+          result = TemplateList(
+              total=total,
+              page=page,
+              limit=limit,
+              items=templates,
+              has_next=page * limit < total,
+              has_prev=page > 1
+          )
+          
+          # 缓存结果
+          await redis.setex(cache_key, 1800, result.json())
+          
+          return result
+          
+  history_page:
+    endpoint: "/api/v1/faceswap/history"
+    description: "历史记录页面"
+    code: |
+      @router.get("/faceswap/history", response_model=HistoryList)
+      async def get_faceswap_history(
+          page: int = Query(1, ge=1),
+          limit: int = Query(20, ge=1, le=100),
+          status: Optional[str] = Query(None, enum=["completed", "failed", "processing"]),
+          date_from: Optional[date] = Query(None),
+          date_to: Optional[date] = Query(None),
+          current_user: User = Depends(get_current_user)
+      ):
+          """获取用户换脸历史记录"""
+          
+          query = db.query(FaceSwapSession).filter(
+              FaceSwapSession.user_id == current_user.id,
+              FaceSwapSession.deleted_at.is_(None)
+          )
+          
+          if status:
+              query = query.filter(FaceSwapSession.status == status)
+          if date_from:
+              query = query.filter(FaceSwapSession.created_at >= date_from)
+          if date_to:
+              query = query.filter(FaceSwapSession.created_at <= date_to)
+              
+          total = query.count()
+          history = query.order_by(FaceSwapSession.created_at.desc()).offset(
+              (page - 1) * limit
+          ).limit(limit).all()
+          
+          # 统计信息
+          stats = {
+              "total_sessions": total,
+              "successful_sessions": query.filter(FaceSwapSession.status == "completed").count(),
+              "success_rate": round((successful_sessions / total * 100), 1) if total > 0 else 0
+          }
+          
+          return HistoryList(
+              stats=stats,
+              total=total,
+              page=page,
+              limit=limit,
+              items=history,
+              has_next=page * limit < total,
+              has_prev=page > 1
+          )
+
+# =================== 性能优化指导 ===================
+performance_optimization:
+  caching_strategy:
+    - "页面数据Redis缓存30分钟"
+    - "使用缓存键包含所有查询参数"
+    - "热点数据预加载"
+    - "缓存穿透保护"
+    
+  database_optimization:
+    - "分页查询使用offset/limit"
+    - "复合查询建立复合索引"
+    - "避免SELECT *，只查询需要的字段"
+    - "使用连接池复用数据库连接"
+    
+  response_optimization:
+    - "启用Gzip压缩"
+    - "JSON响应最小化"
+    - "合理设置HTTP缓存头"
+
+# =================== 错误处理标准 ===================
+error_handling:
+  validation_error: |
+    @router.exception_handler(ValidationError)
+    async def validation_exception_handler(request: Request, exc: ValidationError):
+        return JSONResponse(
+            status_code=422,
+            content={
+                "code": 4220,
+                "message": "请求参数验证失败",
+                "data": None,
+                "error_details": {
+                    "validation_errors": exc.errors()
+                },
+                "timestamp": datetime.now().isoformat()
+            }
+        )
+        
+  not_found_error: |
+    raise HTTPException(
+        status_code=404,
+        detail={
+            "code": 4040,
+            "message": "请求的资源不存在",
+            "suggestions": ["检查资源ID", "确认访问权限"]
+        }
+    )
+
+# =================== 监控和日志 ===================
+monitoring:
+  request_logging: |
+    @router.middleware("http")
+    async def log_requests(request: Request, call_next):
+        start_time = time.time()
+        
+        response = await call_next(request)
+        
+        process_time = time.time() - start_time
+        logger.info(
+            "API请求",
+            extra={
+                "method": request.method,
+                "url": str(request.url),
+                "status_code": response.status_code,
+                "process_time": round(process_time, 3),
+                "user_id": getattr(request.state, "user_id", None)
+            }
+        )
+        
+        return response
+        
+  metrics_collection:
+    - "响应时间监控"
+    - "错误率统计"
+    - "API调用频次"
+    - "用户行为分析" 

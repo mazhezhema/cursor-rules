@@ -1,3 +1,0 @@
-id: test_perf_io_latency
-description: Monitor local file I/O latency during cache, read/write events.
-category: performance

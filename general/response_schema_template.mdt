@@ -1,7 +1,0 @@
-title: 响应结构模板
-template:
-  status: int
-  code: string
-  message: string
-  data: object
-  error: optional string

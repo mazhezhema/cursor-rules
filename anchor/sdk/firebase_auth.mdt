@@ -1,5 +1,0 @@
-- 初始化 Firebase SDK
-- 判断平台类型（Google / Apple）
-- 调用对应平台登录授权
-- 拿到 token 后调用 Firebase Auth 获取 uid
-- 返回用户身份标识及认证状态

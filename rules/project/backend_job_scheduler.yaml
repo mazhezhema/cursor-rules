@@ -1,4 +1,0 @@
-anchor: backend_job_scheduler
-tags: [backend, scheduler, cron]
-title: 后端定时任务管理
-description: 定义模板更新、榜单刷新、内容清洗等周期性任务的调度和执行策略。

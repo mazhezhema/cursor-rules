@@ -1,5 +1,0 @@
-name: page_profile
-layout: profile
-components:
-  - avatar
-  - settings

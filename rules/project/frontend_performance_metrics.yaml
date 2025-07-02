@@ -1,7 +1,0 @@
-anchor: frontend_performance_metrics
-title: 前端性能指标采集与分析
-description: 定义首帧时间、平均帧率、内存使用等性能数据的采集方式与可视化方案。
-content:
-  - metrics: first_frame, fps, jank_ratio, memory_peak
-  - tools: timeline_viewer, performance_overlay, custom_metric_logger
-  - strategy: sampling, persistent_logging, analytics_integration

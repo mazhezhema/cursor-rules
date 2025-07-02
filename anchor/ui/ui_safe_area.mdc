@@ -1,6 +1,0 @@
-平台建议：
-- Flutter: 使用 SafeArea() 包裹 Scaffold 或页面根组件
-- ReactNative: 使用 react-native-safe-area-context
-
-注意事项：
-- Android 小厂设备存在缺失Insets的情况，需加容错处理

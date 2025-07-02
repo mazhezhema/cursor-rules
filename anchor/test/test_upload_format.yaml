@@ -1,5 +1,0 @@
-id: test_upload_format
-title: 上传格式兼容性测试
-description: 针对用户上传的头像、模板图、视频等格式进行合法性与兼容性验证。
-tags: [upload, compatibility, format]
-stage: mvp

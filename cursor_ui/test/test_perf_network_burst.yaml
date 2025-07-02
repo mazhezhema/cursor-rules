@@ -1,3 +1,0 @@
-id: test_perf_network_burst
-description: Simulate and track concurrent network request performance.
-category: performance

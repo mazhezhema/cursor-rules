@@ -1,4 +1,0 @@
-# Unit Test MDC
-expect: pass
-coverage: >90%
-tool: unittest/mock

@@ -1,7 +1,0 @@
-ui_theme:
-  accent_color: 使用统一主色调作为强调色
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 使用 CSS 变量控制主题色，可实现后期换肤能力
-  light_mode: 白底+灰边，避免颜色跳跃
-  tag: '[AI补全] 示例 tag 内容'

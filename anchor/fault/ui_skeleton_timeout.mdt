@@ -1,1 +1,0 @@
-When data loading exceeds 3s, fallback to skeleton UI.

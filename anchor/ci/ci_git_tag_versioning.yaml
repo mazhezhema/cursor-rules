@@ -1,7 +1,0 @@
-id: ci_git_tag_versioning
-title: Git Tag 版本控制策略
-description: 规范版本命名为 vMAJOR.MINOR.PATCH，例如 v0.1.0，支持 alpha/beta 标记。
-strategy:
-  - v0.1.0-alpha
-  - v0.1.0-beta
-  - v1.0.0

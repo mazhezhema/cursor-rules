@@ -1,3 +1,0 @@
-id: test_perf_app_startup
-description: Monitor app cold/heat startup time across devices.
-category: performance

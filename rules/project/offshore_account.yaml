@@ -1,9 +1,0 @@
-id: finance/offshore_account
-title: 离岸公司银行开户策略
-description: 介绍如何为出海产品建立离岸银行账户，包括开户流程、KYC 要求和备选银行清单
-fields:
-  - jurisdiction: enum[HK, SG, BVI, Delaware]
-  - bank_name: string
-  - kyc_required_docs: list[string]
-  - setup_time_days: int
-  - notes: string

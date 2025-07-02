@@ -1,2 +1,0 @@
-目标：文本不因系统设置变形。
-实现：统一 TextScaleFactor 或根据屏幕宽度计算 fontSize。

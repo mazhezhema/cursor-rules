@@ -1,6 +1,0 @@
-description: Runpod / 云函数换脸调用超时机制说明与处理方案。
-fields:
-  monitoring: 定期记录任务开始与结束时间，分析耗时分布
-  timeout_policy: 自动中止调用并返回错误码 1004
-  timeout_seconds: 20
-title: 换脸任务执行超时处理策略

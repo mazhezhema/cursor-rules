@@ -1,8 +1,0 @@
-anchor: backend_deployment_strategy
-title: 后端部署策略（全量、灰度）
-description: 规范化后端服务在MVP阶段的全量发布与灰度发布方式，控制风险。
-tags: [deployment, strategy, gray-release]
-spec:
-  - 全量发布自动触发健康检查
-  - 支持按用户ID、地域、渠道进行灰度发布
-  - 灰度比例可配置，实时回滚机制

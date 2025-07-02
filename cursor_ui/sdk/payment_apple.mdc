@@ -1,4 +1,0 @@
-{
-  "import": "package:lokibble_sdk/payment_apple.dart",
-  "code": "payment_apple().init();"
-}

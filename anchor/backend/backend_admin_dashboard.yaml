@@ -1,4 +1,0 @@
-anchor: backend_admin_dashboard
-tags: [backend, admin, mvp]
-title: 后台管理面板
-description: 提供后台权限管理、模版上传、用户操作记录等管理功能的设计与接口规范。

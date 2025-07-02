@@ -1,8 +1,0 @@
-#cursor:require(auth_layer)
-#cursor:check(user_role)
-
-if not user.is_authenticated():
-    deny_access()
-
-if endpoint in vip_only_apis and not user.is_vip:
-    raise PermissionDenied("需要 VIP 权限")

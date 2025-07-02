@@ -1,8 +1,0 @@
-id: payment_sdk_integration
-title: 支付 SDK 集成策略
-description: 指定各个平台使用的支付 SDK，及其集成方式和测试策略。
-platforms:
-  - Android: 微信支付 SDK，支持 H5 与 Native
-  - iOS: Apple IAP（内购）
-  - Web: Stripe JS，支持订阅与一次性支付
-  - 通用策略：采用统一封装接口调用

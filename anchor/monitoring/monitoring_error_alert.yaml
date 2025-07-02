@@ -1,5 +1,0 @@
-description: 异常报警机制设计
-tags: [monitoring, alert]
-content:
-  - 接入 Sentry、Prometheus、UptimeRobot 等报警系统
-  - 提供自定义报警阈值与接收人配置

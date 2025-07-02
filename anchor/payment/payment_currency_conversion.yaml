@@ -1,9 +1,0 @@
-anchor: payment_currency_conversion
-title: 多币种支付支持与汇率策略
-stage: MVP
-tags: [多币种, 汇率, 国际化支付]
-content: |
-  描述针对国际用户提供币种自动转换功能与汇率提示策略。
-  - 服务器维护日常汇率
-  - 显示等值本地币种金额
-  - 用户可切换支付币种（如美元、欧元、港币）

@@ -1,7 +1,0 @@
-ui_controls:
-  behavior: 控件需具备状态反馈（hover, active, disabled）
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 所有按钮使用 `Button` 组件封装，封装状态逻辑与 loading 状态
-  standard: 按钮、输入框等控件风格需一致
-  tag: '[AI补全] 示例 tag 内容'

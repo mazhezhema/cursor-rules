@@ -1,9 +1,0 @@
-# Anchor: backend_cdn_cache.yaml
-description: |
-  定义静态资源（图片、JS、CSS 等）在 CDN 中的缓存策略、版本控制、回源机制。
-  支持灰度发布和多环境隔离。
-specs:
-  - cache_control: "public, max-age=31536000"
-  - versioning_strategy: "文件名 hash"
-  - invalidation_mechanism: "手动 + 自动（CI/CD）"
-  - fallback_policy: "CDN 失效回源至主服务器"

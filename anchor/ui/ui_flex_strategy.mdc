@@ -1,6 +1,0 @@
-实践示例：
-- Row(mainAxisAlignment: spaceBetween)
-- Column(crossAxisAlignment: start)
-
-辅助组件：
-- 使用Spacer、Expanded、Align 提高布局弹性

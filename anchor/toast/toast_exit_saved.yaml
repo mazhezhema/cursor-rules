@@ -1,4 +1,0 @@
-id: toast_exit_saved
-title: 编辑退出保存提示
-tags: [frontend, toast, save]
-description: 离开编辑页面时自动保存，并提示保存成功。

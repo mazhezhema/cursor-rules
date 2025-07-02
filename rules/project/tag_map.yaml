@@ -1,6 +1,0 @@
-UX:
-  - anchor/ux_text.yaml
-  - anchor/ux_emotion.yaml
-UI:
-  - anchor/ui_component.yaml
-  - anchor/ui_layout.yaml

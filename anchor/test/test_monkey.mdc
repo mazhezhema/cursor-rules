@@ -1,4 +1,0 @@
-# Monkey Test MDC
-crash_tolerance: 0
-platform: android
-run_time: 30min

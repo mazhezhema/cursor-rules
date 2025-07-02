@@ -1,8 +1,0 @@
-# Anchor: auth_device_binding
-description: >
-  描述设备绑定机制的 anchor，包括设备标识存储、首次登录设备绑定逻辑，以及异常解绑策略。
-spec:
-  - 标识符生成：基于设备指纹（fingerprint）、MAC 地址或 Android ID。
-  - 初次绑定：首次登录记录设备 ID 并建立账号绑定关系。
-  - 异常解绑：支持用户主动解绑或超出绑定上限时提示。
-  - 多设备登录策略：是否支持多端在线、挤下线机制。

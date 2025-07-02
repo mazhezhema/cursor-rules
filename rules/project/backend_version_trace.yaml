@@ -1,8 +1,0 @@
-anchor: backend_version_trace
-title: 版本追踪与观测机制
-description: 跟踪每个请求、每次变更与每个问题对应的代码版本，用于调试与溯源。
-tags: [versioning, tracing, debugging]
-spec:
-  - 所有接口返回响应头携带版本号
-  - 服务日志中记录build hash与时间戳
-  - 可视化版本发布历史

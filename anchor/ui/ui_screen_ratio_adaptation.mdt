@@ -1,2 +1,0 @@
-目标：确保布局在超宽/超高设备上不异常。
-实现：使用 AspectRatio, LayoutBuilder 动态布局边界判断。

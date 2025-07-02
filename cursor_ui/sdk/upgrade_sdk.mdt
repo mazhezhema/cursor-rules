@@ -1,4 +1,0 @@
-model upgrade_sdk {
-  enabled: bool
-  config?: map
-}

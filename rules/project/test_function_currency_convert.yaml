@@ -1,5 +1,0 @@
-id: test_function_currency_convert
-function: convert_currency
-cases:
-  - input: [100, USD, EUR]
-    expected: 92

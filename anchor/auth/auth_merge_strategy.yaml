@@ -1,5 +1,0 @@
-id: auth_merge_strategy
-title: 游客账号与正式账号合并策略
-description: 登录后将游客阶段行为（如收藏、换脸、分享）与正式账号数据合并，确保无数据丢失。
-tags: [auth, 数据合并, 游客模式]
-stage: MVP

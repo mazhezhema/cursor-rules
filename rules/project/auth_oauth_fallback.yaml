@@ -1,5 +1,0 @@
-id: auth_oauth_fallback
-title: OAuth 授权失败备选方案
-description: 当主 OAuth 授权平台（如 Google/Facebook）异常时，提供游客登录或邮箱注册作为备用通道。
-tags: [auth, oauth, fallback]
-stage: MVP

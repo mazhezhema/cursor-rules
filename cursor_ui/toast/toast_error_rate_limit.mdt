@@ -1,3 +1,0 @@
-toast_id: toast_error_rate_limit
-purpose: 防止操作频繁导致接口限流
-priority: high

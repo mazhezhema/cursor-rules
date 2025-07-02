@@ -1,6 +1,0 @@
-id: test_user_path
-title: 用户路径测试
-description: 测试用户从上传头像到完成分享是否路径通畅，无中断。
-cases:
-  - path: 上传头像 → 自动授权 → 换脸 → 保存 → 分享
-  - assertion: 每一步跳转后均应进入目标页，按钮可点击，无死链

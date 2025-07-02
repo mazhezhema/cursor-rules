@@ -1,2 +1,0 @@
-# [mdt] Template for toast_upgrade_available
-{{ toast.message }}

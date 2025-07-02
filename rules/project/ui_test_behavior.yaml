@@ -1,7 +1,0 @@
-ui_test_behavior:
-  click_area: 检查控件热区，避免误触
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 使用 Playwright / Detox + 快照测试，确保组件样式不回退
-  tag: '[AI补全] 示例 tag 内容'
-  visual_regression: 保证 UI 稳定性，可视化自动化测试支持

@@ -1,4 +1,0 @@
-description: 延迟触发任务机制
-tags: [scheduler, delayed]
-content:
-  - 支持延迟提醒、延迟结算、提醒到期等场景配置

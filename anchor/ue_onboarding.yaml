@@ -1,5 +1,0 @@
-ue_onboarding:
-  description: 用户首次使用引导流程、权限说明、授权动机提示等
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 首次进入应用时展示三屏引导图，点击进入或滑动进入主界面
-  tag: '[AI补全] 示例 tag 内容'

@@ -1,3 +1,0 @@
-id: test_perf_ui_scroll
-description: Monitor UI scroll smoothness and frame rate (FPS).
-category: performance

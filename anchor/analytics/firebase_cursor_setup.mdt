@@ -1,5 +1,0 @@
-# Firebase MVP 统计策略
-- 自动集成 firebase_analytics
-- 捕获未处理异常至 firebase_crashlytics
-- 使用 firebase_remote_config 作为配置推送入口
-- cursor 将读取 firebase_event_map 自动注册 logEvent

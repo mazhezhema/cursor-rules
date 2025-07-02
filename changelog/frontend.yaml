@@ -1,7 +1,0 @@
-- date: 2025-06-03
-  module: frontend
-  file: frontend_ai_copilot.yaml
-  title: 前端协同开发（GPT + Cursor）
-  description: >
-    新增前端 AI 协同开发 anchor，涵盖 GPT 生成代码流程规范、Cursor 文件结构控制、规则自动修正机制、代码片段推理调试等协作要点，
-    用于提升跨端协作效率与前端代码可维护性。

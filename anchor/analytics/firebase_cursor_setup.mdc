@@ -1,4 +1,0 @@
-# Firebase Cursor 配置代码生成说明
-- 所有页面自动注入 initFirebaseAnalytics()
-- try/catch 包裹 runApp，报告至 Crashlytics
-- Remote Config 参数初始化在 app 启动阶段

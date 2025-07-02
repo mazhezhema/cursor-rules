@@ -1,9 +1,0 @@
-# 提现逻辑 anchor
-id: payment_finance_withdrawal
-title: 提现请求与审核机制
-description: 用户申请将账户余额提现至指定银行卡的流程，涉及审核、手续费与到账周期。
-structure:
-  - withdrawal_application: 提交提现请求
-  - audit_process: 后台人工或自动审核流程
-  - fee_structure: 提现手续费比例或固定费用
-  - arrival_delay: 到账周期（即时/T+1等）

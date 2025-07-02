@@ -1,4 +1,0 @@
-id: dialog_about_info
-title: 关于我们信息弹窗
-tags: [frontend, dialog, about]
-description: 将“关于页面”信息整合为可弹出的对话框。

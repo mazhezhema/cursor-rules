@@ -1,8 +1,0 @@
-LayoutBuilder(
-  builder: (context, constraints) {
-    final aspectRatio = constraints.maxWidth / constraints.maxHeight;
-    return aspectRatio > 2
-      ? WideLayout()
-      : NormalLayout();
-  },
-)

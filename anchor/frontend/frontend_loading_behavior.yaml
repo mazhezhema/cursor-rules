@@ -1,4 +1,0 @@
-id: frontend_loading_behavior
-title: 加载动画与空状态处理
-tags: [frontend, loading, skeleton]
-description: 设计加载动画、骨架屏、无内容占位等策略，提升 UX 感知性能。

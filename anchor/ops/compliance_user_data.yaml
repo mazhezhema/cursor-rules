@@ -1,6 +1,0 @@
-id: compliance_user_data
-name: 用户数据导出与注销流程
-description: 支持 GDPR/CCPA 合规的用户隐私数据导出、注销申请与系统删除机制。
-tags: [compliance, user, data]
-status: active
-version: 1.0

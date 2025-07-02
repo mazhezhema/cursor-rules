@@ -1,4 +1,0 @@
-{
-  "import": "package:lokibble_sdk/payment_google.dart",
-  "code": "payment_google().init();"
-}

@@ -1,4 +1,0 @@
-# 单元测试配置
-name: unit_test
-scope: function
-priority: high

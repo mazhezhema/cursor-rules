@@ -1,9 +1,0 @@
-GET /api/history/list
--> headers: { Authorization: Bearer Token }
-<- 200: [{ image_url, template_id, created_at }]
-
-POST /api/history/add
--> body: { image_url, template_id }
-
-DELETE /api/history/delete
--> query: { record_id }

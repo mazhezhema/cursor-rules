@@ -1,7 +1,0 @@
-id: backend_rate_limit
-title: 接口请求限流与反爬机制
-description: 定义后端的限流逻辑、防刷策略及异常请求处理方式。
-tags: [backend, security, rate_limit]
-content:
-  strategy: "IP + Token 双因子"
-  response_code: 429

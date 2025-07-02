@@ -1,8 +1,0 @@
-ai_design:
-  accessibility_adaptation:
-    description: AI根据用户设备或视觉能力自动进行无障碍适配
-    implementation_hint: 使用AI预测用户是否需要放大字体、切换高对比度，并自动优化布局
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
-  tag: '[AI补全] 示例 tag 内容'

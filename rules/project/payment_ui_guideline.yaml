@@ -1,7 +1,0 @@
-id: payment_ui_guideline
-title: 支付界面与弹窗规范
-description: 统一支付相关 UI 的展示方式，适配多端用户体验。
-components:
-  - 支付弹窗必须包含关闭按钮、支付选项与说明
-  - 支付页需展示节省金额、试用说明、支付方式
-  - 所有失败与取消支付行为应展示反馈 Toast

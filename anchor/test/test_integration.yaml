@@ -1,4 +1,0 @@
-# 集成测试配置
-name: integration_test
-modules: [auth, payment]
-level: module

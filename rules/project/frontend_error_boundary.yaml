@@ -1,7 +1,0 @@
-anchor: frontend_error_boundary
-title: 前端异常处理与崩溃防护策略
-description: Flutter 中的 ErrorWidget 捕获、自定义错误边界处理、异常日志上报机制。
-content:
-  - flutter: errorWidget, try_catch_builder, graceful_fallback_ui
-  - logging: error_report_sdk, stack_trace_parser, console_log_hook
-  - strategy: ui_isolation, async_boundary, rollback_safe_point

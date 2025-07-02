@@ -1,8 +1,0 @@
-id: finance/withdraw_policy
-title: 提现政策与用户收益管理
-description: 面向创作者与内容方的收益分账、提现规则和周期策略
-fields:
-  - eligibility_rules: string
-  - payout_cycle_days: int
-  - payout_method: enum[PayPal, TransferWise, LocalBank]
-  - min_payout_threshold: float

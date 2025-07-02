@@ -1,7 +1,0 @@
-id: crisp_sdk_integration
-title: Crisp 聊天客服集成
-category: sdk
-tags: [chat, support, saas, flutter]
-platform: [flutter_web, flutter_android, flutter_ios]
-description: 接入 Crisp SaaS 聊天支持服务，提供嵌入式客服功能，适用于 MVP 阶段快速上线。
-status: active

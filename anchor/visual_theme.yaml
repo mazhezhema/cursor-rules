@@ -1,5 +1,0 @@
-visual_theme:
-  description: 色彩主题设计规则，涵盖主色调、强调色、亮暗模式适配等。
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 根据品牌调性设置主色及辅助色，使用CSS变量或Flutter主题机制统一管理。
-  tag: '[AI补全] 示例 tag 内容'

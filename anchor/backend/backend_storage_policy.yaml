@@ -1,6 +1,0 @@
-id: backend_storage_policy
-name: 存储策略与冷热数据分层
-description: 针对媒体类数据（如图像、视频），定义热存储与冷存储的转移条件与操作机制。
-tags: [backend, storage, hot-cold, optimization]
-status: active
-version: 1.0

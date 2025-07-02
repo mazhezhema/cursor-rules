@@ -1,8 +1,0 @@
-dialog_id: dialog_permission
-purpose: 请求访问设备存储，用于保存上传/生成图片
-triggered_by: 上传页面首次调用、保存结果页
-priority: high
-user_consent_required: true
-platform_support:
-  - Android
-  - iOS

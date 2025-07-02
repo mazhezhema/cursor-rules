@@ -1,5 +1,0 @@
-#cursor:log(security_event)
-
-log_event("login_attempt", user_id=user.id, ip=request.ip, success=login_ok)
-log_event("upload_image", user_id=user.id, file_name=file.name)
-log_event("faceswap_request", user_id=user.id, target_model=model_id)

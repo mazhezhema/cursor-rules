@@ -1,8 +1,0 @@
-ai_design:
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: '[AI补全] 示例 implementation_hint 内容'
-  style_transfer:
-    description: AI实现不同品牌或风格间的UI风格迁移
-    implementation_hint: 采用图像风格迁移网络，对主题色与图标风格做风格匹配建议
-  tag: '[AI补全] 示例 tag 内容'

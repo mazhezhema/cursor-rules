@@ -1,0 +1,426 @@
+id: backend_three_pieces
+title: 后端API三件套设计规范 
+description: 页面API + 弹窗API + Toast API的统一设计标准
+tags: [backend, api, page, dialog, toast, three-pieces]
+priority: high
+
+# =================== 三件套设计哲学 ===================
+philosophy:
+  unified_design: "统一的API设计理念和响应格式"
+  frontend_driven: "以前端需求为驱动的API设计"
+  performance_first: "性能优先的缓存和优化策略"
+  user_experience: "以用户体验为中心的交互设计"
+
+# =================== 页面API规范 ===================
+page_api:
+  pattern: "GET /api/v1/{resource}"
+  purpose: "为页面提供完整的数据集合"
+  features:
+    - "分页支持"
+    - "过滤和搜索"
+    - "数据缓存"
+    - "权限控制"
+    
+  response_template: |
+    {
+      "code": 200,
+      "message": "success",
+      "data": {
+        "total": 156,
+        "page": 1,
+        "limit": 20,
+        "items": [...],
+        "has_next": true,
+        "has_prev": false,
+        "metadata": {
+          "categories": [...],
+          "filters": {...},
+          "stats": {...}
+        }
+      },
+      "timestamp": "2024-01-15T10:30:00Z"
+    }
+
+# =================== 弹窗API规范 ===================
+dialog_api:
+  pattern: "GET /api/v1/dialogs/{dialog_type}"
+  purpose: "为弹窗提供配置和数据"
+  features:
+    - "配置缓存"
+    - "动态内容"
+    - "个性化定制"
+    - "A/B测试支持"
+    
+  response_template: |
+    {
+      "code": 200,
+      "message": "success", 
+      "data": {
+        "dialog_config": {
+          "title": "弹窗标题",
+          "content": "弹窗内容",
+          "type": "confirmation",
+          "buttons": [
+            {
+              "text": "确认",
+              "action": "confirm",
+              "style": "primary"
+            }
+          ],
+          "options": {
+            "backdrop_dismissible": true,
+            "auto_dismiss": false,
+            "animation": "fadeIn"
+          }
+        }
+      },
+      "timestamp": "2024-01-15T10:30:00Z"
+    }
+
+# =================== Toast API规范 ===================
+toast_api:
+  pattern: "POST /api/v1/notifications/toast"
+  purpose: "为操作提供反馈通知配置"
+  features:
+    - "事件驱动"
+    - "模板化消息"
+    - "本地化支持"
+    - "智能推荐"
+    
+  request_template: |
+    {
+      "event_type": "faceswap_completed",
+      "user_id": "user_123",
+      "context": {
+        "session_id": "sess_001",
+        "template_name": "好莱坞巨星",
+        "processing_time": 5.4
+      }
+    }
+    
+  response_template: |
+    {
+      "code": 200,
+      "message": "success",
+      "data": {
+        "toast_config": {
+          "type": "success",
+          "title": "换脸完成！",
+          "message": "您的好莱坞巨星换脸已处理完成",
+          "duration": 3000,
+          "position": "top-right",
+          "actions": [
+            {
+              "text": "查看结果",
+              "action": "view_result",
+              "url": "/result/sess_001"
+            }
+          ]
+        }
+      },
+      "timestamp": "2024-01-15T10:30:00Z"
+    }
+
+# =================== FastAPI实现模板 ===================
+fastapi_template:
+  page_api_implementation: |
+    from fastapi import APIRouter, Query, Depends
+    from typing import Optional, List
+    from pydantic import BaseModel
+    
+    router = APIRouter(prefix="/api/v1", tags=["pages"])
+    
+    @router.get("/{resource}", response_model=PageResponse)
+    async def get_page_data(
+        page: int = Query(1, ge=1),
+        limit: int = Query(20, ge=1, le=100),
+        filters: Optional[dict] = None,
+        current_user: User = Depends(get_current_user)
+    ):
+        # 缓存检查
+        cache_key = f"page:{resource}:{page}:{limit}:{hash(str(filters))}"
+        cached_data = await redis.get(cache_key)
+        if cached_data:
+            return json.loads(cached_data)
+        
+        # 数据查询
+        query_result = await query_page_data(resource, page, limit, filters)
+        
+        # 缓存结果
+        await redis.setex(cache_key, 1800, query_result.json())
+        
+        return query_result
+        
+  dialog_api_implementation: |
+    @router.get("/dialogs/{dialog_type}", response_model=DialogResponse)
+    async def get_dialog_config(
+        dialog_type: str,
+        context: Optional[dict] = None,
+        current_user: User = Depends(get_current_user)
+    ):
+        # 配置缓存
+        cache_key = f"dialog:{dialog_type}:user:{current_user.id}"
+        cached_config = await redis.get(cache_key)
+        if cached_config:
+            return json.loads(cached_config)
+        
+        # 动态配置生成
+        dialog_config = await generate_dialog_config(
+            dialog_type, 
+            current_user, 
+            context
+        )
+        
+        # 缓存配置
+        await redis.setex(cache_key, 3600, dialog_config.json())
+        
+        return dialog_config
+        
+  toast_api_implementation: |
+    @router.post("/notifications/toast", response_model=ToastResponse)
+    async def generate_toast_notification(
+        request: ToastRequest,
+        current_user: User = Depends(get_current_user)
+    ):
+        # 事件类型验证
+        if request.event_type not in SUPPORTED_TOAST_EVENTS:
+            raise HTTPException(400, "不支持的事件类型")
+        
+        # 生成Toast配置
+        toast_config = await generate_toast_config(
+            request.event_type,
+            request.context,
+            current_user
+        )
+        
+        # 记录用户行为
+        await log_user_interaction(
+            user_id=current_user.id,
+            event_type=request.event_type,
+            context=request.context
+        )
+        
+        return ToastResponse(toast_config=toast_config)
+
+# =================== 数据模型定义 ===================
+pydantic_models:
+  page_models: |
+    class PageResponse(BaseModel):
+        code: int = 200
+        message: str = "success"
+        data: PageData
+        timestamp: str
+        
+    class PageData(BaseModel):
+        total: int
+        page: int
+        limit: int
+        items: List[dict]
+        has_next: bool
+        has_prev: bool
+        metadata: Optional[dict] = None
+        
+  dialog_models: |
+    class DialogResponse(BaseModel):
+        code: int = 200
+        message: str = "success"
+        data: DialogData
+        timestamp: str
+        
+    class DialogData(BaseModel):
+        dialog_config: DialogConfig
+        
+    class DialogConfig(BaseModel):
+        title: str
+        content: str
+        type: str
+        buttons: List[DialogButton]
+        options: DialogOptions
+        
+    class DialogButton(BaseModel):
+        text: str
+        action: str
+        style: str
+        
+    class DialogOptions(BaseModel):
+        backdrop_dismissible: bool = True
+        auto_dismiss: bool = False
+        animation: str = "fadeIn"
+        
+  toast_models: |
+    class ToastRequest(BaseModel):
+        event_type: str
+        user_id: str
+        context: dict
+        
+    class ToastResponse(BaseModel):
+        code: int = 200
+        message: str = "success"
+        data: ToastData
+        timestamp: str
+        
+    class ToastData(BaseModel):
+        toast_config: ToastConfig
+        
+    class ToastConfig(BaseModel):
+        type: str
+        title: str
+        message: str
+        duration: int
+        position: str = "top-right"
+        actions: Optional[List[ToastAction]] = None
+        
+    class ToastAction(BaseModel):
+        text: str
+        action: str
+        url: Optional[str] = None
+
+# =================== 缓存策略 ===================
+caching_strategy:
+  page_api_cache:
+    ttl: 1800  # 30分钟
+    key_pattern: "page:{resource}:{page}:{limit}:{filters_hash}"
+    invalidation: "资源更新时主动失效"
+    
+  dialog_api_cache:
+    ttl: 3600  # 1小时
+    key_pattern: "dialog:{type}:user:{user_id}"
+    invalidation: "用户状态变更时失效"
+    
+  toast_template_cache:
+    ttl: 14400  # 4小时
+    key_pattern: "toast:template:{event_type}:{locale}"
+    invalidation: "模板更新时失效"
+
+# =================== 性能优化 ===================
+performance:
+  database_optimization:
+    - "使用数据库连接池"
+    - "查询结果分页处理"
+    - "索引优化关键查询"
+    - "避免N+1查询问题"
+    
+  response_optimization:
+    - "启用Gzip压缩"
+    - "JSON响应最小化"
+    - "合理的HTTP缓存头"
+    - "CDN加速静态资源"
+    
+  concurrent_optimization:
+    - "异步处理IO操作"
+    - "后台任务处理耗时操作"
+    - "请求限流防止过载"
+
+# =================== 错误处理 ===================
+error_handling:
+  unified_error_format: |
+    {
+      "code": 4000,
+      "message": "请求参数错误",
+      "data": null,
+      "error_details": {
+        "error_type": "validation_error",
+        "field_errors": {...},
+        "suggestions": [...]
+      },
+      "timestamp": "2024-01-15T10:30:00Z"
+    }
+    
+  common_error_handlers: |
+    @app.exception_handler(ValidationError)
+    async def validation_error_handler(request, exc):
+        return JSONResponse(
+            status_code=422,
+            content=create_error_response(4220, "参数验证失败", exc.errors())
+        )
+        
+    @app.exception_handler(HTTPException)
+    async def http_error_handler(request, exc):
+        return JSONResponse(
+            status_code=exc.status_code,
+            content=create_error_response(exc.status_code * 10, exc.detail)
+        )
+
+# =================== 监控和分析 ===================
+monitoring:
+  api_metrics:
+    - "响应时间分布"
+    - "错误率统计"
+    - "调用频次监控"
+    - "用户行为分析"
+    
+  business_metrics:
+    - "页面访问统计"
+    - "弹窗转化率"
+    - "Toast交互率"
+    - "用户流失分析"
+    
+  logging_strategy: |
+    import structlog
+    
+    logger = structlog.get_logger()
+    
+    @app.middleware("http")
+    async def log_requests(request: Request, call_next):
+        start_time = time.time()
+        
+        response = await call_next(request)
+        
+        logger.info(
+            "api_request",
+            method=request.method,
+            url=str(request.url),
+            status_code=response.status_code,
+            duration=time.time() - start_time,
+            user_id=getattr(request.state, "user_id", None)
+        )
+        
+        return response
+
+# =================== 测试策略 ===================
+testing:
+  unit_tests: |
+    import pytest
+    from fastapi.testclient import TestClient
+    
+    def test_page_api():
+        response = client.get("/api/v1/templates?page=1&limit=10")
+        assert response.status_code == 200
+        data = response.json()
+        assert "data" in data
+        assert "total" in data["data"]
+        assert "items" in data["data"]
+        
+    def test_dialog_api():
+        response = client.get("/api/v1/dialogs/upgrade")
+        assert response.status_code == 200
+        data = response.json()
+        assert "dialog_config" in data["data"]
+        
+    def test_toast_api():
+        response = client.post("/api/v1/notifications/toast", json={
+            "event_type": "faceswap_completed",
+            "user_id": "test_user",
+            "context": {"session_id": "test_session"}
+        })
+        assert response.status_code == 200
+        data = response.json()
+        assert "toast_config" in data["data"]
+        
+  integration_tests: |
+    @pytest.mark.asyncio
+    async def test_full_workflow():
+        # 获取页面数据
+        page_response = await client.get("/api/v1/templates")
+        
+        # 获取弹窗配置
+        dialog_response = await client.get("/api/v1/dialogs/upgrade")
+        
+        # 生成Toast通知
+        toast_response = await client.post("/api/v1/notifications/toast", json={
+            "event_type": "upgrade_completed",
+            "user_id": "test_user",
+            "context": {}
+        })
+        
+        assert all(r.status_code == 200 for r in [page_response, dialog_response, toast_response]) 

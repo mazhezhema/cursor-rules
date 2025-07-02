@@ -1,7 +1,0 @@
-description: 云 GPU 冷机启动延迟的规避策略，保障体验一致性。
-fields:
-  auto_scale: 高并发时自动拉起冷机
-  expected_delay: 首次响应延迟 < 30s
-  prewarm: 预启动1台GPU保持活跃
-  schedule_window: 每小时固定触发1次GPU唤醒
-title: GPU 云机器的冷启动优化策略

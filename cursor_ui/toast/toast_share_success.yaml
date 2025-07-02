@@ -1,6 +1,0 @@
-title: 分享成功
-description: 分享成功提示
-layout:
-  type: toast
-  content: 分享成功！
-duration: 3000

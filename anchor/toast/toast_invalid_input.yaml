@@ -1,4 +1,0 @@
-id: toast_invalid_input
-title: 无效输入提示
-tags: ['toast', 'error', 'input']
-description: 用于输入项为空或格式不合法时，给出即时的 toast 提示反馈。

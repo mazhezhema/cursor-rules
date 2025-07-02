@@ -1,9 +1,0 @@
-anchor: test_functional
-category: black_box
-scenarios:
-  - name: 用户上传图片并换脸
-    input: 合法人脸图片
-    expected_result: 成功生成换脸图，无报错
-  - name: 保存结果到本地
-    input: 点击保存按钮
-    expected_result: 图像保存成功，提示“已保存到相册”

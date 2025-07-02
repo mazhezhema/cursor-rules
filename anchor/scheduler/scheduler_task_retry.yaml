@@ -1,5 +1,0 @@
-description: 后端任务重试机制
-tags: [scheduler, retry]
-content:
-  - 异步任务失败时自动重试策略配置
-  - 典型如支付回调、换脸处理失败场景

@@ -1,7 +1,0 @@
-ui_iconography:
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 优先使用 Lucide、Heroicons 作为 icon 库来源
-  style: 统一使用线性图标风格
-  tag: '[AI补全] 示例 tag 内容'
-  usage: 图标仅用于通用含义，例如返回、分享、点赞

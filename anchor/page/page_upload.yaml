@@ -1,5 +1,0 @@
-name: page_upload
-layout: upload
-components:
-  - file_picker
-  - submit_button

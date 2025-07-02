@@ -1,8 +1,0 @@
-anchor: backend_release_rollback
-title: 后端版本回滚策略
-description: 定义当发布失败或重大Bug出现时的快速回滚机制，确保服务稳定性。
-tags: [rollback, deployment, recovery]
-spec:
-  - 支持基于版本的快速回退
-  - 每次发布记录快照状态
-  - 引入观察期（watch window）进行自动监控

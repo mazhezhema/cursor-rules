@@ -1,9 +1,0 @@
-anchor: payment_receipt_tracking
-title: 支付凭证追踪与发票管理机制
-stage: MVP
-tags: [支付凭证, 发票记录, 对账]
-content: |
-  支持用户查看历史订单支付凭证，方便对账和申请发票。
-  - 每笔支付完成后生成 receipt ID
-  - 用户中心可查看、导出支付记录
-  - 支持邮箱发送或PDF下载

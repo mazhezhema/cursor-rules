@@ -1,4 +1,0 @@
-id: frontend_offline_support
-title: 离线与持久化支持
-tags: [frontend, offline, storage]
-description: 定义是否支持离线数据缓存、前端本地存储策略（如 Hive）。

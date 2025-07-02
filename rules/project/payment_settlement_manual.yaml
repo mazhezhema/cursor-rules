@@ -1,4 +1,0 @@
-# Anchor: 人工财务结算机制
-settlement:
-  mode: manual
-  frequency: weekly

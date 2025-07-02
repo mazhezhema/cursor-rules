@@ -1,4 +1,0 @@
-id: firebase_remote_config
-title: Firebase Remote Config 策略配置
-description: 用于控制前端功能开关、提示文案、A/B 测试和强制升级的动态参数配置系统。
-tags: [remote_config, firebase, ab_test, force_update, mvp]

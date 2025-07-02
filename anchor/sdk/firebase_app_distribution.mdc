@@ -1,1 +1,0 @@
-在 MVP 阶段，Firebase App Distribution 是首选的分发工具。它支持快速上传 APK/IPA 并邀请测试用户下载安装，支持邮件和链接形式分发，配合 Remote Config 可实现灰度升级与强更逻辑，适用于早期迭代与版本追踪。

@@ -1,4 +1,0 @@
-id: dialog_delete_account
-title: 注销账号弹窗
-tags: ['dialog', 'account', 'danger']
-description: 用户尝试注销账号时弹出的警示对话框。

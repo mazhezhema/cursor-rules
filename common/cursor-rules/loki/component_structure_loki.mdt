@@ -1,4 +1,0 @@
-# Loki Component Structure Rule
-- 所有组件目录以功能区分：如 /face/, /template/, /share/
-- 页面级组件使用 Page 结尾，功能组件使用 Card / List / Item 等。
-- 子组件应保持职责单一，避免过大文件。

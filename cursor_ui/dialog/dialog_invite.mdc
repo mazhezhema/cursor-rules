@@ -1,6 +1,0 @@
-# Dialog: invite (mdc)
-<Modal>
-  <Image/>
-  <Text>邀请好友送VIP</Text>
-  <Button>立即邀请</Button>
-</Modal>

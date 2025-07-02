@@ -1,5 +1,0 @@
-id: payment_click
-desc: 用户点击“立即支付”按钮
-track_target: frontend
-crisp_push: ["event", "payment_click"]
-importance: HIGH

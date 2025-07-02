@@ -1,5 +1,0 @@
-id: subscription_restore
-desc: 用户通过恢复订阅功能找回VIP
-track_target: backend
-crisp_push: ["event", "subscription_restore"]
-importance: NORMAL

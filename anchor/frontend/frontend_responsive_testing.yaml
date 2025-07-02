@@ -1,7 +1,0 @@
-anchor: frontend_responsive_testing
-title: 响应式测试策略
-description: 说明在不同设备与屏幕尺寸上进行自适应测试的标准流程与工具链支持。
-content:
-  - tools: golden_testing, flutter_test, visual_regression_test
-  - device_coverage: phone, tablet, foldable, tv
-  - metrics: layout_break, overflow_detection, tap_zone_testing

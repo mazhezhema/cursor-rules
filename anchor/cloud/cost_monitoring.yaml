@@ -1,9 +1,0 @@
-id: cloud.cost_monitoring
-name: GPU 成本监控与防盗刷
-owner: cloud
-tags: [cloud, billing, monitoring, gpu]
-desc: 监控换脸调用次数与 GPU 占用，防止成本爆炸或盗刷
-content: |
-  - 所有换脸请求写入计费统计系统
-  - 设定每日/每周调用额度上限，触发预警通知
-  - 每个用户行为与消耗可追溯，支持退款与封禁机制

@@ -1,7 +1,0 @@
-anchor: frontend_micro_interaction
-title: 微交互设计指南
-description: 说明轻动效（点击反馈、滑动提示等）在 Flutter 中的实现策略与审美建议。
-content:
-  - types: button_feedback, hover_effect, scroll_hint
-  - widgets: AnimatedContainer, GestureDetector, AnimatedSwitcher
-  - rules: minimalism, consistency, native_alignment

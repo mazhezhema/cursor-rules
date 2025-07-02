@@ -1,7 +1,0 @@
-summary: OAuth 过程中的错误边界处理
-description: |
-  捕获登录与认证相关异常，防止未处理异常导致白屏、应用崩溃。
-components:
-  - 捕获 OAuth 回调失败、token 失效、网络异常
-  - 封装统一错误 UI 层
-  - 支持手动重试与自动刷新

@@ -1,5 +1,0 @@
-visibility: always
-style:
-  color: error
-  background: light
-duration_ms: 3500

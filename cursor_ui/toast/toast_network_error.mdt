@@ -1,2 +1,0 @@
-# [mdt] Template for toast_network_error
-{{ toast.message }}

@@ -1,2 +1,0 @@
-# Template: UI Touch Safe Area
-When rendering UI, always respect safe area insets to avoid UI being hidden by notches or navigation bars.

@@ -1,4 +1,0 @@
-anchor: backend_kpi_storage
-tags: [backend, kpi, analytics]
-title: KPI 数据聚合与持久化
-description: 存储模板维度的点击、分享、曝光等关键指标，支持榜单和推荐系统的数据需求。

@@ -1,4 +1,0 @@
-id: frontend_state_management
-title: 前端状态管理方案
-tags: [frontend, architecture, state]
-description: 定义 MVP 阶段使用的前端状态管理体系（如 Riverpod / Provider），包含状态流转与跨组件共享逻辑。

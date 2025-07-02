@@ -1,8 +1,0 @@
-# 2025-06-02 Anchor 分模块拆分更新
-
-- [anchor] 将 anchor.yaml 拆分为多个模块：
-  - product.yaml：产品定位与核心能力
-  - user.yaml：用户画像、动机与行为分析
-  - growth.yaml：增长策略、参与感机制、分享裂变模型
-  - ux.yaml：产品体验简化、设计原则、内容驱动UX
-- [refactor] 引入 index.yaml 作为 anchor 配置索引入口，便于管理

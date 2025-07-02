@@ -1,5 +1,0 @@
-id: payment_success
-desc: 用户完成支付并跳转成功页
-track_target: frontend_and_backend
-crisp_push: ["event", "payment_success"]
-importance: CRITICAL

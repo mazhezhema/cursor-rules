@@ -1,8 +1,0 @@
-component: sdk_chat_crisp
-usage:
-  flutter:
-    import: crisp_sdk
-    code: |
-      CrispChat.init("YOUR_CRISP_WEBSITE_ID");
-      CrispChat.setPosition(CrispPosition.right);
-      CrispChat.show();

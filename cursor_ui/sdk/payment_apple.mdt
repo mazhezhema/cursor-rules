@@ -1,4 +1,0 @@
-model payment_apple {
-  enabled: bool
-  config?: map
-}

@@ -1,4 +1,0 @@
-# 自动化测试配置
-name: automation_test
-framework: appium
-platform: cross

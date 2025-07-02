@@ -1,4 +1,0 @@
-id: frontend_error_boundary
-title: 前端错误边界设计
-tags: [frontend, error, fallback]
-description: 规范前端错误捕获、UI fallback 显示方式，提升异常容忍度。

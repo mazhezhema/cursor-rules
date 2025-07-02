@@ -1,7 +1,0 @@
-id: image_upload_sanitize
-title: 图片上传安全策略
-description: 规范图片上传的类型、大小、分辨率限制，防止注入恶意图像。
-tags:
-  - security
-  - upload
-  - sanitize

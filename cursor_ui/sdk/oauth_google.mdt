@@ -1,4 +1,0 @@
-model oauth_google {
-  enabled: bool
-  config?: map
-}

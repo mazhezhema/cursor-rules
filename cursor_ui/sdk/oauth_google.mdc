@@ -1,4 +1,0 @@
-{
-  "import": "package:lokibble_sdk/oauth_google.dart",
-  "code": "oauth_google().init();"
-}

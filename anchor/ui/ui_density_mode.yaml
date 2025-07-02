@@ -1,4 +1,0 @@
-id: ui_density_mode
-title: 布局密度适配模式
-tags: [ui, density, responsive]
-description: 支持紧凑与宽松两种布局密度模式，依据设备类型（手机/平板/TV）自动切换。

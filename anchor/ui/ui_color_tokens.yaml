@@ -1,4 +1,0 @@
-id: ui_color_tokens
-title: UI 颜色规范
-tags: [ui, color, design]
-description: 定义全局使用的颜色变量，包括主色、次色、背景色、文本色、提示色、错误色等，支持亮/暗主题切换。

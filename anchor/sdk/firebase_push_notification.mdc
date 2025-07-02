@@ -1,8 +1,0 @@
-// Flutter Firebase 推送基础模板代码片段
-await Firebase.initializeApp();
-FirebaseMessaging messaging = FirebaseMessaging.instance;
-String? token = await messaging.getToken();
-print('FCM Token: \$token');
-FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-  print('Received message: \${message.notification?.title}');
-});

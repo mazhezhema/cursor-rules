@@ -1,9 +1,0 @@
-anchor: test_boundary_conditions
-category: black_box
-scenarios:
-  - name: 超大图上传
-    input: 10000x10000 px图像
-    expected_result: 提示“图片过大”，不崩溃
-  - name: 无人脸图片
-    input: 风景照
-    expected_result: 提示“未检测到人脸”

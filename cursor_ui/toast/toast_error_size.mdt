@@ -1,3 +1,0 @@
-toast_id: toast_error_size
-purpose: 提示上传图片大小超出限制，避免上传失败
-priority: high

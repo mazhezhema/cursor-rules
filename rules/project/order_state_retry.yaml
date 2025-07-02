@@ -1,7 +1,0 @@
-id: order_state_retry
-title: 订单状态重试机制
-description: 当支付回调失败或订单状态异常时的自动重试逻辑
-mechanism:
-  - 定时任务扫描 pending 状态超过 15 分钟的订单
-  - 查询支付通道确认状态
-  - 若支付已完成则补写为 paid，否则写为 expired

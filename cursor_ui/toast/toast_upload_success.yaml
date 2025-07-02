@@ -1,6 +1,0 @@
-title: 上传成功
-description: 上传成功提示
-layout:
-  type: toast
-  content: 上传成功！
-duration: 3000

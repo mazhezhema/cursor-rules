@@ -1,5 +1,0 @@
-description: CI 流水线结构定义
-tags: [ci, pipeline]
-content:
-  - 流水线包含：代码检查 → 单测 → 构建打包 → 上传部署包
-  - Anchor 文件校验步骤加入流水线

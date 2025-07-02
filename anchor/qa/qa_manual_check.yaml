@@ -1,8 +1,0 @@
-id: qa_manual_check
-category: qa
-description: MVP 阶段需人工介入检查的流程
-manual_verifications:
-  - avatar_face_alignment
-  - USD 金额到账验证
-  - 人工白名单录入是否成功
-  - 新增模板视觉审核

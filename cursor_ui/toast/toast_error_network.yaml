@@ -1,6 +1,0 @@
-title: 网络异常
-description: 网络连接异常时提示
-layout:
-  type: toast
-  content: 网络异常，请检查您的网络连接
-duration: 3500

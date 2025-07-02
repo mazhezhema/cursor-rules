@@ -1,6 +1,0 @@
-ux_interaction:
-  description: '[AI补全] 示例 description 内容'
-  example: '[AI补全] 示例 example 内容'
-  implementation_hint: 参考 Twitter、Instagram 常见 icon 设计，图标需自解释。
-  tag: '[AI补全] 示例 tag 内容'
-  value: 交互设计优先使用通用 icon，简化使用流程，减少解释成本。

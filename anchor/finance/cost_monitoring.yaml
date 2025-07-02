@@ -1,8 +1,0 @@
-id: finance/cost_monitoring
-title: 成本监控与预警
-description: 云服务、模型调用、支付接口等运营成本监控策略
-fields:
-  - monitored_services: list[string]
-  - alert_threshold: float
-  - report_frequency: enum[daily, weekly, monthly]
-  - notification_channel: enum[email, slack, webhook]

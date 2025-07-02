@@ -1,7 +1,0 @@
-id: backend_config_management
-title: 配置文件与环境变量策略
-description: 不同部署环境通过 .env 文件区分配置，避免硬编码。
-tags: [backend, env, config]
-content:
-  environments: [dev.env, prod.env]
-  auto_switch: true
